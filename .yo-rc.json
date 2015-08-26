@@ -1,0 +1,20 @@
+{
+  "generator-mocha": {
+  
+  },
+  "generator-assemble": {
+    "projectName": "destinationfilter",
+    "projectDesc": "The most accessible countries for your next trip",
+    "authorLogin": "christopheboisier",
+    "installPlugin": true,
+    "author": {
+      "name": "christopheboisier",
+      "login": "christopheboisier",
+      "email": "christophe.boisier@live.fr"
+    },
+    "plugins": [
+      "assemble-contrib-permalinks",
+      "assemble-contrib-sitemap"
+    ]
+  }
+}

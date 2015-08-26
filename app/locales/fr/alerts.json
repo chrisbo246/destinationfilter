@@ -1,0 +1,17 @@
+{
+    "noCountry":{
+        "info":"Assurez-vous d'avoir activé au moins une priorité et complété tous les champs de votre profil.",
+        "title":"Aucune destination ne correspond à vos critères"
+    },
+    "noEnabledPriority":{
+        "info":"Ajoutez quelques critères de recherche puis classez les selon vos priorités pour trouver votre destination idéale.",
+        "title":"Vous n'avez défini aucune priorité"
+    },
+    "noDisabledPriority":{
+        "info":"Vous avez activé toutes les priorités disponibles mais si vous en voulez encore plus, vos suggestions sont les bienvenues.",
+        "title":"C'est fini!"
+    },
+    "outdatedBrowser":{
+        "info":"Vous utilisez un navigateur <strong>désuet</strong>. Pensez à <a href=\"http://browsehappy.com/\">mettre à jour votre navigateur</a> afin d'améliorer votre expérience."
+    }
+}

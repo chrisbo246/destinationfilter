@@ -1,0 +1,85 @@
+/*
+  PLUGINS
+  - Bootstrap-tour
+  - BootstrapValidator
+  - Image-Select for Chosen
+  - Feedback_me
+  - Google Adsense
+  - Google form
+  - Mixitup
+*/
+/* PLUGINS
+================================================== */
+
+
+/* ================================================== */
+/* ===[ Bootstrap-tour ]=== */
+.tour-tour {  opacity: .95 }
+.tour-tour:hover {  opacity: 1 }
+.tour-tour .btn {  padding: .2em .5em }
+/* ===[ BootstrapValidator ]=== */
+.has-feedback .form-control-feedback {
+top: 25px;
+right: 0;
+}
+
+.form-horizontal .has-feedback .form-control-feedback {
+top: 0;
+right: -15px;
+}
+
+/* ===[ Image-Select for Chosen ]=== */
+.chose-image {
+width:150px;
+height:150px;
+}
+
+.chose-image-small {
+width:82px;
+height:82px;
+}
+
+/* ================================================== */
+
+/* ===[ Google Adsense ]=== */
+
+.adsbygoogle {
+display:block;
+max-width: 100%;
+border: 0;
+}
+
+/* ===[ Google form ]=== */
+.ss-form-container {
+background-color: transparent;
+border: none;
+}
+
+/* ================================================== */
+
+/* ===[ MixItUp ]=== */
+.mix{
+display: none; // important !
+width:100%;
+}
+
+.list .mix {
+width:100%;
+}
+
+/*@media all and (min-width: 768px){
+.grid .mix,
+.grid .gap{
+width: 50%;
+}
+
+}
+
+@media all and (min-width: 992px){
+.grid .mix,
+.grid .gap{
+width: 33.33333333%;
+}
+
+}
+*/

@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: node-gettext\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgid "noCountry##info"
+msgstr "Make sure you have enabled at least one priority and completed all fields in your profile."
+
+msgid "noCountry##title"
+msgstr "No destination matches your criteria"
+
+msgid "noPriority##info"
+msgstr "Add some search criteria and rank them according to your priorities to find your ideal destination."
+
+msgid "noPriority##title"
+msgstr "You have not set any priority"
+
+msgid "outdatedBrowser##info"
+msgstr "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."

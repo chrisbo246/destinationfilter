@@ -1,0 +1,29 @@
+{
+    "app":{
+        "name":"DESTINATION FILTER",
+        "description":"Need to get away for a quick trip abroad? Complete your profile, add a few criteria and you'll get a map of the country that best fits your priorities.",
+        "title":"DESTINATION FILTER - The most accessible countries for your next trip"
+    },
+    "strings":{
+        "chosenNoResultsText":"No results for"
+    },
+    "units":{
+        "AVSCORE":" on average",
+        "HOUR":"h",
+        "MICRO_M3":"μg/m<sup>2</sup>",
+        "PC":"%",
+        "RATIO":"",
+        "USD":"$",
+        "YR":" years",
+        "averageScore":"",
+        "hertz":"Hz",
+        "hours":"h",
+        "microgramsPerCubicMetres":"μg/m<sup>2</sup>",
+        "percentage":"%",
+        "ratio":"",
+        "squareKilometers":"km<sup>2</sup>",
+        "usDollar":"$",
+        "volt":"V",
+        "years":" years"
+    }
+}

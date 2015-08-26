@@ -1,0 +1,417 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: node-gettext\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgid "CG##label"
+msgstr "Voter turnout"
+
+msgid "EQ##label"
+msgstr "Water quality"
+
+msgid "ES##label"
+msgstr "Students skill (PISA score)"
+
+msgid "HO##label"
+msgstr "Rooms per person"
+
+msgid "HS##label"
+msgstr "Reported health"
+
+msgid "IW##label"
+msgstr "Total household wealth"
+
+msgid "JE##label"
+msgstr "Annual personal income"
+
+msgid "PS##label"
+msgstr "Assault rate"
+
+msgid "SC##label"
+msgstr "Quality of support network"
+
+msgid "SW##label"
+msgstr "Life satisfaction"
+
+msgid "WL##label"
+msgstr "Time devoted to leisure"
+
+msgid "accuracy##label"
+msgstr "Location accuracy"
+
+msgid "allEmbassies##label"
+msgstr "All embassies"
+
+msgid "alpha##label"
+msgstr "Alpha"
+
+msgid "altitude##label"
+msgstr "Altitude"
+
+msgid "altitudeAccuracy##label"
+msgstr "Altitude accuracy"
+
+msgid "area##label"
+msgstr "Area"
+
+msgid "beta##label"
+msgstr "Beta"
+
+msgid "capital##label"
+msgstr "Capital"
+
+msgid "changeRate##label"
+msgstr "Change rate"
+
+msgid "continent##label"
+msgstr "Continent"
+
+msgid "costOfLiving##label"
+msgstr "Cost of living"
+
+msgid "default##messages##emailAddress"
+msgstr "Your email doesn't seem to be valid."
+
+msgid "default##messages##notEmpty"
+msgstr "This field is required."
+
+msgid "default##messages##numeric"
+msgstr "Enter a valid number. Use a decimal point."
+
+msgid "default##messages##requiredByPriorities"
+msgstr "Your priorities require this information."
+
+msgid "delta##label"
+msgstr "Delta"
+
+msgid "democracyScore##label"
+msgstr "Democratic level"
+
+msgid "disabledPrioritiesFilters##label"
+msgstr "Filter"
+
+msgid "disabledPrioritiesLayout##info"
+msgstr ""
+
+msgid "disabledPrioritiesLayout##label"
+msgstr "Layout"
+
+msgid "donationAmount##label"
+msgstr "Amount"
+
+msgid "drivingSide##label"
+msgstr "Driving side"
+
+msgid "entry##info"
+msgstr "You don't find your answer in the FAQ? Ask any question that may also be useful to other users. We will add the answer to the FAQ."
+
+msgid "entry##label"
+msgstr "Your email"
+
+msgid "entry##messages##notEmpty"
+msgstr "You forget to ask your question."
+
+msgid "fipsCodes##label"
+msgstr "FIPS codes"
+
+msgid "gamma##label"
+msgstr "Gamma"
+
+msgid "grossDomesticProduct##label"
+msgstr "Gross domestic product"
+
+msgid "heading##label"
+msgstr "Heading"
+
+msgid "highIncomes##label"
+msgstr "Rich"
+
+msgid "incomeLevel##label"
+msgstr "Income level"
+
+msgid "islands##label"
+msgstr "Islands"
+
+msgid "isoCodes##label"
+msgstr "ISO codes"
+
+msgid "latitude##label"
+msgstr "Latitude"
+
+msgid "literacyPercent##label"
+msgstr "Literacy percent"
+
+msgid "localEmbassies##label"
+msgstr "Local consulates"
+
+msgid "longitude##label"
+msgstr "Longitude"
+
+msgid "lowIncomes##label"
+msgstr "Poor"
+
+msgid "men##label"
+msgstr "Men"
+
+msgid "officialCurrency##label"
+msgstr "Official currency"
+
+msgid "officialLanguages##label"
+msgstr "Official languages"
+
+msgid "officialLanguages##official"
+msgstr "official"
+
+msgid "phonePrefix##label"
+msgstr "Phone prefix"
+
+msgid "points##label"
+msgstr "points"
+
+msgid "politicalRegimeType##label"
+msgstr "Regime type"
+
+msgid "population##label"
+msgstr "Population"
+
+msgid "postalCodeFormat##label"
+msgstr "Postal code format"
+
+msgid "priorityRatio##info"
+msgstr "By default, ls higher priority is given twice more points than the last. Decrease the ratio if you find that there is too much difference between the different countries."
+
+msgid "priorityRatio##label"
+msgstr "Priority ratio"
+
+msgid "religion##label"
+msgstr "Religion"
+
+msgid "requiredOnArrival##label"
+msgstr "Required on arrival"
+
+msgid "residentialPlugs##label"
+msgstr "Residential plugs"
+
+msgid "resultLimit##info"
+msgstr "Show only better."
+
+msgid "resultLimit##label"
+msgstr "Limit results"
+
+msgid "score##label"
+msgstr "Score"
+
+msgid "send##label"
+msgstr "Send"
+
+msgid "setLng##info"
+msgstr "Translate"
+
+msgid "speakingLanguages##label"
+msgstr "Speaking languages"
+
+msgid "speed##label"
+msgstr "Speed"
+
+msgid "timeZones##label"
+msgstr "Time zones"
+
+msgid "total##label"
+msgstr "Total"
+
+msgid "track##info"
+msgstr "If you are using a mobile device, your position will be automatically updated as and when you travel."
+
+msgid "track##label"
+msgstr "Track my position"
+
+msgid "userAddress##info"
+msgstr "Alternatively, you can set your location by providing a more or less precise address (eg 75001 Paris, France)."
+
+msgid "userAddress##label"
+msgstr "Address"
+
+msgid "userCitizenships##info"
+msgstr "Your official country indicated on your passport and identity documents. It may also be that you have several citizenships."
+
+msgid "userCitizenships##label"
+msgstr "Citizenships"
+
+msgid "userCitizenships##messages##notEmpty"
+msgstr "Your priorities require this information."
+
+msgid "userCitizenships##placeholder"
+msgstr " "
+
+msgid "userCountry##info"
+msgstr "The country where you are physically right now."
+
+msgid "userCountry##label"
+msgstr "Country"
+
+msgid "userCountry##messages##notEmpty"
+msgstr "Your priorities require this information."
+
+msgid "userCountry##placeholder"
+msgstr " "
+
+msgid "userCurrencies##info"
+msgstr "Your money."
+
+msgid "userCurrencies##label"
+msgstr "Currencies"
+
+msgid "userCurrencies##messages##notEmpty"
+msgstr "Your priorities require this information."
+
+msgid "userCurrencies##placeholder"
+msgstr " "
+
+msgid "userDrivingSides##info"
+msgstr "The side of the road on which you usually drive in your country (if you have your driver's license). You can select both right and left if you are used to drive two different ways."
+
+msgid "userDrivingSides##label"
+msgstr "Driving side"
+
+msgid "userDrivingSides##messages##notEmpty"
+msgstr "Your priorities require this information."
+
+msgid "userDrivingSides##placeholder"
+msgstr " "
+
+msgid "userFirstDayOfWeek##info"
+msgstr ""
+
+msgid "userFirstDayOfWeek##label"
+msgstr "Week Start Day"
+
+msgid "userFirstDayOfWeek##messages##notEmpty"
+msgstr "Your priorities require this information."
+
+msgid "userFirstDayOfWeek##placeholder"
+msgstr " "
+
+msgid "userIncomeLevel##info"
+msgstr "Default value is the average income level in your country in comparison to the rest of the world. Increase or decrease it only if you know what you are doing."
+
+msgid "userIncomeLevel##label"
+msgstr "Income level"
+
+msgid "userIncomeLevel##messages##notEmpty"
+msgstr "Your priorities require this information."
+
+msgid "userIncomeLevel##placeholder"
+msgstr " "
+
+msgid "userMeasurementSystem##info"
+msgstr "Do you normally use the metric system (kg / km), imperial (lb / miles), a hybrid system (lb / km), or are you comfortable with both."
+
+msgid "userMeasurementSystem##label"
+msgstr "Measurement Units"
+
+msgid "userMeasurementSystem##messages##notEmpty"
+msgstr "Your priorities require this information."
+
+msgid "userMeasurementSystem##placeholder"
+msgstr " "
+
+msgid "userPlugFrequencies##info"
+msgstr "The different frequencies supported by the electrical appliances that you'd like to take."
+
+msgid "userPlugFrequencies##label"
+msgstr "Frequencies"
+
+msgid "userPlugFrequencies##messages##notEmpty"
+msgstr "Your priorities require this information."
+
+msgid "userPlugFrequencies##placeholder"
+msgstr " "
+
+msgid "userPlugTypes##info"
+msgstr "The type of plug of the electrical appliances that you'd like to take."
+
+msgid "userPlugTypes##label"
+msgstr "Plug types"
+
+msgid "userPlugTypes##placeholder"
+msgstr " "
+
+msgid "userPlugVoltages##info"
+msgstr "The different voltages supported by the electrical appliances that you'd like to take."
+
+msgid "userPlugVoltages##label"
+msgstr "Electric potentials"
+
+msgid "userPlugVoltages##messages##notEmpty"
+msgstr "Your priorities require this information."
+
+msgid "userPlugVoltages##placeholder"
+msgstr " "
+
+msgid "userProfile##info"
+msgstr "Specify where you usually live and have the most habits. Your profile will be pre-filled or reset from that country."
+
+msgid "userProfile##label"
+msgstr "Country"
+
+msgid "userProfile##messages##notEmpty"
+msgstr "Your priorities require this information."
+
+msgid "userProfile##placeholder"
+msgstr " "
+
+msgid "userReadingLanguages##info"
+msgstr "Your native and other exotic languages you are able to read. Are you able to decipher the Chinese characters?"
+
+msgid "userReadingLanguages##label"
+msgstr "Reading languages"
+
+msgid "userReadingLanguages##messages##notEmpty"
+msgstr "Your priorities require this information."
+
+msgid "userReadingLanguages##placeholder"
+msgstr " "
+
+msgid "userReligion##info"
+msgstr "Your religion is used to find the countries in which you will have little difficulty integrating culturally."
+
+msgid "userReligion##label"
+msgstr "Religion"
+
+msgid "userReligion##placeholder"
+msgstr " "
+
+msgid "userSpeakingLanguages##info"
+msgstr "Your native and other languages you could eventually use to speak with locals."
+
+msgid "userSpeakingLanguages##label"
+msgstr "Speaking languages"
+
+msgid "userSpeakingLanguages##messages##notEmpty"
+msgstr "Your priorities require this information."
+
+msgid "userSpeakingLanguages##placeholder"
+msgstr " "
+
+msgid "visaFree##label"
+msgstr "Visa-free"
+
+msgid "voaFee##label"
+msgstr "Visa-on-arrival fee"
+
+msgid "weather##label"
+msgstr "Weather and climate"
+
+msgid "women##label"
+msgstr "Women"
+
+msgctxt "official"
+msgid "officialLanguages##de_facto"
+msgstr "de facto"
+
+msgctxt "regional"
+msgid "officialLanguages##official"
+msgstr "regional"

@@ -1,0 +1,34 @@
+{
+    "applianceFrequency":{
+        "info":"",
+        "title":""
+    },
+    "askVisa":{
+        "info":"",
+        "title":""
+    },
+    "dataSources":{
+        "info":"",
+        "title":""
+    },
+    "moreProperties":{
+        "info":"",
+        "title":""
+    },
+    "resetSettings":{
+        "info":"",
+        "title":""
+    },
+    "saveData":{
+        "info":"",
+        "title":""
+    },
+    "scoreCalcul":{
+        "info":"",
+        "title":""
+    },
+    "scoreColor":{
+        "info":"",
+        "title":""
+    }
+}

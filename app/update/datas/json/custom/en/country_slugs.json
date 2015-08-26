@@ -1,0 +1,4292 @@
+[
+	{
+		"codes": {
+			"ISO": "AF",
+			"ISO3": "AFG",
+			"ISO-Numeric": "004",
+			"fips": "AF"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "afghanistan",
+			"goabroad.com": "afghanistan",
+			"numbeo.com": "Afghanistan",
+			"weather-and-climate.com": "Afghanistan",
+			"visahq.com": "afghanistan"
+		},
+		"Country": "Afghanistan"
+	},
+	{
+		"codes": {
+			"ISO": "AL",
+			"ISO3": "ALB",
+			"ISO-Numeric": "008",
+			"fips": "AL"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "albania",
+			"goabroad.com": "albania",
+			"numbeo.com": "Albania",
+			"weather-and-climate.com": "Albania",
+			"visahq.com": "albania"
+		},
+		"Country": "Albania"
+	},
+	{
+		"codes": {
+			"ISO": "DZ",
+			"ISO3": "DZA",
+			"ISO-Numeric": "012",
+			"fips": "AG"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "algeria",
+			"goabroad.com": "algeria",
+			"numbeo.com": "Algeria",
+			"weather-and-climate.com": "Algeria",
+			"visahq.com": "algeria"
+		},
+		"Country": "Algeria"
+	},
+	{
+		"codes": {
+			"ISO": "AS",
+			"ISO3": "ASM",
+			"ISO-Numeric": "016",
+			"fips": "AQ"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "american-samoa",
+			"goabroad.com": "american-samoa",
+			"numbeo.com": "",
+			"visahq.com": "american-samoa"
+		},
+		"Country": "American Samoa"
+	},
+	{
+		"codes": {
+			"ISO": "AD",
+			"ISO3": "AND",
+			"ISO-Numeric": "020",
+			"fips": "AN"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "andorra",
+			"goabroad.com": "andorra",
+			"numbeo.com": "Andorra",
+			"weather-and-climate.com": "andorra",
+			"visahq.com": "andorra"
+		},
+		"Country": "Andorra"
+	},
+	{
+		"codes": {
+			"ISO": "AO",
+			"ISO3": "AGO",
+			"ISO-Numeric": "024",
+			"fips": "AO"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "angola",
+			"goabroad.com": "angola",
+			"numbeo.com": "Angola",
+			"weather-and-climate.com": "Angola",
+			"visahq.com": "angola"
+		},
+		"Country": "Angola"
+	},
+	{
+		"codes": {
+			"ISO": "AG",
+			"ISO3": "ATG",
+			"ISO-Numeric": "028",
+			"fips": "AC"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "antigua-and-barbuda",
+			"goabroad.com": "antigua-barbuda",
+			"numbeo.com": "Antigua And Barbuda"
+		},
+		"Country": "Antigua and Barbuda"
+	},
+	{
+		"codes": {
+			"ISO": "AR",
+			"ISO3": "ARG",
+			"ISO-Numeric": "032",
+			"fips": "AR"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "argentina",
+			"goabroad.com": "argentina",
+			"numbeo.com": "Argentina",
+			"weather-and-climate.com": "Argentina",
+			"visahq.com": "argentina"
+		},
+		"Country": "Argentina"
+	},
+	{
+		"codes": {
+			"ISO": "AM",
+			"ISO3": "ARM",
+			"ISO-Numeric": "051",
+			"fips": "AM"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "armenia",
+			"goabroad.com": "armenia",
+			"numbeo.com": "Armenia",
+			"weather-and-climate.com": "Armenia",
+			"visahq.com": "armenia"
+		},
+		"Country": "Armenia"
+	},
+	{
+		"codes": {
+			"ISO": "AW",
+			"ISO3": "ABW",
+			"ISO-Numeric": "533",
+			"fips": "AA"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "aruba",
+			"goabroad.com": "aruba",
+			"numbeo.com": "Aruba",
+			"weather-and-climate.com": "Aruba",
+			"visahq.com": "aruba"
+		},
+		"Country": "Aruba"
+	},
+	{
+		"codes": {
+			"ISO": "AU",
+			"ISO3": "AUS",
+			"ISO-Numeric": "036",
+			"fips": "AS"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "australia",
+			"goabroad.com": "australia",
+			"numbeo.com": "Australia",
+			"weather-and-climate.com": "Australia",
+			"visahq.com": "australia"
+		},
+		"Country": "Australia"
+	},
+	{
+		"codes": {
+			"ISO": "AT",
+			"ISO3": "AUT",
+			"ISO-Numeric": "040",
+			"fips": "AU"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "austria",
+			"goabroad.com": "austria",
+			"numbeo.com": "Austria",
+			"weather-and-climate.com": "Austria",
+			"visahq.com": "austria"
+		},
+		"Country": "Austria"
+	},
+	{
+		"codes": {
+			"ISO": "AZ",
+			"ISO3": "AZE",
+			"ISO-Numeric": "031",
+			"fips": "AJ"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "azerbaijan",
+			"goabroad.com": "azerbaijan",
+			"numbeo.com": "Azerbaijan",
+			"weather-and-climate.com": "Azerbaijan",
+			"visahq.com": "azerbaijan"
+		},
+		"Country": "Azerbaijan"
+	},
+	{
+		"codes": {
+			"ISO": "BS",
+			"ISO3": "BHS",
+			"ISO-Numeric": "044",
+			"fips": "BF"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "bahamas",
+			"goabroad.com": "bahamas",
+			"numbeo.com": "Bahamas",
+			"weather-and-climate.com": "Bahamas",
+			"visahq.com": "bahamas"
+		},
+		"Country": "Bahamas"
+	},
+	{
+		"codes": {
+			"ISO": "BH",
+			"ISO3": "BHR",
+			"ISO-Numeric": "048",
+			"fips": "BA"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "bahrain",
+			"goabroad.com": "bahrain",
+			"numbeo.com": "Bahrain",
+			"weather-and-climate.com": "Bahrain",
+			"visahq.com": "bahrain"
+		},
+		"Country": "Bahrain"
+	},
+	{
+		"codes": {
+			"ISO": "BD",
+			"ISO3": "BGD",
+			"ISO-Numeric": "050",
+			"fips": "BG"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "bangladesh",
+			"goabroad.com": "bangladesh",
+			"numbeo.com": "Bangladesh",
+			"weather-and-climate.com": "Bangladesh",
+			"visahq.com": "bangladesh"
+		},
+		"Country": "Bangladesh"
+	},
+	{
+		"codes": {
+			"ISO": "BB",
+			"ISO3": "BRB",
+			"ISO-Numeric": "052",
+			"fips": "BB"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "barbados",
+			"goabroad.com": "barbados",
+			"numbeo.com": "Barbados",
+			"weather-and-climate.com": "Barbados",
+			"visahq.com": "barbados"
+		},
+		"Country": "Barbados"
+	},
+	{
+		"codes": {
+			"ISO": "BY",
+			"ISO3": "BLR",
+			"ISO-Numeric": "112",
+			"fips": "BO"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "belarus",
+			"goabroad.com": "belarus",
+			"numbeo.com": "Belarus",
+			"weather-and-climate.com": "Belarus",
+			"visahq.com": "belarus"
+		},
+		"Country": "Belarus"
+	},
+	{
+		"codes": {
+			"ISO": "BE",
+			"ISO3": "BEL",
+			"ISO-Numeric": "056",
+			"fips": "BE"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "belgium",
+			"goabroad.com": "belgium",
+			"numbeo.com": "Belgium",
+			"weather-and-climate.com": "Belgium",
+			"visahq.com": "belgium"
+		},
+		"Country": "Belgium"
+	},
+	{
+		"codes": {
+			"ISO": "BZ",
+			"ISO3": "BLZ",
+			"ISO-Numeric": "084",
+			"fips": "BH"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "belize",
+			"goabroad.com": "belize",
+			"numbeo.com": "Belize",
+			"weather-and-climate.com": "Belize",
+			"visahq.com": "belize"
+		},
+		"Country": "Belize"
+	},
+	{
+		"codes": {
+			"ISO": "BJ",
+			"ISO3": "BEN",
+			"ISO-Numeric": "204",
+			"fips": "BN"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "benin",
+			"goabroad.com": "benin",
+			"numbeo.com": "",
+			"weather-and-climate.com": "Benin",
+			"visahq.com": "benin"
+		},
+		"Country": "Benin"
+	},
+	{
+		"codes": {
+			"ISO": "BM",
+			"ISO3": "BMU",
+			"ISO-Numeric": "060",
+			"fips": "BD"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "bermuda",
+			"goabroad.com": "bermuda",
+			"numbeo.com": "Bermuda",
+			"visahq.com": "bermuda"
+		},
+		"Country": "Bermuda"
+	},
+	{
+		"codes": {
+			"ISO": "BT",
+			"ISO3": "BTN",
+			"ISO-Numeric": "064",
+			"fips": "BT"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "bhutan",
+			"goabroad.com": "bhutan",
+			"numbeo.com": "Bhutan",
+			"visahq.com": "bhutan"
+		},
+		"Country": "Bhutan"
+	},
+	{
+		"codes": {
+			"ISO": "BO",
+			"ISO3": "BOL",
+			"ISO-Numeric": "068",
+			"fips": "BL"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "bolivia",
+			"goabroad.com": "bolivia",
+			"numbeo.com": "Bolivia",
+			"weather-and-climate.com": "Bolivia",
+			"visahq.com": "bolivia"
+		},
+		"Country": "Bolivia"
+	},
+	{
+		"codes": {
+			"ISO": "BA",
+			"ISO3": "BIH",
+			"ISO-Numeric": "070",
+			"fips": "BK"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "bosnia-and-herzegovina",
+			"goabroad.com": "bosnia-and-herzegovina",
+			"numbeo.com": "Bosnia And Herzegovina",
+			"visahq.com": "bosnia-herzegovina"
+		},
+		"Country": "Bosnia and Herzegovina"
+	},
+	{
+		"codes": {
+			"ISO": "BW",
+			"ISO3": "BWA",
+			"ISO-Numeric": "072",
+			"fips": "BC"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "botswana",
+			"goabroad.com": "botswana",
+			"numbeo.com": "Botswana",
+			"weather-and-climate.com": "Botswana",
+			"visahq.com": "botswana"
+		},
+		"Country": "Botswana"
+	},
+	{
+		"codes": {
+			"ISO": "BR",
+			"ISO3": "BRA",
+			"ISO-Numeric": "076",
+			"fips": "BR"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "brazil",
+			"goabroad.com": "brazil",
+			"numbeo.com": "Brazil",
+			"weather-and-climate.com": "Brazil",
+			"visahq.com": "brazil"
+		},
+		"Country": "Brazil"
+	},
+	{
+		"codes": {
+			"ISO": "BN",
+			"ISO3": "BRN",
+			"ISO-Numeric": "096",
+			"fips": "BX"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "brunei",
+			"goabroad.com": "brunei",
+			"numbeo.com": "Brunei",
+			"weather-and-climate.com": "Brunei",
+			"visahq.com": "brunei-darussalam"
+		},
+		"Country": "Brunei"
+	},
+	{
+		"codes": {
+			"ISO": "BG",
+			"ISO3": "BGR",
+			"ISO-Numeric": "100",
+			"fips": "BU"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "bulgaria",
+			"goabroad.com": "bulgaria",
+			"numbeo.com": "Bulgaria",
+			"weather-and-climate.com": "Bulgaria",
+			"visahq.com": "bulgaria"
+		},
+		"Country": "Bulgaria"
+	},
+	{
+		"codes": {
+			"ISO": "BF",
+			"ISO3": "BFA",
+			"ISO-Numeric": "854",
+			"fips": "UV"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "burkina-faso",
+			"goabroad.com": "burkina-faso",
+			"numbeo.com": "Burkina Faso",
+			"weather-and-climate.com": "Burkina-Faso",
+			"visahq.com": "burkina-faso"
+		},
+		"Country": "Burkina Faso"
+	},
+	{
+		"codes": {
+			"ISO": "BI",
+			"ISO3": "BDI",
+			"ISO-Numeric": "108",
+			"fips": "BY"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "burundi",
+			"goabroad.com": "burundi",
+			"numbeo.com": "Burundi",
+			"weather-and-climate.com": "Burundi",
+			"visahq.com": "burundi"
+		},
+		"Country": "Burundi"
+	},
+	{
+		"codes": {
+			"ISO": "KH",
+			"ISO3": "KHM",
+			"ISO-Numeric": "116",
+			"fips": "CB"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "cambodia",
+			"goabroad.com": "cambodia",
+			"numbeo.com": "Cambodia",
+			"weather-and-climate.com": "Cambodja",
+			"visahq.com": "cambodia"
+		},
+		"Country": "Cambodia"
+	},
+	{
+		"codes": {
+			"ISO": "CM",
+			"ISO3": "CMR",
+			"ISO-Numeric": "120",
+			"fips": "CM"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "cameroon",
+			"goabroad.com": "cameroon",
+			"numbeo.com": "Cameroon",
+			"weather-and-climate.com": "Cameroon",
+			"visahq.com": "cameroon"
+		},
+		"Country": "Cameroon"
+	},
+	{
+		"codes": {
+			"ISO": "CA",
+			"ISO3": "CAN",
+			"ISO-Numeric": "124",
+			"fips": "CA"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "canada",
+			"goabroad.com": "canada",
+			"numbeo.com": "Canada",
+			"weather-and-climate.com": "Canada",
+			"visahq.com": "canada"
+		},
+		"Country": "Canada"
+	},
+	{
+		"codes": {
+			"ISO": "CV",
+			"ISO3": "CPV",
+			"ISO-Numeric": "132",
+			"fips": "CV"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "cape-verde",
+			"goabroad.com": "cape-verde",
+			"numbeo.com": "Cape Verde",
+			"weather-and-climate.com": "Cape-Verde",
+			"visahq.com": "cape-verde"
+		},
+		"Country": "Cape Verde"
+	},
+	{
+		"codes": {
+			"ISO": "KY",
+			"ISO3": "CYM",
+			"ISO-Numeric": "136",
+			"fips": "CJ"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "cayman-islands",
+			"goabroad.com": "cayman-islands",
+			"numbeo.com": "Cayman Islands",
+			"visahq.com": "cayman-islands"
+		},
+		"Country": "Cayman Islands"
+	},
+	{
+		"codes": {
+			"ISO": "CF",
+			"ISO3": "CAF",
+			"ISO-Numeric": "140",
+			"fips": "CT"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "central-african-republic",
+			"goabroad.com": "central-african-republic",
+			"numbeo.com": "",
+			"visahq.com": "central-african-republic"
+		},
+		"Country": "Central African Republic"
+	},
+	{
+		"codes": {
+			"ISO": "TD",
+			"ISO3": "TCD",
+			"ISO-Numeric": "148",
+			"fips": "CD"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "chad",
+			"goabroad.com": "chad",
+			"numbeo.com": "Chad",
+			"weather-and-climate.com": "Chad",
+			"visahq.com": "chad"
+		},
+		"Country": "Chad"
+	},
+	{
+		"codes": {
+			"ISO": "GG",
+			"ISO3": "GGY",
+			"ISO-Numeric": "831",
+			"fips": "GK"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "guernsey",
+			"goabroad.com": "channel-islands",
+			"numbeo.com": "Guernsey"
+		},
+		"Country": "Guernsey"
+	},
+	{
+		"codes": {
+			"ISO": "CL",
+			"ISO3": "CHL",
+			"ISO-Numeric": "152",
+			"fips": "CI"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "chile",
+			"goabroad.com": "chile",
+			"numbeo.com": "Chile",
+			"weather-and-climate.com": "Chile",
+			"visahq.com": "chile"
+		},
+		"Country": "Chile"
+	},
+	{
+		"codes": {
+			"ISO": "CN",
+			"ISO3": "CHN",
+			"ISO-Numeric": "156",
+			"fips": "CH"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "china",
+			"goabroad.com": "china",
+			"numbeo.com": "China",
+			"weather-and-climate.com": "China",
+			"visahq.com": "china"
+		},
+		"Country": "China"
+	},
+	{
+		"codes": {
+			"ISO": "CO",
+			"ISO3": "COL",
+			"ISO-Numeric": "170",
+			"fips": "CO"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "colombia",
+			"goabroad.com": "colombia",
+			"numbeo.com": "Colombia",
+			"weather-and-climate.com": "Colombia",
+			"visahq.com": "colombia"
+		},
+		"Country": "Colombia"
+	},
+	{
+		"codes": {
+			"ISO": "KM",
+			"ISO3": "COM",
+			"ISO-Numeric": "174",
+			"fips": "CN"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "comoros",
+			"goabroad.com": "comoros",
+			"numbeo.com": "",
+			"visahq.com": "comoros"
+		},
+		"Country": "Comoros"
+	},
+	{
+		"codes": {
+			"ISO": "CK",
+			"ISO3": "COK",
+			"ISO-Numeric": "184",
+			"fips": "CW"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "cook-islands",
+			"goabroad.com": "cook-islands",
+			"numbeo.com": "Cook Islands",
+			"weather-and-climate.com": "Cook-Islands",
+			"visahq.com": "cook-islands"
+		},
+		"Country": "Cook Islands"
+	},
+	{
+		"codes": {
+			"ISO": "CR",
+			"ISO3": "CRI",
+			"ISO-Numeric": "188",
+			"fips": "CS"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "costa-rica",
+			"goabroad.com": "costa-rica",
+			"numbeo.com": "Costa Rica",
+			"weather-and-climate.com": "Costa-Rica",
+			"visahq.com": "costa-rica"
+		},
+		"Country": "Costa Rica"
+	},
+	{
+		"codes": {
+			"ISO": "HR",
+			"ISO3": "HRV",
+			"ISO-Numeric": "191",
+			"fips": "HR"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "croatia",
+			"goabroad.com": "croatia",
+			"numbeo.com": "Croatia",
+			"weather-and-climate.com": "Croatia",
+			"visahq.com": "croatia"
+		},
+		"Country": "Croatia"
+	},
+	{
+		"codes": {
+			"ISO": "CU",
+			"ISO3": "CUB",
+			"ISO-Numeric": "192",
+			"fips": "CU"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "cuba",
+			"goabroad.com": "cuba",
+			"numbeo.com": "Cuba",
+			"weather-and-climate.com": "Cuba",
+			"visahq.com": "cuba"
+		},
+		"Country": "Cuba"
+	},
+	{
+		"codes": {
+			"ISO": "CW",
+			"ISO3": "CUW",
+			"ISO-Numeric": "531",
+			"fips": "UC"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "curacao",
+			"goabroad.com": "curacao",
+			"numbeo.com": "Curacao"
+		},
+		"Country": "Curacao"
+	},
+	{
+		"codes": {
+			"ISO": "CY",
+			"ISO3": "CYP",
+			"ISO-Numeric": "196",
+			"fips": "CY"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "cyprus",
+			"goabroad.com": "cyprus",
+			"numbeo.com": "Cyprus",
+			"weather-and-climate.com": "Cyprus",
+			"visahq.com": "cyprus"
+		},
+		"Country": "Cyprus"
+	},
+	{
+		"codes": {
+			"ISO": "CZ",
+			"ISO3": "CZE",
+			"ISO-Numeric": "203",
+			"fips": "EZ"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "czech-republic",
+			"goabroad.com": "czech-republic",
+			"numbeo.com": "Czech Republic",
+			"weather-and-climate.com": "Czech-Republic",
+			"visahq.com": "czech-republic"
+		},
+		"Country": "Czech Republic"
+	},
+	{
+		"codes": {
+			"ISO": "CD",
+			"ISO3": "COD",
+			"ISO-Numeric": "180",
+			"fips": "CG"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "democratic-republic-of-the-congo",
+			"goabroad.com": "democratic-republic-of-congo",
+			"numbeo.com": "Congo"
+		},
+		"Country": "Democratic Republic of the Congo"
+	},
+	{
+		"codes": {
+			"ISO": "DK",
+			"ISO3": "DNK",
+			"ISO-Numeric": "208",
+			"fips": "DA"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "denmark",
+			"goabroad.com": "denmark",
+			"numbeo.com": "Denmark",
+			"weather-and-climate.com": "Denmark",
+			"visahq.com": "denmark"
+		},
+		"Country": "Denmark"
+	},
+	{
+		"codes": {
+			"ISO": "DJ",
+			"ISO3": "DJI",
+			"ISO-Numeric": "262",
+			"fips": "DJ"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "djibouti",
+			"goabroad.com": "djibouti",
+			"numbeo.com": "Djibouti",
+			"weather-and-climate.com": "Djibouti",
+			"visahq.com": "djibouti"
+		},
+		"Country": "Djibouti"
+	},
+	{
+		"codes": {
+			"ISO": "DM",
+			"ISO3": "DMA",
+			"ISO-Numeric": "212",
+			"fips": "DO"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "dominica",
+			"goabroad.com": "dominica",
+			"numbeo.com": "Dominica",
+			"weather-and-climate.com": "Dominica",
+			"visahq.com": "dominica"
+		},
+		"Country": "Dominica"
+	},
+	{
+		"codes": {
+			"ISO": "DO",
+			"ISO3": "DOM",
+			"ISO-Numeric": "214",
+			"fips": "DR"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "dominican-republic",
+			"goabroad.com": "dominican-republic",
+			"numbeo.com": "Dominican Republic",
+			"weather-and-climate.com": "Dominican-Republic",
+			"visahq.com": "dominican-republic"
+		},
+		"Country": "Dominican Republic"
+	},
+	{
+		"codes": {
+			"ISO": "TL",
+			"ISO3": "TLS",
+			"ISO-Numeric": "626",
+			"fips": "TT"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "east-timor",
+			"goabroad.com": "east-timor",
+			"numbeo.com": "Timor-Leste",
+			"weather-and-climate.com": "East-Timor",
+			"visahq.com": "timor-leste"
+		},
+		"Country": "East Timor"
+	},
+	{
+		"codes": {
+			"ISO": "EC",
+			"ISO3": "ECU",
+			"ISO-Numeric": "218",
+			"fips": "EC"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "ecuador",
+			"goabroad.com": "ecuador",
+			"numbeo.com": "Ecuador",
+			"weather-and-climate.com": "Ecuador",
+			"visahq.com": "ecuador"
+		},
+		"Country": "Ecuador"
+	},
+	{
+		"codes": {
+			"ISO": "EG",
+			"ISO3": "EGY",
+			"ISO-Numeric": "818",
+			"fips": "EG"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "egypt",
+			"goabroad.com": "egypt",
+			"numbeo.com": "Egypt",
+			"weather-and-climate.com": "Egypt",
+			"visahq.com": "egypt"
+		},
+		"Country": "Egypt"
+	},
+	{
+		"codes": {
+			"ISO": "SV",
+			"ISO3": "SLV",
+			"ISO-Numeric": "222",
+			"fips": "ES"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "el-salvador",
+			"goabroad.com": "el-salvador",
+			"numbeo.com": "El Salvador",
+			"weather-and-climate.com": "El-Salvador",
+			"visahq.com": "el-salvador"
+		},
+		"Country": "El Salvador"
+	},
+	{
+		"codes": {
+			"ISO": "GB",
+			"ISO3": "GBR",
+			"ISO-Numeric": "826",
+			"fips": "UK"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "united-kingdom",
+			"goabroad.com": "england",
+			"numbeo.com": "United Kingdom",
+			"weather-and-climate.com": "United-Kingdom",
+			"visahq.com": "united-kingdom"
+		},
+		"Country": "United Kingdom"
+	},
+	{
+		"codes": {
+			"ISO": "GQ",
+			"ISO3": "GNQ",
+			"ISO-Numeric": "226",
+			"fips": "EK"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "equatorial-guinea",
+			"goabroad.com": "equatorial-guinea",
+			"numbeo.com": "Equatorial Guinea",
+			"weather-and-climate.com": "Equatorial-Guinea",
+			"visahq.com": "equatorial-guinea"
+		},
+		"Country": "Equatorial Guinea"
+	},
+	{
+		"codes": {
+			"ISO": "ER",
+			"ISO3": "ERI",
+			"ISO-Numeric": "232",
+			"fips": "ER"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "eritrea",
+			"goabroad.com": "eritrea",
+			"numbeo.com": "Eritrea",
+			"weather-and-climate.com": "Eritrea",
+			"visahq.com": "eritrea"
+		},
+		"Country": "Eritrea"
+	},
+	{
+		"codes": {
+			"ISO": "EE",
+			"ISO3": "EST",
+			"ISO-Numeric": "233",
+			"fips": "EN"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "estonia",
+			"goabroad.com": "estonia",
+			"numbeo.com": "Estonia",
+			"weather-and-climate.com": "Estonia",
+			"visahq.com": "estonia"
+		},
+		"Country": "Estonia"
+	},
+	{
+		"codes": {
+			"ISO": "ET",
+			"ISO3": "ETH",
+			"ISO-Numeric": "231",
+			"fips": "ET"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "ethiopia",
+			"goabroad.com": "ethiopia",
+			"numbeo.com": "Ethiopia",
+			"weather-and-climate.com": "Ethiopia",
+			"visahq.com": "ethiopia"
+		},
+		"Country": "Ethiopia"
+	},
+	{
+		"codes": {
+			"ISO": "FJ",
+			"ISO3": "FJI",
+			"ISO-Numeric": "242",
+			"fips": "FJ"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "fiji",
+			"goabroad.com": "fiji",
+			"numbeo.com": "Fiji",
+			"weather-and-climate.com": "Fiji",
+			"visahq.com": "fiji"
+		},
+		"Country": "Fiji"
+	},
+	{
+		"codes": {
+			"ISO": "FI",
+			"ISO3": "FIN",
+			"ISO-Numeric": "246",
+			"fips": "FI"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "finland",
+			"goabroad.com": "finland",
+			"numbeo.com": "Finland",
+			"weather-and-climate.com": "Finland",
+			"visahq.com": "finland"
+		},
+		"Country": "Finland"
+	},
+	{
+		"codes": {
+			"ISO": "FR",
+			"ISO3": "FRA",
+			"ISO-Numeric": "250",
+			"fips": "FR"
+		},
+		"images": {
+		  "horizontal": "http://mrg.bz/CttJ8I",
+		  "vertical": "http://mrg.bz/mhvoGX"
+		},
+		"slugs": {
+			"default": "france",
+			"goabroad.com": "france",
+			"numbeo.com": "France",
+			"weather-and-climate.com": "France",
+			"visahq.com": "france"
+		},
+		"Country": "France"
+	},
+	{
+		"codes": {
+			"ISO": "GA",
+			"ISO3": "GAB",
+			"ISO-Numeric": "266",
+			"fips": "GB"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "gabon",
+			"goabroad.com": "gabon",
+			"numbeo.com": "Gabon",
+			"weather-and-climate.com": "Gabon",
+			"visahq.com": "gabon"
+		},
+		"Country": "Gabon"
+	},
+	{
+		"codes": {
+			"ISO": "GM",
+			"ISO3": "GMB",
+			"ISO-Numeric": "270",
+			"fips": "GA"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "gambia",
+			"goabroad.com": "gambia",
+			"numbeo.com": "Gambia",
+			"weather-and-climate.com": "Gambia",
+			"visahq.com": "gambia"
+		},
+		"Country": "Gambia"
+	},
+	{
+		"codes": {
+			"ISO": "GE",
+			"ISO3": "GEO",
+			"ISO-Numeric": "268",
+			"fips": "GG"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "georgia",
+			"goabroad.com": "georgia",
+			"numbeo.com": "Georgia",
+			"weather-and-climate.com": "Georgia",
+			"visahq.com": "georgia"
+		},
+		"Country": "Georgia"
+	},
+	{
+		"codes": {
+			"ISO": "DE",
+			"ISO3": "DEU",
+			"ISO-Numeric": "276",
+			"fips": "GM"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "germany",
+			"goabroad.com": "germany",
+			"numbeo.com": "Germany",
+			"weather-and-climate.com": "Germany",
+			"visahq.com": "germany"
+		},
+		"Country": "Germany"
+	},
+	{
+		"codes": {
+			"ISO": "GH",
+			"ISO3": "GHA",
+			"ISO-Numeric": "288",
+			"fips": "GH"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "ghana",
+			"goabroad.com": "ghana",
+			"numbeo.com": "Ghana",
+			"weather-and-climate.com": "Ghana",
+			"visahq.com": "ghana"
+		},
+		"Country": "Ghana"
+	},
+	{
+		"codes": {
+			"ISO": "GI",
+			"ISO3": "GIB",
+			"ISO-Numeric": "292",
+			"fips": "GI"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "gibraltar",
+			"goabroad.com": "gibraltar",
+			"numbeo.com": "Gibraltar",
+			"visahq.com": "gibraltar"
+		},
+		"Country": "Gibraltar"
+	},
+	{
+		"codes": {
+			"ISO": "GR",
+			"ISO3": "GRC",
+			"ISO-Numeric": "300",
+			"fips": "GR"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "greece",
+			"goabroad.com": "greece",
+			"numbeo.com": "Greece",
+			"weather-and-climate.com": "Greece",
+			"visahq.com": "greece"
+		},
+		"Country": "Greece"
+	},
+	{
+		"codes": {
+			"ISO": "GL",
+			"ISO3": "GRL",
+			"ISO-Numeric": "304",
+			"fips": "GL"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "greenland",
+			"goabroad.com": "greenland",
+			"numbeo.com": "Greenland",
+			"weather-and-climate.com": "Greenland",
+			"visahq.com": "greenland"
+		},
+		"Country": "Greenland"
+	},
+	{
+		"codes": {
+			"ISO": "GD",
+			"ISO3": "GRD",
+			"ISO-Numeric": "308",
+			"fips": "GJ"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "grenada",
+			"goabroad.com": "grenada",
+			"numbeo.com": "Grenada",
+			"weather-and-climate.com": "Grenada",
+			"visahq.com": "grenada"
+		},
+		"Country": "Grenada"
+	},
+	{
+		"codes": {
+			"ISO": "GP",
+			"ISO3": "GLP",
+			"ISO-Numeric": "312",
+			"fips": "GP"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "guadeloupe",
+			"goabroad.com": "guadeloupe",
+			"numbeo.com": "",
+			"weather-and-climate.com": "Guadeloupe",
+			"visahq.com": "guadeloupe"
+		},
+		"Country": "Guadeloupe"
+	},
+	{
+		"codes": {
+			"ISO": "GT",
+			"ISO3": "GTM",
+			"ISO-Numeric": "320",
+			"fips": "GT"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "guatemala",
+			"goabroad.com": "guatemala",
+			"numbeo.com": "Guatemala",
+			"weather-and-climate.com": "Guatemala",
+			"visahq.com": "guatemala"
+		},
+		"Country": "Guatemala"
+	},
+	{
+		"codes": {
+			"ISO": "GN",
+			"ISO3": "GIN",
+			"ISO-Numeric": "324",
+			"fips": "GV"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "guinea",
+			"goabroad.com": "guinea",
+			"numbeo.com": "Guinea",
+			"visahq.com": "guinea"
+		},
+		"Country": "Guinea"
+	},
+	{
+		"codes": {
+			"ISO": "GW",
+			"ISO3": "GNB",
+			"ISO-Numeric": "624",
+			"fips": "PU"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "guinea-bissau",
+			"goabroad.com": "guinea-bissau",
+			"numbeo.com": "",
+			"visahq.com": "guinea-bissau"
+		},
+		"Country": "Guinea-Bissau"
+	},
+	{
+		"codes": {
+			"ISO": "GY",
+			"ISO3": "GUY",
+			"ISO-Numeric": "328",
+			"fips": "GY"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "guyana",
+			"goabroad.com": "guyana",
+			"numbeo.com": "Guyana",
+			"weather-and-climate.com": "Guyana",
+			"visahq.com": "guyana"
+		},
+		"Country": "Guyana"
+	},
+	{
+		"codes": {
+			"ISO": "HT",
+			"ISO3": "HTI",
+			"ISO-Numeric": "332",
+			"fips": "HA"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "haiti",
+			"goabroad.com": "haiti",
+			"numbeo.com": "Haiti",
+			"weather-and-climate.com": "Haiti",
+			"visahq.com": "haiti"
+		},
+		"Country": "Haiti"
+	},
+	{
+		"codes": {
+			"ISO": "HN",
+			"ISO3": "HND",
+			"ISO-Numeric": "340",
+			"fips": "HO"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "honduras",
+			"goabroad.com": "honduras",
+			"numbeo.com": "Honduras",
+			"weather-and-climate.com": "Honduras",
+			"visahq.com": "honduras"
+		},
+		"Country": "Honduras"
+	},
+	{
+		"codes": {
+			"ISO": "HU",
+			"ISO3": "HUN",
+			"ISO-Numeric": "348",
+			"fips": "HU"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "hungary",
+			"goabroad.com": "hungary",
+			"numbeo.com": "Hungary",
+			"weather-and-climate.com": "Hungary",
+			"visahq.com": "hungary"
+		},
+		"Country": "Hungary"
+	},
+	{
+		"codes": {
+			"ISO": "IS",
+			"ISO3": "ISL",
+			"ISO-Numeric": "352",
+			"fips": "IC"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "iceland",
+			"goabroad.com": "iceland",
+			"numbeo.com": "Iceland",
+			"weather-and-climate.com": "Iceland",
+			"visahq.com": "iceland"
+		},
+		"Country": "Iceland"
+	},
+	{
+		"codes": {
+			"ISO": "IN",
+			"ISO3": "IND",
+			"ISO-Numeric": "356",
+			"fips": "IN"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "india",
+			"goabroad.com": "india",
+			"numbeo.com": "India",
+			"weather-and-climate.com": "India",
+			"visahq.com": "india"
+		},
+		"Country": "India"
+	},
+	{
+		"codes": {
+			"ISO": "ID",
+			"ISO3": "IDN",
+			"ISO-Numeric": "360",
+			"fips": "ID"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "indonesia",
+			"goabroad.com": "indonesia",
+			"numbeo.com": "Indonesia",
+			"weather-and-climate.com": "Indonesia",
+			"visahq.com": "indonesia"
+		},
+		"Country": "Indonesia"
+	},
+	{
+		"codes": {
+			"ISO": "IR",
+			"ISO3": "IRN",
+			"ISO-Numeric": "364",
+			"fips": "IR"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "iran",
+			"goabroad.com": "iran",
+			"numbeo.com": "Iran",
+			"weather-and-climate.com": "Iran",
+			"visahq.com": "iran"
+		},
+		"Country": "Iran"
+	},
+	{
+		"codes": {
+			"ISO": "IQ",
+			"ISO3": "IRQ",
+			"ISO-Numeric": "368",
+			"fips": "IZ"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "iraq",
+			"goabroad.com": "iraq",
+			"numbeo.com": "Iraq",
+			"weather-and-climate.com": "Iraq",
+			"visahq.com": "iraq"
+		},
+		"Country": "Iraq"
+	},
+	{
+		"codes": {
+			"ISO": "IE",
+			"ISO3": "IRL",
+			"ISO-Numeric": "372",
+			"fips": "EI"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "ireland",
+			"goabroad.com": "ireland",
+			"numbeo.com": "Ireland",
+			"weather-and-climate.com": "Ireland",
+			"visahq.com": "ireland"
+		},
+		"Country": "Ireland"
+	},
+	{
+		"codes": {
+			"ISO": "IL",
+			"ISO3": "ISR",
+			"ISO-Numeric": "376",
+			"fips": "IS"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "israel",
+			"goabroad.com": "israel",
+			"numbeo.com": "Israel",
+			"weather-and-climate.com": "Israel",
+			"visahq.com": "israel"
+		},
+		"Country": "Israel"
+	},
+	{
+		"codes": {
+			"ISO": "IT",
+			"ISO3": "ITA",
+			"ISO-Numeric": "380",
+			"fips": "IT"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "italy",
+			"goabroad.com": "italy",
+			"numbeo.com": "Italy",
+			"weather-and-climate.com": "Italy",
+			"visahq.com": "italy"
+		},
+		"Country": "Italy"
+	},
+	{
+		"codes": {
+			"ISO": "CI",
+			"ISO3": "CIV",
+			"ISO-Numeric": "384",
+			"fips": "IV"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "ivory-coast",
+			"goabroad.com": "ivory-coast",
+			"numbeo.com": "Ivory Coast",
+			"visahq.com": "ivory-coast"
+		},
+		"Country": "Ivory Coast"
+	},
+	{
+		"codes": {
+			"ISO": "JM",
+			"ISO3": "JAM",
+			"ISO-Numeric": "388",
+			"fips": "JM"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "jamaica",
+			"goabroad.com": "jamaica",
+			"numbeo.com": "Jamaica",
+			"weather-and-climate.com": "Jamaica",
+			"visahq.com": "jamaica"
+		},
+		"Country": "Jamaica"
+	},
+	{
+		"codes": {
+			"ISO": "JP",
+			"ISO3": "JPN",
+			"ISO-Numeric": "392",
+			"fips": "JA"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "japan",
+			"goabroad.com": "japan",
+			"numbeo.com": "Japan",
+			"weather-and-climate.com": "Japan",
+			"visahq.com": "japan"
+		},
+		"Country": "Japan"
+	},
+	{
+		"codes": {
+			"ISO": "JO",
+			"ISO3": "JOR",
+			"ISO-Numeric": "400",
+			"fips": "JO"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "jordan",
+			"goabroad.com": "jordan",
+			"numbeo.com": "Jordan",
+			"weather-and-climate.com": "Jordan",
+			"visahq.com": "jordan"
+		},
+		"Country": "Jordan"
+	},
+	{
+		"codes": {
+			"ISO": "KZ",
+			"ISO3": "KAZ",
+			"ISO-Numeric": "398",
+			"fips": "KZ"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "kazakhstan",
+			"goabroad.com": "kazakhstan",
+			"numbeo.com": "Kazakhstan",
+			"weather-and-climate.com": "Kazakhstan",
+			"visahq.com": "kazakhstan"
+		},
+		"Country": "Kazakhstan"
+	},
+	{
+		"codes": {
+			"ISO": "KE",
+			"ISO3": "KEN",
+			"ISO-Numeric": "404",
+			"fips": "KE"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "kenya",
+			"goabroad.com": "kenya",
+			"numbeo.com": "Kenya",
+			"weather-and-climate.com": "Kenya",
+			"visahq.com": "kenya"
+		},
+		"Country": "Kenya"
+	},
+	{
+		"codes": {
+			"ISO": "KI",
+			"ISO3": "KIR",
+			"ISO-Numeric": "296",
+			"fips": "KR"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "kiribati",
+			"goabroad.com": "kiribati",
+			"numbeo.com": "",
+			"visahq.com": "kiribati"
+		},
+		"Country": "Kiribati"
+	},
+	{
+		"codes": {
+			"ISO": "XK",
+			"ISO3": "XKX",
+			"ISO-Numeric": "0",
+			"fips": "KV"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "kosovo",
+			"goabroad.com": "kosovo",
+			"numbeo.com": "Kosovo (Disputed Territory)",
+			"visahq.com": "kosovo"
+		},
+		"Country": "Kosovo"
+	},
+	{
+		"codes": {
+			"ISO": "KW",
+			"ISO3": "KWT",
+			"ISO-Numeric": "414",
+			"fips": "KU"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "kuwait",
+			"goabroad.com": "kuwait",
+			"numbeo.com": "Kuwait",
+			"weather-and-climate.com": "Kuwait",
+			"visahq.com": "kuwait"
+		},
+		"Country": "Kuwait"
+	},
+	{
+		"codes": {
+			"ISO": "KG",
+			"ISO3": "KGZ",
+			"ISO-Numeric": "417",
+			"fips": "KG"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "kyrgyzstan",
+			"goabroad.com": "kyrgyzstan",
+			"numbeo.com": "Kyrgyzstan",
+			"visahq.com": "kyrgyzstan"
+		},
+		"Country": "Kyrgyzstan"
+	},
+	{
+		"codes": {
+			"ISO": "LA",
+			"ISO3": "LAO",
+			"ISO-Numeric": "418",
+			"fips": "LA"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "laos",
+			"goabroad.com": "laos",
+			"numbeo.com": "Laos",
+			"weather-and-climate.com": "Laos",
+			"visahq.com": "laos"
+		},
+		"Country": "Laos"
+	},
+	{
+		"codes": {
+			"ISO": "LV",
+			"ISO3": "LVA",
+			"ISO-Numeric": "428",
+			"fips": "LG"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "latvia",
+			"goabroad.com": "latvia",
+			"numbeo.com": "Latvia",
+			"weather-and-climate.com": "Latvia",
+			"visahq.com": "latvia"
+		},
+		"Country": "Latvia"
+	},
+	{
+		"codes": {
+			"ISO": "LB",
+			"ISO3": "LBN",
+			"ISO-Numeric": "422",
+			"fips": "LE"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "lebanon",
+			"goabroad.com": "lebanon",
+			"numbeo.com": "Lebanon",
+			"weather-and-climate.com": "Lebanon",
+			"visahq.com": "lebanon"
+		},
+		"Country": "Lebanon"
+	},
+	{
+		"codes": {
+			"ISO": "LS",
+			"ISO3": "LSO",
+			"ISO-Numeric": "426",
+			"fips": "LT"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "lesotho",
+			"goabroad.com": "lesotho",
+			"numbeo.com": "Lesotho",
+			"visahq.com": "lesotho"
+		},
+		"Country": "Lesotho"
+	},
+	{
+		"codes": {
+			"ISO": "LR",
+			"ISO3": "LBR",
+			"ISO-Numeric": "430",
+			"fips": "LI"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "liberia",
+			"goabroad.com": "liberia",
+			"numbeo.com": "Liberia",
+			"visahq.com": "liberia"
+		},
+		"Country": "Liberia"
+	},
+	{
+		"codes": {
+			"ISO": "LY",
+			"ISO3": "LBY",
+			"ISO-Numeric": "434",
+			"fips": "LY"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "libya",
+			"goabroad.com": "libya",
+			"numbeo.com": "Libya",
+			"weather-and-climate.com": "Libya",
+			"visahq.com": "libya"
+		},
+		"Country": "Libya"
+	},
+	{
+		"codes": {
+			"ISO": "LI",
+			"ISO3": "LIE",
+			"ISO-Numeric": "438",
+			"fips": "LS"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "liechtenstein",
+			"goabroad.com": "liechtenstein",
+			"numbeo.com": "Liechtenstein",
+			"weather-and-climate.com": "liechtenstein",
+			"visahq.com": "liechtenstein"
+		},
+		"Country": "Liechtenstein"
+	},
+	{
+		"codes": {
+			"ISO": "LT",
+			"ISO3": "LTU",
+			"ISO-Numeric": "440",
+			"fips": "LH"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "lithuania",
+			"goabroad.com": "lithuania",
+			"numbeo.com": "Lithuania",
+			"weather-and-climate.com": "Lithuania",
+			"visahq.com": "lithuania"
+		},
+		"Country": "Lithuania"
+	},
+	{
+		"codes": {
+			"ISO": "LU",
+			"ISO3": "LUX",
+			"ISO-Numeric": "442",
+			"fips": "LU"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "luxembourg",
+			"goabroad.com": "luxembourg",
+			"numbeo.com": "Luxembourg",
+			"weather-and-climate.com": "Luxembourg",
+			"visahq.com": "luxembourg"
+		},
+		"Country": "Luxembourg"
+	},
+	{
+		"codes": {
+			"ISO": "MK",
+			"ISO3": "MKD",
+			"ISO-Numeric": "807",
+			"fips": "MK"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "macedonia",
+			"goabroad.com": "macedonia",
+			"numbeo.com": "Macedonia",
+			"weather-and-climate.com": "Macedonia",
+			"visahq.com": "macedonia"
+		},
+		"Country": "Macedonia"
+	},
+	{
+		"codes": {
+			"ISO": "MG",
+			"ISO3": "MDG",
+			"ISO-Numeric": "450",
+			"fips": "MA"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "madagascar",
+			"goabroad.com": "madagascar",
+			"numbeo.com": "Madagascar",
+			"weather-and-climate.com": "Madagascar",
+			"visahq.com": "madagascar"
+		},
+		"Country": "Madagascar"
+	},
+	{
+		"codes": {
+			"ISO": "MW",
+			"ISO3": "MWI",
+			"ISO-Numeric": "454",
+			"fips": "MI"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "malawi",
+			"goabroad.com": "malawi",
+			"numbeo.com": "Malawi",
+			"weather-and-climate.com": "Malawi",
+			"visahq.com": "malawi"
+		},
+		"Country": "Malawi"
+	},
+	{
+		"codes": {
+			"ISO": "MY",
+			"ISO3": "MYS",
+			"ISO-Numeric": "458",
+			"fips": "MY"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "malaysia",
+			"goabroad.com": "malaysia",
+			"numbeo.com": "Malaysia",
+			"weather-and-climate.com": "Malaysia",
+			"visahq.com": "malaysia"
+		},
+		"Country": "Malaysia"
+	},
+	{
+		"codes": {
+			"ISO": "MV",
+			"ISO3": "MDV",
+			"ISO-Numeric": "462",
+			"fips": "MV"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "maldives",
+			"goabroad.com": "maldives",
+			"numbeo.com": "Maldives",
+			"visahq.com": "maldives"
+		},
+		"Country": "Maldives"
+	},
+	{
+		"codes": {
+			"ISO": "ML",
+			"ISO3": "MLI",
+			"ISO-Numeric": "466",
+			"fips": "ML"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "mali",
+			"goabroad.com": "mali",
+			"numbeo.com": "Mali",
+			"weather-and-climate.com": "Mali",
+			"visahq.com": "mali"
+		},
+		"Country": "Mali"
+	},
+	{
+		"codes": {
+			"ISO": "MT",
+			"ISO3": "MLT",
+			"ISO-Numeric": "470",
+			"fips": "MT"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "malta",
+			"goabroad.com": "malta",
+			"numbeo.com": "Malta",
+			"weather-and-climate.com": "Malta",
+			"visahq.com": "malta"
+		},
+		"Country": "Malta"
+	},
+	{
+		"codes": {
+			"ISO": "MH",
+			"ISO3": "MHL",
+			"ISO-Numeric": "584",
+			"fips": "RM"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "marshall-islands",
+			"goabroad.com": "marshall-islands",
+			"numbeo.com": "Marshall Islands",
+			"weather-and-climate.com": "Marshall-Islands",
+			"visahq.com": "marshall-islands"
+		},
+		"Country": "Marshall Islands"
+	},
+	{
+		"codes": {
+			"ISO": "MQ",
+			"ISO3": "MTQ",
+			"ISO-Numeric": "474",
+			"fips": "MB"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "martinique",
+			"goabroad.com": "martinique",
+			"numbeo.com": "",
+			"weather-and-climate.com": "Martinique",
+			"visahq.com": "martinique"
+		},
+		"Country": "Martinique"
+	},
+	{
+		"codes": {
+			"ISO": "MR",
+			"ISO3": "MRT",
+			"ISO-Numeric": "478",
+			"fips": "MR"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "mauritania",
+			"goabroad.com": "mauritania",
+			"numbeo.com": "",
+			"weather-and-climate.com": "Mauritania",
+			"visahq.com": "mauritania"
+		},
+		"Country": "Mauritania"
+	},
+	{
+		"codes": {
+			"ISO": "MU",
+			"ISO3": "MUS",
+			"ISO-Numeric": "480",
+			"fips": "MP"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "mauritius",
+			"goabroad.com": "mauritius",
+			"numbeo.com": "Mauritius",
+			"visahq.com": "mauritius"
+		},
+		"Country": "Mauritius"
+	},
+	{
+		"codes": {
+			"ISO": "MX",
+			"ISO3": "MEX",
+			"ISO-Numeric": "484",
+			"fips": "MX"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "mexico",
+			"goabroad.com": "mexico",
+			"numbeo.com": "Mexico",
+			"weather-and-climate.com": "Mexico",
+			"visahq.com": "mexico"
+		},
+		"Country": "Mexico"
+	},
+	{
+		"codes": {
+			"ISO": "FM",
+			"ISO3": "FSM",
+			"ISO-Numeric": "583",
+			"fips": "FM"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "micronesia",
+			"goabroad.com": "micronesia",
+			"numbeo.com": "",
+			"weather-and-climate.com": "Micronesia",
+			"visahq.com": "micronesia"
+		},
+		"Country": "Micronesia"
+	},
+	{
+		"codes": {
+			"ISO": "MD",
+			"ISO3": "MDA",
+			"ISO-Numeric": "498",
+			"fips": "MD"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "moldova",
+			"goabroad.com": "moldova",
+			"numbeo.com": "Moldova",
+			"weather-and-climate.com": "Moldova",
+			"visahq.com": "moldova"
+		},
+		"Country": "Moldova"
+	},
+	{
+		"codes": {
+			"ISO": "MC",
+			"ISO3": "MCO",
+			"ISO-Numeric": "492",
+			"fips": "MN"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "monaco",
+			"goabroad.com": "monaco",
+			"numbeo.com": "Monaco",
+			"visahq.com": "monaco"
+		},
+		"Country": "Monaco"
+	},
+	{
+		"codes": {
+			"ISO": "MN",
+			"ISO3": "MNG",
+			"ISO-Numeric": "496",
+			"fips": "MG"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "mongolia",
+			"goabroad.com": "mongolia",
+			"numbeo.com": "Mongolia",
+			"weather-and-climate.com": "Mongolia",
+			"visahq.com": "mongolia"
+		},
+		"Country": "Mongolia"
+	},
+	{
+		"codes": {
+			"ISO": "ME",
+			"ISO3": "MNE",
+			"ISO-Numeric": "499",
+			"fips": "MJ"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "montenegro",
+			"goabroad.com": "montenegro",
+			"numbeo.com": "Montenegro",
+			"weather-and-climate.com": "Montenegro",
+			"visahq.com": "montenegro"
+		},
+		"Country": "Montenegro"
+	},
+	{
+		"codes": {
+			"ISO": "MA",
+			"ISO3": "MAR",
+			"ISO-Numeric": "504",
+			"fips": "MO"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "morocco",
+			"goabroad.com": "morocco",
+			"numbeo.com": "Morocco",
+			"weather-and-climate.com": "Morocco",
+			"visahq.com": "morocco"
+		},
+		"Country": "Morocco"
+	},
+	{
+		"codes": {
+			"ISO": "MZ",
+			"ISO3": "MOZ",
+			"ISO-Numeric": "508",
+			"fips": "MZ"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "mozambique",
+			"goabroad.com": "mozambique",
+			"numbeo.com": "Mozambique",
+			"weather-and-climate.com": "Mozambique",
+			"visahq.com": "mozambique"
+		},
+		"Country": "Mozambique"
+	},
+	{
+		"codes": {
+			"ISO": "MM",
+			"ISO3": "MMR",
+			"ISO-Numeric": "104",
+			"fips": "BM"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "myanmar",
+			"goabroad.com": "myanmar",
+			"numbeo.com": "Myanmar",
+			"weather-and-climate.com": "Myanmar-Burma",
+			"visahq.com": "myanmar"
+		},
+		"Country": "Myanmar"
+	},
+	{
+		"codes": {
+			"ISO": "NA",
+			"ISO3": "NAM",
+			"ISO-Numeric": "516",
+			"fips": "WA"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "namibia",
+			"goabroad.com": "namibia",
+			"numbeo.com": "Namibia",
+			"weather-and-climate.com": "Namibia",
+			"visahq.com": "namibia"
+		},
+		"Country": "Namibia"
+	},
+	{
+		"codes": {
+			"ISO": "NR",
+			"ISO3": "NRU",
+			"ISO-Numeric": "520",
+			"fips": "NR"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "nauru",
+			"goabroad.com": "nauru",
+			"numbeo.com": "",
+			"visahq.com": "nauru"
+		},
+		"Country": "Nauru"
+	},
+	{
+		"codes": {
+			"ISO": "NP",
+			"ISO3": "NPL",
+			"ISO-Numeric": "524",
+			"fips": "NP"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "nepal",
+			"goabroad.com": "nepal",
+			"numbeo.com": "Nepal",
+			"weather-and-climate.com": "Nepal",
+			"visahq.com": "nepal"
+		},
+		"Country": "Nepal"
+	},
+	{
+		"codes": {
+			"ISO": "NL",
+			"ISO3": "NLD",
+			"ISO-Numeric": "528",
+			"fips": "NL"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "netherlands",
+			"goabroad.com": "netherlands",
+			"numbeo.com": "Netherlands",
+			"weather-and-climate.com": "Netherlands",
+			"visahq.com": "netherlands"
+		},
+		"Country": "Netherlands"
+	},
+	{
+		"codes": {
+			"ISO": "NC",
+			"ISO3": "NCL",
+			"ISO-Numeric": "540",
+			"fips": "NC"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "new-caledonia",
+			"goabroad.com": "new-caledonia",
+			"numbeo.com": "New Caledonia",
+			"weather-and-climate.com": "New-Caledonia",
+			"visahq.com": "new-caledonia"
+		},
+		"Country": "New Caledonia"
+	},
+	{
+		"codes": {
+			"ISO": "NZ",
+			"ISO3": "NZL",
+			"ISO-Numeric": "554",
+			"fips": "NZ"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "new-zealand",
+			"goabroad.com": "new-zealand",
+			"numbeo.com": "New Zealand",
+			"weather-and-climate.com": "New-Zealand",
+			"visahq.com": "new-zealand"
+		},
+		"Country": "New Zealand"
+	},
+	{
+		"codes": {
+			"ISO": "NI",
+			"ISO3": "NIC",
+			"ISO-Numeric": "558",
+			"fips": "NU"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "nicaragua",
+			"goabroad.com": "nicaragua",
+			"numbeo.com": "Nicaragua",
+			"weather-and-climate.com": "Nicaragua",
+			"visahq.com": "nicaragua"
+		},
+		"Country": "Nicaragua"
+	},
+	{
+		"codes": {
+			"ISO": "NE",
+			"ISO3": "NER",
+			"ISO-Numeric": "562",
+			"fips": "NG"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "niger",
+			"goabroad.com": "niger",
+			"numbeo.com": "Niger",
+			"weather-and-climate.com": "Niger",
+			"visahq.com": "niger"
+		},
+		"Country": "Niger"
+	},
+	{
+		"codes": {
+			"ISO": "NG",
+			"ISO3": "NGA",
+			"ISO-Numeric": "566",
+			"fips": "NI"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "nigeria",
+			"goabroad.com": "nigeria",
+			"numbeo.com": "Nigeria",
+			"weather-and-climate.com": "Nigeria",
+			"visahq.com": "nigeria"
+		},
+		"Country": "Nigeria"
+	},
+	{
+		"codes": {
+			"ISO": "NU",
+			"ISO3": "NIU",
+			"ISO-Numeric": "570",
+			"fips": "NE"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "niue",
+			"goabroad.com": "niue",
+			"numbeo.com": "",
+			"visahq.com": "niue"
+		},
+		"Country": "Niue"
+	},
+	{
+		"codes": {
+			"ISO": "KP",
+			"ISO3": "PRK",
+			"ISO-Numeric": "408",
+			"fips": "KN"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "north-korea",
+			"goabroad.com": "north-korea",
+			"numbeo.com": "",
+			"weather-and-climate.com": "North-Korea",
+			"visahq.com": "north-korea"
+		},
+		"Country": "North Korea"
+	},
+	{
+		"codes": {
+			"ISO": "NO",
+			"ISO3": "NOR",
+			"ISO-Numeric": "578",
+			"fips": "NO"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "norway",
+			"goabroad.com": "norway",
+			"numbeo.com": "Norway",
+			"weather-and-climate.com": "Norway",
+			"visahq.com": "norway"
+		},
+		"Country": "Norway"
+	},
+	{
+		"codes": {
+			"ISO": "OM",
+			"ISO3": "OMN",
+			"ISO-Numeric": "512",
+			"fips": "MU"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "oman",
+			"goabroad.com": "oman",
+			"numbeo.com": "Oman",
+			"weather-and-climate.com": "Oman",
+			"visahq.com": "oman"
+		},
+		"Country": "Oman"
+	},
+	{
+		"codes": {
+			"ISO": "PK",
+			"ISO3": "PAK",
+			"ISO-Numeric": "586",
+			"fips": "PK"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "pakistan",
+			"goabroad.com": "pakistan",
+			"numbeo.com": "Pakistan",
+			"weather-and-climate.com": "Pakistan",
+			"visahq.com": "pakistan"
+		},
+		"Country": "Pakistan"
+	},
+	{
+		"codes": {
+			"ISO": "PW",
+			"ISO3": "PLW",
+			"ISO-Numeric": "585",
+			"fips": "PS"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "palau",
+			"goabroad.com": "palau",
+			"numbeo.com": "",
+			"visahq.com": "palau"
+		},
+		"Country": "Palau"
+	},
+	{
+		"codes": {
+			"ISO": "PS",
+			"ISO3": "PSE",
+			"ISO-Numeric": "275",
+			"fips": "WE"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "palestinian-territory",
+			"goabroad.com": "palestine",
+			"numbeo.com": "Palestinian Territory",
+			"visahq.com": "palestine"
+		},
+		"Country": "Palestinian Territory"
+	},
+	{
+		"codes": {
+			"ISO": "PA",
+			"ISO3": "PAN",
+			"ISO-Numeric": "591",
+			"fips": "PM"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "panama",
+			"goabroad.com": "panama",
+			"numbeo.com": "Panama",
+			"weather-and-climate.com": "Panama",
+			"visahq.com": "panama"
+		},
+		"Country": "Panama"
+	},
+	{
+		"codes": {
+			"ISO": "PG",
+			"ISO3": "PNG",
+			"ISO-Numeric": "598",
+			"fips": "PP"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "papua-new-guinea",
+			"goabroad.com": "papua-new-guinea",
+			"numbeo.com": "Papua New Guinea",
+			"weather-and-climate.com": "Papua-New-Guinea",
+			"visahq.com": "papua-new-guinea"
+		},
+		"Country": "Papua New Guinea"
+	},
+	{
+		"codes": {
+			"ISO": "PY",
+			"ISO3": "PRY",
+			"ISO-Numeric": "600",
+			"fips": "PA"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "paraguay",
+			"goabroad.com": "paraguay",
+			"numbeo.com": "Paraguay",
+			"weather-and-climate.com": "Paraguay",
+			"visahq.com": "paraguay"
+		},
+		"Country": "Paraguay"
+	},
+	{
+		"codes": {
+			"ISO": "PE",
+			"ISO3": "PER",
+			"ISO-Numeric": "604",
+			"fips": "PE"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "peru",
+			"goabroad.com": "peru",
+			"numbeo.com": "Peru",
+			"weather-and-climate.com": "Peru",
+			"visahq.com": "peru"
+		},
+		"Country": "Peru"
+	},
+	{
+		"codes": {
+			"ISO": "PH",
+			"ISO3": "PHL",
+			"ISO-Numeric": "608",
+			"fips": "RP"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "philippines",
+			"goabroad.com": "philippines",
+			"numbeo.com": "Philippines",
+			"weather-and-climate.com": "Philippines",
+			"visahq.com": "philippines"
+		},
+		"Country": "Philippines"
+	},
+	{
+		"codes": {
+			"ISO": "PL",
+			"ISO3": "POL",
+			"ISO-Numeric": "616",
+			"fips": "PL"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "poland",
+			"goabroad.com": "poland",
+			"numbeo.com": "Poland",
+			"weather-and-climate.com": "Poland",
+			"visahq.com": "poland"
+		},
+		"Country": "Poland"
+	},
+	{
+		"codes": {
+			"ISO": "PF",
+			"ISO3": "PYF",
+			"ISO-Numeric": "258",
+			"fips": "FP"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "french-polynesia",
+			"goabroad.com": "polynesia",
+			"numbeo.com": "French Polynesia",
+			"weather-and-climate.com": "French-Polynesia",
+			"visahq.com": "tahiti"
+		},
+		"Country": "French Polynesia"
+	},
+	{
+		"codes": {
+			"ISO": "PT",
+			"ISO3": "PRT",
+			"ISO-Numeric": "620",
+			"fips": "PO"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "portugal",
+			"goabroad.com": "portugal",
+			"numbeo.com": "Portugal",
+			"weather-and-climate.com": "Portugal",
+			"visahq.com": "portugal"
+		},
+		"Country": "Portugal"
+	},
+	{
+		"codes": {
+			"ISO": "PR",
+			"ISO3": "PRI",
+			"ISO-Numeric": "630",
+			"fips": "RQ"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "puerto-rico",
+			"goabroad.com": "puerto-rico",
+			"numbeo.com": "Puerto Rico",
+			"weather-and-climate.com": "Puerto-Rico",
+			"visahq.com": "puerto-rico"
+		},
+		"Country": "Puerto Rico"
+	},
+	{
+		"codes": {
+			"ISO": "QA",
+			"ISO3": "QAT",
+			"ISO-Numeric": "634",
+			"fips": "QA"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "qatar",
+			"goabroad.com": "qatar",
+			"numbeo.com": "Qatar",
+			"weather-and-climate.com": "Qatar",
+			"visahq.com": "qatar"
+		},
+		"Country": "Qatar"
+	},
+	{
+		"codes": {
+			"ISO": "CG",
+			"ISO3": "COG",
+			"ISO-Numeric": "178",
+			"fips": "CF"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "republic-of-the-congo",
+			"goabroad.com": "republic-of-congo",
+			"numbeo.com": "Republic Of Congo"
+		},
+		"Country": "Republic of the Congo"
+	},
+	{
+		"codes": {
+			"ISO": "RE",
+			"ISO3": "REU",
+			"ISO-Numeric": "638",
+			"fips": "RE"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "reunion",
+			"goabroad.com": "reunion",
+			"numbeo.com": "Reunion",
+			"visahq.com": "reunion"
+		},
+		"Country": "Reunion"
+	},
+	{
+		"codes": {
+			"ISO": "RO",
+			"ISO3": "ROU",
+			"ISO-Numeric": "642",
+			"fips": "RO"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "romania",
+			"goabroad.com": "romania",
+			"numbeo.com": "Romania",
+			"weather-and-climate.com": "Romania",
+			"visahq.com": "romania"
+		},
+		"Country": "Romania"
+	},
+	{
+		"codes": {
+			"ISO": "RU",
+			"ISO3": "RUS",
+			"ISO-Numeric": "643",
+			"fips": "RS"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "russia",
+			"goabroad.com": "russia",
+			"numbeo.com": "Russia",
+			"weather-and-climate.com": "Russia",
+			"visahq.com": "russia"
+		},
+		"Country": "Russia"
+	},
+	{
+		"codes": {
+			"ISO": "RW",
+			"ISO3": "RWA",
+			"ISO-Numeric": "646",
+			"fips": "RW"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "rwanda",
+			"goabroad.com": "rwanda",
+			"numbeo.com": "Rwanda",
+			"weather-and-climate.com": "Rwanda",
+			"visahq.com": "rwanda"
+		},
+		"Country": "Rwanda"
+	},
+	{
+		"codes": {
+			"ISO": "WS",
+			"ISO3": "WSM",
+			"ISO-Numeric": "882",
+			"fips": "WS"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "samoa",
+			"goabroad.com": "samoa",
+			"numbeo.com": "Samoa",
+			"weather-and-climate.com": "Samoa",
+			"visahq.com": "samoa"
+		},
+		"Country": "Samoa"
+	},
+	{
+		"codes": {
+			"ISO": "SM",
+			"ISO3": "SMR",
+			"ISO-Numeric": "674",
+			"fips": "SM"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "san-marino",
+			"goabroad.com": "san-marino",
+			"numbeo.com": "",
+			"visahq.com": "san-marino"
+		},
+		"Country": "San Marino"
+	},
+	{
+		"codes": {
+			"ISO": "ST",
+			"ISO3": "STP",
+			"ISO-Numeric": "678",
+			"fips": "TP"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "sao-tome-and-principe",
+			"goabroad.com": "sao-tome-and-principe",
+			"numbeo.com": ""
+		},
+		"Country": "Sao Tome and Principe"
+	},
+	{
+		"codes": {
+			"ISO": "SA",
+			"ISO3": "SAU",
+			"ISO-Numeric": "682",
+			"fips": "SA"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "saudi-arabia",
+			"goabroad.com": "saudi-arabia",
+			"numbeo.com": "Saudi Arabia",
+			"weather-and-climate.com": "Saudi-Arabia",
+			"visahq.com": "saudi-arabia"
+		},
+		"Country": "Saudi Arabia"
+	},
+	{
+		"codes": {
+			"ISO": "GB",
+			"ISO3": "GBR",
+			"ISO-Numeric": "826",
+			"fips": "UK"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "united-kingdom",
+			"goabroad.com": "scotland",
+			"numbeo.com": "United Kingdom",
+			"weather-and-climate.com": "United-Kingdom",
+			"visahq.com": "united-kingdom"
+		},
+		"Country": "United Kingdom"
+	},
+	{
+		"codes": {
+			"ISO": "SN",
+			"ISO3": "SEN",
+			"ISO-Numeric": "686",
+			"fips": "SG"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "senegal",
+			"goabroad.com": "senegal",
+			"numbeo.com": "Senegal",
+			"weather-and-climate.com": "Senegal",
+			"visahq.com": "senegal"
+		},
+		"Country": "Senegal"
+	},
+	{
+		"codes": {
+			"ISO": "RS",
+			"ISO3": "SRB",
+			"ISO-Numeric": "688",
+			"fips": "RI"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "serbia",
+			"goabroad.com": "serbia",
+			"numbeo.com": "Serbia",
+			"weather-and-climate.com": "Serbia",
+			"visahq.com": "serbia"
+		},
+		"Country": "Serbia"
+	},
+	{
+		"codes": {
+			"ISO": "SC",
+			"ISO3": "SYC",
+			"ISO-Numeric": "690",
+			"fips": "SE"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "seychelles",
+			"goabroad.com": "seychelles",
+			"numbeo.com": "Seychelles",
+			"visahq.com": "seychelles"
+		},
+		"Country": "Seychelles"
+	},
+	{
+		"codes": {
+			"ISO": "SL",
+			"ISO3": "SLE",
+			"ISO-Numeric": "694",
+			"fips": "SL"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "sierra-leone",
+			"goabroad.com": "sierra-leone",
+			"numbeo.com": "",
+			"visahq.com": "sierra-leone"
+		},
+		"Country": "Sierra Leone"
+	},
+	{
+		"codes": {
+			"ISO": "SG",
+			"ISO3": "SGP",
+			"ISO-Numeric": "702",
+			"fips": "SN"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "singapore",
+			"goabroad.com": "singapore",
+			"numbeo.com": "Singapore",
+			"weather-and-climate.com": "Singapore",
+			"visahq.com": "singapore"
+		},
+		"Country": "Singapore"
+	},
+	{
+		"codes": {
+			"ISO": "SK",
+			"ISO3": "SVK",
+			"ISO-Numeric": "703",
+			"fips": "LO"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "slovakia",
+			"goabroad.com": "slovakia",
+			"numbeo.com": "Slovakia",
+			"weather-and-climate.com": "Slovakia"
+		},
+		"Country": "Slovakia"
+	},
+	{
+		"codes": {
+			"ISO": "SI",
+			"ISO3": "SVN",
+			"ISO-Numeric": "705",
+			"fips": "SI"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "slovenia",
+			"goabroad.com": "slovenia",
+			"numbeo.com": "Slovenia",
+			"weather-and-climate.com": "Slovenia",
+			"visahq.com": "slovenia"
+		},
+		"Country": "Slovenia"
+	},
+	{
+		"codes": {
+			"ISO": "SB",
+			"ISO3": "SLB",
+			"ISO-Numeric": "090",
+			"fips": "BP"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "solomon-islands",
+			"goabroad.com": "solomon-islands",
+			"numbeo.com": "Solomon Islands",
+			"weather-and-climate.com": "Solomon-Islands",
+			"visahq.com": "solomon-islands"
+		},
+		"Country": "Solomon Islands"
+	},
+	{
+		"codes": {
+			"ISO": "SO",
+			"ISO3": "SOM",
+			"ISO-Numeric": "706",
+			"fips": "SO"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "somalia",
+			"goabroad.com": "somalia",
+			"numbeo.com": "Somalia",
+			"weather-and-climate.com": "Somalia",
+			"visahq.com": "somalia"
+		},
+		"Country": "Somalia"
+	},
+	{
+		"codes": {
+			"ISO": "ZA",
+			"ISO3": "ZAF",
+			"ISO-Numeric": "710",
+			"fips": "SF"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "south-africa",
+			"goabroad.com": "south-africa",
+			"numbeo.com": "South Africa",
+			"weather-and-climate.com": "South-Africa",
+			"visahq.com": "south-africa"
+		},
+		"Country": "South Africa"
+	},
+	{
+		"codes": {
+			"ISO": "KR",
+			"ISO3": "KOR",
+			"ISO-Numeric": "410",
+			"fips": "KS"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "south-korea",
+			"goabroad.com": "south-korea",
+			"numbeo.com": "South Korea",
+			"weather-and-climate.com": "South-Korea",
+			"visahq.com": "south-korea"
+		},
+		"Country": "South Korea"
+	},
+	{
+		"codes": {
+			"ISO": "ES",
+			"ISO3": "ESP",
+			"ISO-Numeric": "724",
+			"fips": "SP"
+		},
+		"images": {
+		  "horizontal": "http://mrg.bz/1dNDGs",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "spain",
+			"goabroad.com": "spain",
+			"numbeo.com": "Spain",
+			"weather-and-climate.com": "Spain",
+			"visahq.com": "spain"
+		},
+		"Country": "Spain"
+	},
+	{
+		"codes": {
+			"ISO": "LK",
+			"ISO3": "LKA",
+			"ISO-Numeric": "144",
+			"fips": "CE"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "sri-lanka",
+			"goabroad.com": "sri-lanka",
+			"numbeo.com": "Sri Lanka",
+			"weather-and-climate.com": "Sri-Lanka",
+			"visahq.com": "sri-lanka"
+		},
+		"Country": "Sri Lanka"
+	},
+	{
+		"codes": {
+			"ISO": "KN",
+			"ISO3": "KNA",
+			"ISO-Numeric": "659",
+			"fips": "SC"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "saint-kitts-and-nevis",
+			"goabroad.com": "st-kitts-and-nevis",
+			"numbeo.com": "Saint Kitts And Nevis"
+		},
+		"Country": "Saint Kitts and Nevis"
+	},
+	{
+		"codes": {
+			"ISO": "LC",
+			"ISO3": "LCA",
+			"ISO-Numeric": "662",
+			"fips": "ST"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "saint-lucia",
+			"goabroad.com": "st-lucia",
+			"numbeo.com": "Saint Lucia",
+			"weather-and-climate.com": "Saint-Lucia",
+			"visahq.com": "saint-lucia"
+		},
+		"Country": "Saint Lucia"
+	},
+	{
+		"codes": {
+			"ISO": "SD",
+			"ISO3": "SDN",
+			"ISO-Numeric": "729",
+			"fips": "SU"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "sudan",
+			"goabroad.com": "sudan",
+			"numbeo.com": "Sudan",
+			"weather-and-climate.com": "Sudan",
+			"visahq.com": "sudan"
+		},
+		"Country": "Sudan"
+	},
+	{
+		"codes": {
+			"ISO": "SR",
+			"ISO3": "SUR",
+			"ISO-Numeric": "740",
+			"fips": "NS"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "suriname",
+			"goabroad.com": "suriname",
+			"numbeo.com": "Suriname",
+			"weather-and-climate.com": "Suriname",
+			"visahq.com": "suriname"
+		},
+		"Country": "Suriname"
+	},
+	{
+		"codes": {
+			"ISO": "SZ",
+			"ISO3": "SWZ",
+			"ISO-Numeric": "748",
+			"fips": "WZ"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "swaziland",
+			"goabroad.com": "swaziland",
+			"numbeo.com": "Swaziland",
+			"visahq.com": "swaziland"
+		},
+		"Country": "Swaziland"
+	},
+	{
+		"codes": {
+			"ISO": "SE",
+			"ISO3": "SWE",
+			"ISO-Numeric": "752",
+			"fips": "SW"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "sweden",
+			"goabroad.com": "sweden",
+			"numbeo.com": "Sweden",
+			"weather-and-climate.com": "Sweden",
+			"visahq.com": "sweden"
+		},
+		"Country": "Sweden"
+	},
+	{
+		"codes": {
+			"ISO": "CH",
+			"ISO3": "CHE",
+			"ISO-Numeric": "756",
+			"fips": "SZ"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "switzerland",
+			"goabroad.com": "switzerland",
+			"numbeo.com": "Switzerland",
+			"weather-and-climate.com": "Switzerland",
+			"visahq.com": "switzerland"
+		},
+		"Country": "Switzerland"
+	},
+	{
+		"codes": {
+			"ISO": "SY",
+			"ISO3": "SYR",
+			"ISO-Numeric": "760",
+			"fips": "SY"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "syria",
+			"goabroad.com": "syria",
+			"numbeo.com": "Syria",
+			"weather-and-climate.com": "Syria",
+			"visahq.com": "syria"
+		},
+		"Country": "Syria"
+	},
+	{
+		"codes": {
+			"ISO": "PF",
+			"ISO3": "PYF",
+			"ISO-Numeric": "258",
+			"fips": "FP"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "french-polynesia",
+			"goabroad.com": "tahiti",
+			"numbeo.com": "French Polynesia",
+			"weather-and-climate.com": "French-Polynesia",
+			"visahq.com": "tahiti"
+		},
+		"Country": "French Polynesia"
+	},
+	{
+		"codes": {
+			"ISO": "TW",
+			"ISO3": "TWN",
+			"ISO-Numeric": "158",
+			"fips": "TW"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "taiwan",
+			"goabroad.com": "taiwan",
+			"numbeo.com": "Taiwan",
+			"visahq.com": "taiwan"
+		},
+		"Country": "Taiwan"
+	},
+	{
+		"codes": {
+			"ISO": "TJ",
+			"ISO3": "TJK",
+			"ISO-Numeric": "762",
+			"fips": "TI"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "tajikistan",
+			"goabroad.com": "tajikistan",
+			"numbeo.com": "Tajikistan",
+			"weather-and-climate.com": "Tajikistan",
+			"visahq.com": "tajikistan"
+		},
+		"Country": "Tajikistan"
+	},
+	{
+		"codes": {
+			"ISO": "TZ",
+			"ISO3": "TZA",
+			"ISO-Numeric": "834",
+			"fips": "TZ"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "tanzania",
+			"goabroad.com": "tanzania",
+			"numbeo.com": "Tanzania",
+			"weather-and-climate.com": "Tanzania",
+			"visahq.com": "tanzania"
+		},
+		"Country": "Tanzania"
+	},
+	{
+		"codes": {
+			"ISO": "TH",
+			"ISO3": "THA",
+			"ISO-Numeric": "764",
+			"fips": "TH"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "thailand",
+			"goabroad.com": "thailand",
+			"numbeo.com": "Thailand",
+			"weather-and-climate.com": "Thailand",
+			"visahq.com": "thailand"
+		},
+		"Country": "Thailand"
+	},
+	{
+		"codes": {
+			"ISO": "VA",
+			"ISO3": "VAT",
+			"ISO-Numeric": "336",
+			"fips": "VT"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "vatican",
+			"goabroad.com": "the-vatican",
+			"numbeo.com": "",
+			"visahq.com": "vatican"
+		},
+		"Country": "Vatican"
+	},
+	{
+		"codes": {
+			"ISO": "CN",
+			"ISO3": "CHN",
+			"ISO-Numeric": "156",
+			"fips": "CH"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "china",
+			"goabroad.com": "tibet",
+			"numbeo.com": "China",
+			"weather-and-climate.com": "China",
+			"visahq.com": "china"
+		},
+		"Country": "China"
+	},
+	{
+		"codes": {
+			"ISO": "TG",
+			"ISO3": "TGO",
+			"ISO-Numeric": "768",
+			"fips": "TO"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "togo",
+			"goabroad.com": "togo",
+			"numbeo.com": "Togo",
+			"weather-and-climate.com": "Togo",
+			"visahq.com": "togo"
+		},
+		"Country": "Togo"
+	},
+	{
+		"codes": {
+			"ISO": "TO",
+			"ISO3": "TON",
+			"ISO-Numeric": "776",
+			"fips": "TN"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "tonga",
+			"goabroad.com": "tonga",
+			"numbeo.com": "Tonga",
+			"weather-and-climate.com": "Tonga",
+			"visahq.com": "tonga"
+		},
+		"Country": "Tonga"
+	},
+	{
+		"codes": {
+			"ISO": "TT",
+			"ISO3": "TTO",
+			"ISO-Numeric": "780",
+			"fips": "TD"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "trinidad-and-tobago",
+			"goabroad.com": "trinidad-tobago",
+			"numbeo.com": "Trinidad And Tobago"
+		},
+		"Country": "Trinidad and Tobago"
+	},
+	{
+		"codes": {
+			"ISO": "TN",
+			"ISO3": "TUN",
+			"ISO-Numeric": "788",
+			"fips": "TS"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "tunisia",
+			"goabroad.com": "tunisia",
+			"numbeo.com": "Tunisia",
+			"weather-and-climate.com": "Tunisia",
+			"visahq.com": "tunisia"
+		},
+		"Country": "Tunisia"
+	},
+	{
+		"codes": {
+			"ISO": "TR",
+			"ISO3": "TUR",
+			"ISO-Numeric": "792",
+			"fips": "TU"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "turkey",
+			"goabroad.com": "turkey",
+			"numbeo.com": "Turkey",
+			"weather-and-climate.com": "Turkey",
+			"visahq.com": "turkey"
+		},
+		"Country": "Turkey"
+	},
+	{
+		"codes": {
+			"ISO": "TM",
+			"ISO3": "TKM",
+			"ISO-Numeric": "795",
+			"fips": "TX"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "turkmenistan",
+			"goabroad.com": "turkmenistan",
+			"numbeo.com": "Turkmenistan",
+			"weather-and-climate.com": "Turkmenistan",
+			"visahq.com": "turkmenistan"
+		},
+		"Country": "Turkmenistan"
+	},
+	{
+		"codes": {
+			"ISO": "TV",
+			"ISO3": "TUV",
+			"ISO-Numeric": "798",
+			"fips": "TV"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "tuvalu",
+			"goabroad.com": "tuvalu",
+			"numbeo.com": "",
+			"weather-and-climate.com": "Tuvalu",
+			"visahq.com": "tuvalu"
+		},
+		"Country": "Tuvalu"
+	},
+	{
+		"codes": {
+			"ISO": "UG",
+			"ISO3": "UGA",
+			"ISO-Numeric": "800",
+			"fips": "UG"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "uganda",
+			"goabroad.com": "uganda",
+			"numbeo.com": "Uganda",
+			"weather-and-climate.com": "Uganda",
+			"visahq.com": "uganda"
+		},
+		"Country": "Uganda"
+	},
+	{
+		"codes": {
+			"ISO": "UA",
+			"ISO3": "UKR",
+			"ISO-Numeric": "804",
+			"fips": "UP"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "ukraine",
+			"goabroad.com": "ukraine",
+			"numbeo.com": "Ukraine",
+			"weather-and-climate.com": "Ukraine",
+			"visahq.com": "ukraine"
+		},
+		"Country": "Ukraine"
+	},
+	{
+		"codes": {
+			"ISO": "AE",
+			"ISO3": "ARE",
+			"ISO-Numeric": "784",
+			"fips": "AE"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "united-arab-emirates",
+			"goabroad.com": "united-arab-emirates",
+			"numbeo.com": "United Arab Emirates",
+			"visahq.com": "united-arab-emirates"
+		},
+		"Country": "United Arab Emirates"
+	},
+	{
+		"codes": {
+			"ISO": "GB",
+			"ISO3": "GBR",
+			"ISO-Numeric": "826",
+			"fips": "UK"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "united-kingdom",
+			"goabroad.com": "united-kingdom",
+			"numbeo.com": "United Kingdom",
+			"weather-and-climate.com": "United-Kingdom",
+			"visahq.com": "united-kingdom"
+		},
+		"Country": "United Kingdom"
+	},
+	{
+		"codes": {
+			"ISO": "US",
+			"ISO3": "USA",
+			"ISO-Numeric": "840",
+			"fips": "US"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "united-states",
+			"goabroad.com": "united-states",
+			"numbeo.com": "United States",
+			"weather-and-climate.com": "United-States-of-America",
+			"visahq.com": "united-states"
+		},
+		"Country": "United States"
+	},
+	{
+		"codes": {
+			"ISO": "UY",
+			"ISO3": "URY",
+			"ISO-Numeric": "858",
+			"fips": "UY"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "uruguay",
+			"goabroad.com": "uruguay",
+			"numbeo.com": "Uruguay",
+			"weather-and-climate.com": "Uruguay",
+			"visahq.com": "uruguay"
+		},
+		"Country": "Uruguay"
+	},
+	{
+		"codes": {
+			"ISO": "VI",
+			"ISO3": "VIR",
+			"ISO-Numeric": "850",
+			"fips": "VQ"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "u-s--virgin-islands",
+			"goabroad.com": "us-virgin-islands",
+			"numbeo.com": "Us Virgin Islands",
+			"visahq.com": "us-virgin-islands"
+		},
+		"Country": "U.S. Virgin Islands"
+	},
+	{
+		"codes": {
+			"ISO": "UZ",
+			"ISO3": "UZB",
+			"ISO-Numeric": "860",
+			"fips": "UZ"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "uzbekistan",
+			"goabroad.com": "uzbekistan",
+			"numbeo.com": "Uzbekistan",
+			"weather-and-climate.com": "Uzbekistan",
+			"visahq.com": "uzbekistan"
+		},
+		"Country": "Uzbekistan"
+	},
+	{
+		"codes": {
+			"ISO": "VU",
+			"ISO3": "VUT",
+			"ISO-Numeric": "548",
+			"fips": "NH"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "vanuatu",
+			"goabroad.com": "vanuatu",
+			"numbeo.com": "Vanuatu",
+			"weather-and-climate.com": "Vanuatu",
+			"visahq.com": "vanuatu"
+		},
+		"Country": "Vanuatu"
+	},
+	{
+		"codes": {
+			"ISO": "VA",
+			"ISO3": "VAT",
+			"ISO-Numeric": "336",
+			"fips": "VT"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "vatican",
+			"goabroad.com": "vatican",
+			"numbeo.com": "",
+			"visahq.com": "vatican"
+		},
+		"Country": "Vatican"
+	},
+	{
+		"codes": {
+			"ISO": "VE",
+			"ISO3": "VEN",
+			"ISO-Numeric": "862",
+			"fips": "VE"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "venezuela",
+			"goabroad.com": "venezuela",
+			"numbeo.com": "Venezuela",
+			"weather-and-climate.com": "Venezuela",
+			"visahq.com": "venezuela"
+		},
+		"Country": "Venezuela"
+	},
+	{
+		"codes": {
+			"ISO": "VN",
+			"ISO3": "VNM",
+			"ISO-Numeric": "704",
+			"fips": "VM"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "vietnam",
+			"goabroad.com": "vietnam",
+			"numbeo.com": "Vietnam",
+			"weather-and-climate.com": "Vietnam",
+			"visahq.com": "vietnam"
+		},
+		"Country": "Vietnam"
+	},
+	{
+		"codes": {
+			"ISO": "YE",
+			"ISO3": "YEM",
+			"ISO-Numeric": "887",
+			"fips": "YM"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "yemen",
+			"goabroad.com": "yemen",
+			"numbeo.com": "Yemen",
+			"weather-and-climate.com": "Yemen",
+			"visahq.com": "yemen"
+		},
+		"Country": "Yemen"
+	},
+	{
+		"codes": {
+			"ISO": "ZM",
+			"ISO3": "ZMB",
+			"ISO-Numeric": "894",
+			"fips": "ZA"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "zambia",
+			"goabroad.com": "zambia",
+			"numbeo.com": "Zambia",
+			"weather-and-climate.com": "Zambia",
+			"visahq.com": "zambia"
+		},
+		"Country": "Zambia"
+	},
+	{
+		"codes": {
+			"ISO": "ZW",
+			"ISO3": "ZWE",
+			"ISO-Numeric": "716",
+			"fips": "ZI"
+		},
+		"images": {
+		  "horizontal": "",
+		  "vertical": ""
+		},
+		"slugs": {
+			"default": "zimbabwe",
+			"goabroad.com": "zimbabwe",
+			"numbeo.com": "Zimbabwe",
+			"weather-and-climate.com": "Zimbabwe",
+			"visahq.com": "zimbabwe"
+		},
+		"Country": "Zimbabwe"
+	}
+]

@@ -1,0 +1,2528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2015-04-09T18:39:02Z"/>
+
+  <node id="57952208" lat="49.4686964" lon="9.7974953">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="411082937" lat="48.5624949" lon="9.0038817"/>
+  <node id="411082938" lat="48.5625460" lon="9.0039622"/>
+  <node id="411082940" lat="48.5624639" lon="9.0040810"/>
+  <node id="411082941" lat="48.5624129" lon="9.0040006"/>
+  <node id="649593850" lat="49.8793559" lon="14.2307446">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="649599211" lat="50.8492630" lon="13.1232147">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="747161715" lat="49.5717654" lon="8.7485903">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="924517098" lat="50.2679309" lon="8.6008769">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="note:de" v="Futterkrippe"/>
+  </node>
+  <node id="1077024595" lat="50.7487611" lon="8.5020644">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1231415141" lat="48.0793943" lon="16.1859208"/>
+  <node id="1231415170" lat="48.0793955" lon="16.1861978"/>
+  <node id="1231415171" lat="48.0792603" lon="16.1863467"/>
+  <node id="1231415172" lat="48.0790252" lon="16.1863910"/>
+  <node id="1231415173" lat="48.0789924" lon="16.1859665"/>
+  <node id="1232131435" lat="48.0793441" lon="16.1858780"/>
+  <node id="1249664480" lat="49.2399677" lon="18.4086262">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="place"/>
+  </node>
+  <node id="1249664526" lat="49.2405583" lon="18.4139451">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="place"/>
+  </node>
+  <node id="1349631236" lat="49.5351277" lon="8.5154664"/>
+  <node id="1349631237" lat="49.5350097" lon="8.5154590"/>
+  <node id="1349631240" lat="49.5350483" lon="8.5153773"/>
+  <node id="1349631243" lat="49.5350892" lon="8.5155481"/>
+  <node id="1469617508" lat="47.3645222" lon="13.1045452"/>
+  <node id="1469617510" lat="47.3645446" lon="13.1044829"/>
+  <node id="1469617512" lat="47.3645710" lon="13.1045834"/>
+  <node id="1469617514" lat="47.3645933" lon="13.1045211"/>
+  <node id="1471256980" lat="49.0353241" lon="21.6660610">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="shelter" v="yes"/>
+  </node>
+  <node id="1497189986" lat="47.2994752" lon="13.1503549"/>
+  <node id="1497189987" lat="47.2994752" lon="13.1503987"/>
+  <node id="1497189988" lat="47.2995008" lon="13.1503549"/>
+  <node id="1497189989" lat="47.2995008" lon="13.1503987"/>
+  <node id="1511869281" lat="48.8895810" lon="20.4662553">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1513127791" lat="49.0972078" lon="19.2131374">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="building" v="hayloft"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="fireplace" v="no"/>
+    <tag k="shelter" v="yes"/>
+  </node>
+  <node id="1513127881" lat="49.1098104" lon="19.2188244">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1521776329" lat="48.9128094" lon="20.0538239">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1531759824" lat="49.0599774" lon="20.7428521">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1562656235" lat="48.9399218" lon="18.3166476">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="place"/>
+  </node>
+  <node id="1566029909" lat="49.0524731" lon="20.5952987">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1569643962" lat="48.8507308" lon="20.8069185">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1582353336" lat="49.0985429" lon="21.7171517">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1582353459" lat="49.1357475" lon="21.6977544">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1589805673" lat="49.0103497" lon="21.6183589">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1602807482" lat="49.4682427" lon="9.7969497">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="1602807531" lat="49.4685174" lon="9.7975802">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="1612106602" lat="48.8669296" lon="20.9012219">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="fixme" v="position estimated from the distance"/>
+  </node>
+  <node id="1618700455" lat="48.8734020" lon="20.4343931">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1631797993" lat="48.9525318" lon="20.8939787">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="building" v="hayloft"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+  </node>
+  <node id="1639639237" lat="49.2022804" lon="21.3354077">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1649273309" lat="49.0425103" lon="19.0298779">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1696514137" lat="49.1524460" lon="21.2289230">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1696619094" lat="49.1576420" lon="21.1251062">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1698335303" lat="48.8324464" lon="20.7550004">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1716211596" lat="49.0988692" lon="21.5978355">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1723195432" lat="48.9634652" lon="18.2197517">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="place"/>
+  </node>
+  <node id="1743308998" lat="49.5348983" lon="8.5154001"/>
+  <node id="1743308999" lat="49.5349385" lon="8.5153931"/>
+  <node id="1743309000" lat="49.5349332" lon="8.5153212"/>
+  <node id="1743309001" lat="49.5348930" lon="8.5153282"/>
+  <node id="1744637981" lat="49.2312486" lon="18.9741835">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1745833656" lat="52.5280825" lon="10.7235208">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="sheep"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1751172937" lat="48.6148213" lon="18.5058977">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1755968407" lat="52.5033198" lon="10.6235646">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="sheep"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1759734120" lat="47.2217118" lon="11.3159904"/>
+  <node id="1759734121" lat="47.2217201" lon="11.3159736"/>
+  <node id="1759734122" lat="47.2217364" lon="11.3160169"/>
+  <node id="1759734123" lat="47.2217447" lon="11.3160002"/>
+  <node id="1760599854" lat="49.3357901" lon="21.2381163">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1762526821" lat="47.2105499" lon="11.3072237"/>
+  <node id="1762526822" lat="47.2105637" lon="11.3071790"/>
+  <node id="1762526823" lat="47.2105726" lon="11.3072388"/>
+  <node id="1762526824" lat="47.2105863" lon="11.3071941"/>
+  <node id="1788812231" lat="48.9651854" lon="19.0776357">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1788833075" lat="48.9698088" lon="19.0717874">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1789771317" lat="48.9073538" lon="22.2171323">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1842376301" lat="48.5012008" lon="20.3022746">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="shelter" v="yes"/>
+  </node>
+  <node id="1848807144" lat="47.2655165" lon="13.2455502"/>
+  <node id="1848807162" lat="47.2655360" lon="13.2456732"/>
+  <node id="1848807164" lat="47.2655485" lon="13.2455114"/>
+  <node id="1848807170" lat="47.2656023" lon="13.2454811"/>
+  <node id="1848807172" lat="47.2656057" lon="13.2458350"/>
+  <node id="1848807176" lat="47.2656618" lon="13.2455114"/>
+  <node id="1848807178" lat="47.2656618" lon="13.2459968"/>
+  <node id="1848807182" lat="47.2657007" lon="13.2460457"/>
+  <node id="1848807185" lat="47.2657087" lon="13.2455839"/>
+  <node id="1848807191" lat="47.2657350" lon="13.2460272"/>
+  <node id="1848807200" lat="47.2657521" lon="13.2456800"/>
+  <node id="1848807203" lat="47.2657716" lon="13.2459766"/>
+  <node id="1848807207" lat="47.2658104" lon="13.2458553"/>
+  <node id="1853179300" lat="47.3585403" lon="13.1418793">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="1861737011" lat="47.3617844" lon="13.1133457"/>
+  <node id="1861737012" lat="47.3618007" lon="13.1134260"/>
+  <node id="1861737014" lat="47.3618334" lon="13.1133240"/>
+  <node id="1861737015" lat="47.3618497" lon="13.1134042"/>
+  <node id="1871250557" lat="49.2870988" lon="18.3410627">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="name" v="VI."/>
+  </node>
+  <node id="1876633103" lat="49.2663154" lon="21.0087652">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1919029788" lat="48.7895218" lon="17.8595856">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="1966357152" lat="47.8522313" lon="16.1473148">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1966357160" lat="47.8541443" lon="16.1361617">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1984887672" lat="48.8823064" lon="19.9710054">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="1993754311" lat="48.0310203" lon="16.4302339"/>
+  <node id="1993754313" lat="48.0310346" lon="16.4302035"/>
+  <node id="1993754318" lat="48.0310464" lon="16.4302614"/>
+  <node id="1993754321" lat="48.0310607" lon="16.4302310"/>
+  <node id="1993754329" lat="48.0312713" lon="16.4319510"/>
+  <node id="1993754332" lat="48.0313126" lon="16.4318356"/>
+  <node id="1993754334" lat="48.0313339" lon="16.4320010"/>
+  <node id="1993754338" lat="48.0313751" lon="16.4318856"/>
+  <node id="1993754340" lat="48.0314247" lon="16.4320705"/>
+  <node id="1993754350" lat="48.0314659" lon="16.4319552"/>
+  <node id="1993754356" lat="48.0314872" lon="16.4321205"/>
+  <node id="1993754361" lat="48.0315285" lon="16.4320052"/>
+  <node id="1993754398" lat="48.0317291" lon="16.4310721"/>
+  <node id="1993754400" lat="48.0317437" lon="16.4310311"/>
+  <node id="1993754401" lat="48.0317480" lon="16.4310872"/>
+  <node id="1993754407" lat="48.0317740" lon="16.4309607"/>
+  <node id="1993754409" lat="48.0317627" lon="16.4310462"/>
+  <node id="1993754446" lat="48.0317896" lon="16.4309170"/>
+  <node id="1993754450" lat="48.0318076" lon="16.4309313"/>
+  <node id="1993754452" lat="48.0317920" lon="16.4309751"/>
+  <node id="1993754456" lat="48.0318527" lon="16.4309237"/>
+  <node id="1993754458" lat="48.0318726" lon="16.4308678"/>
+  <node id="1993754460" lat="48.0318661" lon="16.4309345"/>
+  <node id="1993754462" lat="48.0318939" lon="16.4308084"/>
+  <node id="1993754464" lat="48.0319152" lon="16.4309737"/>
+  <node id="1993754469" lat="48.0319565" lon="16.4308584"/>
+  <node id="2010228010" lat="47.9533899" lon="16.2427240">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:for" v="goat"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2031891787" lat="48.7060851" lon="20.1837871">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2091261183" lat="48.9914055" lon="20.8992562">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2091261253" lat="48.9951384" lon="20.8959149">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2107132329" lat="59.1615501" lon="18.2579631">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="note" v="only winter?"/>
+  </node>
+  <node id="2107132333" lat="59.1616224" lon="18.2782362">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="note" v="only winter?"/>
+  </node>
+  <node id="2107831087" lat="48.6253229" lon="16.5430604">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2107831174" lat="48.6251022" lon="16.5574909">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2107831191" lat="48.6256118" lon="16.5551575">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2107831312" lat="48.6228669" lon="16.5487989">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2107831339" lat="48.6218294" lon="16.5502407">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2107831356" lat="48.6231422" lon="16.5608368">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2136490941" lat="50.4176726" lon="12.8987924"/>
+  <node id="2136490943" lat="50.4177139" lon="12.8986179"/>
+  <node id="2136490947" lat="50.4177200" lon="12.8988199"/>
+  <node id="2136490951" lat="50.4177612" lon="12.8986455"/>
+  <node id="2168769998" lat="47.8861367" lon="15.9929127">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2204825458" lat="50.6768257" lon="12.4136056"/>
+  <node id="2204825459" lat="50.6768529" lon="12.4136110"/>
+  <node id="2204825471" lat="50.6768699" lon="12.4136539"/>
+  <node id="2204825633" lat="50.6768512" lon="12.4137075"/>
+  <node id="2204825635" lat="50.6768172" lon="12.4136995"/>
+  <node id="2204825637" lat="50.6768019" lon="12.4136566"/>
+  <node id="2207769230" lat="57.0858780" lon="61.5597761">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="horse"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2255616652" lat="49.5331926" lon="10.8906265">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="2277029948" lat="49.9502901" lon="13.9117171">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:for" v="wild_boar"/>
+  </node>
+  <node id="2299276174" lat="49.4688745" lon="9.7956264">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2299276214" lat="49.4715154" lon="9.7897626">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="animal" v="Ziegen, Kühe, Hasen"/>
+    <tag k="attraction" v="animal"/>
+    <tag k="name" v="Streichelzoo"/>
+    <tag k="tourism" v="attraction"/>
+  </node>
+  <node id="2300105696" lat="57.1265069" lon="24.8131088">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2300105767" lat="57.1250657" lon="24.8185536">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2302508210" lat="48.9849562" lon="18.3377023">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="2302508231" lat="48.9916985" lon="18.3551869">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="2302508356" lat="48.9962675" lon="18.3654942">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="2303770694" lat="48.6133246" lon="17.5841975">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2304638835" lat="48.9475012" lon="18.2061498">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="place"/>
+  </node>
+  <node id="2313357730" lat="47.2106259" lon="11.3070856">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2313357731" lat="47.2110276" lon="11.3064927">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2313357732" lat="47.2163425" lon="11.3063884"/>
+  <node id="2313357733" lat="47.2163262" lon="11.3064359"/>
+  <node id="2313357734" lat="47.2163432" lon="11.3064487"/>
+  <node id="2313357735" lat="47.2163596" lon="11.3064012"/>
+  <node id="2313357792" lat="47.2438790" lon="11.3498110">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2313357801" lat="47.2462392" lon="11.3591728">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2313357803" lat="47.2462864" lon="11.3591594">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2313357806" lat="47.2463003" lon="11.3590804">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2316340559" lat="48.8608448" lon="9.2207506"/>
+  <node id="2316340560" lat="48.8608719" lon="9.2207735"/>
+  <node id="2316340561" lat="48.8608769" lon="9.2206628"/>
+  <node id="2316340562" lat="48.8609040" lon="9.2206857"/>
+  <node id="2328496371" lat="49.1511638" lon="18.7786667">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2346306396" lat="48.9504401" lon="18.9657931">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="name" v="Mlynčekovo"/>
+  </node>
+  <node id="2346306401" lat="48.9506510" lon="18.9883113">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2353275414" lat="49.4696391" lon="9.7955180">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2353762936" lat="49.4692683" lon="9.7954475"/>
+  <node id="2353762937" lat="49.4693011" lon="9.7953563"/>
+  <node id="2353762938" lat="49.4693325" lon="9.7955022"/>
+  <node id="2353762940" lat="49.4693653" lon="9.7954109"/>
+  <node id="2353888385" lat="49.4682025" lon="9.7968502"/>
+  <node id="2353888387" lat="49.4682258" lon="9.7967894"/>
+  <node id="2353888389" lat="49.4682454" lon="9.7968890"/>
+  <node id="2353888390" lat="49.4682686" lon="9.7968282"/>
+  <node id="2357605490" lat="48.9909566" lon="18.5281974">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="2357605502" lat="48.9911407" lon="18.5280954">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="2357605525" lat="49.0029582" lon="18.5093351">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="2357605583" lat="49.0031736" lon="18.5094350">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="2359293214" lat="48.9891143" lon="18.5211870">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="2367446376" lat="49.3446412" lon="18.5320264">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2367446392" lat="49.3649970" lon="18.5593123">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2370478404" lat="49.7471183" lon="6.2384711">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2377420542" lat="50.7419892" lon="13.6703402">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2377420543" lat="50.7421805" lon="13.6703945">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2383612745" lat="49.1460469" lon="19.4182276">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2384654848" lat="49.4954905" lon="18.6778834">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2384654858" lat="49.4990886" lon="18.7047935">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2385497414" lat="49.0403457" lon="18.3696407">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="2390738892" lat="49.7278446" lon="17.6220340"/>
+  <node id="2390738896" lat="49.7278302" lon="17.6221120"/>
+  <node id="2390738898" lat="49.7278094" lon="17.6220584"/>
+  <node id="2390738902" lat="49.7278659" lon="17.6220858"/>
+  <node id="2392085642" lat="49.4330312" lon="18.9654653">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2393137105" lat="48.8363316" lon="19.6116150">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2393987893" lat="49.0092131" lon="18.3809005">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="2398543197" lat="48.9922871" lon="18.4486136">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="2398543324" lat="49.0201946" lon="18.3867260">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="2398590648" lat="49.2868290" lon="18.3331875">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="salt"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="place"/>
+  </node>
+  <node id="2407984913" lat="48.8015309" lon="21.2038581">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2407984958" lat="48.8036275" lon="21.2226649">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2411436196" lat="48.9418585" lon="19.0110759">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2411463657" lat="48.7624018" lon="20.6338417">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2411463790" lat="48.7710761" lon="20.6361907">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2411896511" lat="48.8653179" lon="18.5851331">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2411896529" lat="48.8690298" lon="18.5869264">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2411944625" lat="48.7709645" lon="17.4456970">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2412303770" lat="46.9602278" lon="17.5670224">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2412303772" lat="46.9610092" lon="17.5709917">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2427593161" lat="48.9306373" lon="19.8627381">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2427593254" lat="48.9498716" lon="19.8486458">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2427948820" lat="49.0057538" lon="19.7269288">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2427948823" lat="49.0071457" lon="19.7287391">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2428829393" lat="48.9892743" lon="19.7571294">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2430160823" lat="48.7718146" lon="21.0922649">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="animal"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2436918380" lat="48.4219653" lon="17.1929983">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="shelter" v="yes"/>
+  </node>
+  <node id="2437572427" lat="48.9864297" lon="18.3759401">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="2438476050" lat="48.4363375" lon="18.8297207">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="2438476053" lat="48.4384500" lon="18.8412005">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="2438476064" lat="48.4474125" lon="18.8430066">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="2441286132" lat="49.3269599" lon="19.0705565">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2441733111" lat="49.0126418" lon="18.3551852">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="2441733146" lat="49.0144928" lon="18.3337846">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="2441733384" lat="49.0241515" lon="18.3609787">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="2450695201" lat="49.0924692" lon="18.3602624">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="2452026796" lat="49.0566885" lon="20.8538112">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2455315520" lat="48.5684899" lon="16.0298533">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 12 Sept 2013"/>
+  </node>
+  <node id="2460067223" lat="48.7524807" lon="21.1603936">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="animal"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2474869681" lat="36.5972280" lon="4.6509026"/>
+  <node id="2474869682" lat="36.5971613" lon="4.6507854"/>
+  <node id="2474869683" lat="36.5968057" lon="4.6511696"/>
+  <node id="2474869684" lat="36.5968698" lon="4.6512820"/>
+  <node id="2475713998" lat="48.5714865" lon="16.0116948">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 28 Sept 2013"/>
+  </node>
+  <node id="2475714000" lat="48.5716376" lon="16.0117754">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 28 Sept 2013"/>
+  </node>
+  <node id="2475714001" lat="48.5732526" lon="16.0103170">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 28 Sept 2013"/>
+  </node>
+  <node id="2477327013" lat="51.7495876" lon="8.2051190">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2477947357" lat="51.7498548" lon="8.2237280">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2478629705" lat="51.7520931" lon="8.2100605">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2479432681" lat="49.2575665" lon="20.5933729">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2479432696" lat="49.2626718" lon="20.5887475">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2480007736" lat="49.1044153" lon="20.5828218">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2480504576" lat="48.5668668" lon="16.0077702">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 2 Oct 2013"/>
+  </node>
+  <node id="2480889577" lat="48.5811867" lon="16.0229048">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 2 Oct 2013"/>
+  </node>
+  <node id="2481192846" lat="48.5760228" lon="16.0113785">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 3 Oct 2013"/>
+  </node>
+  <node id="2481192891" lat="48.5792520" lon="16.0144538">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 3 Oct 2013"/>
+  </node>
+  <node id="2482443674" lat="49.6131297" lon="11.0401148">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:for" v="deer"/>
+  </node>
+  <node id="2482641492" lat="48.5816780" lon="16.0087966">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 4 Oct 2013"/>
+  </node>
+  <node id="2482796039" lat="48.5801185" lon="16.0028440">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 4 Oct 2013"/>
+  </node>
+  <node id="2482796042" lat="48.5820872" lon="16.0141337">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 4 Oct 2013"/>
+  </node>
+  <node id="2496155519" lat="48.9705698" lon="19.6501957">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2496155566" lat="48.9715643" lon="19.6596965">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2496180236" lat="48.9667174" lon="19.7003494">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2497835279" lat="49.0034703" lon="19.6961527">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2498143088" lat="49.0064729" lon="19.6123227">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2499524543" lat="49.0099088" lon="19.6236199">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2499524566" lat="49.0255741" lon="19.6459917">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2499524567" lat="49.0320417" lon="19.6022647">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2511160287" lat="48.8502984" lon="20.9119374">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2511160296" lat="48.8691349" lon="20.8863615">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2511486279" lat="48.5857528" lon="16.0040581">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 28 Oct 2013"/>
+  </node>
+  <node id="2511486296" lat="48.5862315" lon="16.0107310">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 28 Oct 2013"/>
+  </node>
+  <node id="2511486309" lat="48.5872489" lon="16.0159424">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 28 Oct 2013"/>
+  </node>
+  <node id="2511536588" lat="48.5868009" lon="16.0128395">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 28 Oct 2013"/>
+  </node>
+  <node id="2512493964" lat="48.8323792" lon="20.9462975">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2512494142" lat="48.8540461" lon="20.8975334">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2513005960" lat="49.0466500" lon="18.3610183">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="2513005961" lat="49.0479239" lon="18.3645107">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="2514279613" lat="52.4912021" lon="10.6707151"/>
+  <node id="2514279614" lat="52.4912048" lon="10.6706856"/>
+  <node id="2514279617" lat="52.4912211" lon="10.6707197"/>
+  <node id="2514279618" lat="52.4912238" lon="10.6706902"/>
+  <node id="2514420029" lat="48.7771754" lon="21.2879391">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2514710407" lat="48.7528877" lon="21.3079752">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2516058174" lat="48.5821768" lon="16.0284733">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 31 Oct 2013"/>
+  </node>
+  <node id="2524589472" lat="48.5843533" lon="16.0340969">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2524589475" lat="48.5864207" lon="16.0369790">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 8 Nov 2013"/>
+  </node>
+  <node id="2524680228" lat="48.5787938" lon="16.0309922">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 8 Nov 2013"/>
+  </node>
+  <node id="2525255386" lat="48.9058838" lon="20.5037664">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2526228290" lat="49.0253976" lon="9.0388037"/>
+  <node id="2526228291" lat="49.0254333" lon="9.0388484"/>
+  <node id="2526228292" lat="49.0254441" lon="9.0387172"/>
+  <node id="2526228293" lat="49.0254799" lon="9.0387619"/>
+  <node id="2527982118" lat="49.0243346" lon="20.8657127">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2535704404" lat="48.7256933" lon="21.0301512">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2535704408" lat="48.7258059" lon="21.0296225">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2538206062" lat="48.8939996" lon="21.1329285">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="grit"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="place"/>
+  </node>
+  <node id="2538206066" lat="48.8942545" lon="21.1324946">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="grit"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="place"/>
+  </node>
+  <node id="2538206076" lat="48.8978827" lon="21.1584743">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2538206117" lat="48.9312876" lon="21.1322653">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2538206119" lat="48.9357921" lon="21.1077204">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2548296794" lat="48.9170764" lon="21.0697133">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="place"/>
+    <tag k="feeding:for" v="game"/>
+  </node>
+  <node id="2566325645" lat="48.5671722" lon="16.1567927">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 5 Dec 2013"/>
+  </node>
+  <node id="2566325658" lat="48.5673320" lon="16.1571320">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 5 Dec 2013"/>
+  </node>
+  <node id="2566408523" lat="48.5650083" lon="16.1541574">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 5 Dec 2013"/>
+  </node>
+  <node id="2566408533" lat="48.5652643" lon="16.1593578">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 5 Dec 2013"/>
+  </node>
+  <node id="2572110094" lat="48.8846458" lon="21.1825107">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2572110108" lat="48.8856284" lon="21.1916455">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2572110112" lat="48.8860692" lon="21.1974511">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="building" v="hut"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="hut"/>
+  </node>
+  <node id="2572110113" lat="48.8867046" lon="21.1724609">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2572110226" lat="48.8961580" lon="21.1718244">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2572110339" lat="48.8989524" lon="21.1786657">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2572110351" lat="48.8995082" lon="21.1807430">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2572110354" lat="48.8995631" lon="21.1810224">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="seeds"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="vertical_box"/>
+  </node>
+  <node id="2575866408" lat="48.0077411" lon="13.8019255">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 9 Dec 2013"/>
+  </node>
+  <node id="2579774284" lat="48.5655874" lon="16.1657402">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 14 Dec 2013"/>
+  </node>
+  <node id="2579774296" lat="48.5677502" lon="16.1642731">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 14 Dec 2013"/>
+  </node>
+  <node id="2579774317" lat="48.5699937" lon="16.1608772">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 14 Dec 2013"/>
+  </node>
+  <node id="2579774324" lat="48.5702607" lon="16.1617330">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 14 Dec 2013"/>
+  </node>
+  <node id="2579788373" lat="48.5619607" lon="16.1608740">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 14 Dec 2013"/>
+  </node>
+  <node id="2579882367" lat="48.5604675" lon="16.1631158">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 14 Dec 2013"/>
+  </node>
+  <node id="2581062211" lat="48.8718578" lon="21.2314263">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="salt"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2581062232" lat="48.8718693" lon="21.2313953">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="grain"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2581062245" lat="48.8718778" lon="21.2314414">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2581062404" lat="48.8725299" lon="21.2323853">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="grain"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2581062625" lat="48.8745719" lon="21.2280058">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2582584315" lat="48.5680658" lon="16.1697963">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 16 Dec 2013"/>
+  </node>
+  <node id="2588710926" lat="48.8169538" lon="17.6359716">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2590753100" lat="48.9361166" lon="21.1610341">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2591706736" lat="50.9734163" lon="14.3037935">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2595788300" lat="48.9435639" lon="21.0687799">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2595867952" lat="50.9357924" lon="13.6635231">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="note" v="Salzleckstein"/>
+  </node>
+  <node id="2603039445" lat="47.9054740" lon="16.1366908">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2604978446" lat="48.9030367" lon="21.2108076">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2604978466" lat="48.9198395" lon="21.1995567">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2609988947" lat="48.9704357" lon="21.1010025">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="grain"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="shelter"/>
+  </node>
+  <node id="2609988950" lat="48.9716708" lon="21.0992547">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2609988977" lat="48.9757852" lon="21.0985296">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="salt"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2610048282" lat="48.9777708" lon="21.1472326">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2612124221" lat="49.1258244" lon="18.7820392">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2612820079" lat="49.2197058" lon="20.9818846">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2617590482" lat="48.5091441" lon="16.0372813">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 10 Jan 2014"/>
+  </node>
+  <node id="2620223436" lat="48.9651443" lon="21.1569838">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="grain"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2620223439" lat="48.9708420" lon="21.1583590">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="shelter"/>
+    <tag k="shelter" v="yes"/>
+  </node>
+  <node id="2620223442" lat="48.9724419" lon="21.1571347">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2620223443" lat="48.9729038" lon="21.1563342">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2620223445" lat="48.9731492" lon="21.1572051">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2620630610" lat="52.2097397" lon="9.6845960">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2628539875" lat="48.6722584" lon="21.4416495">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2638611555" lat="49.9097553" lon="13.5095558">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay;grain;salt"/>
+    <tag k="feeding:for" v="deer;rabbits"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2638611568" lat="49.9096534" lon="13.5078569">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="grain"/>
+    <tag k="feeding:for" v="wild_boar"/>
+    <tag k="feeding:type" v="place"/>
+    <tag k="name" v="krmeliště"/>
+  </node>
+  <node id="2647502071" lat="47.9230280" lon="16.1665696">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2655965687" lat="51.5483256" lon="12.6088403">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2656095236" lat="50.2825592" lon="12.2815294">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2656095270" lat="50.2849587" lon="12.2631509">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2679010783" lat="48.9644022" lon="21.3860930">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2679010785" lat="48.9644526" lon="21.3861462">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="grain"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2679333805" lat="48.9766162" lon="21.3872869">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="grain"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2679333807" lat="48.9768936" lon="21.3853762">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2685158024" lat="49.0126883" lon="18.4296879">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="2685158029" lat="49.0128990" lon="18.4317697">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="2685158033" lat="49.0133681" lon="18.4342813">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="2688050403" lat="49.0643761" lon="21.2739995">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2699590900" lat="49.0796248" lon="20.6549376">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:type" v="sieve"/>
+  </node>
+  <node id="2699723542" lat="49.0936837" lon="20.6515347">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="salt"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2706915770" lat="52.4523614" lon="10.7303767">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="unknown"/>
+    <tag k="feeding:for" v="unknown"/>
+    <tag k="feeding:type" v="place"/>
+  </node>
+  <node id="2714447822" lat="48.9339534" lon="18.1942378">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="place"/>
+  </node>
+  <node id="2716163502" lat="50.6590128" lon="10.6203752">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2716746725" lat="48.5588916" lon="16.1507960">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 13 March 2014"/>
+  </node>
+  <node id="2719405751" lat="50.6603393" lon="10.6101414">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2724146546" lat="48.5630225" lon="16.1763425">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 17 March 2014"/>
+  </node>
+  <node id="2725598011" lat="48.5596662" lon="16.1690630">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 18 March 2014"/>
+  </node>
+  <node id="2727388348" lat="48.9497586" lon="18.1056579">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2729025926" lat="48.5530063" lon="16.1776906">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 20 March 2014"/>
+  </node>
+  <node id="2741603775" lat="48.8356960" lon="20.3200475">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="grain"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2741603776" lat="48.8357066" lon="20.3200872">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="grain"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2741603777" lat="48.8357095" lon="20.3196739">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2741603778" lat="48.8357260" lon="20.3204148">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="grain"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2741603795" lat="48.8359836" lon="20.3203004">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="grain"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2741752015" lat="48.8353222" lon="20.3622159">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2741752017" lat="48.8354919" lon="20.3619008">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="grain"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2741752018" lat="48.8358027" lon="20.3613666">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2750630125" lat="48.5479891" lon="16.1774929">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 28 March 2014"/>
+  </node>
+  <node id="2750641584" lat="48.5461446" lon="16.1782120">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 28 March 2014"/>
+  </node>
+  <node id="2752261038" lat="48.5493533" lon="16.1718970">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 29 March 2014"/>
+  </node>
+  <node id="2754574811" lat="48.9362342" lon="21.4210404">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2754617721" lat="49.9307101" lon="14.2460471">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2754699204" lat="49.9456659" lon="14.1894521">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2763799308" lat="48.6097082" lon="20.3088203">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2763799331" lat="48.6425933" lon="20.2929673">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2764750847" lat="48.5454888" lon="20.3832861">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="grain"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2764750959" lat="48.5716517" lon="20.3796911">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2764750965" lat="48.5815116" lon="20.3591522">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2794929901" lat="48.5752382" lon="20.6950896">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="hame"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2808877082" lat="48.5486751" lon="16.1649274">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 22 Apr 2014"/>
+  </node>
+  <node id="2811495128" lat="49.4211954" lon="6.7956950">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2813691837" lat="48.6067260" lon="21.3913785">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2822434636" lat="48.5390488" lon="16.1686993">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 28 Apr 2014"/>
+  </node>
+  <node id="2822636834" lat="48.5372027" lon="16.1655322">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 28 Apr 2014"/>
+  </node>
+  <node id="2832370426" lat="48.8946306" lon="20.4757822">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2841812838" lat="48.5254414" lon="16.0276645">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 7 May 2014"/>
+  </node>
+  <node id="2841812868" lat="48.5290712" lon="16.0267121">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 7 May 2014"/>
+  </node>
+  <node id="2841812872" lat="48.5296991" lon="16.0287363">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 7 May 2014"/>
+  </node>
+  <node id="2841830351" lat="48.5340704" lon="16.0353965">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 7 May 2014"/>
+  </node>
+  <node id="2844026272" lat="48.5399159" lon="16.0442069">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 8 May 2014"/>
+  </node>
+  <node id="2844046995" lat="48.5312466" lon="16.0336316">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 8 May 2014"/>
+  </node>
+  <node id="2851887453" lat="49.2991314" lon="7.7819828">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2861753411" lat="47.3615277" lon="13.0810169"/>
+  <node id="2861753412" lat="47.3615421" lon="13.0809870"/>
+  <node id="2861753414" lat="47.3615502" lon="13.0810407"/>
+  <node id="2861753415" lat="47.3615647" lon="13.0810108"/>
+  <node id="2870635984" lat="48.5217156" lon="16.0335370">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 20 May 2014"/>
+  </node>
+  <node id="2870637814" lat="48.5241927" lon="16.0372814">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 20 May 2014"/>
+  </node>
+  <node id="2872739696" lat="48.5179537" lon="16.0382373">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 21 May 2014"/>
+  </node>
+  <node id="2872767730" lat="48.5213988" lon="16.0426974">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 21 May 2014"/>
+  </node>
+  <node id="2874783704" lat="48.5226793" lon="16.0281472">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 22 May 2014"/>
+  </node>
+  <node id="2908337079" lat="47.7254808" lon="18.4640822">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2908542075" lat="48.5177513" lon="16.0282354">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 7 July 2014"/>
+  </node>
+  <node id="2910404300" lat="48.7786344" lon="19.9336391">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="shelter"/>
+  </node>
+  <node id="2910404303" lat="48.7816675" lon="19.9335118">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2913285626" lat="48.8091294" lon="20.1661486">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2916278307" lat="48.5089602" lon="16.0371399">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 14 July 2014"/>
+  </node>
+  <node id="2916278336" lat="48.5107732" lon="16.0433501">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 14 July 2014"/>
+  </node>
+  <node id="2923738876" lat="52.6364932" lon="10.7077425">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="sheep"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2929910631" lat="48.5154990" lon="16.0380285">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 23 June 2014"/>
+  </node>
+  <node id="2930104790" lat="47.3340460" lon="16.5301837">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2931034226" lat="52.2930158" lon="10.5323654">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="name" v="Futterstelle"/>
+  </node>
+  <node id="2947383909" lat="45.3815740" lon="7.7443440"/>
+  <node id="2947383910" lat="45.3815740" lon="7.7443674"/>
+  <node id="2947383913" lat="45.3815912" lon="7.7447978"/>
+  <node id="2947383914" lat="45.3815928" lon="7.7447744"/>
+  <node id="2947383915" lat="45.3815929" lon="7.7443440"/>
+  <node id="2947383916" lat="45.3815929" lon="7.7443674"/>
+  <node id="2947383920" lat="45.3816085" lon="7.7448003"/>
+  <node id="2947383921" lat="45.3816101" lon="7.7447769"/>
+  <node id="2947383948" lat="45.3817871" lon="7.7457147"/>
+  <node id="2947383950" lat="45.3817944" lon="7.7456926"/>
+  <node id="2947383951" lat="45.3818015" lon="7.7457244"/>
+  <node id="2947383954" lat="45.3818077" lon="7.7427986"/>
+  <node id="2947383955" lat="45.3818089" lon="7.7457023"/>
+  <node id="2947383956" lat="45.3818095" lon="7.7427398"/>
+  <node id="2947383967" lat="45.3818442" lon="7.7428008"/>
+  <node id="2947383968" lat="45.3818460" lon="7.7427420"/>
+  <node id="2947384162" lat="45.3823275" lon="7.7459283"/>
+  <node id="2947384165" lat="45.3823348" lon="7.7459062"/>
+  <node id="2947384166" lat="45.3823419" lon="7.7459380"/>
+  <node id="2947384169" lat="45.3823492" lon="7.7459159"/>
+  <node id="2947384190" lat="45.3825730" lon="7.7426511"/>
+  <node id="2947384191" lat="45.3825784" lon="7.7426356"/>
+  <node id="2947384193" lat="45.3825869" lon="7.7426611"/>
+  <node id="2947384194" lat="45.3825924" lon="7.7426455"/>
+  <node id="2947384232" lat="45.3829457" lon="7.7432221"/>
+  <node id="2947384233" lat="45.3829462" lon="7.7432428"/>
+  <node id="2947384237" lat="45.3829608" lon="7.7432213"/>
+  <node id="2947384238" lat="45.3829614" lon="7.7432420"/>
+  <node id="2952479111" lat="49.0332686" lon="18.4292983">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="2957718481" lat="47.3837416" lon="17.8297161">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="description" v="vadetető"/>
+  </node>
+  <node id="2958587530" lat="48.0628494" lon="20.4820837">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="2961537538" lat="49.1002060" lon="18.7529287">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2964578609" lat="48.5092076" lon="16.0302457">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 15 July 2014"/>
+  </node>
+  <node id="2964601374" lat="48.5093717" lon="16.0277307">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 15 July 2014"/>
+  </node>
+  <node id="2967099965" lat="43.1753944" lon="-83.7749604">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="cuisine" v="steak_house"/>
+    <tag k="name" v="Lucky's"/>
+  </node>
+  <node id="2967099970" lat="43.1768521" lon="-83.7711585">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="name" v="Big Boy"/>
+  </node>
+  <node id="2971727539" lat="49.8922854" lon="14.2232408">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="2986223359" lat="48.8378861" lon="19.0100479">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2986223412" lat="48.8580105" lon="18.9823387">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2986223417" lat="48.8614131" lon="18.9754931">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2986223422" lat="48.8619718" lon="18.9649591">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2989070251" lat="48.8504445" lon="18.8919461">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2990671633" lat="46.3470619" lon="17.8554920">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="salt"/>
+  </node>
+  <node id="2996410624" lat="49.3398037" lon="21.7827792">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="2998827987" lat="46.4550001" lon="17.4602010">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="salt"/>
+    <tag k="name" v="sózó"/>
+  </node>
+  <node id="3039027487" lat="48.0629717" lon="20.5466138">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="description" v="Szénás nyitott etető"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="name" v="Szénás etető"/>
+  </node>
+  <node id="3039027553" lat="48.0644292" lon="20.5513686">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="description" v="Szénás nyitott etető"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="name" v="Szénás etető"/>
+  </node>
+  <node id="3039027631" lat="48.0657005" lon="20.5289811">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="description" v="Műanyag tartályos zöld színű etető, mobil"/>
+    <tag k="feeding:fodder" v="corn"/>
+    <tag k="feeding:type" v="automated"/>
+    <tag k="name" v="Hordós etető"/>
+  </node>
+  <node id="3039420921" lat="48.3502938" lon="21.5547840">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="corn"/>
+  </node>
+  <node id="3044410389" lat="48.4462681" lon="21.4886456">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+  </node>
+  <node id="3060099481" lat="50.6837851" lon="12.3932176">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="3073575068" lat="48.0724639" lon="20.5841878">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="description" v="Műanyag tartályos zöld színű etető"/>
+    <tag k="feeding:fodder" v="corn"/>
+    <tag k="feeding:type" v="automated"/>
+    <tag k="name" v="Hordós etető"/>
+  </node>
+  <node id="3073575069" lat="48.0765591" lon="20.6062080">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="description" v="Műanyag tartályos zöld színű etető"/>
+    <tag k="feeding:fodder" v="corn"/>
+    <tag k="feeding:type" v="automated"/>
+    <tag k="name" v="Hordós etető"/>
+  </node>
+  <node id="3074941989" lat="48.0712734" lon="20.5615019">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="description" v="Műanyag tartályos zöld színű etető"/>
+    <tag k="feeding:fodder" v="corn"/>
+    <tag k="feeding:type" v="automated"/>
+    <tag k="name" v="Hordós etető"/>
+  </node>
+  <node id="3074941992" lat="48.0695797" lon="20.5790861">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="description" v="Szénás nyitott etető"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="name" v="Szénás etető (összedőlt)"/>
+  </node>
+  <node id="3074960532" lat="48.0716149" lon="20.5630984">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="description" v="Szénás nyitott etető"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="name" v="Szénás etető"/>
+  </node>
+  <node id="3076878155" lat="48.0716149" lon="20.5630984">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="description" v="Szénás nyitott etető"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="name" v="Szénás etető"/>
+  </node>
+  <node id="3100841292" lat="48.4556390" lon="18.4661060">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:for" v="animal"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="3126843199" lat="49.5523687" lon="18.2895280">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="description" v="Krmelec"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="man_made" v="fodder_rack"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="3148374314" lat="50.1087127" lon="10.1606198">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:type" v="mager"/>
+  </node>
+  <node id="3152104417" lat="48.0504452" lon="20.5739984">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:for" v="game"/>
+  </node>
+  <node id="3161201323" lat="48.7271758" lon="20.1717106">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+  </node>
+  <node id="3169265692" lat="48.6481169" lon="20.1084482">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="3169265890" lat="48.6720672" lon="20.0236720">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="heap"/>
+  </node>
+  <node id="3181598958" lat="49.9018675" lon="14.2584227">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="Bing;gps"/>
+  </node>
+  <node id="3181598959" lat="49.9075052" lon="14.2598166">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="Bing;gps"/>
+  </node>
+  <node id="3185149294" lat="49.7452682" lon="9.2660510"/>
+  <node id="3185149295" lat="49.7453067" lon="9.2655744"/>
+  <node id="3185149296" lat="49.7453555" lon="9.2654473"/>
+  <node id="3185149298" lat="49.7455223" lon="9.2654473"/>
+  <node id="3185149300" lat="49.7458098" lon="9.2662099"/>
+  <node id="3185149301" lat="49.7458149" lon="9.2658206"/>
+  <node id="3185149302" lat="49.7458560" lon="9.2655307"/>
+  <node id="3185149303" lat="49.7458688" lon="9.2659994"/>
+  <node id="3191887157" lat="49.7719666" lon="9.2843291">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="name" v="Kirrung"/>
+  </node>
+  <node id="3191887158" lat="49.7760352" lon="9.2890357">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="name" v="Kirrung"/>
+  </node>
+  <node id="3191887159" lat="49.7783367" lon="9.2951206">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:type" v="hunting"/>
+    <tag k="name" v="Kirrung"/>
+  </node>
+  <node id="3192014106" lat="48.8730685" lon="21.2047124">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="3200029860" lat="54.5679093" lon="18.2944629">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="3202139568" lat="46.7595955" lon="17.8119853">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="corn"/>
+  </node>
+  <node id="3206461755" lat="46.2024648" lon="18.5348530">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+  </node>
+  <node id="3229853166" lat="48.5389009" lon="16.0178619">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 11 Dec 2014"/>
+  </node>
+  <node id="3232165361" lat="46.7355636" lon="17.8294683">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+  </node>
+  <node id="3232921049" lat="47.1262893" lon="18.0626883">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="corn"/>
+  </node>
+  <node id="3232921050" lat="47.1293288" lon="18.0671910">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="corn"/>
+  </node>
+  <node id="3233232304" lat="48.5309321" lon="16.0182790">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="man_made" v="animal_feeding"/>
+    <tag k="source" v="survey 13 Dec 2014"/>
+  </node>
+  <node id="3241333214" lat="46.5698606" lon="17.9539104">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="3255642975" lat="53.9551666" lon="15.6407203">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="3256861719" lat="47.2369285" lon="17.8472778">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="3257130378" lat="47.2223043" lon="17.8261169">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+  </node>
+  <node id="3270070695" lat="47.2748630" lon="13.0945227">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manager"/>
+  </node>
+  <node id="3285859101" lat="48.5416415" lon="16.0066943">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 13 Jan 2015"/>
+  </node>
+  <node id="3287614573" lat="48.5442661" lon="16.0046130">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 14 Jan 2015"/>
+  </node>
+  <node id="3300454783" lat="48.5338054" lon="16.0259048">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 20 Jan 2015"/>
+  </node>
+  <node id="3300554388" lat="48.5375218" lon="16.0037370">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 20 Jan 2015"/>
+  </node>
+  <node id="3300554393" lat="48.5395841" lon="16.0002862">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 20 Jan 2015"/>
+  </node>
+  <node id="3313235152" lat="49.0695310" lon="8.4916940">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="3313235154" lat="49.0695891" lon="8.4916832">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:type" v="place"/>
+  </node>
+  <node id="3313882080" lat="49.8057095" lon="18.3818187">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fooder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manager"/>
+  </node>
+  <node id="3313882082" lat="49.8091319" lon="18.3845922">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fooder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manager"/>
+  </node>
+  <node id="3341925843" lat="48.5524821" lon="20.6792574">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="building" v="yes"/>
+    <tag k="feeding:fodder" v="corn"/>
+  </node>
+  <node id="3350576109" lat="47.3522698" lon="17.8468869">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="3351606720" lat="47.8827360" lon="15.3046912"/>
+  <node id="3351606721" lat="47.8827654" lon="15.3045985"/>
+  <node id="3351606722" lat="47.8827707" lon="15.3047176"/>
+  <node id="3351606723" lat="47.8828021" lon="15.3046210"/>
+  <node id="3366626588" lat="45.8188644" lon="15.9229393">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+  </node>
+  <node id="3376536466" lat="48.5261254" lon="16.0155164">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 28 Feb 2015"/>
+  </node>
+  <node id="3376585705" lat="48.5246012" lon="16.0083546">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 28 Feb 2015"/>
+  </node>
+  <node id="3392732007" lat="48.5441501" lon="15.9902874">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 10 Mar 2015"/>
+  </node>
+  <node id="3392732011" lat="48.5445635" lon="15.9887478">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 10 Mar 2015"/>
+  </node>
+  <node id="3399705750" lat="49.5527678" lon="18.3972284">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="3401982688" lat="48.5223201" lon="16.0026780">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 15 Mar 2015"/>
+  </node>
+  <node id="3406665114" lat="48.5372609" lon="15.9906489">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 18 Mar 2015"/>
+  </node>
+  <node id="3407053847" lat="48.5329019" lon="15.9951310">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="source" v="survey 19 Mar 2015"/>
+  </node>
+  <node id="3412495454" lat="47.7527616" lon="18.9180666">
+    <tag k="amenity" v="feeding_place"/>
+  </node>
+  <node id="3413425045" lat="47.2821634" lon="11.3345422">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </node>
+  <node id="3421972353" lat="48.3329830" lon="20.5183090">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="name" v="Vadetető"/>
+    <tag k="source" v="turistautak.hu"/>
+    <tag k="url" v="http://turistautak.hu/poi.php?id=146139"/>
+  </node>
+  <node id="3438355121" lat="48.9024930" lon="8.3891694">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:type" v="place"/>
+  </node>
+  <node id="3440667437" lat="47.5758879" lon="18.8511039">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="sózó"/>
+  </node>
+  <node id="3445426740" lat="48.9457480" lon="8.4471054">
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:type" v="place"/>
+  </node>
+  <way id="35049392">
+    <nd ref="411082937"/>
+    <nd ref="411082938"/>
+    <nd ref="411082940"/>
+    <nd ref="411082941"/>
+    <nd ref="411082937"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="building" v="yes"/>
+  </way>
+  <way id="107104391">
+    <nd ref="1231415141"/>
+    <nd ref="1231415170"/>
+    <nd ref="1231415171"/>
+    <nd ref="1231415172"/>
+    <nd ref="1231415173"/>
+    <nd ref="1232131435"/>
+    <nd ref="1231415141"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="name" v="Wildschweinfütterung"/>
+    <tag k="tourism" v="attraction"/>
+  </way>
+  <way id="120354999">
+    <nd ref="1349631240"/>
+    <nd ref="1349631237"/>
+    <nd ref="1349631243"/>
+    <nd ref="1349631236"/>
+    <nd ref="1349631240"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="building" v="roof"/>
+    <tag k="designation" v="Futterplatz"/>
+    <tag k="height" v="2"/>
+    <tag k="roof:shape" v="gabled"/>
+  </way>
+  <way id="133521336">
+    <nd ref="1469617514"/>
+    <nd ref="1469617512"/>
+    <nd ref="1469617508"/>
+    <nd ref="1469617510"/>
+    <nd ref="1469617514"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="building" v="yes"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manager"/>
+  </way>
+  <way id="136489530">
+    <nd ref="1497189988"/>
+    <nd ref="1497189989"/>
+    <nd ref="1497189987"/>
+    <nd ref="1497189986"/>
+    <nd ref="1497189988"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="building" v="yes"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manager"/>
+  </way>
+  <way id="162438584">
+    <nd ref="1743309000"/>
+    <nd ref="1743308999"/>
+    <nd ref="1743308998"/>
+    <nd ref="1743309001"/>
+    <nd ref="1743309000"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="building" v="roof"/>
+    <tag k="height" v="2"/>
+    <tag k="roof:orientation" v="across"/>
+    <tag k="roof:shape" v="gabled"/>
+  </way>
+  <way id="164333126">
+    <nd ref="1759734123"/>
+    <nd ref="1759734122"/>
+    <nd ref="1759734120"/>
+    <nd ref="1759734121"/>
+    <nd ref="1759734123"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </way>
+  <way id="164641797">
+    <nd ref="1762526824"/>
+    <nd ref="1762526823"/>
+    <nd ref="1762526821"/>
+    <nd ref="1762526822"/>
+    <nd ref="1762526824"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </way>
+  <way id="174156617">
+    <nd ref="1848807203"/>
+    <nd ref="1848807207"/>
+    <nd ref="1848807200"/>
+    <nd ref="1848807185"/>
+    <nd ref="1848807176"/>
+    <nd ref="1848807170"/>
+    <nd ref="1848807164"/>
+    <nd ref="1848807144"/>
+    <nd ref="1848807162"/>
+    <nd ref="1848807172"/>
+    <nd ref="1848807178"/>
+    <nd ref="1848807182"/>
+    <nd ref="1848807191"/>
+    <nd ref="1848807203"/>
+    <tag k="amenity" v="feeding_place"/>
+  </way>
+  <way id="175609112">
+    <nd ref="1861737014"/>
+    <nd ref="1861737015"/>
+    <nd ref="1861737012"/>
+    <nd ref="1861737011"/>
+    <nd ref="1861737014"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="building" v="yes"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manager"/>
+  </way>
+  <way id="188754696">
+    <nd ref="1993754361"/>
+    <nd ref="1993754356"/>
+    <nd ref="1993754340"/>
+    <nd ref="1993754350"/>
+    <nd ref="1993754361"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="building" v="yes"/>
+    <tag k="capacity" v="2"/>
+    <tag k="feeding:for" v="horse"/>
+    <tag k="feeding:type" v="automated"/>
+  </way>
+  <way id="188754700">
+    <nd ref="1993754409"/>
+    <nd ref="1993754401"/>
+    <nd ref="1993754398"/>
+    <nd ref="1993754400"/>
+    <nd ref="1993754409"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="building" v="yes"/>
+    <tag k="capacity" v="2"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="horse"/>
+    <tag k="feeding:type" v="manger"/>
+  </way>
+  <way id="188754701">
+    <nd ref="1993754450"/>
+    <nd ref="1993754452"/>
+    <nd ref="1993754407"/>
+    <nd ref="1993754446"/>
+    <nd ref="1993754450"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="building" v="yes"/>
+    <tag k="capacity" v="2"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="horse"/>
+    <tag k="feeding:type" v="manger"/>
+  </way>
+  <way id="188754702">
+    <nd ref="1993754321"/>
+    <nd ref="1993754318"/>
+    <nd ref="1993754311"/>
+    <nd ref="1993754313"/>
+    <nd ref="1993754321"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="building" v="yes"/>
+    <tag k="capacity" v="2"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="horse"/>
+    <tag k="feeding:type" v="manger"/>
+  </way>
+  <way id="188754703">
+    <nd ref="1993754338"/>
+    <nd ref="1993754334"/>
+    <nd ref="1993754329"/>
+    <nd ref="1993754332"/>
+    <nd ref="1993754338"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="building" v="yes"/>
+    <tag k="capacity" v="2"/>
+    <tag k="feeding:for" v="horse"/>
+    <tag k="feeding:type" v="automated"/>
+  </way>
+  <way id="188754704">
+    <nd ref="1993754469"/>
+    <nd ref="1993754464"/>
+    <nd ref="1993754460"/>
+    <nd ref="1993754456"/>
+    <nd ref="1993754458"/>
+    <nd ref="1993754462"/>
+    <nd ref="1993754469"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="building" v="yes"/>
+    <tag k="capacity" v="2"/>
+    <tag k="feeding:for" v="horse"/>
+    <tag k="feeding:type" v="automated"/>
+  </way>
+  <way id="203636594">
+    <nd ref="2136490947"/>
+    <nd ref="2136490941"/>
+    <nd ref="2136490943"/>
+    <nd ref="2136490951"/>
+    <nd ref="2136490947"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="building" v="yes"/>
+  </way>
+  <way id="210411327">
+    <nd ref="2204825471"/>
+    <nd ref="2204825459"/>
+    <nd ref="2204825458"/>
+    <nd ref="2204825637"/>
+    <nd ref="2204825635"/>
+    <nd ref="2204825633"/>
+    <nd ref="2204825471"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:for" v="red_deer"/>
+  </way>
+  <way id="222362776">
+    <nd ref="2313357732"/>
+    <nd ref="2313357733"/>
+    <nd ref="2313357734"/>
+    <nd ref="2313357735"/>
+    <nd ref="2313357732"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </way>
+  <way id="222694366">
+    <nd ref="2316340561"/>
+    <nd ref="2316340562"/>
+    <nd ref="2316340560"/>
+    <nd ref="2316340559"/>
+    <nd ref="2316340561"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="building" v="roof"/>
+  </way>
+  <way id="226602905">
+    <nd ref="2353762940"/>
+    <nd ref="2353762937"/>
+    <nd ref="2353762936"/>
+    <nd ref="2353762938"/>
+    <nd ref="2353762940"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="building" v="yes"/>
+  </way>
+  <way id="226616268">
+    <nd ref="2353888387"/>
+    <nd ref="2353888385"/>
+    <nd ref="2353888389"/>
+    <nd ref="2353888390"/>
+    <nd ref="2353888387"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="building" v="yes"/>
+  </way>
+  <way id="230583611">
+    <nd ref="2390738892"/>
+    <nd ref="2390738898"/>
+    <nd ref="2390738896"/>
+    <nd ref="2390738902"/>
+    <nd ref="2390738892"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="building" v="yes"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manger"/>
+  </way>
+  <way id="239711277">
+    <nd ref="2474869681"/>
+    <nd ref="2474869682"/>
+    <nd ref="2474869683"/>
+    <nd ref="2474869684"/>
+    <nd ref="2474869681"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:for" v="cow"/>
+  </way>
+  <way id="244074662">
+    <nd ref="2514279618"/>
+    <nd ref="2514279617"/>
+    <nd ref="2514279613"/>
+    <nd ref="2514279614"/>
+    <nd ref="2514279618"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="building" v="yes"/>
+    <tag k="height" v="1"/>
+  </way>
+  <way id="245415197">
+    <nd ref="2526228292"/>
+    <nd ref="2526228293"/>
+    <nd ref="2526228291"/>
+    <nd ref="2526228290"/>
+    <nd ref="2526228292"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="building" v="yes"/>
+  </way>
+  <way id="282230638">
+    <nd ref="2861753412"/>
+    <nd ref="2861753415"/>
+    <nd ref="2861753414"/>
+    <nd ref="2861753411"/>
+    <nd ref="2861753412"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="building" v="yes"/>
+    <tag k="feeding:for" v="game"/>
+    <tag k="feeding:type" v="manager"/>
+  </way>
+  <way id="291296277">
+    <nd ref="2947383968"/>
+    <nd ref="2947383967"/>
+    <nd ref="2947383954"/>
+    <nd ref="2947383956"/>
+    <nd ref="2947383968"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="horse"/>
+    <tag k="feeding:type" v="manger"/>
+  </way>
+  <way id="291296291">
+    <nd ref="2947383915"/>
+    <nd ref="2947383916"/>
+    <nd ref="2947383910"/>
+    <nd ref="2947383909"/>
+    <nd ref="2947383915"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="horse"/>
+    <tag k="feeding:type" v="manger"/>
+  </way>
+  <way id="291296293">
+    <nd ref="2947383955"/>
+    <nd ref="2947383951"/>
+    <nd ref="2947383948"/>
+    <nd ref="2947383950"/>
+    <nd ref="2947383955"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="horse"/>
+    <tag k="feeding:type" v="manger"/>
+  </way>
+  <way id="291296294">
+    <nd ref="2947383921"/>
+    <nd ref="2947383920"/>
+    <nd ref="2947383913"/>
+    <nd ref="2947383914"/>
+    <nd ref="2947383921"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="horse"/>
+    <tag k="feeding:type" v="manger"/>
+  </way>
+  <way id="291296295">
+    <nd ref="2947384238"/>
+    <nd ref="2947384233"/>
+    <nd ref="2947384232"/>
+    <nd ref="2947384237"/>
+    <nd ref="2947384238"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="horse"/>
+    <tag k="feeding:type" v="manger"/>
+  </way>
+  <way id="291296296">
+    <nd ref="2947384169"/>
+    <nd ref="2947384166"/>
+    <nd ref="2947384162"/>
+    <nd ref="2947384165"/>
+    <nd ref="2947384169"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="horse"/>
+    <tag k="feeding:type" v="manger"/>
+  </way>
+  <way id="291296297">
+    <nd ref="2947384194"/>
+    <nd ref="2947384193"/>
+    <nd ref="2947384190"/>
+    <nd ref="2947384191"/>
+    <nd ref="2947384194"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:fodder" v="hay"/>
+    <tag k="feeding:for" v="horse"/>
+    <tag k="feeding:type" v="manger"/>
+  </way>
+  <way id="312645189">
+    <nd ref="3185149302"/>
+    <nd ref="3185149298"/>
+    <nd ref="3185149296"/>
+    <nd ref="3185149295"/>
+    <nd ref="3185149294"/>
+    <nd ref="3185149300"/>
+    <nd ref="3185149303"/>
+    <nd ref="3185149301"/>
+    <nd ref="3185149302"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="landuse" v="meadow"/>
+  </way>
+  <way id="328335059">
+    <nd ref="3351606721"/>
+    <nd ref="3351606723"/>
+    <nd ref="3351606722"/>
+    <nd ref="3351606720"/>
+    <nd ref="3351606721"/>
+    <tag k="amenity" v="feeding_place"/>
+    <tag k="feeding:type" v="manger"/>
+    <tag k="source" v="GPS"/>
+  </way>
+
+</osm>

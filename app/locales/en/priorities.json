@@ -1,0 +1,158 @@
+{
+    "acPlugsPriority":{
+        "info":"If you travel with electrical appliances, you may have to buy a travel adapter.",
+        "title":"I don't need a travel adapter"
+    },
+    "acVoltagesPriority":{
+        "info":"You should take care about local voltage and frequency if you travel with electrical appliances. A tension converter can also be required in addition to the travel adapter.",
+        "title":"I don't need a voltage converter"
+    },
+    "airPollutionPriority":{
+        "info":"",
+        "title":"Air pollution"
+    },
+    "assaultRatePriority":{
+        "info":"",
+        "title":"Assault rate"
+    },
+    "incomeLevelPriority":{
+        "info":"Prefer countries where the average income level is below yours. You will probably find the affordable cost of living.",
+        "title":"The change rate is advantageous"
+    },
+    "changeRatePriority":{
+        "info":"Select countries where local currency is weaker than yours so you can probably have cheap holidays.",
+        "title":"The change rate is advantageous"
+    },
+    "consultationOnRuleMakingPriority":{
+        "info":"",
+        "title":"Consultation on rule-making"
+    },
+    "currencyPriority":{
+        "info":"You'll doesn't have to take care about change rate. Just ensure that Local ATMs accept your credit card.",
+        "title":"I don't have to change currencies"
+    },
+    "democracyPriority":{
+        "info":"Select countries whose democratic level is considered high.",
+        "title":"The country is democratic"
+    },
+    "drivingSidePriority":{
+        "info":"If you want to drive a car or a motorcycle, prefer country using the same driving direction.",
+        "title":"Drive on the same side of the road"
+    },
+    "dwellingsWithoutBasicFacilitiesPriority":{
+        "info":"",
+        "title":"Dwellings without basic facilities"
+    },
+    "educationalAttainmentPriority":{
+        "info":"",
+        "title":"Educational attainment"
+    },
+    "employeesWorkingVeryLongHoursPriority":{
+        "info":"",
+        "title":"Employees working very long hours"
+    },
+    "employmentRatePriority":{
+        "info":"",
+        "title":"Employment rate"
+    },
+    "homicideRatePriority":{
+        "info":"",
+        "title":"Homicide rate"
+    },
+    "householdNetAdjustedDisposableIncomePriority":{
+        "info":"",
+        "title":"Household net adjusted disposable income"
+    },
+    "householdNetFinancialWealthPriority":{
+        "info":"",
+        "title":"High household net financial wealth"
+    },
+    "housingExpenditurePriority":{
+        "info":"",
+        "title":"Housing expenditure"
+    },
+    "islandPriority":{
+        "info":"Use this priority for finding countries that are an island or the sovereign state of islands.",
+        "title":"The country is or has islands"
+    },
+    "jobSecurityPriority":{
+        "info":"",
+        "title":"Job security"
+    },
+    "lifeExpectancyPriority":{
+        "info":"",
+        "title":"Life expectancy"
+    },
+    "lifeSatisfactionPriority":{
+        "info":"",
+        "title":"Life satisfaction"
+    },
+    "longTermUnemploymentRatePriority":{
+        "info":"",
+        "title":"Long-term unemployment rate"
+    },
+    "neighborPriority":{
+        "info":"Maybe you prefer nearby countries so you can go by the ground or for a short stay.",
+        "title":"The border countries preferably"
+    },
+    "onwardTicketPriority":{
+        "info":"Some countries require you to have your return airfare on arrival.",
+        "title":"The return airfare is not required"
+    },
+    "personalEarningsPriority":{
+        "info":"",
+        "title":"Personal earnings"
+    },
+    "qualityOfSupportNetworkPriority":{
+        "info":"",
+        "title":"Quality of support network"
+    },
+    "readingLanguagePriority":{
+        "info":"If you only know latin characters, you will not be able to read even the road signs in some countries.",
+        "title":"I have no trouble reading the sign boards"
+    },
+    "religionPriority":{
+        "info":"",
+        "title":"Part of the population is of my religion"
+    },
+    "roomsPerPersonPriority":{
+        "info":"",
+        "title":"Rooms per person"
+    },
+    "selfReportedHealthPriority":{
+        "info":"",
+        "title":"Healthy population"
+    },
+    "speakingLanguagePriority":{
+        "info":"It's always easier to communicate if a large part of the population know your native or secondary language.",
+        "title":"Most people speak one of my languages"
+    },
+    "studentSkillsPriority":{
+        "info":"",
+        "title":"Student skills"
+    },
+    "timeDevotedToLeisureAndPersonalCarePriority":{
+        "info":"",
+        "title":"Time devoted to leisure and personal care"
+    },
+    "visaFreePriority":{
+        "info":"Depending on your citizenships, some countries are accessible with just a passport for a limited tourism stay.",
+        "title":"I don't need a tourist VISA"
+    },
+    "voaFeePriority":{
+        "info":"Avoid countries requiring to buy a visa while passing the border.",
+        "title":"There is no visa-on-arrival fee"
+    },
+    "voterTurnoutPriority":{
+        "info":"",
+        "title":"Voter turnout"
+    },
+    "waterQualityPriority":{
+        "info":"",
+        "title":"Satisfactory water quality"
+    },
+    "yearsInEducationPriority":{
+        "info":"",
+        "title":"Years in education"
+    }
+}

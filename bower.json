@@ -1,0 +1,73 @@
+{
+  "name": "destinationfilter",
+  "description": "Find the best destinations for your next trip.",
+  "version": "0.7.3",
+  "authors": [
+    "christophe.boisier@live.fr"
+  ],
+  "private": true,
+  "keywords": [
+    "css",
+    "js",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "web"
+  ],
+  "homepage": "http://christopheboisier.github.io/destinationfilter/",
+  "main": [
+    "dist/*"
+  ],
+  "ignore": [
+    "/.*",
+    "_config.yml",
+    "CNAME",
+    "composer.json",
+    "CONTRIBUTING.md",
+    "docs",
+    "js/tests",
+    "test-infra"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "modernizr": "~2.8.3",
+    "bootstrap-chosen": "~1.0.1",
+    "bootstrap-switch": "~3.3.2",
+    "bootstrap-tour": "~0.10.2",
+    "bootstrapvalidator": "~0.5.3",
+    "bootswatch": "~3.3.5+2",
+    "chosen": "~1.4.2",
+    "fastclick": "~1.0.6",
+    "i18next": "~1.10.2",
+    "image-picker": "~0.2.4",
+    "jquery": "~2.1.4",
+    "jquery-array-utilities": "~1.0.0",
+    "jquery-xml2json": "~0.0.8",
+    "jquery.ui": "~1.11.4",
+    "jqueryui-touch-punch": "git://github.com/furf/jquery-ui-touch-punch.git",
+    "mixitup": "~2.1.9",
+    "moment": "~2.10.6",
+    "moment-timezone": "~0.4.0",
+    "Numeral-j": "~1.5.3",
+    "scroll-reveal": "~2.3.2",
+    "world-countries": "~1.7.4",
+    "jquery-save-as-you-type": "git://github.com/BenGriffiths/jquery-save-as-you-type.git#~1.4.4",
+    "jquery-smooth-scroll": "git://github.com/kswedberg/jquery-smooth-scroll.git#~1.5.5",
+    "way.js": "*",
+    "ol3": "openlayers/ol3#~3.8.2",
+    "handlebars": "~3.0.3"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "~3.2.0",
+    "mocha": "~2.2.5"
+  }
+}

@@ -1,0 +1,13 @@
+#user_plug_types + ul.thumbnails.image_picker_selector li {
+    .thumbnail {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      border-radius: inherit;
+      border:none;    
+      img {
+      //  margin: -10px -10px -15px -10px;
+      }     
+    }
+
+}

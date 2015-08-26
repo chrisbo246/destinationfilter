@@ -1,0 +1,358 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: node-gettext\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgid "about##info"
+msgstr "This application was written \"for the fun\" by a penniless autodidact developer dreaming of escapes."
+
+msgid "about##link"
+msgstr "About"
+
+msgid "about##title"
+msgstr "About"
+
+msgid "acStandards##title"
+msgstr "AC standards"
+
+msgid "accuracy##title"
+msgstr "Accuracy"
+
+msgid "administration##title"
+msgstr "Administration"
+
+msgid "appliances##info"
+msgstr "Fill the characteristics of your electrical appliances to check their compatibility with <a href=\"http://www.iec.ch/worldplugs/?ref=extfooter\" target=\"_blank\">local standards</a>."
+
+msgid "appliances##title"
+msgstr "Electric appliances"
+
+msgid "askQuestion##info"
+msgstr "You do not find an answer in the FAQ? You can ask your question here."
+
+msgid "askQuestion##title"
+msgstr "Ask a question"
+
+msgid "baseLayer##title"
+msgstr "Map"
+
+msgid "civicEngagement##title"
+msgstr "Civic engagement"
+
+msgid "climate##link"
+msgstr "Climate"
+
+msgid "communication##link"
+msgstr "Communication"
+
+msgid "communication##title"
+msgstr "Communication"
+
+msgid "communicationAbility##info"
+msgstr "This information helps us to identify the countries in which you will have less communication difficulties."
+
+msgid "communicationAbility##title"
+msgstr "Communication ability"
+
+msgid "contact##link"
+msgstr "Contact"
+
+msgid "contact##title"
+msgstr "A message for Chris ?"
+
+msgid "contact##info"
+msgstr ""
+
+msgid "contribution##info"
+msgstr "If you enjoyed this first beta version, you can help us improve this application by participating in different ways."
+
+msgid "contribution##link"
+msgstr "Contribute"
+
+msgid "contribution##title"
+msgstr "What do you think about it?"
+
+msgid "country##link"
+msgstr "Country"
+
+msgid "country##title"
+msgstr "Country"
+
+msgid "countryList##info"
+msgstr "Choose among the top ranked countries. Click on the countries of interest for additional information."
+
+msgid "countryList##title"
+msgstr "Best destinations"
+
+msgid "culture##info"
+msgstr "This information helps us identify the country in which you will have less difficulty integrating culturally."
+
+msgid "culture##title"
+msgstr "Cultural facilities"
+
+msgid "destinations##link"
+msgstr "My destinations"
+
+msgid "disabledPriorities##info"
+msgstr "Use the filter to display some additional search criteria by theme. Select and activate the ones you want then go to the next section to reorder them according to your priorities."
+
+msgid "disabledPriorities##title"
+msgstr "Search criteria"
+
+msgid "donation##link"
+msgstr "Donate"
+
+msgid "donation##info"
+msgstr "This application has pleased you and you would like to discover new features? Support this project by donating a few Euros. Donations are my only source of income. Thanks, job, invitation are also welcome ^_^."
+
+msgid "donation##title"
+msgstr "Support this application"
+
+msgid "driving##title"
+msgstr "Driving"
+
+msgid "economy##title"
+msgstr "Economy"
+
+msgid "education##title"
+msgstr "Education"
+
+msgid "environment##title"
+msgstr "Environment"
+
+msgid "faq##info"
+msgstr "Use the filter to display questions / answers by category. Have a look in the next section if you do not find an answer."
+
+msgid "faq##title"
+msgstr "FAQ"
+
+msgid "geography##link"
+msgstr "Geography"
+
+msgid "habits##info"
+msgstr "This information helps us identify the countries in which you have to take new habits."
+
+msgid "habits##title"
+msgstr "Habits"
+
+msgid "happiness##title"
+msgstr "Happiness"
+
+msgid "health##title"
+msgstr "Health"
+
+msgid "help##link"
+msgstr "Help"
+
+msgid "home##link"
+msgstr "Home"
+
+msgid "housing##link"
+msgstr "Housing"
+
+msgid "housing##title"
+msgstr "Housing"
+
+msgid "income##title"
+msgstr "Income"
+
+msgid "info##link"
+msgstr "Infos"
+
+msgid "infoLayers##title"
+msgstr "Infos"
+
+msgid "job##link"
+msgstr "Job"
+
+msgid "jobs##title"
+msgstr "Jobs"
+
+msgid "language##title"
+msgstr "Language"
+
+msgid "legal##info"
+msgstr "Access to some countries is more or less regulated depending on your citizenship."
+
+msgid "legal##title"
+msgstr "Legal status"
+
+msgid "life##link"
+msgstr "Life"
+
+msgid "links##link"
+msgstr "Links"
+
+msgid "location##info"
+msgstr "We need to know where you are approximately to give you more relevant results."
+
+msgid "location##title"
+msgstr "Actual location"
+
+msgid "map##link"
+msgstr "Map"
+
+msgid "mobility##title"
+msgstr "Mobility"
+
+msgid "myLayers##title"
+msgstr "My layers"
+
+msgid "orientation##title"
+msgstr "Orientation"
+
+msgid "overlayLayers##title"
+msgstr "Overlays"
+
+msgid "policy##title"
+msgstr "Policy"
+
+msgid "population##link"
+msgstr "Population"
+
+msgid "population##title"
+msgstr "Population"
+
+msgid "position##title"
+msgstr "Position"
+
+msgid "priorities##info"
+msgstr "Add some search criteria then rank them according to your priorities."
+
+msgid "priorities##link"
+msgstr "My priorities"
+
+msgid "priorities##title"
+msgstr "My priorities"
+
+msgid "profile##info"
+msgstr "Tell us who you are so we can compare with the different countries."
+
+msgid "profile##link"
+msgstr "My profile"
+
+msgid "profile##title"
+msgstr "Profile"
+
+msgid "purchasingPower##info"
+msgstr "These parameters are mainly used to find countries that are cheap for you."
+
+msgid "purchasingPower##title"
+msgstr "Purchasing power"
+
+msgid "reliefLayers##title"
+msgstr "Relief"
+
+msgid "report##info"
+msgstr "Who better than you can help us to correct or complete data about your own country."
+
+msgid "report##title"
+msgstr "Data report"
+
+msgid "research##link"
+msgstr "Research"
+
+msgid "userProfileReset##info"
+msgstr "Select your usual place of living then click OK to prefill or reset all fields of your profile."
+
+msgid "userProfileReset##title"
+msgstr "Prefill my profile"
+
+msgid "resetSettings##info"
+msgstr ""
+
+msgid "resetSettings##title"
+msgstr "Reset"
+
+msgid "roadLayers##title"
+msgstr "Road"
+
+msgid "roadWithReliefLayers##title"
+msgstr "Road w/ relief"
+
+msgid "safety##title"
+msgstr "Safety"
+
+msgid "satelliteLayers##title"
+msgstr "Satellite"
+
+msgid "score##link"
+msgstr "Score"
+
+msgid "scoreSettings##info"
+msgstr ""
+
+msgid "scoreSettings##title"
+msgstr "Score"
+
+msgid "settings##link"
+msgstr "Settings"
+
+msgid "share##info"
+msgstr "Help us to make this application popular by sharing on social networks and forums. It helps more than you think!"
+
+msgid "share##title"
+msgstr "Share on social networks"
+
+msgid "spending##link"
+msgstr "Spending"
+
+msgid "standards##link"
+msgstr "Standards"
+
+msgid "stripe##title"
+msgstr "DESTINATION FINDER"
+
+msgid "stripe##info"
+msgstr "Donate by credit card"
+
+msgid "territorialDependencies##title"
+msgstr "Territorial dependencies"
+
+msgid "time##title"
+msgstr "Time & date"
+
+msgid "translation##link"
+msgstr "Translate"
+
+msgid "translation##info"
+msgstr "Help us to provide a quality translation in your language, you just have to use our dedicated online editor. Do not hesitate, it is very simple and risk free!"
+
+msgid "translation##title"
+msgstr "Improvise you as a translator"
+
+msgid "travel##link"
+msgstr "Travel"
+
+msgid "validCountryList##info"
+msgstr "The countries with the highest scores would best suit your needs. Click on a country for detailed information or explore the map to have a global overview."
+
+msgid "validCountryList##title"
+msgstr "Compare your destinations"
+
+msgid "validPriorities##info"
+msgstr "Add some selection criteria then sort them according to your priorities. You will get more relevant results classified according to the percentage of correspondence."
+
+msgid "validPriorities##title"
+msgstr "Sort your priorities"
+
+msgid "validUserProfile##info"
+msgstr "Tell us who you are so that we can compare your lifestyle with that of each country. Make sure all field of your profile are fully valid."
+
+msgid "validUserProfile##title"
+msgstr "Fill in your profile"
+
+msgid "visa##title"
+msgstr "Visa"
+
+msgid "welcome##content"
+msgstr "Need to get away for a quick trip abroad or for the journey of your life? Complete your profile, add a few search criteria and you'll get a map of the country that fits your priorities and lots of useful information to help you to find your next destination."
+
+msgid "welcome##title"
+msgstr "Search for your next destination"
+
+msgid "workLifeBalance##title"
+msgstr "Work-Life balance"

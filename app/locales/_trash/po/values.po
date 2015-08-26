@@ -1,0 +1,937 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: node-gettext\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgid "countries##AD"
+msgstr "Andorra"
+
+msgid "countries##AE"
+msgstr "United Arab Emirates"
+
+msgid "countries##AF"
+msgstr "Afghanistan"
+
+msgid "countries##AG"
+msgstr "Antigua and Barbuda"
+
+msgid "countries##AI"
+msgstr "Anguilla"
+
+msgid "countries##AL"
+msgstr "Albania"
+
+msgid "countries##AM"
+msgstr "Armenia"
+
+msgid "countries##AN"
+msgstr "Netherlands Antilles"
+
+msgid "countries##AO"
+msgstr "Angola"
+
+msgid "countries##AQ"
+msgstr "Antarctica"
+
+msgid "countries##AR"
+msgstr "Argentina"
+
+msgid "countries##AS"
+msgstr "American Samoa"
+
+msgid "countries##AT"
+msgstr "Austria"
+
+msgid "countries##AU"
+msgstr "Australia"
+
+msgid "countries##AW"
+msgstr "Aruba"
+
+msgid "countries##AX"
+msgstr "Aland Islands"
+
+msgid "countries##AZ"
+msgstr "Azerbaijan"
+
+msgid "countries##BA"
+msgstr "Bosnia and Herzegovina"
+
+msgid "countries##BB"
+msgstr "Barbados"
+
+msgid "countries##BD"
+msgstr "Bangladesh"
+
+msgid "countries##BE"
+msgstr "Belgium"
+
+msgid "countries##BF"
+msgstr "Burkina Faso"
+
+msgid "countries##BG"
+msgstr "Bulgaria"
+
+msgid "countries##BH"
+msgstr "Bahrain"
+
+msgid "countries##BI"
+msgstr "Burundi"
+
+msgid "countries##BJ"
+msgstr "Benin"
+
+msgid "countries##BL"
+msgstr "Saint Barthelemy"
+
+msgid "countries##BM"
+msgstr "Bermuda"
+
+msgid "countries##BN"
+msgstr "Brunei"
+
+msgid "countries##BO"
+msgstr "Bolivia"
+
+msgid "countries##BQ"
+msgstr "Bonaire, Saint Eustatius and Saba "
+
+msgid "countries##BR"
+msgstr "Brazil"
+
+msgid "countries##BS"
+msgstr "Bahamas"
+
+msgid "countries##BT"
+msgstr "Bhutan"
+
+msgid "countries##BV"
+msgstr "Bouvet Island"
+
+msgid "countries##BW"
+msgstr "Botswana"
+
+msgid "countries##BY"
+msgstr "Belarus"
+
+msgid "countries##BZ"
+msgstr "Belize"
+
+msgid "countries##CA"
+msgstr "Canada"
+
+msgid "countries##CC"
+msgstr "Cocos Islands"
+
+msgid "countries##CD"
+msgstr "Democratic Republic of the Congo"
+
+msgid "countries##CF"
+msgstr "Central African Republic"
+
+msgid "countries##CG"
+msgstr "Republic of the Congo"
+
+msgid "countries##CH"
+msgstr "Switzerland"
+
+msgid "countries##CI"
+msgstr "Ivory Coast"
+
+msgid "countries##CK"
+msgstr "Cook Islands"
+
+msgid "countries##CL"
+msgstr "Chile"
+
+msgid "countries##CM"
+msgstr "Cameroon"
+
+msgid "countries##CN"
+msgstr "China"
+
+msgid "countries##CO"
+msgstr "Colombia"
+
+msgid "countries##CR"
+msgstr "Costa Rica"
+
+msgid "countries##CS"
+msgstr "Serbia and Montenegro"
+
+msgid "countries##CU"
+msgstr "Cuba"
+
+msgid "countries##CV"
+msgstr "Cape Verde"
+
+msgid "countries##CW"
+msgstr "Curacao"
+
+msgid "countries##CX"
+msgstr "Christmas Island"
+
+msgid "countries##CY"
+msgstr "Cyprus"
+
+msgid "countries##CZ"
+msgstr "Czech Republic"
+
+msgid "countries##DE"
+msgstr "Germany"
+
+msgid "countries##DJ"
+msgstr "Djibouti"
+
+msgid "countries##DK"
+msgstr "Denmark"
+
+msgid "countries##DM"
+msgstr "Dominica"
+
+msgid "countries##DO"
+msgstr "Dominican Republic"
+
+msgid "countries##DZ"
+msgstr "Algeria"
+
+msgid "countries##EC"
+msgstr "Ecuador"
+
+msgid "countries##EE"
+msgstr "Estonia"
+
+msgid "countries##EG"
+msgstr "Egypt"
+
+msgid "countries##EH"
+msgstr "Western Sahara"
+
+msgid "countries##ER"
+msgstr "Eritrea"
+
+msgid "countries##ES"
+msgstr "Spain"
+
+msgid "countries##ET"
+msgstr "Ethiopia"
+
+msgid "countries##FI"
+msgstr "Finland"
+
+msgid "countries##FJ"
+msgstr "Fiji"
+
+msgid "countries##FK"
+msgstr "Falkland Islands"
+
+msgid "countries##FM"
+msgstr "Micronesia"
+
+msgid "countries##FO"
+msgstr "Faroe Islands"
+
+msgid "countries##FR"
+msgstr "France"
+
+msgid "countries##GA"
+msgstr "Gabon"
+
+msgid "countries##GB"
+msgstr "United Kingdom"
+
+msgid "countries##GD"
+msgstr "Grenada"
+
+msgid "countries##GE"
+msgstr "Georgia"
+
+msgid "countries##GF"
+msgstr "French Guiana"
+
+msgid "countries##GG"
+msgstr "Guernsey"
+
+msgid "countries##GH"
+msgstr "Ghana"
+
+msgid "countries##GI"
+msgstr "Gibraltar"
+
+msgid "countries##GL"
+msgstr "Greenland"
+
+msgid "countries##GM"
+msgstr "Gambia"
+
+msgid "countries##GN"
+msgstr "Guinea"
+
+msgid "countries##GP"
+msgstr "Guadeloupe"
+
+msgid "countries##GQ"
+msgstr "Equatorial Guinea"
+
+msgid "countries##GR"
+msgstr "Greece"
+
+msgid "countries##GS"
+msgstr "South Georgia and the South Sandwich Islands"
+
+msgid "countries##GT"
+msgstr "Guatemala"
+
+msgid "countries##GU"
+msgstr "Guam"
+
+msgid "countries##GW"
+msgstr "Guinea-Bissau"
+
+msgid "countries##GY"
+msgstr "Guyana"
+
+msgid "countries##HK"
+msgstr "Hong Kong"
+
+msgid "countries##HM"
+msgstr "Heard Island and McDonald Islands"
+
+msgid "countries##HN"
+msgstr "Honduras"
+
+msgid "countries##HR"
+msgstr "Croatia"
+
+msgid "countries##HT"
+msgstr "Haiti"
+
+msgid "countries##HU"
+msgstr "Hungary"
+
+msgid "countries##ID"
+msgstr "Indonesia"
+
+msgid "countries##IE"
+msgstr "Ireland"
+
+msgid "countries##IL"
+msgstr "Israel"
+
+msgid "countries##IM"
+msgstr "Isle of Man"
+
+msgid "countries##IN"
+msgstr "India"
+
+msgid "countries##IO"
+msgstr "British Indian Ocean Territory"
+
+msgid "countries##IQ"
+msgstr "Iraq"
+
+msgid "countries##IR"
+msgstr "Iran"
+
+msgid "countries##IS"
+msgstr "Iceland"
+
+msgid "countries##IT"
+msgstr "Italy"
+
+msgid "countries##JE"
+msgstr "Jersey"
+
+msgid "countries##JM"
+msgstr "Jamaica"
+
+msgid "countries##JO"
+msgstr "Jordan"
+
+msgid "countries##JP"
+msgstr "Japan"
+
+msgid "countries##KE"
+msgstr "Kenya"
+
+msgid "countries##KG"
+msgstr "Kyrgyzstan"
+
+msgid "countries##KH"
+msgstr "Cambodia"
+
+msgid "countries##KI"
+msgstr "Kiribati"
+
+msgid "countries##KM"
+msgstr "Comoros"
+
+msgid "countries##KN"
+msgstr "Saint Kitts and Nevis"
+
+msgid "countries##KP"
+msgstr "North Korea"
+
+msgid "countries##KR"
+msgstr "South Korea"
+
+msgid "countries##KW"
+msgstr "Kuwait"
+
+msgid "countries##KY"
+msgstr "Cayman Islands"
+
+msgid "countries##KZ"
+msgstr "Kazakhstan"
+
+msgid "countries##LA"
+msgstr "Laos"
+
+msgid "countries##LB"
+msgstr "Lebanon"
+
+msgid "countries##LC"
+msgstr "Saint Lucia"
+
+msgid "countries##LI"
+msgstr "Liechtenstein"
+
+msgid "countries##LK"
+msgstr "Sri Lanka"
+
+msgid "countries##LR"
+msgstr "Liberia"
+
+msgid "countries##LS"
+msgstr "Lesotho"
+
+msgid "countries##LT"
+msgstr "Lithuania"
+
+msgid "countries##LU"
+msgstr "Luxembourg"
+
+msgid "countries##LV"
+msgstr "Latvia"
+
+msgid "countries##LY"
+msgstr "Libya"
+
+msgid "countries##MA"
+msgstr "Morocco"
+
+msgid "countries##MC"
+msgstr "Monaco"
+
+msgid "countries##MD"
+msgstr "Moldova"
+
+msgid "countries##ME"
+msgstr "Montenegro"
+
+msgid "countries##MF"
+msgstr "Saint Martin"
+
+msgid "countries##MG"
+msgstr "Madagascar"
+
+msgid "countries##MH"
+msgstr "Marshall Islands"
+
+msgid "countries##MK"
+msgstr "Macedonia"
+
+msgid "countries##ML"
+msgstr "Mali"
+
+msgid "countries##MM"
+msgstr "Myanmar"
+
+msgid "countries##MN"
+msgstr "Mongolia"
+
+msgid "countries##MO"
+msgstr "Macao"
+
+msgid "countries##MP"
+msgstr "Northern Mariana Islands"
+
+msgid "countries##MQ"
+msgstr "Martinique"
+
+msgid "countries##MR"
+msgstr "Mauritania"
+
+msgid "countries##MS"
+msgstr "Montserrat"
+
+msgid "countries##MT"
+msgstr "Malta"
+
+msgid "countries##MU"
+msgstr "Mauritius"
+
+msgid "countries##MV"
+msgstr "Maldives"
+
+msgid "countries##MW"
+msgstr "Malawi"
+
+msgid "countries##MX"
+msgstr "Mexico"
+
+msgid "countries##MY"
+msgstr "Malaysia"
+
+msgid "countries##MZ"
+msgstr "Mozambique"
+
+msgid "countries##NA"
+msgstr "Namibia"
+
+msgid "countries##NC"
+msgstr "New Caledonia"
+
+msgid "countries##NE"
+msgstr "Niger"
+
+msgid "countries##NF"
+msgstr "Norfolk Island"
+
+msgid "countries##NG"
+msgstr "Nigeria"
+
+msgid "countries##NI"
+msgstr "Nicaragua"
+
+msgid "countries##NL"
+msgstr "Netherlands"
+
+msgid "countries##NO"
+msgstr "Norway"
+
+msgid "countries##NP"
+msgstr "Nepal"
+
+msgid "countries##NR"
+msgstr "Nauru"
+
+msgid "countries##NU"
+msgstr "Niue"
+
+msgid "countries##NZ"
+msgstr "New Zealand"
+
+msgid "countries##OM"
+msgstr "Oman"
+
+msgid "countries##PA"
+msgstr "Panama"
+
+msgid "countries##PE"
+msgstr "Peru"
+
+msgid "countries##PF"
+msgstr "French Polynesia"
+
+msgid "countries##PG"
+msgstr "Papua New Guinea"
+
+msgid "countries##PH"
+msgstr "Philippines"
+
+msgid "countries##PK"
+msgstr "Pakistan"
+
+msgid "countries##PL"
+msgstr "Poland"
+
+msgid "countries##PM"
+msgstr "Saint Pierre and Miquelon"
+
+msgid "countries##PN"
+msgstr "Pitcairn"
+
+msgid "countries##PR"
+msgstr "Puerto Rico"
+
+msgid "countries##PS"
+msgstr "Palestinian Territory"
+
+msgid "countries##PT"
+msgstr "Portugal"
+
+msgid "countries##PW"
+msgstr "Palau"
+
+msgid "countries##PY"
+msgstr "Paraguay"
+
+msgid "countries##QA"
+msgstr "Qatar"
+
+msgid "countries##RE"
+msgstr "Reunion"
+
+msgid "countries##RO"
+msgstr "Romania"
+
+msgid "countries##RS"
+msgstr "Serbia"
+
+msgid "countries##RU"
+msgstr "Russia"
+
+msgid "countries##RW"
+msgstr "Rwanda"
+
+msgid "countries##SA"
+msgstr "Saudi Arabia"
+
+msgid "countries##SB"
+msgstr "Solomon Islands"
+
+msgid "countries##SC"
+msgstr "Seychelles"
+
+msgid "countries##SD"
+msgstr "Sudan"
+
+msgid "countries##SE"
+msgstr "Sweden"
+
+msgid "countries##SG"
+msgstr "Singapore"
+
+msgid "countries##SH"
+msgstr "Saint Helena"
+
+msgid "countries##SI"
+msgstr "Slovenia"
+
+msgid "countries##SJ"
+msgstr "Svalbard and Jan Mayen"
+
+msgid "countries##SK"
+msgstr "Slovakia"
+
+msgid "countries##SL"
+msgstr "Sierra Leone"
+
+msgid "countries##SM"
+msgstr "San Marino"
+
+msgid "countries##SN"
+msgstr "Senegal"
+
+msgid "countries##SO"
+msgstr "Somalia"
+
+msgid "countries##SR"
+msgstr "Suriname"
+
+msgid "countries##SS"
+msgstr "South Sudan"
+
+msgid "countries##ST"
+msgstr "Sao Tome and Principe"
+
+msgid "countries##SV"
+msgstr "El Salvador"
+
+msgid "countries##SX"
+msgstr "Sint Maarten"
+
+msgid "countries##SY"
+msgstr "Syria"
+
+msgid "countries##SZ"
+msgstr "Swaziland"
+
+msgid "countries##TC"
+msgstr "Turks and Caicos Islands"
+
+msgid "countries##TD"
+msgstr "Chad"
+
+msgid "countries##TF"
+msgstr "French Southern Territories"
+
+msgid "countries##TG"
+msgstr "Togo"
+
+msgid "countries##TH"
+msgstr "Thailand"
+
+msgid "countries##TJ"
+msgstr "Tajikistan"
+
+msgid "countries##TK"
+msgstr "Tokelau"
+
+msgid "countries##TL"
+msgstr "East Timor"
+
+msgid "countries##TM"
+msgstr "Turkmenistan"
+
+msgid "countries##TN"
+msgstr "Tunisia"
+
+msgid "countries##TO"
+msgstr "Tonga"
+
+msgid "countries##TR"
+msgstr "Turkey"
+
+msgid "countries##TT"
+msgstr "Trinidad and Tobago"
+
+msgid "countries##TV"
+msgstr "Tuvalu"
+
+msgid "countries##TW"
+msgstr "Taiwan"
+
+msgid "countries##TZ"
+msgstr "Tanzania"
+
+msgid "countries##UA"
+msgstr "Ukraine"
+
+msgid "countries##UG"
+msgstr "Uganda"
+
+msgid "countries##UM"
+msgstr "United States Minor Outlying Islands"
+
+msgid "countries##US"
+msgstr "United States"
+
+msgid "countries##UY"
+msgstr "Uruguay"
+
+msgid "countries##UZ"
+msgstr "Uzbekistan"
+
+msgid "countries##VA"
+msgstr "Vatican"
+
+msgid "countries##VC"
+msgstr "Saint Vincent and the Grenadines"
+
+msgid "countries##VE"
+msgstr "Venezuela"
+
+msgid "countries##VG"
+msgstr "British Virgin Islands"
+
+msgid "countries##VI"
+msgstr "U.S. Virgin Islands"
+
+msgid "countries##VN"
+msgstr "Vietnam"
+
+msgid "countries##VU"
+msgstr "Vanuatu"
+
+msgid "countries##WF"
+msgstr "Wallis and Futuna"
+
+msgid "countries##WS"
+msgstr "Samoa"
+
+msgid "countries##XK"
+msgstr "Kosovo"
+
+msgid "countries##YE"
+msgstr "Yemen"
+
+msgid "countries##YT"
+msgstr "Mayotte"
+
+msgid "countries##ZA"
+msgstr "South Africa"
+
+msgid "countries##ZM"
+msgstr "Zambia"
+
+msgid "countries##ZW"
+msgstr "Zimbabwe"
+
+msgid "days##friday"
+msgstr "Friday"
+
+msgid "days##monday"
+msgstr "Monday"
+
+msgid "days##saturday"
+msgstr "Saturday"
+
+msgid "days##sunday"
+msgstr "Sunday"
+
+msgid "days##thursday"
+msgstr "Thursday"
+
+msgid "days##tuesday"
+msgstr "Tuesday"
+
+msgid "days##wednesday"
+msgstr "Wednesday"
+
+msgid "faqFilters##all"
+msgstr "All"
+
+msgid "faqFilters##application"
+msgstr "Application"
+
+msgid "faqFilters##traveler"
+msgstr "Traveler"
+
+msgid "incomeLevels##LIC"
+msgstr "Low income"
+
+msgid "incomeLevels##LMC"
+msgstr "Lower middle income"
+
+msgid "incomeLevels##NOC"
+msgstr "High income"
+
+msgid "incomeLevels##OEC"
+msgstr "High income"
+
+msgid "incomeLevels##UMC"
+msgstr "Upper middle income"
+
+msgid "measurementSystems##burmese"
+msgstr "Burmese"
+
+msgid "measurementSystems##customary"
+msgstr "Customary"
+
+msgid "measurementSystems##hybrid"
+msgstr "Hybrid"
+
+msgid "measurementSystems##imperial"
+msgstr "Imperial"
+
+msgid "measurementSystems##metric"
+msgstr "Metric"
+
+msgid "measurementSystems##non-metric"
+msgstr "Non-metric"
+
+msgid "mixitupLayouts##grid"
+msgstr "Compact"
+
+msgid "mixitupLayouts##list"
+msgstr "Detailed"
+
+msgid "priorityFilters##all"
+msgstr "All"
+
+msgid "priorityFilters##civicEngagement"
+msgstr "Civic engagement"
+
+msgid "priorityFilters##communication"
+msgstr "Communication"
+
+msgid "priorityFilters##community"
+msgstr "Community"
+
+msgid "priorityFilters##education"
+msgstr "Education"
+
+msgid "priorityFilters##electricStandards"
+msgstr "Electric standards"
+
+msgid "priorityFilters##environment"
+msgstr "Environment"
+
+msgid "priorityFilters##geography"
+msgstr "Geography"
+
+msgid "priorityFilters##health"
+msgstr "Health"
+
+msgid "priorityFilters##housing"
+msgstr "Housing"
+
+msgid "priorityFilters##income"
+msgstr "Income"
+
+msgid "priorityFilters##integration"
+msgstr "Integration"
+
+msgid "priorityFilters##job"
+msgstr "Job"
+
+msgid "priorityFilters##lifeQuality"
+msgstr "Life quality"
+
+msgid "priorityFilters##lifeSatisfaction"
+msgstr "Life Satisfaction"
+
+msgid "priorityFilters##money"
+msgstr "Money"
+
+msgid "priorityFilters##move"
+msgstr "Move"
+
+msgid "priorityFilters##none"
+msgstr "Other"
+
+msgid "priorityFilters##popular"
+msgstr "Popular"
+
+msgid "priorityFilters##safety"
+msgstr "Safety"
+
+msgid "priorityFilters##visa"
+msgstr "Visa"
+
+msgid "priorityFilters##workLifeBalance"
+msgstr "Work-Life Balance"
+
+msgid "religions##buddhist"
+msgstr "Buddhist"
+
+msgid "religions##christian"
+msgstr "Christian"
+
+msgid "religions##empty"
+msgstr ""
+
+msgid "religions##folk"
+msgstr "Folk Religion"
+
+msgid "religions##hindu"
+msgstr "Hindu"
+
+msgid "religions##jewish"
+msgstr "Jewish"
+
+msgid "religions##muslim"
+msgstr "Muslim"
+
+msgid "religions##other"
+msgstr "Other Religion"
+
+msgid "scoreLegends##error"
+msgstr "Missing country data"
+
+msgid "scoreLegends##success"
+msgstr "Calculated score"
+
+msgid "scoreLegends##warning"
+msgstr "Incomplete profile"
+
+msgid "sides##left"
+msgstr "Gauche"
+
+msgid "sides##right"
+msgstr "Droite"

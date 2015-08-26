@@ -1,0 +1,1113 @@
+<div id="map" class="map">
+    <div id="map-tooltip"></div>
+    <div id="popup"></div>
+    <img id="geolocation_marker" class="hidden" src="images/geolocation_marker.png" alt="marker"/>
+    <div>
+        <div id="country-info text-center">
+            <!--
+            <div id="country-name">&nbsp;</div>
+            <img id="country-flag" src="" alt="flag"/>
+            <div id="timezone">&nbsp;</div>
+            -->
+        </div>
+    </div>
+</div>
+<div class="progress hidden">
+    <div id="progress" class="progress-bar"></div>
+</div>
+
+<div class="navbar navbar-inverse navbar-fixed-bottom hidden">
+    <ul class="nav -navbar-nav nav-tabs -nav-pills nav-justified nav-justified-not-stacked">
+        <li title="Position"><a href="#position_pane" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-screenshot"></span></a></li>
+        <li title="Navigation"><a href="#navigation_pane" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-road"></span></a></li>
+        <li title="Draw"><a href="#drawing_pane" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-pencil"></span></a></li>
+        <li title="Measure"><a href="#measure_pane" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-resize-horizontal"></span></a></li>
+        <li title="Export"><a href="#export_pane" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-export"></span></a></li>
+        <li title="Info"><a href="#info_pane" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-info-sign"></span></a></li>
+        <!--<li class="active"><a href="#favorites_pane" data-toggle="tab" aria-expanded="true"><span class="glyphicon glyphicon-star" title="Best destinations"></span></a></li>-->
+        <!--<li><a href="#country_list_pane" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-list" title="My best destinations"></span></a></li>-->
+        <!--<li><a href="#tools_pane" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-wrench" title="Tools"></span></a></li>-->
+        <!--<li><a href="#layers_pane" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-duplicate" title="Layer"></span></a></li>-->
+        <!--<li><a href="#styling_pane" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-tint" title=""></span> Style</a></li>-->
+        <!--<li><a href="#action_pane" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-wrench"></span> Action</a></li>-->
+        <!--<li><a href="#view_pane" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-sound-stereo"></span> View</a></li>-->
+        <!--<li><a href="#geolocation_pane" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-globe"></span> Geolocation</a></li>-->
+        <!--<li><a href="#vector_pane" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-asterisk"></span> Vector</a></li>-->
+        <!--<li><a href="#settings_pane" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-cog" title="Settings"></span></a></li>-->
+        <li title="Settings"><a href="#empty_pane" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-menu-down"></span></a></li>
+    </ul>
+    <div id="mapTabContent" class="tab-content">
+        <div id="favorites_pane" class="tab-pane fade active in">
+        </div>
+        <div id="info_pane" class="tab-pane col-md-12">
+            <div id="map_alert" class="alert alert-dismissible alert-info hidden">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                <div></div>
+            </div>
+            <div id="no-download" class="alert alert-dismissible alert-warning hidden">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                The "Export" functionality requires a browser that supports the
+                <a href="http://caniuse.com/#feat=download">link download</a>attribute.
+            </div>
+            <div id="no-webgl" class="alert alert-dismissible alert-danger hidden">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                This map requires a browser that supports <a href="http://get.webgl.org/">WebGL</a>.
+            </div>
+            <div id="too-many-layers" class="alert alert-dismissible alert-danger hidden">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                <strong>Warning!</strong> Map is becoming unresponsive with too many layers.
+            </div>
+            <form class="form-horizontal -form-inline -input-sm">
+                <!--
+                <fieldset>
+                    <legend data-i18n="">Map</legend>
+                    <div class="form-group">
+                        <label class="col-sm-6">Center</label>
+                        <div class="col-sm-6">
+                            <p id="center" class="form-control-static"></p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-6">Zoom</label>
+                        <div class="col-sm-6">
+                            <p id="zoom" class="form-control-static"></p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-6">Resolution</label>
+                        <div class="col-sm-6">
+                            <p id="resolution" class="form-control-static"></p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-6">Projection</label>
+                        <div class="col-sm-6">
+                            <p id="projection" class="form-control-static"></p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-6">Feature status</label>
+                        <div class="col-sm-6">
+                            <p id="status" class="form-control-static">0 selected</p>
+                        </div>
+                    </div>
+                </fieldset>
+                -->
+                <fieldset class="col-md-3">
+                    <legend data-i18n="">Device</legend>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" data-i18n="user.location.mobility.delta.label">Delta</label>
+                        <div class="col-sm-4">
+                            <p id="delta" class="form-control-static"></p>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class="col-md-3">
+                    <!--<legend data-i18n="user.location.orientation.label">Orientation</legend>-->
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" data-i18n="user.location.orientation.alpha.label">Alpha</label>
+                        <span id="alpha" class="col-sm-8"></span>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" data-i18n="user.location.orientation.beta.label">Beta</label>
+                        <span id="beta" class="col-sm-8"></span>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" data-i18n="user.location.orientation.gamma.label">Gamma</label>
+                        <span id="gamma" class="col-sm-8"></span>
+                    </div>
+                </fieldset>
+                <div class=" small text-muted">
+                    <!--<legend data-i18n="user.location.accuracy.label">Accuracy</legend>-->
+                    <div class="form-group6">
+                        <label class="col-sm-4 control-label" data-i18n="user.location.accuracy.accuracy.label">Accuracy</label>
+                        <div class="col-sm-8">
+                            <p id="accuracy" class="form-control-static"></p>
+                        </div>
+                    </div>
+                    <div class="form-group6">
+                        <label class="col-sm-4 control-label" data-i18n="user.location.accuracy.altitudeAccuracy.label">Altitude</label>
+                        <div class="col-sm-8">
+                            <p id="altitudeAccuracy" class="form-control-static"></p>
+                        </div>
+                    </div>
+                </div>
+                <fieldset class="col-md-3">
+                    <legend data-i18n="">Projection</legend>
+                    <!--<legend data-i18n="user.location.position.label">Position</legend>-->
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" data-i18n="">getExtent</label>
+                        <div class="col-sm-8">
+                            <p id="projection_extent" class="form-control-static"></p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" data-i18n="">Code</label>
+                        <div class="col-sm-8">
+                            <p id="projection_code" class="form-control-static"></p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" data-i18n="">getMetersPerUnit</label>
+                        <div class="col-sm-8">
+                            <p id="projection_metersperunit" class="form-control-static"></p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" data-i18n="">getUnits</label>
+                        <div class="col-sm-8">
+                            <p id="projection_units" class="form-control-static"></p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" data-i18n="">Global</label>
+                        <div class="col-sm-8">
+                            <p id="projection_global" class="form-control-static"></p>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class="col-md-3">
+                    <legend data-i18n="">Various</legend>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">Info</label>
+                        <div class="col-sm-8">
+                            <p id="map_info" class="form-control-static"></p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">Mouse position</label>
+                        <div class="col-sm-8">
+                            <div class="input-group">
+                                <p id="mouse-position" class="form-control-static"></p>
+                                <div>deg</div>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div id="styling_pane" class="tab-pane fade col-md-12">
+            <ul class="nav nav-pills">
+                <!--
+                    <li class="active"><a href="#points_style_pane" data-toggle="tab" aria-expanded="true"><span class="glyphicon glyphicon-cog"></span> Points</a></li>
+                    <li><a href="#lines_style_pane" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-cog"></span> Lines</a></li>
+                    <li><a href="#polygons_style_pane" data-toggle="tab" aria-expanded="false"><span class="glyphicon glyphicon-cog"></span> Polygons</a></li>
+                    -->
+            </ul>
+            <div id="styleTabsContent" class="tab-content">
+                <div id="points_style_pane" class="tab-pane fade">
+                    <div class="edit-form ">
+                        <input id="refresh-points" type="button" value="Refresh" class="btn btn-default"/>
+                        <h2>Points</h2>
+                        <div class="edit-form-elem">
+                            <div class="form-group">
+                                <label for="points-text" class="col-sm-4 control-label">Text</label>
+                                <div class="col-sm-8">
+                                    <select id="points-text" class="form-control input-sm">
+                                        <option value="hide">Hide</option>
+                                        <option value="normal">Normal</option>
+                                        <option value="shorten" selected="selected">Shorten</option>
+                                        <option value="wrap">Wrap</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="points-maxreso" class="col-sm-4 control-label" title="Max Resolution Denominator">MaxReso.</label>
+                                <div class="col-sm-8">
+                                    <select id="points-maxreso" class="form-control input-sm">
+                                        <option value="38400">38,400</option>
+                                        <option value="19200">19,200</option>
+                                        <option value="9600">9,600</option>
+                                        <option value="4800">4,800</option>
+                                        <option value="2400">2,400</option>
+                                        <option value="1200" selected="selected">1,200</option>
+                                        <option value="600">600</option>
+                                        <option value="300">300</option>
+                                        <option value="150">150</option>
+                                        <option value="75">75</option>
+                                        <option value="32">32</option>
+                                        <option value="16">16</option>
+                                        <option value="8">8</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="points-align" class="col-sm-4 control-label">Align</label>
+                                <div class="col-sm-8">
+                                    <select id="points-align" class="form-control input-sm">
+                                        <option value="center" selected="selected">Center</option>
+                                        <option value="end">End</option>
+                                        <option value="left">Left</option>
+                                        <option value="right">Right</option>
+                                        <option value="start">Start</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="points-baseline" class="col-sm-4 control-label">Baseline</label>
+                                <div class="col-sm-8">
+                                    <select id="points-baseline" class="form-control input-sm">
+                                        <option value="alphabetic">Alphabetic</option>
+                                        <option value="bottom">Bottom</option>
+                                        <option value="hanging">Hanging</option>
+                                        <option value="ideographic">Ideographic</option>
+                                        <option value="middle" selected="selected">Middle</option>
+                                        <option value="top">Top</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="points-rotation" class="col-sm-4 control-label">Rotation</label>
+                                <div class="col-sm-8">
+                                    <select id="points-rotation" class="form-control input-sm">
+                                        <option value="0">0°</option>
+                                        <option value="0.785398164">45°</option>
+                                        <option value="1.570796327">90°</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="points-font" class="col-sm-4 control-label">Font</label>
+                                <div class="col-sm-8">
+                                    <select id="points-font" class="form-control input-sm">
+                                        <option value="Arial" selected="selected">Arial</option>
+                                        <option value="Courier New">Courier New</option>
+                                        <option value="Quattrocento Sans">Quattrocento</option>
+                                        <option value="Verdana">Verdana</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="points-weight" class="col-sm-4 control-label">Weight</label>
+                                <div class="col-sm-8">
+                                    <select id="points-weight" class="form-control input-sm">
+                                        <option value="bold">Bold</option>
+                                        <option value="normal" selected="selected">Normal</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="points-size" class="col-sm-4 control-label">Size</label>
+                                <div class="col-sm-8">
+                                    <input id="points-size" type="text" value="12px" class="form-control input-sm"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="points-offset-x" class="col-sm-4 control-label">Offset X</label>
+                                <div class="col-sm-8">
+                                    <input id="points-offset-x" type="text" value="0" class="form-control input-sm"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="points-offset-y" class="col-sm-4 control-label">Offset Y</label>
+                                <div class="col-sm-8">
+                                    <input id="points-offset-y" type="text" value="0" class="form-control input-sm"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="points-color" class="col-sm-4 control-label">Color </label>
+                                <div class="col-sm-8">
+                                    <input id="points-color" type="text" value="#aa3300" class="form-control input-sm"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="points-outline" class="col-sm-4 control-label" title="Outline Color">O. Color</label>
+                                <div class="col-sm-8">
+                                    <input id="points-outline" type="text" value="#ffffff" class="form-control input-sm"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="points-outline-width" class="col-sm-4 control-label" title="Outline Width">O. Width </label>
+                                <div class="col-sm-8">
+                                    <input id="points-outline-width" type="text" value="3" class="form-control input-sm"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="lines_style_pane" class="tab-pane fade">
+                    <input id="refresh-lines" type="button" value="Refresh" class="btn btn-default"/>
+                    <h2>Lines</h2>
+                    <div class="edit-form-elem">
+                        <div class="form-group">
+                            <label for="lines-text" class="col-sm-4 control-label">Text</label>
+                            <div class="col-sm-8">
+                                <select id="lines-text" class="form-control input-sm">
+                                    <option value="hide">Hide</option>
+                                    <option value="normal">Normal</option>
+                                    <option value="shorten">Shorten</option>
+                                    <option value="wrap" selected="selected">Wrap</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="lines-maxreso" class="col-sm-4 control-label" title="Max Resolution Denominator">MaxReso.</label>
+                            <div class="col-sm-8">
+                                <select id="lines-maxreso" class="form-control input-sm">
+                                    <option value="38400">38,400</option>
+                                    <option value="19200">19,200</option>
+                                    <option value="9600">9,600</option>
+                                    <option value="4800">4,800</option>
+                                    <option value="2400">2,400</option>
+                                    <option value="1200" selected="selected">1,200</option>
+                                    <option value="600">600</option>
+                                    <option value="300">300</option>
+                                    <option value="150">150</option>
+                                    <option value="75">75</option>
+                                    <option value="32">32</option>
+                                    <option value="16">16</option>
+                                    <option value="8">8</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="lines-align" class="col-sm-4 control-label">Align</label>
+                            <div class="col-sm-8">
+                                <select id="lines-align" class="form-control input-sm">
+                                    <option value="center" selected="selected">Center</option>
+                                    <option value="end">End</option>
+                                    <option value="left">Left</option>
+                                    <option value="right">Right</option>
+                                    <option value="start">Start</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="lines-baseline" class="col-sm-4 control-label">Baseline</label>
+                            <div class="col-sm-8">
+                                <select id="lines-baseline" class="form-control input-sm">
+                                    <option value="alphabetic">Alphabetic</option>
+                                    <option value="bottom">Bottom</option>
+                                    <option value="hanging">Hanging</option>
+                                    <option value="ideographic">Ideographic</option>
+                                    <option value="middle" selected="selected">Middle</option>
+                                    <option value="top">Top</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="lines-rotation" class="col-sm-4 control-label">Rotation</label>
+                            <div class="col-sm-8">
+                                <select id="lines-rotation" class="form-control input-sm">
+                                    <option value="0">0°</option>
+                                    <option value="0.785398164">45°</option>
+                                    <option value="1.570796327">90°</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="lines-font" class="col-sm-4 control-label">Font</label>
+                            <div class="col-sm-8">
+                                <select id="lines-font" class="form-control input-sm">
+                                    <option value="Arial">Arial</option>
+                                    <option value="Courier New" selected="selected">Courier New</option>
+                                    <option value="Quattrocento Sans">Quattrocento</option>
+                                    <option value="Verdana">Verdana</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="lines-weight" class="col-sm-4 control-label">Weight</label>
+                            <div class="col-sm-8">
+                                <select id="lines-weight" class="form-control input-sm">
+                                    <option value="bold" selected="selected">Bold</option>
+                                    <option value="normal">Normal</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="lines-size" class="col-sm-4 control-label">Size</label>
+                            <div class="col-sm-8">
+                                <input id="lines-size" type="text" value="12px" class="form-control input-sm"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="lines-offset-x" class="col-sm-4 control-label">Offset X</label>
+                            <div class="col-sm-8">
+                                <input id="lines-offset-x" type="text" value="0" class="form-control input-sm"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="lines-offset-y" class="col-sm-4 control-label">Offset Y</label>
+                            <div class="col-sm-8">
+                                <input id="lines-offset-y" type="text" value="0" class="form-control input-sm"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="lines-color" class="col-sm-4 control-label">Color </label>
+                            <div class="col-sm-8">
+                                <input id="lines-color" type="text" value="green" class="form-control input-sm"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="lines-outline" class="col-sm-4 control-label" title="Outline Color">O. Color</label>
+                            <div class="col-sm-8">
+                                <input id="lines-outline" type="text" value="#ffffff" class="form-control input-sm"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="lines-outline-width" class="col-sm-4 control-label" title="Outline Width">O. Width </label>
+                            <div class="col-sm-8">
+                                <input id="lines-outline-width" type="text" value="3" class="form-control input-sm"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="polygons_style_pane" class="tab-pane fade">
+                    <input id="refresh-polygons" type="button" value="Refresh" class="btn btn-default"/>
+                    <h2>Polygons</h2>
+                    <div class="edit-form-elem">
+                        <div class="form-group">
+                            <label for="polygons-text" class="col-sm-4 control-label">Text</label>
+                            <div class="col-sm-8">
+                                <select id="polygons-text" class="form-control input-sm">
+                                    <option value="hide">Hide</option>
+                                    <option value="normal" selected="selected">Normal</option>
+                                    <option value="shorten">Shorten</option>
+                                    <option value="wrap">Wrap</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="polygons-maxreso" class="col-sm-4 control-label" title="Max Resolution Denominator">MaxReso.</label>
+                            <div class="col-sm-8">
+                                <select id="polygons-maxreso" class="form-control input-sm">
+                                    <option value="38400">38,400</option>
+                                    <option value="19200">19,200</option>
+                                    <option value="9600">9,600</option>
+                                    <option value="4800">4,800</option>
+                                    <option value="2400">2,400</option>
+                                    <option value="1200" selected="selected">1,200</option>
+                                    <option value="600">600</option>
+                                    <option value="300">300</option>
+                                    <option value="150">150</option>
+                                    <option value="75">75</option>
+                                    <option value="32">32</option>
+                                    <option value="16">16</option>
+                                    <option value="8">8</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="polygons-align" class="col-sm-4 control-label">Align</label>
+                            <div class="col-sm-8">
+                                <select id="polygons-align" class="form-control input-sm">
+                                    <option value="center" selected="selected">Center</option>
+                                    <option value="end">End</option>
+                                    <option value="left">Left</option>
+                                    <option value="right">Right</option>
+                                    <option value="start">Start</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="polygons-baseline" class="col-sm-4 control-label">Baseline</label>
+                            <div class="col-sm-8">
+                                <select id="polygons-baseline" class="form-control input-sm">
+                                    <option value="alphabetic">Alphabetic</option>
+                                    <option value="bottom">Bottom</option>
+                                    <option value="hanging">Hanging</option>
+                                    <option value="ideographic">Ideographic</option>
+                                    <option value="middle" selected="selected">Middle</option>
+                                    <option value="top">Top</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="polygons-rotation" class="col-sm-4 control-label">Rotation</label>
+                            <div class="col-sm-8">
+                                <select id="polygons-rotation" class="form-control input-sm">
+                                    <option value="0">0°</option>
+                                    <option value="0.785398164">45°</option>
+                                    <option value="1.570796327">90°</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="polygons-font" class="col-sm-4 control-label">Font</label>
+                            <div class="col-sm-8">
+                                <select id="polygons-font" class="form-control input-sm">
+                                    <option value="Arial">Arial</option>
+                                    <option value="Courier New">Courier New</option>
+                                    <option value="Quattrocento Sans">Quattrocento</option>
+                                    <option value="Verdana" selected="selected">Verdana</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="polygons-weight" class="col-sm-4 control-label">Weight</label>
+                            <div class="col-sm-8">
+                                <select id="polygons-weight" class="form-control input-sm">
+                                    <option value="bold" selected="selected">Bold</option>
+                                    <option value="normal">Normal</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="polygons-size" class="col-sm-4 control-label">Size</label>
+                            <div class="col-sm-8">
+                                <input id="polygons-size" type="text" value="10px" class="form-control input-sm"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="polygons-offset-x" class="col-sm-4 control-label">Offset X</label>
+                            <div class="col-sm-8">
+                                <input id="polygons-offset-x" type="text" value="0" class="form-control input-sm"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="polygons-offset-y" class="col-sm-4 control-label">Offset Y</label>
+                            <div class="col-sm-8">
+                                <input id="polygons-offset-y" type="text" value="0" class="form-control input-sm"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="polygons-color" class="col-sm-4 control-label">Color </label>
+                            <div class="col-sm-8">
+                                <input id="polygons-color" type="text" value="blue" class="form-control input-sm"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="polygons-outline" class="col-sm-4 control-label" title="Outline Color">O. Color</label>
+                            <div class="col-sm-8">
+                                <input id="polygons-outline" type="text" value="#ffffff" class="form-control input-sm"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="polygons-outline-width" class="col-sm-4 control-label" title="Outline Width">O. Width </label>
+                            <div class="col-sm-8">
+                                <input id="polygons-outline-width" type="text" value="3" class="form-control input-sm"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="_settings_pane" class="tab-pane fade col-md-12">
+        </div>
+        <div id="drawing_pane" class="tab-pane col-md-12">
+            <div>
+                <form class="form-horizontal 2">
+                    <fieldset>
+                        <legend>Draw</legend>
+                        <p>Activate the "Drawing" layer from the layer switcher then start drawing!</p>
+                        <div class="form-group">
+                            <label for="geometry_type" class="col-sm-4 control-label">Shape</label>
+                            <div class="col-sm-8">
+                                <select id="geometry_type" class="form-control input-sm">
+                                    <option value="None">None</option>
+                                    <option value="Point">Point</option>
+                                    <option value="LineString">LineString</option>
+                                    <option value="Polygon">Polygon</option>
+                                </select>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div id="measure_pane" class="tab-pane fade col-md-12">
+            <div>
+                <form class="form-horizontal 2">
+                    <fieldset>
+                        <!--<legend>Measure</legend>-->
+                        <div class="form-group">
+                            <label for="measure_type" class="col-sm-4 control-label">Geometry</label>
+                            <div class="col-sm-8">
+                                <select id="measure_type" class="form-control input-sm">
+                                    <option value="length">Length</option>
+                                    <option value="area">Area</option>
+                                </select>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div id="position_pane" class="tab-pane fade col-md-12">
+            <form id="position_form" class="sayt form-horizontal form-condensed">
+                <fieldset class="col-md-4">
+                    <div class="form-group form-vertical">
+                        <label for="user_address" class="control-label" data-toggle="tooltip" data-i18n="[data-original-title]user.location.userAddress.info">
+                        <span data-i18n="user.location.userAddress.label">Address</span>
+                        </label>
+                        <div class="col-sm-12">
+                            <input id="user_address" class="form-control" type="text" placeholder="address, zipcode city, country"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="checkbox">
+                            <label for="track" class="col-sm-4 control-label" data-toggle="tooltip" data-i18n="[data-original-title]user.location.track.info">
+                            <span data-i18n="user.location.track.label">Track me</span>
+                            </label>
+                            <div class="col-sm-8">
+                                <input id="track" type="checkbox" value="" checked="checked" class="switch"/>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="geolocate" type="button" class="btn btn-default btn-block hidden" data-i18n="user.location.geolocate.label">Geolocate me</button>
+                    <button id="simulate" type="button" class="btn btn-default btn-lg hidden" data-i18n="user.location.simulate.label">Simulate my position</button>
+                </fieldset>
+                <fieldset class="col-md-4">
+                    <!--<legend>My position</legend>-->
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" data-i18n="user.location.position.longitude.label">Longitude</label>
+                        <div class="col-sm-8">
+                            <p id="longitude" class="form-control-static"></p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" data-i18n="user.location.position.latitude.label">Latitude</label>
+                        <div class="col-sm-8">
+                            <p id="latitude" class="form-control-static"></p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" data-i18n="user.location.position.altitude.label">Altitude</label>
+                        <div class="col-sm-8">
+                            <p id="altitude" class="form-control-static"></p>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class="col-md-4">
+                    <button id="center_map_on_user_location" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-screenshot"></span> Center map</button>
+                </fieldset>
+            </form>
+        </div>
+        <div id="navigation_pane" class="tab-pane fade col-md-12">
+            <form class="form-horizontal">
+                <fieldset class="col-md-3">
+                    <!--<legend>Navigation</legend>-->
+                    <div class="form-group">
+                        <div class="checkbox">
+                            <label for="gps_mode" class="col-sm-4 control-label">Navigation</label>
+                            <div class="col-sm-8">
+                                <input id="gps_mode" type="checkbox" value="" data-size="mini" class="switch"/>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class="col-md-3">
+                    <div class="form-group">
+                        <div class="checkbox">
+                            <label for="rotate_map" class="col-sm-4 control-label">Rotate map</label>
+                            <div class="col-sm-8">
+                                <input id="rotate_map" type="checkbox" value="" data-size="mini" class="switch"/>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class="col-md-3">
+                    <!--<legend data-i18n="user.location.mobility.label">Mobility</legend>-->
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" data-i18n="user.location.mobility.speed.label">Speed</label>
+                        <div class="col-sm-8">
+                            <p id="speed" class="form-control-static"></p>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class="col-md-3">
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" data-i18n="user.location.orientation.heading.label">Heading</label>
+                        <div class="col-sm-8">
+                            <p id="heading" class="form-control-static"></p>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div id="export_pane" class="tab-pane fade col-md-12">
+            <form class="form-horizontal 2">
+                <fieldset>
+                    <a id="export-png" class="btn btn-default" download="map.png"><span class="glyphicon glyphicon-download"></span> Export PNG</a>
+                </fieldset>
+            </form>
+        </div>
+        <!--
+            <div id="geolocation_pane" class="tab-pane fade">
+                <div>
+                    <h3>Geolocation</h3>
+                    <form class="form-horizontal 2">
+                        <fieldset>
+                            <legend>Geolocation</legend>
+                            <div class="form-group">
+                                <button id="geolocate" type="button" class="btn btn-primary btn-lg">Geolocate me</button>
+                                <button id="simulate" type="button" class="btn btn-default btn-lg hidden">Simulate</button>
+                            </div>
+                            <div class="form-group">
+                                <div class="checkbox">
+                                    <label for="track">
+                                    track my position
+                                    <input id="track" type="checkbox" value="" class="switch input-sm"/>
+                                    </label>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>My position</legend>
+                            <div class="form-group">
+                                <label class="col-sm-6">Longitude</label>
+                                <span id="longitude" class="col-sm-4"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-6">Latitude</label>
+                                <span id="latitude" class="col-sm-4"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-6">Altitude</label>
+                                <span id="altitude" class="col-sm-4"></span>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>My movement</legend>
+                            <div class="form-group">
+                                <label class="col-sm-6">Speed</label>
+                                <span id="speed" class="col-sm-4"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-6">Heading</label>
+                                <span id="heading" class="col-sm-4"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-6">Delta</label>
+                                <span id="delta" class="col-sm-4"></span>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Accuracy</legend>
+                            <div class="form-group">
+                                <label class="col-sm-6">Position accuracy</label>
+                                <span id="accuracy" class="col-sm-4"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-6">Altitude accuracy</label>
+                                <span id="altitudeAccuracy" class="col-sm-4"></span>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <div id="vector_pane" class="tab-pane fade">
+            </div>
+            <div class="row">
+                <div class="2">
+                    <p>Point to a country to see its name and flag.</p>
+                </div>
+            </div>
+            <div class="row">
+                <form class="form-horizontal 2">
+                    <fieldset>
+                        <legend>???</legend>
+                        <div class="form-group">
+                            <label class="col-sm-4">Alpha</label>
+                            <span id="alpha" class="col-sm-8"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-4">Beta</label>
+                            <span id="beta" class="col-sm-8"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-4">Gamma</label>
+                            <span id="gamma" class="col-sm-8"></span>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="row">
+                <div class="2">
+                    <button id="rotate-left" type="button" class="btn btn-default"><span class="glyphicon glyphicon-arrow-left"></span></button>
+                    <button id="rotate-right" type="button" class="btn btn-default"><span class="glyphicon glyphicon-arrow-right"></span></button>
+                    <button id="rotate-around-rome" type="button" class="btn btn-default">Rotate around Rome</button>
+                    <button id="pan-to-london" type="button" class="btn btn-default">Pan to London</button>
+                    <button id="elastic-to-moscow" type="button" class="btn btn-default">Elastic to Moscow</button>
+                    <button id="bounce-to-istanbul" type="button" class="btn btn-default">Bounce to Istanbul</button>
+                    <button id="spin-to-rome" type="button" class="btn btn-default">Spin to Rome</button>
+                    <button id="fly-to-bern" type="button" class="btn btn-default">Fly to Bern</button>
+                    <button id="spiral-to-madrid" type="button" class="btn btn-default">Spiral to Madrid</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="2">
+                    <button id="zoomtoswitzerlandbest" type="button" class="btn btn-default">Zoom to Switzerland</button>(best fit),
+                    <br/>
+                    <button id="zoomtoswitzerlandconstrained" type="button" class="btn btn-default">Zoom to Switzerland</button>(respect resolution constraint).
+                    <br/>
+                    <button id="zoomtoswitzerlandnearest" type="button" class="btn btn-default">Zoom to Switzerland</button>(nearest),
+                    <br/>
+                    <button id="zoomtolausanne" type="button" class="btn btn-default">Zoom to Lausanne</button>(with min resolution),
+                    <br/>
+                    <button id="centerlausanne" type="button" class="btn btn-default">Center on Lausanne</button>
+                </div>
+            </div>
+            <h2>Edit</h2>
+            <div class="row">
+                <form class="form-horizontal 2">
+                    <fieldset>
+                        <legend>Options</legend>
+                        <div class="form-group">
+                            <label for="depth" class="col-sm-4 control-label">Depth</label>
+                            <div class="col-sm-8">
+                                <input id="depth" type="range" min="0" max="9" step="1" value="5" class="input-sm"/>
+                            </div>
+                            <p class="help-block"><span id="count">#</span>points</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="radius" class="col-sm-4 control-label">Radius size</label>
+                            <div class="col-sm-8">
+                                <input id="radius" type="range" min="1" max="50" step="1" value="5" class="input-sm"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="blur" class="col-sm-4 control-label">Blur size</label>
+                            <div class="col-sm-8">
+                                <input id="blur" type="range" min="1" max="50" step="1" value="15" class="input-sm"/>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="row">
+                <div class="form-group">
+                    <label for="time" class="col-sm-4 control-label">Time</label>
+                    <div class="col-sm-8">
+                        <input id="time" type="range" value="0" steps="1" class="input-sm"/>
+                    </div>
+                </div>
+            </div>
+            <div id="examples"></div>
+            <div style="display: none;">
+                <div id="template">
+                    <div class="col-md-3 example" jugl:repeat="example examples">
+                        <a jugl:attributes="href example.link" class="mainlink">
+                        <strong><span jugl:replace="example.title">title</span></strong>
+                        <br>
+                        <small jugl:content="'(' + example.example + ')'"></small>
+                        </a>
+                        <p>
+                        <div jugl:content="example.shortdesc"></div>
+                        </p>
+                        <p><small jugl:content="'tags: ' + example.tags"></small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="layertree" class="col-md-3">
+                    <h5>Click on layer nodes below to change their properties.</h5>
+                    <ul>
+                        <li>
+                            <span>OpenAerial layer</span>
+                            <fieldset id="layer0">
+                                <div class="form-group">
+                                    <div class="checkbox">
+                                        <label for="visible0">
+                                        visibility
+                                        <input id="visible0" class="switch visible" type="checkbox" value="" class="switch"/>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="opacity" class="col-sm-4 control-label">opacity</label>
+                                    <div class="col-sm-8">
+                                        <input class="opacity" type="range" min="0" max="1" step="0.01" class="input-sm"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="hue" class="col-sm-4 control-label">hue</label>
+                                    <div class="col-sm-8">
+                                        <input class="hue" type="range" min="-3.141592653589793" max="3.141592653589793" step="0.01" class="input-sm"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="saturation" class="col-sm-4 control-label">saturation</label>
+                                    <div class="col-sm-8">
+                                        <input class="saturation" type="range" min="0" max="5" step="0.01" class="input-sm"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contrast" class="col-sm-4 control-label">contrast</label>
+                                    <div class="col-sm-8">
+                                        <input class="contrast" type="range" min="0" max="2" step="0.01" class="input-sm"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="brightness" class="col-sm-4 control-label">brightness</label>
+                                    <div class="col-sm-8">
+                                        <input class="brightness" type="range" min="-1" max="1" step="0.01" class="input-sm"/>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </li>
+                        <li>
+                            <span>Layer group</span>
+                            <fieldset id="layer1">
+                                <div class="form-group">
+                                    <div class="checkbox">
+                                        <label for="visible1">
+                                        <input id="visible1" class="switch visible" type="checkbox" value="" class="switch"/>visibility
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="opacity" class="col-sm-4 control-label">opacity</label>
+                                    <div class="col-sm-8">
+                                        <input class="opacity" type="range" min="0" max="1" step="0.01" class="input-sm"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="hue" class="col-sm-4 control-label">hue</label>
+                                    <div class="col-sm-8">
+                                        <input class="hue" type="range" min="-3.141592653589793" max="3.141592653589793" step="0.01" class="input-sm"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="saturation" class="col-sm-4 control-label">saturation</label>
+                                    <div class="col-sm-8">
+                                        <input class="saturation" type="range" min="0" max="5" step="0.01" class="input-sm"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contrast" class="col-sm-4 control-label">contrast</label>
+                                    <div class="col-sm-8">
+                                        <input class="contrast" type="range" min="0" max="2" step="0.01" class="input-sm"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="brightness" class="col-sm-4 control-label">brightness</label>
+                                    <div class="col-sm-8">
+                                        <input class="brightness" type="range" min="-1" max="1" step="0.01" class="input-sm"/>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <ul>
+                                <li>
+                                    <span>Food insecurity layer</span>
+                                    <fieldset id="layer10">
+                                        <div class="form-group">
+                                            <div class="checkbox">
+                                                <label for="visible10">
+                                                <input id="visible10" class="switch visible" type="checkbox" value=""/>visibility
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="opacity" class="col-sm-4 control-label">opacity</label>
+                                            <div class="col-sm-8">
+                                                <input class="opacity" type="range" min="0" max="1" step="0.01" class="input-sm"/>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="hue" class="col-sm-4 control-label">hue</label>
+                                            <div class="col-sm-8">
+                                                <input class="hue" type="range" min="-3.141592653589793" max="3.141592653589793" step="0.01" class="input-sm"/>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="saturation" class="col-sm-4 control-label">saturation</label>
+                                            <div class="col-sm-8">
+                                                <input class="saturation" type="range" min="0" max="5" step="0.01" class="input-sm"/>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="contrast" class="col-sm-4 control-label">contrast</label>
+                                            <div class="col-sm-8">
+                                                <input class="contrast" type="range" min="0" max="2" step="0.01" class="input-sm"/>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="brightness" class="col-sm-4 control-label">brightness</label>
+                                            <div class="col-sm-8">
+                                                <input class="brightness" type="range" min="-1" max="1" step="0.01" class="input-sm"/>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </li>
+                                <li>
+                                    <span>World borders layer</span>
+                                    <fieldset id="layer11">
+                                        <div class="form-group">
+                                            <div class="checkbox">
+                                                <label for="visible11">
+                                                <input id="visible11" class="switch visible" type="checkbox" value=""/>visibility
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="opacity" class="col-sm-4 control-label">opacity</label>
+                                            <div class="col-sm-8">
+                                                <input class="opacity" type="range" min="0" max="1" step="0.01" class="input-sm"/>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="hue" class="col-sm-4 control-label">hue</label>
+                                            <div class="col-sm-8">
+                                                <input class="hue" type="range" min="-3.141592653589793" max="3.141592653589793" step="0.01" class="input-sm"/>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="saturation" class="col-sm-4 control-label">saturation</label>
+                                            <div class="col-sm-8">
+                                                <input class="saturation" type="range" min="0" max="5" step="0.01" class="input-sm"/>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="contrast" class="col-sm-4 control-label">contrast</label>
+                                            <div class="col-sm-8">
+                                                <input class="contrast" type="range" min="0" max="2" step="0.01" class="input-sm"/>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="brightness" class="col-sm-4 control-label">brightness</label>
+                                            <div class="col-sm-8">
+                                                <input class="brightness" type="range" min="-1" max="1" step="0.01" class="input-sm"/>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="2">
+                    <input id="swipe" type="range" style="width: 100%" class="input-sm"/>
+                </div>
+            </div>
+            <div style="display: none;">
+                <div id="title">Mobile full screen example</div>
+                <div id="shortdesc">Example of a full screen map.</div>
+            </div>
+            <div style="display: none;">
+                <a class="overlay" id="vienna" target="_blank" href="http://en.wikipedia.org/wiki/Vienna">Vienna</a>
+                <div id="marker" title="Marker"></div>
+            </div>
+            <side-by-side
+            <div class="row">
+                <div class="col-md-3">
+                    <h4>Canvas</h4>
+                    <div id="canvasMap" class="map"></div>
+                </div>
+                <div class="col-md-3">
+                    <h4>WebGL</h4>
+                    <div id="webglMap" class="map"></div>
+                </div>
+                <div class="col-md-3">
+                    <h4>DOM</h4>
+                    <div id="domMap" class="map"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div id="map2" class="map"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="2">
+                    <a id="teleport" href="#" class="btn btn-default">Teleport</a>
+                </div>
+            </div>
+            -->
+        <div id="empty_pane" class="tab-pane">
+        </div>
+    </div>
+</div>

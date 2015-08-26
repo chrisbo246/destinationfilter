@@ -1,0 +1,97 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: node-gettext\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgid "add##label"
+msgstr "Add"
+
+msgid "cancel##label"
+msgstr "Cancel"
+
+msgid "centerCountry##label"
+msgstr "Show on map"
+
+msgid "check##label"
+msgstr "Check"
+
+msgid "close##label"
+msgstr "Close"
+
+msgid "deleteCookies##label"
+msgstr "Delete cookies"
+
+msgid "disableAll##label"
+msgstr "Disable all"
+
+msgid "disableSelection##label"
+msgstr "Disable selection"
+
+msgid "donate##label"
+msgstr "Pay by card"
+
+msgid "enableAll##label"
+msgstr "All"
+
+msgid "enableSelection##label"
+msgstr "Selection"
+
+msgid "geolocate##label"
+msgstr "Detect my position"
+
+msgid "ok##label"
+msgstr "OK"
+
+msgid "olAttribution##label"
+msgstr "Attributions"
+
+msgid "olFullScreen##label"
+msgstr "Toggle full-screen"
+
+msgid "olLayerswitcher##label"
+msgstr "Layers"
+
+msgid "olOverviewmap##label"
+msgstr "Overview map"
+
+msgid "olRotateReset##label"
+msgstr "Rotate reset"
+
+msgid "olScaleLine##label"
+msgstr "Scale line"
+
+msgid "olZoomExtent##label"
+msgstr "Fit to extent"
+
+msgid "olZoomIn##label"
+msgstr "Zoom in"
+
+msgid "olZoomOut##label"
+msgstr "Zoom out"
+
+msgid "reset##label"
+msgstr "Reset"
+
+msgid "save##label"
+msgstr "Save"
+
+msgid "send##label"
+msgstr "Send"
+
+msgid "simulate##label"
+msgstr "Simulate"
+
+msgid "start##label"
+msgstr "Start now"
+
+msgid "stripePanelLabel##label"
+msgstr "Send"
+
+msgid "tour##label"
+msgstr "Quick tour"
+
+msgid "translate##label"
+msgstr "Translate now"

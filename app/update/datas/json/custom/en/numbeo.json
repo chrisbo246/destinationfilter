@@ -1,0 +1,826 @@
+[
+  {
+    "numbeoCountryName": "Afghanistan",
+    "numbeoCountrySlug": "Afghanistan"
+  },
+  {
+    "numbeoCountryName": "Aland Islands",
+    "numbeoCountrySlug": "Aland Islands"
+  },
+  {
+    "numbeoCountryName": "Albania",
+    "numbeoCountrySlug": "Albania"
+  },
+  {
+    "numbeoCountryName": "Algeria",
+    "numbeoCountrySlug": "Algeria"
+  },
+  {
+    "numbeoCountryName": "Andorra",
+    "numbeoCountrySlug": "Andorra"
+  },
+  {
+    "numbeoCountryName": "Angola",
+    "numbeoCountrySlug": "Angola"
+  },
+  {
+    "numbeoCountryName": "Antigua And Barbuda",
+    "numbeoCountrySlug": "Antigua And Barbuda"
+  },
+  {
+    "numbeoCountryName": "Argentina",
+    "numbeoCountrySlug": "Argentina"
+  },
+  {
+    "numbeoCountryName": "Armenia",
+    "numbeoCountrySlug": "Armenia"
+  },
+  {
+    "numbeoCountryName": "Aruba",
+    "numbeoCountrySlug": "Aruba"
+  },
+  {
+    "numbeoCountryName": "Australia",
+    "numbeoCountrySlug": "Australia"
+  },
+  {
+    "numbeoCountryName": "Austria",
+    "numbeoCountrySlug": "Austria"
+  },
+  {
+    "numbeoCountryName": "Azerbaijan",
+    "numbeoCountrySlug": "Azerbaijan"
+  },
+  {
+    "numbeoCountryName": "Bahamas",
+    "numbeoCountrySlug": "Bahamas"
+  },
+  {
+    "numbeoCountryName": "Bahrain",
+    "numbeoCountrySlug": "Bahrain"
+  },
+  {
+    "numbeoCountryName": "Bangladesh",
+    "numbeoCountrySlug": "Bangladesh"
+  },
+  {
+    "numbeoCountryName": "Barbados",
+    "numbeoCountrySlug": "Barbados"
+  },
+  {
+    "numbeoCountryName": "Belarus",
+    "numbeoCountrySlug": "Belarus"
+  },
+  {
+    "numbeoCountryName": "Belgium",
+    "numbeoCountrySlug": "Belgium"
+  },
+  {
+    "numbeoCountryName": "Belize",
+    "numbeoCountrySlug": "Belize"
+  },
+  {
+    "numbeoCountryName": "Bermuda",
+    "numbeoCountrySlug": "Bermuda"
+  },
+  {
+    "numbeoCountryName": "Bhutan",
+    "numbeoCountrySlug": "Bhutan"
+  },
+  {
+    "numbeoCountryName": "Bolivia",
+    "numbeoCountrySlug": "Bolivia"
+  },
+  {
+    "numbeoCountryName": "Bosnia And Herzegovina",
+    "numbeoCountrySlug": "Bosnia And Herzegovina"
+  },
+  {
+    "numbeoCountryName": "Botswana",
+    "numbeoCountrySlug": "Botswana"
+  },
+  {
+    "numbeoCountryName": "Brazil",
+    "numbeoCountrySlug": "Brazil"
+  },
+  {
+    "numbeoCountryName": "British Virgin Islands",
+    "numbeoCountrySlug": "British Virgin Islands"
+  },
+  {
+    "numbeoCountryName": "Brunei",
+    "numbeoCountrySlug": "Brunei"
+  },
+  {
+    "numbeoCountryName": "Bulgaria",
+    "numbeoCountrySlug": "Bulgaria"
+  },
+  {
+    "numbeoCountryName": "Burkina Faso",
+    "numbeoCountrySlug": "Burkina Faso"
+  },
+  {
+    "numbeoCountryName": "Burundi",
+    "numbeoCountrySlug": "Burundi"
+  },
+  {
+    "numbeoCountryName": "Cambodia",
+    "numbeoCountrySlug": "Cambodia"
+  },
+  {
+    "numbeoCountryName": "Cameroon",
+    "numbeoCountrySlug": "Cameroon"
+  },
+  {
+    "numbeoCountryName": "Canada",
+    "numbeoCountrySlug": "Canada"
+  },
+  {
+    "numbeoCountryName": "Cape Verde",
+    "numbeoCountrySlug": "Cape Verde"
+  },
+  {
+    "numbeoCountryName": "Cayman Islands",
+    "numbeoCountrySlug": "Cayman Islands"
+  },
+  {
+    "numbeoCountryName": "Chad",
+    "numbeoCountrySlug": "Chad"
+  },
+  {
+    "numbeoCountryName": "Chile",
+    "numbeoCountrySlug": "Chile"
+  },
+  {
+    "numbeoCountryName": "China",
+    "numbeoCountrySlug": "China"
+  },
+  {
+    "numbeoCountryName": "Colombia",
+    "numbeoCountrySlug": "Colombia"
+  },
+  {
+    "numbeoCountryName": "Congo",
+    "numbeoCountrySlug": "Congo"
+  },
+  {
+    "numbeoCountryName": "Cook Islands",
+    "numbeoCountrySlug": "Cook Islands"
+  },
+  {
+    "numbeoCountryName": "Costa Rica",
+    "numbeoCountrySlug": "Costa Rica"
+  },
+  {
+    "numbeoCountryName": "Croatia",
+    "numbeoCountrySlug": "Croatia"
+  },
+  {
+    "numbeoCountryName": "Cuba",
+    "numbeoCountrySlug": "Cuba"
+  },
+  {
+    "numbeoCountryName": "Curacao",
+    "numbeoCountrySlug": "Curacao"
+  },
+  {
+    "numbeoCountryName": "Cyprus",
+    "numbeoCountrySlug": "Cyprus"
+  },
+  {
+    "numbeoCountryName": "Czech Republic",
+    "numbeoCountrySlug": "Czech Republic"
+  },
+  {
+    "numbeoCountryName": "Denmark",
+    "numbeoCountrySlug": "Denmark"
+  },
+  {
+    "numbeoCountryName": "Djibouti",
+    "numbeoCountrySlug": "Djibouti"
+  },
+  {
+    "numbeoCountryName": "Dominica",
+    "numbeoCountrySlug": "Dominica"
+  },
+  {
+    "numbeoCountryName": "Dominican Republic",
+    "numbeoCountrySlug": "Dominican Republic"
+  },
+  {
+    "numbeoCountryName": "Ecuador",
+    "numbeoCountrySlug": "Ecuador"
+  },
+  {
+    "numbeoCountryName": "Egypt",
+    "numbeoCountrySlug": "Egypt"
+  },
+  {
+    "numbeoCountryName": "El Salvador",
+    "numbeoCountrySlug": "El Salvador"
+  },
+  {
+    "numbeoCountryName": "Equatorial Guinea",
+    "numbeoCountrySlug": "Equatorial Guinea"
+  },
+  {
+    "numbeoCountryName": "Eritrea",
+    "numbeoCountrySlug": "Eritrea"
+  },
+  {
+    "numbeoCountryName": "Estonia",
+    "numbeoCountrySlug": "Estonia"
+  },
+  {
+    "numbeoCountryName": "Ethiopia",
+    "numbeoCountrySlug": "Ethiopia"
+  },
+  {
+    "numbeoCountryName": "Falkland Islands",
+    "numbeoCountrySlug": "Falkland Islands"
+  },
+  {
+    "numbeoCountryName": "Faroe Islands",
+    "numbeoCountrySlug": "Faroe Islands"
+  },
+  {
+    "numbeoCountryName": "Fiji",
+    "numbeoCountrySlug": "Fiji"
+  },
+  {
+    "numbeoCountryName": "Finland",
+    "numbeoCountrySlug": "Finland"
+  },
+  {
+    "numbeoCountryName": "France",
+    "numbeoCountrySlug": "France"
+  },
+  {
+    "numbeoCountryName": "French Polynesia",
+    "numbeoCountrySlug": "French Polynesia"
+  },
+  {
+    "numbeoCountryName": "Gabon",
+    "numbeoCountrySlug": "Gabon"
+  },
+  {
+    "numbeoCountryName": "Gambia",
+    "numbeoCountrySlug": "Gambia"
+  },
+  {
+    "numbeoCountryName": "Georgia",
+    "numbeoCountrySlug": "Georgia"
+  },
+  {
+    "numbeoCountryName": "Germany",
+    "numbeoCountrySlug": "Germany"
+  },
+  {
+    "numbeoCountryName": "Ghana",
+    "numbeoCountrySlug": "Ghana"
+  },
+  {
+    "numbeoCountryName": "Gibraltar",
+    "numbeoCountrySlug": "Gibraltar"
+  },
+  {
+    "numbeoCountryName": "Greece",
+    "numbeoCountrySlug": "Greece"
+  },
+  {
+    "numbeoCountryName": "Greenland",
+    "numbeoCountrySlug": "Greenland"
+  },
+  {
+    "numbeoCountryName": "Grenada",
+    "numbeoCountrySlug": "Grenada"
+  },
+  {
+    "numbeoCountryName": "Guam",
+    "numbeoCountrySlug": "Guam"
+  },
+  {
+    "numbeoCountryName": "Guatemala",
+    "numbeoCountrySlug": "Guatemala"
+  },
+  {
+    "numbeoCountryName": "Guernsey",
+    "numbeoCountrySlug": "Guernsey"
+  },
+  {
+    "numbeoCountryName": "Guinea",
+    "numbeoCountrySlug": "Guinea"
+  },
+  {
+    "numbeoCountryName": "Guyana",
+    "numbeoCountrySlug": "Guyana"
+  },
+  {
+    "numbeoCountryName": "Haiti",
+    "numbeoCountrySlug": "Haiti"
+  },
+  {
+    "numbeoCountryName": "Honduras",
+    "numbeoCountrySlug": "Honduras"
+  },
+  {
+    "numbeoCountryName": "Hong Kong",
+    "numbeoCountrySlug": "Hong Kong"
+  },
+  {
+    "numbeoCountryName": "Hungary",
+    "numbeoCountrySlug": "Hungary"
+  },
+  {
+    "numbeoCountryName": "Iceland",
+    "numbeoCountrySlug": "Iceland"
+  },
+  {
+    "numbeoCountryName": "India",
+    "numbeoCountrySlug": "India"
+  },
+  {
+    "numbeoCountryName": "Indonesia",
+    "numbeoCountrySlug": "Indonesia"
+  },
+  {
+    "numbeoCountryName": "Iran",
+    "numbeoCountrySlug": "Iran"
+  },
+  {
+    "numbeoCountryName": "Iraq",
+    "numbeoCountrySlug": "Iraq"
+  },
+  {
+    "numbeoCountryName": "Ireland",
+    "numbeoCountrySlug": "Ireland"
+  },
+  {
+    "numbeoCountryName": "Isle Of Man",
+    "numbeoCountrySlug": "Isle Of Man"
+  },
+  {
+    "numbeoCountryName": "Israel",
+    "numbeoCountrySlug": "Israel"
+  },
+  {
+    "numbeoCountryName": "Italy",
+    "numbeoCountrySlug": "Italy"
+  },
+  {
+    "numbeoCountryName": "Ivory Coast",
+    "numbeoCountrySlug": "Ivory Coast"
+  },
+  {
+    "numbeoCountryName": "Jamaica",
+    "numbeoCountrySlug": "Jamaica"
+  },
+  {
+    "numbeoCountryName": "Japan",
+    "numbeoCountrySlug": "Japan"
+  },
+  {
+    "numbeoCountryName": "Jersey",
+    "numbeoCountrySlug": "Jersey"
+  },
+  {
+    "numbeoCountryName": "Jordan",
+    "numbeoCountrySlug": "Jordan"
+  },
+  {
+    "numbeoCountryName": "Kazakhstan",
+    "numbeoCountrySlug": "Kazakhstan"
+  },
+  {
+    "numbeoCountryName": "Kenya",
+    "numbeoCountrySlug": "Kenya"
+  },
+  {
+    "numbeoCountryName": "Kosovo (Disputed Territory)",
+    "numbeoCountrySlug": "Kosovo (Disputed Territory)"
+  },
+  {
+    "numbeoCountryName": "Kuwait",
+    "numbeoCountrySlug": "Kuwait"
+  },
+  {
+    "numbeoCountryName": "Kyrgyzstan",
+    "numbeoCountrySlug": "Kyrgyzstan"
+  },
+  {
+    "numbeoCountryName": "Laos",
+    "numbeoCountrySlug": "Laos"
+  },
+  {
+    "numbeoCountryName": "Latvia",
+    "numbeoCountrySlug": "Latvia"
+  },
+  {
+    "numbeoCountryName": "Lebanon",
+    "numbeoCountrySlug": "Lebanon"
+  },
+  {
+    "numbeoCountryName": "Lesotho",
+    "numbeoCountrySlug": "Lesotho"
+  },
+  {
+    "numbeoCountryName": "Liberia",
+    "numbeoCountrySlug": "Liberia"
+  },
+  {
+    "numbeoCountryName": "Libya",
+    "numbeoCountrySlug": "Libya"
+  },
+  {
+    "numbeoCountryName": "Liechtenstein",
+    "numbeoCountrySlug": "Liechtenstein"
+  },
+  {
+    "numbeoCountryName": "Lithuania",
+    "numbeoCountrySlug": "Lithuania"
+  },
+  {
+    "numbeoCountryName": "Luxembourg",
+    "numbeoCountrySlug": "Luxembourg"
+  },
+  {
+    "numbeoCountryName": "Macao",
+    "numbeoCountrySlug": "Macao"
+  },
+  {
+    "numbeoCountryName": "Macedonia",
+    "numbeoCountrySlug": "Macedonia"
+  },
+  {
+    "numbeoCountryName": "Madagascar",
+    "numbeoCountrySlug": "Madagascar"
+  },
+  {
+    "numbeoCountryName": "Malawi",
+    "numbeoCountrySlug": "Malawi"
+  },
+  {
+    "numbeoCountryName": "Malaysia",
+    "numbeoCountrySlug": "Malaysia"
+  },
+  {
+    "numbeoCountryName": "Maldives",
+    "numbeoCountrySlug": "Maldives"
+  },
+  {
+    "numbeoCountryName": "Mali",
+    "numbeoCountrySlug": "Mali"
+  },
+  {
+    "numbeoCountryName": "Malta",
+    "numbeoCountrySlug": "Malta"
+  },
+  {
+    "numbeoCountryName": "Marshall Islands",
+    "numbeoCountrySlug": "Marshall Islands"
+  },
+  {
+    "numbeoCountryName": "Mauritius",
+    "numbeoCountrySlug": "Mauritius"
+  },
+  {
+    "numbeoCountryName": "Mexico",
+    "numbeoCountrySlug": "Mexico"
+  },
+  {
+    "numbeoCountryName": "Moldova",
+    "numbeoCountrySlug": "Moldova"
+  },
+  {
+    "numbeoCountryName": "Monaco",
+    "numbeoCountrySlug": "Monaco"
+  },
+  {
+    "numbeoCountryName": "Mongolia",
+    "numbeoCountrySlug": "Mongolia"
+  },
+  {
+    "numbeoCountryName": "Montenegro",
+    "numbeoCountrySlug": "Montenegro"
+  },
+  {
+    "numbeoCountryName": "Morocco",
+    "numbeoCountrySlug": "Morocco"
+  },
+  {
+    "numbeoCountryName": "Mozambique",
+    "numbeoCountrySlug": "Mozambique"
+  },
+  {
+    "numbeoCountryName": "Myanmar",
+    "numbeoCountrySlug": "Myanmar"
+  },
+  {
+    "numbeoCountryName": "Namibia",
+    "numbeoCountrySlug": "Namibia"
+  },
+  {
+    "numbeoCountryName": "Nepal",
+    "numbeoCountrySlug": "Nepal"
+  },
+  {
+    "numbeoCountryName": "Netherlands",
+    "numbeoCountrySlug": "Netherlands"
+  },
+  {
+    "numbeoCountryName": "New Caledonia",
+    "numbeoCountrySlug": "New Caledonia"
+  },
+  {
+    "numbeoCountryName": "New Zealand",
+    "numbeoCountrySlug": "New Zealand"
+  },
+  {
+    "numbeoCountryName": "Nicaragua",
+    "numbeoCountrySlug": "Nicaragua"
+  },
+  {
+    "numbeoCountryName": "Niger",
+    "numbeoCountrySlug": "Niger"
+  },
+  {
+    "numbeoCountryName": "Nigeria",
+    "numbeoCountrySlug": "Nigeria"
+  },
+  {
+    "numbeoCountryName": "Norway",
+    "numbeoCountrySlug": "Norway"
+  },
+  {
+    "numbeoCountryName": "Oman",
+    "numbeoCountrySlug": "Oman"
+  },
+  {
+    "numbeoCountryName": "Pakistan",
+    "numbeoCountrySlug": "Pakistan"
+  },
+  {
+    "numbeoCountryName": "Palestinian Territory",
+    "numbeoCountrySlug": "Palestinian Territory"
+  },
+  {
+    "numbeoCountryName": "Panama",
+    "numbeoCountrySlug": "Panama"
+  },
+  {
+    "numbeoCountryName": "Papua New Guinea",
+    "numbeoCountrySlug": "Papua New Guinea"
+  },
+  {
+    "numbeoCountryName": "Paraguay",
+    "numbeoCountrySlug": "Paraguay"
+  },
+  {
+    "numbeoCountryName": "Peru",
+    "numbeoCountrySlug": "Peru"
+  },
+  {
+    "numbeoCountryName": "Philippines",
+    "numbeoCountrySlug": "Philippines"
+  },
+  {
+    "numbeoCountryName": "Poland",
+    "numbeoCountrySlug": "Poland"
+  },
+  {
+    "numbeoCountryName": "Portugal",
+    "numbeoCountrySlug": "Portugal"
+  },
+  {
+    "numbeoCountryName": "Puerto Rico",
+    "numbeoCountrySlug": "Puerto Rico"
+  },
+  {
+    "numbeoCountryName": "Qatar",
+    "numbeoCountrySlug": "Qatar"
+  },
+  {
+    "numbeoCountryName": "Republic Of Congo",
+    "numbeoCountrySlug": "Republic Of Congo"
+  },
+  {
+    "numbeoCountryName": "Reunion",
+    "numbeoCountrySlug": "Reunion"
+  },
+  {
+    "numbeoCountryName": "Romania",
+    "numbeoCountrySlug": "Romania"
+  },
+  {
+    "numbeoCountryName": "Russia",
+    "numbeoCountrySlug": "Russia"
+  },
+  {
+    "numbeoCountryName": "Rwanda",
+    "numbeoCountrySlug": "Rwanda"
+  },
+  {
+    "numbeoCountryName": "Saint Kitts And Nevis",
+    "numbeoCountrySlug": "Saint Kitts And Nevis"
+  },
+  {
+    "numbeoCountryName": "Saint Lucia",
+    "numbeoCountrySlug": "Saint Lucia"
+  },
+  {
+    "numbeoCountryName": "Saint Vincent And The Grenadines",
+    "numbeoCountrySlug": "Saint Vincent And The Grenadines"
+  },
+  {
+    "numbeoCountryName": "Samoa",
+    "numbeoCountrySlug": "Samoa"
+  },
+  {
+    "numbeoCountryName": "Saudi Arabia",
+    "numbeoCountrySlug": "Saudi Arabia"
+  },
+  {
+    "numbeoCountryName": "Senegal",
+    "numbeoCountrySlug": "Senegal"
+  },
+  {
+    "numbeoCountryName": "Serbia",
+    "numbeoCountrySlug": "Serbia"
+  },
+  {
+    "numbeoCountryName": "Seychelles",
+    "numbeoCountrySlug": "Seychelles"
+  },
+  {
+    "numbeoCountryName": "Singapore",
+    "numbeoCountrySlug": "Singapore"
+  },
+  {
+    "numbeoCountryName": "Slovakia",
+    "numbeoCountrySlug": "Slovakia"
+  },
+  {
+    "numbeoCountryName": "Slovenia",
+    "numbeoCountrySlug": "Slovenia"
+  },
+  {
+    "numbeoCountryName": "Solomon Islands",
+    "numbeoCountrySlug": "Solomon Islands"
+  },
+  {
+    "numbeoCountryName": "Somalia",
+    "numbeoCountrySlug": "Somalia"
+  },
+  {
+    "numbeoCountryName": "South Africa",
+    "numbeoCountrySlug": "South Africa"
+  },
+  {
+    "numbeoCountryName": "South Korea",
+    "numbeoCountrySlug": "South Korea"
+  },
+  {
+    "numbeoCountryName": "South Sudan",
+    "numbeoCountrySlug": "South Sudan"
+  },
+  {
+    "numbeoCountryName": "Spain",
+    "numbeoCountrySlug": "Spain"
+  },
+  {
+    "numbeoCountryName": "Sri Lanka",
+    "numbeoCountrySlug": "Sri Lanka"
+  },
+  {
+    "numbeoCountryName": "Sudan",
+    "numbeoCountrySlug": "Sudan"
+  },
+  {
+    "numbeoCountryName": "Suriname",
+    "numbeoCountrySlug": "Suriname"
+  },
+  {
+    "numbeoCountryName": "Swaziland",
+    "numbeoCountrySlug": "Swaziland"
+  },
+  {
+    "numbeoCountryName": "Sweden",
+    "numbeoCountrySlug": "Sweden"
+  },
+  {
+    "numbeoCountryName": "Switzerland",
+    "numbeoCountrySlug": "Switzerland"
+  },
+  {
+    "numbeoCountryName": "Syria",
+    "numbeoCountrySlug": "Syria"
+  },
+  {
+    "numbeoCountryName": "Taiwan",
+    "numbeoCountrySlug": "Taiwan"
+  },
+  {
+    "numbeoCountryName": "Tajikistan",
+    "numbeoCountrySlug": "Tajikistan"
+  },
+  {
+    "numbeoCountryName": "Tanzania",
+    "numbeoCountrySlug": "Tanzania"
+  },
+  {
+    "numbeoCountryName": "Thailand",
+    "numbeoCountrySlug": "Thailand"
+  },
+  {
+    "numbeoCountryName": "Timor-Leste",
+    "numbeoCountrySlug": "Timor-Leste"
+  },
+  {
+    "numbeoCountryName": "Togo",
+    "numbeoCountrySlug": "Togo"
+  },
+  {
+    "numbeoCountryName": "Tonga",
+    "numbeoCountrySlug": "Tonga"
+  },
+  {
+    "numbeoCountryName": "Trinidad And Tobago",
+    "numbeoCountrySlug": "Trinidad And Tobago"
+  },
+  {
+    "numbeoCountryName": "Tunisia",
+    "numbeoCountrySlug": "Tunisia"
+  },
+  {
+    "numbeoCountryName": "Turkey",
+    "numbeoCountrySlug": "Turkey"
+  },
+  {
+    "numbeoCountryName": "Turkmenistan",
+    "numbeoCountrySlug": "Turkmenistan"
+  },
+  {
+    "numbeoCountryName": "Turks And Caicos Islands",
+    "numbeoCountrySlug": "Turks And Caicos Islands"
+  },
+  {
+    "numbeoCountryName": "Uganda",
+    "numbeoCountrySlug": "Uganda"
+  },
+  {
+    "numbeoCountryName": "Ukraine",
+    "numbeoCountrySlug": "Ukraine"
+  },
+  {
+    "numbeoCountryName": "United Arab Emirates",
+    "numbeoCountrySlug": "United Arab Emirates"
+  },
+  {
+    "numbeoCountryName": "United Kingdom",
+    "numbeoCountrySlug": "United Kingdom"
+  },
+  {
+    "numbeoCountryName": "United States",
+    "numbeoCountrySlug": "United States"
+  },
+  {
+    "numbeoCountryName": "Uruguay",
+    "numbeoCountrySlug": "Uruguay"
+  },
+  {
+    "numbeoCountryName": "Us Virgin Islands",
+    "numbeoCountrySlug": "Us Virgin Islands"
+  },
+  {
+    "numbeoCountryName": "Uzbekistan",
+    "numbeoCountrySlug": "Uzbekistan"
+  },
+  {
+    "numbeoCountryName": "Vanuatu",
+    "numbeoCountrySlug": "Vanuatu"
+  },
+  {
+    "numbeoCountryName": "Venezuela",
+    "numbeoCountrySlug": "Venezuela"
+  },
+  {
+    "numbeoCountryName": "Vietnam",
+    "numbeoCountrySlug": "Vietnam"
+  },
+  {
+    "numbeoCountryName": "Western Sahara",
+    "numbeoCountrySlug": "Western Sahara"
+  },
+  {
+    "numbeoCountryName": "Yemen",
+    "numbeoCountrySlug": "Yemen"
+  },
+  {
+    "numbeoCountryName": "Zambia",
+    "numbeoCountrySlug": "Zambia"
+  },
+  {
+    "numbeoCountryName": "Zimbabwe",
+    "numbeoCountrySlug": "Zimbabwe"
+  }
+]

@@ -1,0 +1,50 @@
+/*
+jslint
+    devel: true,
+    browser: true,
+    node: false
+*/
+/*
+global
+    Handlebars,
+    module
+*/
+var request = new XMLHttpRequest();
+request.open('GET', '/my/url', true);
+request.onload = function() {
+  if (request.status >= 200 && request.status < 400) {
+    // Success!
+    var data = JSON.parse(request.responseText);
+  } else {
+    // We reached our target server, but it returned an error
+  }
+};
+module.exports = function (processor) {
+    'use strict';
+    processor.registerBlockType('faq', function (content, block, blockLine, blockContent) {
+        //$.getJSON('components/faq/faq.json', function (json) {
+        var request = new XMLHttpRequest();
+        request.open('GET', 'components/faq/faq.json', true);
+        request.onload = function () {
+            if (request.status >= 200 && request.status < 400) {
+                var json = JSON.parse(request.responseText);
+                var viewData,
+                    filters = [];
+                $.each(json, function (i, v) {
+                    v.order = i;
+                    if (v.filters) {
+                        filters = filters.concat(v.filters.split(/\s+/));
+                    }
+                });
+                filters = $.distinct(filters);
+                viewData = {
+                    faq_list: json,
+                    faq_filters: filters
+                };
+                var template = Handlebars.compile(content);
+                return template(viewData);
+            }
+        }
+        // });
+    });
+};

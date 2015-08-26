@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="jumbotron" data-scroll-reveal="enter top and move 200px after 1s">
+        <div class="36 text-center" data-anchor="donate" data-scroll-reveal="enter right and move 50px over 1.33s">
+            <span class="glyphicon glyphicon-piggy-bank glyphicon-5x -surrounded -surrounded-2x"></span>
+            <h1 data-i18n="sections:donation.title">&nbsp;</h1>
+            <p data-i18n="sections:donation.info"></p>
+            <br />
+            <form id="contribution_form" class="form-inline">
+                <div class="form-group has-feedback">
+                    <label for="donation_amount" class="control-label sr-only" data-i18n="fields:donationAmount.label"></label>
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-addon">€</span>
+                        <input id="donation_amount" type="number" class="form-control" min="5" max="5000" step="5" value="5"/>
+                        <span class="input-group-btn">
+                        <button id="donate" class="btn btn-primary"><span class="glyphicon glyphicon-credit-card"></span> <span type="button"data-i18n="buttons:donate.label"></span></button>
+                        </span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

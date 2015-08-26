@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: node-gettext\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgid "app##name"
+msgstr "DESTINATION FILTER"
+
+msgid "app##description"
+msgstr "Need to get away for a quick trip abroad? Complete your profile, add a few criteria and you'll get a map of the country that best fits your priorities."
+
+msgid "app##title"
+msgstr "DESTINATION FILTER - The most accessible countries for your next trip"
+
+msgid "strings##chosenNoResultsText"
+msgstr "No results for"
+
+msgid "strings##forCitizensFrom"
+msgstr "for citizens from"
+
+msgid "units##AVSCORE"
+msgstr " on average"
+
+msgid "units##HOUR"
+msgstr "h"
+
+msgid "units##PC"
+msgstr "%"
+
+msgid "units##RATIO"
+msgstr ""
+
+msgid "units##USD"
+msgstr "$"
+
+msgid "units##YR"
+msgstr " ans"
+
+msgid "units##averageScore"
+msgstr ""
+
+msgid "units##hertz"
+msgstr "Hz"
+
+msgid "units##hours"
+msgstr "h"
+
+msgid "units##microgramsPerCubicMetres"
+msgstr "μg/m<sup>2</sup>"
+
+msgid "units##percentage"
+msgstr "%"
+
+msgid "units##ratio"
+msgstr ""
+
+msgid "units##squareKilometers"
+msgstr "km<sup>2</sup>"
+
+msgid "units##usDollar"
+msgstr "$"
+
+msgid "units##volt"
+msgstr "V"
+
+msgid "units##years"
+msgstr " ans"
+
+msgctxt "M3"
+msgid "units##MICRO"
+msgstr "μg/m<sup>2</sup>"

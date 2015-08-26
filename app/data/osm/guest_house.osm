@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2015-04-09T22:10:02Z"/>
+
+  <node id="3313230378" lat="-23.4523242" lon="-45.0660587">
+    <tag k="amenity" v="guest_house"/>
+    <tag k="name" v="Pousada Marazul"/>
+  </node>
+  <node id="3313230379" lat="-23.4510460" lon="-45.0652258">
+    <tag k="amenity" v="guest_house"/>
+    <tag k="name" v="Pousada Porto do Itaguá"/>
+  </node>
+  <node id="3411774578" lat="52.8143101" lon="-1.1466619">
+    <tag k="addr:postcode" v="LE12 6RN"/>
+    <tag k="addr:street" v="Main Street"/>
+    <tag k="amenity" v="guest_house"/>
+    <tag k="fhrs:id" v="266252"/>
+    <tag k="name" v="Guest House at Rempstone"/>
+    <tag k="note" v="? former pub"/>
+    <tag k="source" v="survey"/>
+    <tag k="source:addr" v="FHRS Open Data"/>
+    <tag k="source:name" v="survey wth prompted recall from FHRS"/>
+    <tag k="website" v="http://www.guesthouse-rempstone.co.uk/"/>
+  </node>
+
+</osm>

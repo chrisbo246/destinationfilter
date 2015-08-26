@@ -1,0 +1,1602 @@
+[
+  {
+    "weatherandclimateCountryName" : "Afghanistan",
+    "weatherandclimateCountrySlug": "Afghanistan"
+  },
+  {
+    "weatherandclimateCountryName" : "Albania",
+    "weatherandclimateCountrySlug": "Albania"
+  },
+  {
+    "weatherandclimateCountryName" : "Algeria",
+    "weatherandclimateCountrySlug": "Algeria"
+  },
+  {
+    "weatherandclimateCountryName" : "Andorra",
+    "weatherandclimateCountrySlug": "andorra"
+  },
+  {
+    "weatherandclimateCountryName" : "Angola",
+    "weatherandclimateCountrySlug": "Angola"
+  },
+  {
+    "weatherandclimateCountryName" : "Argentina",
+    "weatherandclimateCountrySlug": "Argentina"
+  },
+  {
+    "weatherandclimateCountryName" : "Armenia",
+    "weatherandclimateCountrySlug": "Armenia"
+  },
+  {
+    "weatherandclimateCountryName" : "Aruba",
+    "weatherandclimateCountrySlug": "Aruba"
+  },
+  {
+    "weatherandclimateCountryName" : "Australia",
+    "weatherandclimateCountrySlug": "Australia"
+  },
+  {
+    "weatherandclimateCountryName" : "Austria",
+    "weatherandclimateCountrySlug": "Austria"
+  },
+  {
+    "weatherandclimateCountryName" : "Azerbaijan",
+    "weatherandclimateCountrySlug": "Azerbaijan"
+  },
+  {
+    "weatherandclimateCountryName" : "Bahamas",
+    "weatherandclimateCountrySlug": "Bahamas"
+  },
+  {
+    "weatherandclimateCountryName" : "Bahrain",
+    "weatherandclimateCountrySlug": "Bahrain"
+  },
+  {
+    "weatherandclimateCountryName" : "Bangladesh",
+    "weatherandclimateCountrySlug": "Bangladesh"
+  },
+  {
+    "weatherandclimateCountryName" : "Barbados",
+    "weatherandclimateCountrySlug": "Barbados"
+  },
+  {
+    "weatherandclimateCountryName" : "Belarus",
+    "weatherandclimateCountrySlug": "Belarus"
+  },
+  {
+    "weatherandclimateCountryName" : "Belgium",
+    "weatherandclimateCountrySlug": "Belgium"
+  },
+  {
+    "weatherandclimateCountryName" : "Belize",
+    "weatherandclimateCountrySlug": "Belize"
+  },
+  {
+    "weatherandclimateCountryName" : "Benin",
+    "weatherandclimateCountrySlug": "Benin"
+  },
+  {
+    "weatherandclimateCountryName" : "Bolivia",
+    "weatherandclimateCountrySlug": "Bolivia"
+  },
+  {
+    "weatherandclimateCountryName" : "Bonaire",
+    "weatherandclimateCountrySlug": "Bonaire"
+  },
+  {
+    "weatherandclimateCountryName" : "Bosnia &amp; Herzegovina",
+    "weatherandclimateCountrySlug": "Bosnia-Herzegovina"
+  },
+  {
+    "weatherandclimateCountryName" : "Botswana",
+    "weatherandclimateCountrySlug": "Botswana"
+  },
+  {
+    "weatherandclimateCountryName" : "Brazil",
+    "weatherandclimateCountrySlug": "Brazil"
+  },
+  {
+    "weatherandclimateCountryName" : "Brunei",
+    "weatherandclimateCountrySlug": "Brunei"
+  },
+  {
+    "weatherandclimateCountryName" : "Bulgaria",
+    "weatherandclimateCountrySlug": "Bulgaria"
+  },
+  {
+    "weatherandclimateCountryName" : "Burkina Faso",
+    "weatherandclimateCountrySlug": "Burkina-Faso"
+  },
+  {
+    "weatherandclimateCountryName" : "Burundi",
+    "weatherandclimateCountrySlug": "Burundi"
+  },
+  {
+    "weatherandclimateCountryName" : "Cambodia",
+    "weatherandclimateCountrySlug": "Cambodja"
+  },
+  {
+    "weatherandclimateCountryName" : "Cameroon",
+    "weatherandclimateCountrySlug": "Cameroon"
+  },
+  {
+    "weatherandclimateCountryName" : "Canada",
+    "weatherandclimateCountrySlug": "Canada"
+  },
+  {
+    "weatherandclimateCountryName" : "Canary Islands",
+    "weatherandclimateCountrySlug": "Canary-Islands"
+  },
+  {
+    "weatherandclimateCountryName" : "Cape Verde",
+    "weatherandclimateCountrySlug": "Cape-Verde"
+  },
+  {
+    "weatherandclimateCountryName" : "Chad",
+    "weatherandclimateCountrySlug": "Chad"
+  },
+  {
+    "weatherandclimateCountryName" : "Chile",
+    "weatherandclimateCountrySlug": "Chile"
+  },
+  {
+    "weatherandclimateCountryName" : "China",
+    "weatherandclimateCountrySlug": "China"
+  },
+  {
+    "weatherandclimateCountryName" : "Colombia",
+    "weatherandclimateCountrySlug": "Colombia"
+  },
+  {
+    "weatherandclimateCountryName" : "Congo-Kinshasa",
+    "weatherandclimateCountrySlug": "Zaire"
+  },
+  {
+    "weatherandclimateCountryName" : "Congo-Kinshasa",
+    "weatherandclimateCountrySlug": "Congo-Kinshasa"
+  },
+  {
+    "weatherandclimateCountryName" : "Cook Islands",
+    "weatherandclimateCountrySlug": "Cook-Islands"
+  },
+  {
+    "weatherandclimateCountryName" : "Corsica",
+    "weatherandclimateCountrySlug": "Corsica"
+  },
+  {
+    "weatherandclimateCountryName" : "Costa Rica",
+    "weatherandclimateCountrySlug": "Costa-Rica"
+  },
+  {
+    "weatherandclimateCountryName" : "Croatia",
+    "weatherandclimateCountrySlug": "Croatia"
+  },
+  {
+    "weatherandclimateCountryName" : "Cuba",
+    "weatherandclimateCountrySlug": "Cuba"
+  },
+  {
+    "weatherandclimateCountryName" : "Cyprus",
+    "weatherandclimateCountrySlug": "Cyprus"
+  },
+  {
+    "weatherandclimateCountryName" : "Czech Republic",
+    "weatherandclimateCountrySlug": "Czech-Republic"
+  },
+  {
+    "weatherandclimateCountryName" : "Denmark",
+    "weatherandclimateCountrySlug": "Denmark"
+  },
+  {
+    "weatherandclimateCountryName" : "Djibouti",
+    "weatherandclimateCountrySlug": "Djibouti"
+  },
+  {
+    "weatherandclimateCountryName" : "Dominica",
+    "weatherandclimateCountrySlug": "Dominica"
+  },
+  {
+    "weatherandclimateCountryName" : "Dominican Republic",
+    "weatherandclimateCountrySlug": "Dominican-Republic"
+  },
+  {
+    "weatherandclimateCountryName" : "East Timor",
+    "weatherandclimateCountrySlug": "East-Timor"
+  },
+  {
+    "weatherandclimateCountryName" : "Ecuador",
+    "weatherandclimateCountrySlug": "Ecuador"
+  },
+  {
+    "weatherandclimateCountryName" : "Egypt",
+    "weatherandclimateCountrySlug": "Egypt"
+  },
+  {
+    "weatherandclimateCountryName" : "El Salvador",
+    "weatherandclimateCountrySlug": "El-Salvador"
+  },
+  {
+    "weatherandclimateCountryName" : "Equatorial Guinea",
+    "weatherandclimateCountrySlug": "Equatorial-Guinea"
+  },
+  {
+    "weatherandclimateCountryName" : "Eritrea",
+    "weatherandclimateCountrySlug": "Eritrea"
+  },
+  {
+    "weatherandclimateCountryName" : "Estonia",
+    "weatherandclimateCountrySlug": "Estonia"
+  },
+  {
+    "weatherandclimateCountryName" : "Ethiopia",
+    "weatherandclimateCountrySlug": "Ethiopia"
+  },
+  {
+    "weatherandclimateCountryName" : "Falkland Islands",
+    "weatherandclimateCountrySlug": "Falkland-Islands"
+  },
+  {
+    "weatherandclimateCountryName" : "Fiji",
+    "weatherandclimateCountrySlug": "Fiji"
+  },
+  {
+    "weatherandclimateCountryName" : "Finland",
+    "weatherandclimateCountrySlug": "Finland"
+  },
+  {
+    "weatherandclimateCountryName" : "France",
+    "weatherandclimateCountrySlug": "France"
+  },
+  {
+    "weatherandclimateCountryName" : "French Polynesia",
+    "weatherandclimateCountrySlug": "French-Polynesia"
+  },
+  {
+    "weatherandclimateCountryName" : "Gabon",
+    "weatherandclimateCountrySlug": "Gabon"
+  },
+  {
+    "weatherandclimateCountryName" : "Gambia",
+    "weatherandclimateCountrySlug": "Gambia"
+  },
+  {
+    "weatherandclimateCountryName" : "Georgia",
+    "weatherandclimateCountrySlug": "Georgia"
+  },
+  {
+    "weatherandclimateCountryName" : "Germany",
+    "weatherandclimateCountrySlug": "Germany"
+  },
+  {
+    "weatherandclimateCountryName" : "Ghana",
+    "weatherandclimateCountrySlug": "Ghana"
+  },
+  {
+    "weatherandclimateCountryName" : "Gilbert Islands",
+    "weatherandclimateCountrySlug": "Gilbert-Islands"
+  },
+  {
+    "weatherandclimateCountryName" : "Greece",
+    "weatherandclimateCountrySlug": "Greece"
+  },
+  {
+    "weatherandclimateCountryName" : "Greenland",
+    "weatherandclimateCountrySlug": "Greenland"
+  },
+  {
+    "weatherandclimateCountryName" : "Grenada",
+    "weatherandclimateCountrySlug": "Grenada"
+  },
+  {
+    "weatherandclimateCountryName" : "Guadeloupe",
+    "weatherandclimateCountrySlug": "Guadeloupe"
+  },
+  {
+    "weatherandclimateCountryName" : "Guatemala",
+    "weatherandclimateCountrySlug": "Guatemala"
+  },
+  {
+    "weatherandclimateCountryName" : "Guyana",
+    "weatherandclimateCountrySlug": "Guyana"
+  },
+  {
+    "weatherandclimateCountryName" : "Haiti",
+    "weatherandclimateCountrySlug": "Haiti"
+  },
+  {
+    "weatherandclimateCountryName" : "Hawaii",
+    "weatherandclimateCountrySlug": "Hawaii"
+  },
+  {
+    "weatherandclimateCountryName" : "Honduras",
+    "weatherandclimateCountrySlug": "Honduras"
+  },
+  {
+    "weatherandclimateCountryName" : "Hong Kong",
+    "weatherandclimateCountrySlug": "Hong-Kong"
+  },
+  {
+    "weatherandclimateCountryName" : "Hungary",
+    "weatherandclimateCountrySlug": "Hungary"
+  },
+  {
+    "weatherandclimateCountryName" : "Iceland",
+    "weatherandclimateCountrySlug": "Iceland"
+  },
+  {
+    "weatherandclimateCountryName" : "India",
+    "weatherandclimateCountrySlug": "India"
+  },
+  {
+    "weatherandclimateCountryName" : "Indonesia",
+    "weatherandclimateCountrySlug": "Indonesia"
+  },
+  {
+    "weatherandclimateCountryName" : "Iran",
+    "weatherandclimateCountrySlug": "Iran"
+  },
+  {
+    "weatherandclimateCountryName" : "Iraq",
+    "weatherandclimateCountrySlug": "Iraq"
+  },
+  {
+    "weatherandclimateCountryName" : "Ireland",
+    "weatherandclimateCountrySlug": "Ireland"
+  },
+  {
+    "weatherandclimateCountryName" : "Israel",
+    "weatherandclimateCountrySlug": "Israel"
+  },
+  {
+    "weatherandclimateCountryName" : "Italy",
+    "weatherandclimateCountrySlug": "Italy"
+  },
+  {
+    "weatherandclimateCountryName" : "Jamaica",
+    "weatherandclimateCountrySlug": "Jamaica"
+  },
+  {
+    "weatherandclimateCountryName" : "Japan",
+    "weatherandclimateCountrySlug": "Japan"
+  },
+  {
+    "weatherandclimateCountryName" : "Jarvis Island",
+    "weatherandclimateCountrySlug": "Jarvis-Island"
+  },
+  {
+    "weatherandclimateCountryName" : "Jordan",
+    "weatherandclimateCountrySlug": "Jordan"
+  },
+  {
+    "weatherandclimateCountryName" : "Kazakhstan",
+    "weatherandclimateCountrySlug": "Kazakhstan"
+  },
+  {
+    "weatherandclimateCountryName" : "Kenya",
+    "weatherandclimateCountrySlug": "Kenya"
+  },
+  {
+    "weatherandclimateCountryName" : "Kermadec Islands",
+    "weatherandclimateCountrySlug": "Kermadec-Islands"
+  },
+  {
+    "weatherandclimateCountryName" : "Kuwait",
+    "weatherandclimateCountrySlug": "Kuwait"
+  },
+  {
+    "weatherandclimateCountryName" : "Laos",
+    "weatherandclimateCountrySlug": "Laos"
+  },
+  {
+    "weatherandclimateCountryName" : "Latvia",
+    "weatherandclimateCountrySlug": "Latvia"
+  },
+  {
+    "weatherandclimateCountryName" : "Lebanon",
+    "weatherandclimateCountrySlug": "Lebanon"
+  },
+  {
+    "weatherandclimateCountryName" : "Libya",
+    "weatherandclimateCountrySlug": "Libya"
+  },
+  {
+    "weatherandclimateCountryName" : "Liechtenstein",
+    "weatherandclimateCountrySlug": "liechtenstein"
+  },
+  {
+    "weatherandclimateCountryName" : "Line Islands",
+    "weatherandclimateCountrySlug": "Line-Islands"
+  },
+  {
+    "weatherandclimateCountryName" : "Lithuania",
+    "weatherandclimateCountrySlug": "Lithuania"
+  },
+  {
+    "weatherandclimateCountryName" : "Luxembourg",
+    "weatherandclimateCountrySlug": "Luxembourg"
+  },
+  {
+    "weatherandclimateCountryName" : "Macedonia",
+    "weatherandclimateCountrySlug": "Macedonia"
+  },
+  {
+    "weatherandclimateCountryName" : "Madagascar",
+    "weatherandclimateCountrySlug": "Madagascar"
+  },
+  {
+    "weatherandclimateCountryName" : "Madeira",
+    "weatherandclimateCountrySlug": "Madeira"
+  },
+  {
+    "weatherandclimateCountryName" : "Malawi",
+    "weatherandclimateCountrySlug": "Malawi"
+  },
+  {
+    "weatherandclimateCountryName" : "Malaysia",
+    "weatherandclimateCountrySlug": "Malaysia"
+  },
+  {
+    "weatherandclimateCountryName" : "Mali",
+    "weatherandclimateCountrySlug": "Mali"
+  },
+  {
+    "weatherandclimateCountryName" : "Malta",
+    "weatherandclimateCountrySlug": "Malta"
+  },
+  {
+    "weatherandclimateCountryName" : "Marshall Islands",
+    "weatherandclimateCountrySlug": "Marshall-Islands"
+  },
+  {
+    "weatherandclimateCountryName" : "Martinique",
+    "weatherandclimateCountrySlug": "Martinique"
+  },
+  {
+    "weatherandclimateCountryName" : "Mauritania",
+    "weatherandclimateCountrySlug": "Mauritania"
+  },
+  {
+    "weatherandclimateCountryName" : "Melanesia",
+    "weatherandclimateCountrySlug": "Melanesia"
+  },
+  {
+    "weatherandclimateCountryName" : "Mexico",
+    "weatherandclimateCountrySlug": "Mexico"
+  },
+  {
+    "weatherandclimateCountryName" : "Micronesia",
+    "weatherandclimateCountrySlug": "Micronesia"
+  },
+  {
+    "weatherandclimateCountryName" : "Moldova",
+    "weatherandclimateCountrySlug": "Moldova"
+  },
+  {
+    "weatherandclimateCountryName" : "Mongolia",
+    "weatherandclimateCountrySlug": "Mongolia"
+  },
+  {
+    "weatherandclimateCountryName" : "Montenegro",
+    "weatherandclimateCountrySlug": "Montenegro"
+  },
+  {
+    "weatherandclimateCountryName" : "Morocco",
+    "weatherandclimateCountrySlug": "Morocco"
+  },
+  {
+    "weatherandclimateCountryName" : "Mozambique",
+    "weatherandclimateCountrySlug": "Mozambique"
+  },
+  {
+    "weatherandclimateCountryName" : "Myanmar(Burma)",
+    "weatherandclimateCountrySlug": "Myanmar-Burma"
+  },
+  {
+    "weatherandclimateCountryName" : "Namibia",
+    "weatherandclimateCountrySlug": "Namibia"
+  },
+  {
+    "weatherandclimateCountryName" : "Nepal",
+    "weatherandclimateCountrySlug": "Nepal"
+  },
+  {
+    "weatherandclimateCountryName" : "Netherlands",
+    "weatherandclimateCountrySlug": "Netherlands"
+  },
+  {
+    "weatherandclimateCountryName" : "Netherlands Antilles",
+    "weatherandclimateCountrySlug": "Netherlands-Antilles"
+  },
+  {
+    "weatherandclimateCountryName" : "New Caledonia",
+    "weatherandclimateCountrySlug": "New-Caledonia"
+  },
+  {
+    "weatherandclimateCountryName" : "New Zealand",
+    "weatherandclimateCountrySlug": "New-Zealand"
+  },
+  {
+    "weatherandclimateCountryName" : "Nicaragua",
+    "weatherandclimateCountrySlug": "Nicaragua"
+  },
+  {
+    "weatherandclimateCountryName" : "Niger",
+    "weatherandclimateCountrySlug": "Niger"
+  },
+  {
+    "weatherandclimateCountryName" : "Nigeria",
+    "weatherandclimateCountrySlug": "Nigeria"
+  },
+  {
+    "weatherandclimateCountryName" : "Norfolk Island",
+    "weatherandclimateCountrySlug": "norfolk-island"
+  },
+  {
+    "weatherandclimateCountryName" : "North Korea",
+    "weatherandclimateCountrySlug": "North-Korea"
+  },
+  {
+    "weatherandclimateCountryName" : "Norway",
+    "weatherandclimateCountrySlug": "Norway"
+  },
+  {
+    "weatherandclimateCountryName" : "Oman",
+    "weatherandclimateCountrySlug": "Oman"
+  },
+  {
+    "weatherandclimateCountryName" : "Pakistan",
+    "weatherandclimateCountrySlug": "Pakistan"
+  },
+  {
+    "weatherandclimateCountryName" : "Panama",
+    "weatherandclimateCountrySlug": "Panama"
+  },
+  {
+    "weatherandclimateCountryName" : "Papua New Guinea",
+    "weatherandclimateCountrySlug": "Papua-New-Guinea"
+  },
+  {
+    "weatherandclimateCountryName" : "Paraguay",
+    "weatherandclimateCountrySlug": "Paraguay"
+  },
+  {
+    "weatherandclimateCountryName" : "Peru",
+    "weatherandclimateCountrySlug": "Peru"
+  },
+  {
+    "weatherandclimateCountryName" : "Philippines",
+    "weatherandclimateCountrySlug": "Philippines"
+  },
+  {
+    "weatherandclimateCountryName" : "Pitcairn Islands",
+    "weatherandclimateCountrySlug": "Pitcairn-Islands"
+  },
+  {
+    "weatherandclimateCountryName" : "Poland",
+    "weatherandclimateCountrySlug": "Poland"
+  },
+  {
+    "weatherandclimateCountryName" : "Portugal",
+    "weatherandclimateCountrySlug": "Portugal"
+  },
+  {
+    "weatherandclimateCountryName" : "Puerto Rico",
+    "weatherandclimateCountrySlug": "Puerto-Rico"
+  },
+  {
+    "weatherandclimateCountryName" : "Qatar",
+    "weatherandclimateCountrySlug": "Qatar"
+  },
+  {
+    "weatherandclimateCountryName" : "Romania",
+    "weatherandclimateCountrySlug": "Romania"
+  },
+  {
+    "weatherandclimateCountryName" : "Russia",
+    "weatherandclimateCountrySlug": "Russia"
+  },
+  {
+    "weatherandclimateCountryName" : "Rwanda",
+    "weatherandclimateCountrySlug": "Rwanda"
+  },
+  {
+    "weatherandclimateCountryName" : "Saint Barthelemy",
+    "weatherandclimateCountrySlug": "Saint-Barthelemy"
+  },
+  {
+    "weatherandclimateCountryName" : "Saint Lucia",
+    "weatherandclimateCountrySlug": "Saint-Lucia"
+  },
+  {
+    "weatherandclimateCountryName" : "Samoa",
+    "weatherandclimateCountrySlug": "Samoa"
+  },
+  {
+    "weatherandclimateCountryName" : "Sardinia",
+    "weatherandclimateCountrySlug": "Sardinia"
+  },
+  {
+    "weatherandclimateCountryName" : "Saudi Arabia",
+    "weatherandclimateCountrySlug": "Saudi-Arabia"
+  },
+  {
+    "weatherandclimateCountryName" : "Scotland",
+    "weatherandclimateCountrySlug": "Scotland"
+  },
+  {
+    "weatherandclimateCountryName" : "Senegal",
+    "weatherandclimateCountrySlug": "Senegal"
+  },
+  {
+    "weatherandclimateCountryName" : "Serbia",
+    "weatherandclimateCountrySlug": "Serbia"
+  },
+  {
+    "weatherandclimateCountryName" : "Singapore",
+    "weatherandclimateCountrySlug": "Singapore"
+  },
+  {
+    "weatherandclimateCountryName" : "Slovakia",
+    "weatherandclimateCountrySlug": "Slovakia"
+  },
+  {
+    "weatherandclimateCountryName" : "Slovenia",
+    "weatherandclimateCountrySlug": "Slovenia"
+  },
+  {
+    "weatherandclimateCountryName" : "Solomon Islands",
+    "weatherandclimateCountrySlug": "Solomon-Islands"
+  },
+  {
+    "weatherandclimateCountryName" : "Somalia",
+    "weatherandclimateCountrySlug": "Somalia"
+  },
+  {
+    "weatherandclimateCountryName" : "South Africa",
+    "weatherandclimateCountrySlug": "South-Africa"
+  },
+  {
+    "weatherandclimateCountryName" : "South Georgia",
+    "weatherandclimateCountrySlug": "South-Georgia"
+  },
+  {
+    "weatherandclimateCountryName" : "South Korea",
+    "weatherandclimateCountrySlug": "South-Korea"
+  },
+  {
+    "weatherandclimateCountryName" : "Spain",
+    "weatherandclimateCountrySlug": "Spain"
+  },
+  {
+    "weatherandclimateCountryName" : "Sri Lanka",
+    "weatherandclimateCountrySlug": "Sri-Lanka"
+  },
+  {
+    "weatherandclimateCountryName" : "Sudan",
+    "weatherandclimateCountrySlug": "Sudan"
+  },
+  {
+    "weatherandclimateCountryName" : "Suriname",
+    "weatherandclimateCountrySlug": "Suriname"
+  },
+  {
+    "weatherandclimateCountryName" : "Sweden",
+    "weatherandclimateCountrySlug": "Sweden"
+  },
+  {
+    "weatherandclimateCountryName" : "Switzerland",
+    "weatherandclimateCountrySlug": "Switzerland"
+  },
+  {
+    "weatherandclimateCountryName" : "Syria",
+    "weatherandclimateCountrySlug": "Syria"
+  },
+  {
+    "weatherandclimateCountryName" : "Tajikistan",
+    "weatherandclimateCountrySlug": "Tajikistan"
+  },
+  {
+    "weatherandclimateCountryName" : "Tanzania",
+    "weatherandclimateCountrySlug": "Tanzania"
+  },
+  {
+    "weatherandclimateCountryName" : "Tasmania",
+    "weatherandclimateCountrySlug": "Tasmania"
+  },
+  {
+    "weatherandclimateCountryName" : "Thailand",
+    "weatherandclimateCountrySlug": "Thailand"
+  },
+  {
+    "weatherandclimateCountryName" : "The Azores",
+    "weatherandclimateCountrySlug": "The-Azores"
+  },
+  {
+    "weatherandclimateCountryName" : "Togo",
+    "weatherandclimateCountrySlug": "Togo"
+  },
+  {
+    "weatherandclimateCountryName" : "Tokelau",
+    "weatherandclimateCountrySlug": "Tokelau"
+  },
+  {
+    "weatherandclimateCountryName" : "Tonga",
+    "weatherandclimateCountrySlug": "Tonga"
+  },
+  {
+    "weatherandclimateCountryName" : "Trinidad-Tobago",
+    "weatherandclimateCountrySlug": "Trinidad-Tobago"
+  },
+  {
+    "weatherandclimateCountryName" : "Tunisia",
+    "weatherandclimateCountrySlug": "Tunisia"
+  },
+  {
+    "weatherandclimateCountryName" : "Turkey",
+    "weatherandclimateCountrySlug": "Turkey"
+  },
+  {
+    "weatherandclimateCountryName" : "Turkmenistan",
+    "weatherandclimateCountrySlug": "Turkmenistan"
+  },
+  {
+    "weatherandclimateCountryName" : "Tuvalu",
+    "weatherandclimateCountrySlug": "Tuvalu"
+  },
+  {
+    "weatherandclimateCountryName" : "Uganda",
+    "weatherandclimateCountrySlug": "Uganda"
+  },
+  {
+    "weatherandclimateCountryName" : "Ukraine",
+    "weatherandclimateCountrySlug": "Ukraine"
+  },
+  {
+    "weatherandclimateCountryName" : "United Kingdom",
+    "weatherandclimateCountrySlug": "United-Kingdom"
+  },
+  {
+    "weatherandclimateCountryName" : "United States of America",
+    "weatherandclimateCountrySlug": "United-States-of-America"
+  },
+  {
+    "weatherandclimateCountryName" : "Uruguay",
+    "weatherandclimateCountrySlug": "Uruguay"
+  },
+  {
+    "weatherandclimateCountryName" : "Uzbekistan",
+    "weatherandclimateCountrySlug": "Uzbekistan"
+  },
+  {
+    "weatherandclimateCountryName" : "Valletta",
+    "weatherandclimateCountrySlug": "Valletta"
+  },
+  {
+    "weatherandclimateCountryName" : "Vanuatu",
+    "weatherandclimateCountrySlug": "Vanuatu"
+  },
+  {
+    "weatherandclimateCountryName" : "Venezuela",
+    "weatherandclimateCountrySlug": "Venezuela"
+  },
+  {
+    "weatherandclimateCountryName" : "Vietnam",
+    "weatherandclimateCountrySlug": "Vietnam"
+  },
+  {
+    "weatherandclimateCountryName" : "Wallis Island",
+    "weatherandclimateCountrySlug": "Wallis-Island"
+  },
+  {
+    "weatherandclimateCountryName" : "Yemen",
+    "weatherandclimateCountrySlug": "Yemen"
+  },
+  {
+    "weatherandclimateCountryName" : "Zambia",
+    "weatherandclimateCountrySlug": "Zambia"
+  },
+  {
+    "weatherandclimateCountryName" : "Zimbabwe",
+    "weatherandclimateCountrySlug": "Zimbabwe"
+  },
+  {
+    "weatherandclimateCountryName" : "Afghanistan",
+    "weatherandclimateCountrySlug": "Afghanistan"
+  },
+  {
+    "weatherandclimateCountryName" : "Albania",
+    "weatherandclimateCountrySlug": "Albania"
+  },
+  {
+    "weatherandclimateCountryName" : "Algeria",
+    "weatherandclimateCountrySlug": "Algeria"
+  },
+  {
+    "weatherandclimateCountryName" : "Andorra",
+    "weatherandclimateCountrySlug": "andorra"
+  },
+  {
+    "weatherandclimateCountryName" : "Angola",
+    "weatherandclimateCountrySlug": "Angola"
+  },
+  {
+    "weatherandclimateCountryName" : "Argentina",
+    "weatherandclimateCountrySlug": "Argentina"
+  },
+  {
+    "weatherandclimateCountryName" : "Armenia",
+    "weatherandclimateCountrySlug": "Armenia"
+  },
+  {
+    "weatherandclimateCountryName" : "Aruba",
+    "weatherandclimateCountrySlug": "Aruba"
+  },
+  {
+    "weatherandclimateCountryName" : "Australia",
+    "weatherandclimateCountrySlug": "Australia"
+  },
+  {
+    "weatherandclimateCountryName" : "Austria",
+    "weatherandclimateCountrySlug": "Austria"
+  },
+  {
+    "weatherandclimateCountryName" : "Azerbaijan",
+    "weatherandclimateCountrySlug": "Azerbaijan"
+  },
+  {
+    "weatherandclimateCountryName" : "Bahamas",
+    "weatherandclimateCountrySlug": "Bahamas"
+  },
+  {
+    "weatherandclimateCountryName" : "Bahrain",
+    "weatherandclimateCountrySlug": "Bahrain"
+  },
+  {
+    "weatherandclimateCountryName" : "Bangladesh",
+    "weatherandclimateCountrySlug": "Bangladesh"
+  },
+  {
+    "weatherandclimateCountryName" : "Barbados",
+    "weatherandclimateCountrySlug": "Barbados"
+  },
+  {
+    "weatherandclimateCountryName" : "Belarus",
+    "weatherandclimateCountrySlug": "Belarus"
+  },
+  {
+    "weatherandclimateCountryName" : "Belgium",
+    "weatherandclimateCountrySlug": "Belgium"
+  },
+  {
+    "weatherandclimateCountryName" : "Belize",
+    "weatherandclimateCountrySlug": "Belize"
+  },
+  {
+    "weatherandclimateCountryName" : "Benin",
+    "weatherandclimateCountrySlug": "Benin"
+  },
+  {
+    "weatherandclimateCountryName" : "Bolivia",
+    "weatherandclimateCountrySlug": "Bolivia"
+  },
+  {
+    "weatherandclimateCountryName" : "Bonaire",
+    "weatherandclimateCountrySlug": "Bonaire"
+  },
+  {
+    "weatherandclimateCountryName" : "Bosnia &amp; Herzegovina",
+    "weatherandclimateCountrySlug": "Bosnia-Herzegovina"
+  },
+  {
+    "weatherandclimateCountryName" : "Botswana",
+    "weatherandclimateCountrySlug": "Botswana"
+  },
+  {
+    "weatherandclimateCountryName" : "Brazil",
+    "weatherandclimateCountrySlug": "Brazil"
+  },
+  {
+    "weatherandclimateCountryName" : "Brunei",
+    "weatherandclimateCountrySlug": "Brunei"
+  },
+  {
+    "weatherandclimateCountryName" : "Bulgaria",
+    "weatherandclimateCountrySlug": "Bulgaria"
+  },
+  {
+    "weatherandclimateCountryName" : "Burkina Faso",
+    "weatherandclimateCountrySlug": "Burkina-Faso"
+  },
+  {
+    "weatherandclimateCountryName" : "Burundi",
+    "weatherandclimateCountrySlug": "Burundi"
+  },
+  {
+    "weatherandclimateCountryName" : "Cambodia",
+    "weatherandclimateCountrySlug": "Cambodja"
+  },
+  {
+    "weatherandclimateCountryName" : "Cameroon",
+    "weatherandclimateCountrySlug": "Cameroon"
+  },
+  {
+    "weatherandclimateCountryName" : "Canada",
+    "weatherandclimateCountrySlug": "Canada"
+  },
+  {
+    "weatherandclimateCountryName" : "Canary Islands",
+    "weatherandclimateCountrySlug": "Canary-Islands"
+  },
+  {
+    "weatherandclimateCountryName" : "Cape Verde",
+    "weatherandclimateCountrySlug": "Cape-Verde"
+  },
+  {
+    "weatherandclimateCountryName" : "Chad",
+    "weatherandclimateCountrySlug": "Chad"
+  },
+  {
+    "weatherandclimateCountryName" : "Chile",
+    "weatherandclimateCountrySlug": "Chile"
+  },
+  {
+    "weatherandclimateCountryName" : "China",
+    "weatherandclimateCountrySlug": "China"
+  },
+  {
+    "weatherandclimateCountryName" : "Colombia",
+    "weatherandclimateCountrySlug": "Colombia"
+  },
+  {
+    "weatherandclimateCountryName" : "Congo-Kinshasa",
+    "weatherandclimateCountrySlug": "Zaire"
+  },
+  {
+    "weatherandclimateCountryName" : "Congo-Kinshasa",
+    "weatherandclimateCountrySlug": "Congo-Kinshasa"
+  },
+  {
+    "weatherandclimateCountryName" : "Cook Islands",
+    "weatherandclimateCountrySlug": "Cook-Islands"
+  },
+  {
+    "weatherandclimateCountryName" : "Corsica",
+    "weatherandclimateCountrySlug": "Corsica"
+  },
+  {
+    "weatherandclimateCountryName" : "Costa Rica",
+    "weatherandclimateCountrySlug": "Costa-Rica"
+  },
+  {
+    "weatherandclimateCountryName" : "Croatia",
+    "weatherandclimateCountrySlug": "Croatia"
+  },
+  {
+    "weatherandclimateCountryName" : "Cuba",
+    "weatherandclimateCountrySlug": "Cuba"
+  },
+  {
+    "weatherandclimateCountryName" : "Cyprus",
+    "weatherandclimateCountrySlug": "Cyprus"
+  },
+  {
+    "weatherandclimateCountryName" : "Czech Republic",
+    "weatherandclimateCountrySlug": "Czech-Republic"
+  },
+  {
+    "weatherandclimateCountryName" : "Denmark",
+    "weatherandclimateCountrySlug": "Denmark"
+  },
+  {
+    "weatherandclimateCountryName" : "Djibouti",
+    "weatherandclimateCountrySlug": "Djibouti"
+  },
+  {
+    "weatherandclimateCountryName" : "Dominica",
+    "weatherandclimateCountrySlug": "Dominica"
+  },
+  {
+    "weatherandclimateCountryName" : "Dominican Republic",
+    "weatherandclimateCountrySlug": "Dominican-Republic"
+  },
+  {
+    "weatherandclimateCountryName" : "East Timor",
+    "weatherandclimateCountrySlug": "East-Timor"
+  },
+  {
+    "weatherandclimateCountryName" : "Ecuador",
+    "weatherandclimateCountrySlug": "Ecuador"
+  },
+  {
+    "weatherandclimateCountryName" : "Egypt",
+    "weatherandclimateCountrySlug": "Egypt"
+  },
+  {
+    "weatherandclimateCountryName" : "El Salvador",
+    "weatherandclimateCountrySlug": "El-Salvador"
+  },
+  {
+    "weatherandclimateCountryName" : "Equatorial Guinea",
+    "weatherandclimateCountrySlug": "Equatorial-Guinea"
+  },
+  {
+    "weatherandclimateCountryName" : "Eritrea",
+    "weatherandclimateCountrySlug": "Eritrea"
+  },
+  {
+    "weatherandclimateCountryName" : "Estonia",
+    "weatherandclimateCountrySlug": "Estonia"
+  },
+  {
+    "weatherandclimateCountryName" : "Ethiopia",
+    "weatherandclimateCountrySlug": "Ethiopia"
+  },
+  {
+    "weatherandclimateCountryName" : "Falkland Islands",
+    "weatherandclimateCountrySlug": "Falkland-Islands"
+  },
+  {
+    "weatherandclimateCountryName" : "Fiji",
+    "weatherandclimateCountrySlug": "Fiji"
+  },
+  {
+    "weatherandclimateCountryName" : "Finland",
+    "weatherandclimateCountrySlug": "Finland"
+  },
+  {
+    "weatherandclimateCountryName" : "France",
+    "weatherandclimateCountrySlug": "France"
+  },
+  {
+    "weatherandclimateCountryName" : "French Polynesia",
+    "weatherandclimateCountrySlug": "French-Polynesia"
+  },
+  {
+    "weatherandclimateCountryName" : "Gabon",
+    "weatherandclimateCountrySlug": "Gabon"
+  },
+  {
+    "weatherandclimateCountryName" : "Gambia",
+    "weatherandclimateCountrySlug": "Gambia"
+  },
+  {
+    "weatherandclimateCountryName" : "Georgia",
+    "weatherandclimateCountrySlug": "Georgia"
+  },
+  {
+    "weatherandclimateCountryName" : "Germany",
+    "weatherandclimateCountrySlug": "Germany"
+  },
+  {
+    "weatherandclimateCountryName" : "Ghana",
+    "weatherandclimateCountrySlug": "Ghana"
+  },
+  {
+    "weatherandclimateCountryName" : "Gilbert Islands",
+    "weatherandclimateCountrySlug": "Gilbert-Islands"
+  },
+  {
+    "weatherandclimateCountryName" : "Greece",
+    "weatherandclimateCountrySlug": "Greece"
+  },
+  {
+    "weatherandclimateCountryName" : "Greenland",
+    "weatherandclimateCountrySlug": "Greenland"
+  },
+  {
+    "weatherandclimateCountryName" : "Grenada",
+    "weatherandclimateCountrySlug": "Grenada"
+  },
+  {
+    "weatherandclimateCountryName" : "Guadeloupe",
+    "weatherandclimateCountrySlug": "Guadeloupe"
+  },
+  {
+    "weatherandclimateCountryName" : "Guatemala",
+    "weatherandclimateCountrySlug": "Guatemala"
+  },
+  {
+    "weatherandclimateCountryName" : "Guyana",
+    "weatherandclimateCountrySlug": "Guyana"
+  },
+  {
+    "weatherandclimateCountryName" : "Haiti",
+    "weatherandclimateCountrySlug": "Haiti"
+  },
+  {
+    "weatherandclimateCountryName" : "Hawaii",
+    "weatherandclimateCountrySlug": "Hawaii"
+  },
+  {
+    "weatherandclimateCountryName" : "Honduras",
+    "weatherandclimateCountrySlug": "Honduras"
+  },
+  {
+    "weatherandclimateCountryName" : "Hong Kong",
+    "weatherandclimateCountrySlug": "Hong-Kong"
+  },
+  {
+    "weatherandclimateCountryName" : "Hungary",
+    "weatherandclimateCountrySlug": "Hungary"
+  },
+  {
+    "weatherandclimateCountryName" : "Iceland",
+    "weatherandclimateCountrySlug": "Iceland"
+  },
+  {
+    "weatherandclimateCountryName" : "India",
+    "weatherandclimateCountrySlug": "India"
+  },
+  {
+    "weatherandclimateCountryName" : "Indonesia",
+    "weatherandclimateCountrySlug": "Indonesia"
+  },
+  {
+    "weatherandclimateCountryName" : "Iran",
+    "weatherandclimateCountrySlug": "Iran"
+  },
+  {
+    "weatherandclimateCountryName" : "Iraq",
+    "weatherandclimateCountrySlug": "Iraq"
+  },
+  {
+    "weatherandclimateCountryName" : "Ireland",
+    "weatherandclimateCountrySlug": "Ireland"
+  },
+  {
+    "weatherandclimateCountryName" : "Israel",
+    "weatherandclimateCountrySlug": "Israel"
+  },
+  {
+    "weatherandclimateCountryName" : "Italy",
+    "weatherandclimateCountrySlug": "Italy"
+  },
+  {
+    "weatherandclimateCountryName" : "Jamaica",
+    "weatherandclimateCountrySlug": "Jamaica"
+  },
+  {
+    "weatherandclimateCountryName" : "Japan",
+    "weatherandclimateCountrySlug": "Japan"
+  },
+  {
+    "weatherandclimateCountryName" : "Jarvis Island",
+    "weatherandclimateCountrySlug": "Jarvis-Island"
+  },
+  {
+    "weatherandclimateCountryName" : "Jordan",
+    "weatherandclimateCountrySlug": "Jordan"
+  },
+  {
+    "weatherandclimateCountryName" : "Kazakhstan",
+    "weatherandclimateCountrySlug": "Kazakhstan"
+  },
+  {
+    "weatherandclimateCountryName" : "Kenya",
+    "weatherandclimateCountrySlug": "Kenya"
+  },
+  {
+    "weatherandclimateCountryName" : "Kermadec Islands",
+    "weatherandclimateCountrySlug": "Kermadec-Islands"
+  },
+  {
+    "weatherandclimateCountryName" : "Kuwait",
+    "weatherandclimateCountrySlug": "Kuwait"
+  },
+  {
+    "weatherandclimateCountryName" : "Laos",
+    "weatherandclimateCountrySlug": "Laos"
+  },
+  {
+    "weatherandclimateCountryName" : "Latvia",
+    "weatherandclimateCountrySlug": "Latvia"
+  },
+  {
+    "weatherandclimateCountryName" : "Lebanon",
+    "weatherandclimateCountrySlug": "Lebanon"
+  },
+  {
+    "weatherandclimateCountryName" : "Libya",
+    "weatherandclimateCountrySlug": "Libya"
+  },
+  {
+    "weatherandclimateCountryName" : "Liechtenstein",
+    "weatherandclimateCountrySlug": "liechtenstein"
+  },
+  {
+    "weatherandclimateCountryName" : "Line Islands",
+    "weatherandclimateCountrySlug": "Line-Islands"
+  },
+  {
+    "weatherandclimateCountryName" : "Lithuania",
+    "weatherandclimateCountrySlug": "Lithuania"
+  },
+  {
+    "weatherandclimateCountryName" : "Luxembourg",
+    "weatherandclimateCountrySlug": "Luxembourg"
+  },
+  {
+    "weatherandclimateCountryName" : "Macedonia",
+    "weatherandclimateCountrySlug": "Macedonia"
+  },
+  {
+    "weatherandclimateCountryName" : "Madagascar",
+    "weatherandclimateCountrySlug": "Madagascar"
+  },
+  {
+    "weatherandclimateCountryName" : "Madeira",
+    "weatherandclimateCountrySlug": "Madeira"
+  },
+  {
+    "weatherandclimateCountryName" : "Malawi",
+    "weatherandclimateCountrySlug": "Malawi"
+  },
+  {
+    "weatherandclimateCountryName" : "Malaysia",
+    "weatherandclimateCountrySlug": "Malaysia"
+  },
+  {
+    "weatherandclimateCountryName" : "Mali",
+    "weatherandclimateCountrySlug": "Mali"
+  },
+  {
+    "weatherandclimateCountryName" : "Malta",
+    "weatherandclimateCountrySlug": "Malta"
+  },
+  {
+    "weatherandclimateCountryName" : "Marshall Islands",
+    "weatherandclimateCountrySlug": "Marshall-Islands"
+  },
+  {
+    "weatherandclimateCountryName" : "Martinique",
+    "weatherandclimateCountrySlug": "Martinique"
+  },
+  {
+    "weatherandclimateCountryName" : "Mauritania",
+    "weatherandclimateCountrySlug": "Mauritania"
+  },
+  {
+    "weatherandclimateCountryName" : "Melanesia",
+    "weatherandclimateCountrySlug": "Melanesia"
+  },
+  {
+    "weatherandclimateCountryName" : "Mexico",
+    "weatherandclimateCountrySlug": "Mexico"
+  },
+  {
+    "weatherandclimateCountryName" : "Micronesia",
+    "weatherandclimateCountrySlug": "Micronesia"
+  },
+  {
+    "weatherandclimateCountryName" : "Moldova",
+    "weatherandclimateCountrySlug": "Moldova"
+  },
+  {
+    "weatherandclimateCountryName" : "Mongolia",
+    "weatherandclimateCountrySlug": "Mongolia"
+  },
+  {
+    "weatherandclimateCountryName" : "Montenegro",
+    "weatherandclimateCountrySlug": "Montenegro"
+  },
+  {
+    "weatherandclimateCountryName" : "Morocco",
+    "weatherandclimateCountrySlug": "Morocco"
+  },
+  {
+    "weatherandclimateCountryName" : "Mozambique",
+    "weatherandclimateCountrySlug": "Mozambique"
+  },
+  {
+    "weatherandclimateCountryName" : "Myanmar(Burma)",
+    "weatherandclimateCountrySlug": "Myanmar-Burma"
+  },
+  {
+    "weatherandclimateCountryName" : "Namibia",
+    "weatherandclimateCountrySlug": "Namibia"
+  },
+  {
+    "weatherandclimateCountryName" : "Nepal",
+    "weatherandclimateCountrySlug": "Nepal"
+  },
+  {
+    "weatherandclimateCountryName" : "Netherlands",
+    "weatherandclimateCountrySlug": "Netherlands"
+  },
+  {
+    "weatherandclimateCountryName" : "Netherlands Antilles",
+    "weatherandclimateCountrySlug": "Netherlands-Antilles"
+  },
+  {
+    "weatherandclimateCountryName" : "New Caledonia",
+    "weatherandclimateCountrySlug": "New-Caledonia"
+  },
+  {
+    "weatherandclimateCountryName" : "New Zealand",
+    "weatherandclimateCountrySlug": "New-Zealand"
+  },
+  {
+    "weatherandclimateCountryName" : "Nicaragua",
+    "weatherandclimateCountrySlug": "Nicaragua"
+  },
+  {
+    "weatherandclimateCountryName" : "Niger",
+    "weatherandclimateCountrySlug": "Niger"
+  },
+  {
+    "weatherandclimateCountryName" : "Nigeria",
+    "weatherandclimateCountrySlug": "Nigeria"
+  },
+  {
+    "weatherandclimateCountryName" : "Norfolk Island",
+    "weatherandclimateCountrySlug": "norfolk-island"
+  },
+  {
+    "weatherandclimateCountryName" : "North Korea",
+    "weatherandclimateCountrySlug": "North-Korea"
+  },
+  {
+    "weatherandclimateCountryName" : "Norway",
+    "weatherandclimateCountrySlug": "Norway"
+  },
+  {
+    "weatherandclimateCountryName" : "Oman",
+    "weatherandclimateCountrySlug": "Oman"
+  },
+  {
+    "weatherandclimateCountryName" : "Pakistan",
+    "weatherandclimateCountrySlug": "Pakistan"
+  },
+  {
+    "weatherandclimateCountryName" : "Panama",
+    "weatherandclimateCountrySlug": "Panama"
+  },
+  {
+    "weatherandclimateCountryName" : "Papua New Guinea",
+    "weatherandclimateCountrySlug": "Papua-New-Guinea"
+  },
+  {
+    "weatherandclimateCountryName" : "Paraguay",
+    "weatherandclimateCountrySlug": "Paraguay"
+  },
+  {
+    "weatherandclimateCountryName" : "Peru",
+    "weatherandclimateCountrySlug": "Peru"
+  },
+  {
+    "weatherandclimateCountryName" : "Philippines",
+    "weatherandclimateCountrySlug": "Philippines"
+  },
+  {
+    "weatherandclimateCountryName" : "Pitcairn Islands",
+    "weatherandclimateCountrySlug": "Pitcairn-Islands"
+  },
+  {
+    "weatherandclimateCountryName" : "Poland",
+    "weatherandclimateCountrySlug": "Poland"
+  },
+  {
+    "weatherandclimateCountryName" : "Portugal",
+    "weatherandclimateCountrySlug": "Portugal"
+  },
+  {
+    "weatherandclimateCountryName" : "Puerto Rico",
+    "weatherandclimateCountrySlug": "Puerto-Rico"
+  },
+  {
+    "weatherandclimateCountryName" : "Qatar",
+    "weatherandclimateCountrySlug": "Qatar"
+  },
+  {
+    "weatherandclimateCountryName" : "Romania",
+    "weatherandclimateCountrySlug": "Romania"
+  },
+  {
+    "weatherandclimateCountryName" : "Russia",
+    "weatherandclimateCountrySlug": "Russia"
+  },
+  {
+    "weatherandclimateCountryName" : "Rwanda",
+    "weatherandclimateCountrySlug": "Rwanda"
+  },
+  {
+    "weatherandclimateCountryName" : "Saint Barthelemy",
+    "weatherandclimateCountrySlug": "Saint-Barthelemy"
+  },
+  {
+    "weatherandclimateCountryName" : "Saint Lucia",
+    "weatherandclimateCountrySlug": "Saint-Lucia"
+  },
+  {
+    "weatherandclimateCountryName" : "Samoa",
+    "weatherandclimateCountrySlug": "Samoa"
+  },
+  {
+    "weatherandclimateCountryName" : "Sardinia",
+    "weatherandclimateCountrySlug": "Sardinia"
+  },
+  {
+    "weatherandclimateCountryName" : "Saudi Arabia",
+    "weatherandclimateCountrySlug": "Saudi-Arabia"
+  },
+  {
+    "weatherandclimateCountryName" : "Scotland",
+    "weatherandclimateCountrySlug": "Scotland"
+  },
+  {
+    "weatherandclimateCountryName" : "Senegal",
+    "weatherandclimateCountrySlug": "Senegal"
+  },
+  {
+    "weatherandclimateCountryName" : "Serbia",
+    "weatherandclimateCountrySlug": "Serbia"
+  },
+  {
+    "weatherandclimateCountryName" : "Singapore",
+    "weatherandclimateCountrySlug": "Singapore"
+  },
+  {
+    "weatherandclimateCountryName" : "Slovakia",
+    "weatherandclimateCountrySlug": "Slovakia"
+  },
+  {
+    "weatherandclimateCountryName" : "Slovenia",
+    "weatherandclimateCountrySlug": "Slovenia"
+  },
+  {
+    "weatherandclimateCountryName" : "Solomon Islands",
+    "weatherandclimateCountrySlug": "Solomon-Islands"
+  },
+  {
+    "weatherandclimateCountryName" : "Somalia",
+    "weatherandclimateCountrySlug": "Somalia"
+  },
+  {
+    "weatherandclimateCountryName" : "South Africa",
+    "weatherandclimateCountrySlug": "South-Africa"
+  },
+  {
+    "weatherandclimateCountryName" : "South Georgia",
+    "weatherandclimateCountrySlug": "South-Georgia"
+  },
+  {
+    "weatherandclimateCountryName" : "South Korea",
+    "weatherandclimateCountrySlug": "South-Korea"
+  },
+  {
+    "weatherandclimateCountryName" : "Spain",
+    "weatherandclimateCountrySlug": "Spain"
+  },
+  {
+    "weatherandclimateCountryName" : "Sri Lanka",
+    "weatherandclimateCountrySlug": "Sri-Lanka"
+  },
+  {
+    "weatherandclimateCountryName" : "Sudan",
+    "weatherandclimateCountrySlug": "Sudan"
+  },
+  {
+    "weatherandclimateCountryName" : "Suriname",
+    "weatherandclimateCountrySlug": "Suriname"
+  },
+  {
+    "weatherandclimateCountryName" : "Sweden",
+    "weatherandclimateCountrySlug": "Sweden"
+  },
+  {
+    "weatherandclimateCountryName" : "Switzerland",
+    "weatherandclimateCountrySlug": "Switzerland"
+  },
+  {
+    "weatherandclimateCountryName" : "Syria",
+    "weatherandclimateCountrySlug": "Syria"
+  },
+  {
+    "weatherandclimateCountryName" : "Tajikistan",
+    "weatherandclimateCountrySlug": "Tajikistan"
+  },
+  {
+    "weatherandclimateCountryName" : "Tanzania",
+    "weatherandclimateCountrySlug": "Tanzania"
+  },
+  {
+    "weatherandclimateCountryName" : "Tasmania",
+    "weatherandclimateCountrySlug": "Tasmania"
+  },
+  {
+    "weatherandclimateCountryName" : "Thailand",
+    "weatherandclimateCountrySlug": "Thailand"
+  },
+  {
+    "weatherandclimateCountryName" : "The Azores",
+    "weatherandclimateCountrySlug": "The-Azores"
+  },
+  {
+    "weatherandclimateCountryName" : "Togo",
+    "weatherandclimateCountrySlug": "Togo"
+  },
+  {
+    "weatherandclimateCountryName" : "Tokelau",
+    "weatherandclimateCountrySlug": "Tokelau"
+  },
+  {
+    "weatherandclimateCountryName" : "Tonga",
+    "weatherandclimateCountrySlug": "Tonga"
+  },
+  {
+    "weatherandclimateCountryName" : "Trinidad-Tobago",
+    "weatherandclimateCountrySlug": "Trinidad-Tobago"
+  },
+  {
+    "weatherandclimateCountryName" : "Tunisia",
+    "weatherandclimateCountrySlug": "Tunisia"
+  },
+  {
+    "weatherandclimateCountryName" : "Turkey",
+    "weatherandclimateCountrySlug": "Turkey"
+  },
+  {
+    "weatherandclimateCountryName" : "Turkmenistan",
+    "weatherandclimateCountrySlug": "Turkmenistan"
+  },
+  {
+    "weatherandclimateCountryName" : "Tuvalu",
+    "weatherandclimateCountrySlug": "Tuvalu"
+  },
+  {
+    "weatherandclimateCountryName" : "Uganda",
+    "weatherandclimateCountrySlug": "Uganda"
+  },
+  {
+    "weatherandclimateCountryName" : "Ukraine",
+    "weatherandclimateCountrySlug": "Ukraine"
+  },
+  {
+    "weatherandclimateCountryName" : "United Kingdom",
+    "weatherandclimateCountrySlug": "United-Kingdom"
+  },
+  {
+    "weatherandclimateCountryName" : "United States of America",
+    "weatherandclimateCountrySlug": "United-States-of-America"
+  },
+  {
+    "weatherandclimateCountryName" : "Uruguay",
+    "weatherandclimateCountrySlug": "Uruguay"
+  },
+  {
+    "weatherandclimateCountryName" : "Uzbekistan",
+    "weatherandclimateCountrySlug": "Uzbekistan"
+  },
+  {
+    "weatherandclimateCountryName" : "Valletta",
+    "weatherandclimateCountrySlug": "Valletta"
+  },
+  {
+    "weatherandclimateCountryName" : "Vanuatu",
+    "weatherandclimateCountrySlug": "Vanuatu"
+  },
+  {
+    "weatherandclimateCountryName" : "Venezuela",
+    "weatherandclimateCountrySlug": "Venezuela"
+  },
+  {
+    "weatherandclimateCountryName" : "Vietnam",
+    "weatherandclimateCountrySlug": "Vietnam"
+  },
+  {
+    "weatherandclimateCountryName" : "Wallis Island",
+    "weatherandclimateCountrySlug": "Wallis-Island"
+  },
+  {
+    "weatherandclimateCountryName" : "Yemen",
+    "weatherandclimateCountrySlug": "Yemen"
+  },
+  {
+    "weatherandclimateCountryName" : "Zambia",
+    "weatherandclimateCountrySlug": "Zambia"
+  },
+  {
+    "weatherandclimateCountryName" : "Zimbabwe",
+    "weatherandclimateCountrySlug": "Zimbabwe"
+  }
+]

@@ -1,0 +1,1004 @@
+[
+  {
+    "Rank":1,
+    "Country":"Norway",
+    "Score":9.93,
+    "Category":"Full democracy"
+  },
+  {
+    "Rank":2,
+    "Country":"Sweden",
+    "Score":9.73,
+    "Category":"Full democracy"
+  },
+  {
+    "Rank":3,
+    "Country":"Iceland",
+    "Score":9.58,
+    "Category":"Full democracy"
+  },
+  {
+    "Rank":4,
+    "Country":"New Zealand",
+    "Score":9.26,
+    "Category":"Full democracy"
+  },
+  {
+    "Rank":5,
+    "Country":"Denmark",
+    "Score":9.11,
+    "Category":"Full democracy"
+  },
+  {
+    "Rank":6,
+    "Country":"Switzerland",
+    "Score":9.09,
+    "Category":"Full democracy"
+  },
+  {
+    "Rank":7,
+    "Country":"Canada",
+    "Score":9.08,
+    "Category":"Full democracy"
+  },
+  {
+    "Rank":8,
+    "Country":"Finland",
+    "Score":9.03,
+    "Category":"Full democracy"
+  },
+  {
+    "Rank":9,
+    "Country":"Australia",
+    "Score":9.01,
+    "Category":"Full democracy"
+  },
+  {
+    "Rank":10,
+    "Country":"Netherlands",
+    "Score":8.92,
+    "Category":"Full democracy"
+  },
+  {
+    "Rank":11,
+    "Country":"Luxembourg",
+    "Score":8.88,
+    "Category":"Full democracy"
+  },
+  {
+    "Rank":12,
+    "Country":"Ireland",
+    "Score":8.72,
+    "Category":"Full democracy"
+  },
+  {
+    "Rank":13,
+    "Country":"Germany",
+    "Score":8.64,
+    "Category":"Full democracy"
+  },
+  {
+    "Rank":14,
+    "Country":"Austria",
+    "Score":8.54,
+    "Category":"Full democracy"
+  },
+  {
+    "Rank":15,
+    "Country":"Malta",
+    "Score":8.39,
+    "Category":"Full democracy"
+  },
+  {
+    "Rank":16,
+    "Country":"United Kingdom",
+    "Score":8.31,
+    "Category":"Full democracy"
+  },
+  {
+    "Rank":17,
+    "Country":"Uruguay",
+    "Score":8.17,
+    "Category":"Full democracy"
+  },
+  {
+    "Rank":17,
+    "Country":"Mauritius",
+    "Score":8.17,
+    "Category":"Full democracy"
+  },
+  {
+    "Rank":19,
+    "Country":"United States",
+    "Score":8.11,
+    "Category":"Full democracy"
+  },
+  {
+    "Rank":20,
+    "Country":"Japan",
+    "Score":8.08,
+    "Category":"Full democracy"
+  },
+  {
+    "Rank":21,
+    "Country":"South Korea",
+    "Score":8.06,
+    "Category":"Full democracy"
+  },
+  {
+    "Rank":22,
+    "Country":"Spain",
+    "Score":8.05,
+    "Category":"Full democracy"
+  },
+  {
+    "Rank":23,
+    "Country":"France",
+    "Score":8.04,
+    "Category":"Full democracy"
+  },
+  {
+    "Rank":24,
+    "Country":"Costa Rica",
+    "Score":8.03,
+    "Category":"Full democracy"
+  },
+  {
+    "Rank":25,
+    "Country":"Czech Republic",
+    "Score":7.94,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":26,
+    "Country":"Belgium",
+    "Score":7.93,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":27,
+    "Country":"India",
+    "Score":7.92,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":28,
+    "Country":"Botswana",
+    "Score":7.87,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":29,
+    "Country":"Italy",
+    "Score":7.85,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":30,
+    "Country":"South Africa",
+    "Score":7.82,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":31,
+    "Country":"Cape Verde",
+    "Score":7.81,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":32,
+    "Country":"Chile",
+    "Score":7.8,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":33,
+    "Country":"Portugal",
+    "Score":7.79,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":34,
+    "Country":"Estonia",
+    "Score":7.74,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":35,
+    "Country":"Taiwan",
+    "Score":7.65,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":36,
+    "Country":"Israel",
+    "Score":7.63,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":37,
+    "Country":"Slovenia",
+    "Score":7.57,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":38,
+    "Country":"Lithuania",
+    "Score":7.54,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":39,
+    "Country":"Latvia",
+    "Score":7.48,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":40,
+    "Country":"Poland",
+    "Score":7.47,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":41,
+    "Country":"Greece",
+    "Score":7.45,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":42,
+    "Country":"Cyprus",
+    "Score":7.4,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":43,
+    "Country":"Jamaica",
+    "Score":7.39,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":44,
+    "Country":"Brazil",
+    "Score":7.38,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":45,
+    "Country":"Slovakia",
+    "Score":7.35,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":46,
+    "Country":"Timor-Leste",
+    "Score":7.24,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":47,
+    "Country":"Panama",
+    "Score":7.08,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":48,
+    "Country":"Trinidad & Tobago",
+    "Score":6.99,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":49,
+    "Country":"Indonesia",
+    "Score":6.95,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":50,
+    "Country":"Croatia",
+    "Score":6.93,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":51,
+    "Country":"Hungary",
+    "Score":6.9,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":52,
+    "Country":"Argentina",
+    "Score":6.84,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":53,
+    "Country":"Suriname",
+    "Score":6.77,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":53,
+    "Country":"Philippines",
+    "Score":6.77,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":55,
+    "Country":"Bulgaria",
+    "Score":6.73,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":56,
+    "Country":"Serbia",
+    "Score":6.71,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":57,
+    "Country":"Romania",
+    "Score":6.68,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":57,
+    "Country":"Mexico",
+    "Score":6.68,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":59,
+    "Country":"Dominican Republic",
+    "Score":6.67,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":60,
+    "Country":"Lesotho",
+    "Score":6.66,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":61,
+    "Country":"Mongolia",
+    "Score":6.62,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":62,
+    "Country":"Colombia",
+    "Score":6.55,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":63,
+    "Country":"Peru",
+    "Score":6.54,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":64,
+    "Country":"El Salvador",
+    "Score":6.53,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":65,
+    "Country":"Malaysia",
+    "Score":6.49,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":66,
+    "Country":"Hong Kong",
+    "Score":6.46,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":67,
+    "Country":"Zambia",
+    "Score":6.39,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":68,
+    "Country":"Ghana",
+    "Score":6.33,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":69,
+    "Country":"Moldova",
+    "Score":6.32,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":70,
+    "Country":"Tunisia",
+    "Score":6.31,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":71,
+    "Country":"Paraguay",
+    "Score":6.26,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":72,
+    "Country":"Macedonia",
+    "Score":6.25,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":73,
+    "Country":"Namibia",
+    "Score":6.24,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":74,
+    "Country":"Senegal",
+    "Score":6.15,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":75,
+    "Country":"Papua New Guinea",
+    "Score":6.03,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":75,
+    "Country":"Singapore",
+    "Score":6.03,
+    "Category":"Flawed democracy"
+  },
+  {
+    "Rank":77,
+    "Country":"Montenegro",
+    "Score":5.94,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":78,
+    "Country":"Guyana",
+    "Score":5.91,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":79,
+    "Country":"Ecuador",
+    "Score":5.87,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":80,
+    "Country":"Honduras",
+    "Score":5.84,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":81,
+    "Country":"Georgia",
+    "Score":5.82,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":82,
+    "Country":"Guatemala",
+    "Score":5.81,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":83,
+    "Country":"Bolivia",
+    "Score":5.79,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":83,
+    "Country":"Mali",
+    "Score":5.79,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":85,
+    "Country":"Bangladesh",
+    "Score":5.78,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":86,
+    "Country":"Tanzania",
+    "Score":5.77,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":87,
+    "Country":"Sri Lanka",
+    "Score":5.69,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":88,
+    "Country":"Albania",
+    "Score":5.67,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":89,
+    "Country":"Malawi",
+    "Score":5.66,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":90,
+    "Country":"Benin",
+    "Score":5.65,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":91,
+    "Country":"Fiji",
+    "Score":5.61,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":92,
+    "Country":"Ukraine",
+    "Score":5.42,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":93,
+    "Country":"Thailand",
+    "Score":5.39,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":94,
+    "Country":"Nicaragua",
+    "Score":5.32,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":95,
+    "Country":"Kyrgyzstan",
+    "Score":5.24,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":96,
+    "Country":"Uganda",
+    "Score":5.22,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":97,
+    "Country":"Kenya",
+    "Score":5.13,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":98,
+    "Country":"Turkey",
+    "Score":5.12,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":98,
+    "Country":"Lebanon",
+    "Score":5.12,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":100,
+    "Country":"Venezuela",
+    "Score":5.07,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":101,
+    "Country":"Liberia",
+    "Score":4.95,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":102,
+    "Country":"Bhutan",
+    "Score":4.87,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":103,
+    "Country":"Bosnia & Herzegovina",
+    "Score":4.78,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":103,
+    "Country":"Cambodia",
+    "Score":4.78,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":105,
+    "Country":"Nepal",
+    "Score":4.77,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":106,
+    "Country":"Palestinian Authority",
+    "Score":4.72,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":107,
+    "Country":"Mozambique",
+    "Score":4.66,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":108,
+    "Country":"Pakistan",
+    "Score":4.64,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":109,
+    "Country":"Sierra Leone",
+    "Score":4.56,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":110,
+    "Country":"Madagascar",
+    "Score":4.42,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":111,
+    "Country":"Iraq",
+    "Score":4.23,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":112,
+    "Country":"Mauritania",
+    "Score":4.17,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":113,
+    "Country":"Armenia",
+    "Score":4.13,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":114,
+    "Country":"Burkina Faso",
+    "Score":4.09,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":115,
+    "Country":"Niger",
+    "Score":4.02,
+    "Category":"Hybrid regime"
+  },
+  {
+    "Rank":116,
+    "Country":"Morocco",
+    "Score":4,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":117,
+    "Country":"Algeria",
+    "Score":3.83,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":118,
+    "Country":"Haiti",
+    "Score":3.82,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":119,
+    "Country":"Libya",
+    "Score":3.8,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":120,
+    "Country":"Kuwait",
+    "Score":3.78,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":121,
+    "Country":"Jordan",
+    "Score":3.76,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":121,
+    "Country":"Gabon",
+    "Score":3.76,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":121,
+    "Country":"Nigeria",
+    "Score":3.76,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":124,
+    "Country":"Ethiopia",
+    "Score":3.72,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":125,
+    "Country":"Belarus",
+    "Score":3.69,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":126,
+    "Country":"Côte d&#39;Ivoire",
+    "Score":3.53,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":127,
+    "Country":"Cuba",
+    "Score":3.52,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":127,
+    "Country":"Comoros",
+    "Score":3.52,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":129,
+    "Country":"Togo",
+    "Score":3.45,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":130,
+    "Country":"Vietnam",
+    "Score":3.41,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":130,
+    "Country":"Cameroon",
+    "Score":3.41,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":132,
+    "Country":"Russia",
+    "Score":3.39,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":133,
+    "Country":"Angola",
+    "Score":3.35,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":134,
+    "Country":"Burundi",
+    "Score":3.33,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":135,
+    "Country":"Rwanda",
+    "Score":3.25,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":136,
+    "Country":"Qatar",
+    "Score":3.18,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":137,
+    "Country":"Kazakhstan",
+    "Score":3.17,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":138,
+    "Country":"Egypt",
+    "Score":3.16,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":139,
+    "Country":"Oman",
+    "Score":3.15,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":140,
+    "Country":"Swaziland",
+    "Score":3.09,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":141,
+    "Country":"Burma",
+    "Score":3.05,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":141,
+    "Country":"The Gambia",
+    "Score":3.05,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":143,
+    "Country":"Guinea",
+    "Score":3.01,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":144,
+    "Country":"China",
+    "Score":3,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":145,
+    "Country":"Djibouti",
+    "Score":2.99,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":146,
+    "Country":"Republic of the Congo",
+    "Score":2.89,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":147,
+    "Country":"Bahrain",
+    "Score":2.87,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":148,
+    "Country":"Azerbaijan",
+    "Score":2.83,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":149,
+    "Country":"Yemen",
+    "Score":2.79,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":150,
+    "Country":"Zimbabwe",
+    "Score":2.78,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":151,
+    "Country":"Afghanistan",
+    "Score":2.77,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":152,
+    "Country":"United Arab Emirates",
+    "Score":2.64,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":153,
+    "Country":"Sudan",
+    "Score":2.54,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":154,
+    "Country":"Uzbekistan",
+    "Score":2.45,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":155,
+    "Country":"Eritrea",
+    "Score":2.44,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":156,
+    "Country":"Tajikistan",
+    "Score":2.37,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":157,
+    "Country":"Laos",
+    "Score":2.21,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":158,
+    "Country":"Iran",
+    "Score":1.98,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":159,
+    "Country":"Guinea-Bissau",
+    "Score":1.93,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":160,
+    "Country":"Turkmenistan",
+    "Score":1.83,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":161,
+    "Country":"Saudi Arabia",
+    "Score":1.82,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":162,
+    "Country":"Democratic Republic of the Congo",
+    "Score":1.75,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":163,
+    "Country":"Syria",
+    "Score":1.74,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":164,
+    "Country":"Equatorial Guinea",
+    "Score":1.66,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":165,
+    "Country":"Chad",
+    "Score":1.5,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":166,
+    "Country":"Central African Republic",
+    "Score":1.49,
+    "Category":"Authoritarian regime"
+  },
+  {
+    "Rank":167,
+    "Country":"North Korea",
+    "Score":1.08,
+    "Category":"Authoritarian regime"
+  }
+]

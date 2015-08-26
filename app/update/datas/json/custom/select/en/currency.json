@@ -1,0 +1,734 @@
+[
+  {
+    "id":"XUA",
+    "text":"ADB Unit of Account"
+  },
+  {
+    "id":"AFN",
+    "text":"Afghani"
+  },
+  {
+    "id":"DZD",
+    "text":"Algerian Dinar"
+  },
+  {
+    "id":"ARS",
+    "text":"Argentine Peso"
+  },
+  {
+    "id":"AMD",
+    "text":"Armenian Dram"
+  },
+  {
+    "id":"AWG",
+    "text":"Aruban Florin"
+  },
+  {
+    "id":"AUD",
+    "text":"Australian Dollar"
+  },
+  {
+    "id":"AZN",
+    "text":"Azerbaijanian Manat"
+  },
+  {
+    "id":"BSD",
+    "text":"Bahamian Dollar"
+  },
+  {
+    "id":"BHD",
+    "text":"Bahraini Dinar"
+  },
+  {
+    "id":"THB",
+    "text":"Baht"
+  },
+  {
+    "id":"PAB",
+    "text":"Balboa"
+  },
+  {
+    "id":"BBD",
+    "text":"Barbados Dollar"
+  },
+  {
+    "id":"BYR",
+    "text":"Belarussian Ruble"
+  },
+  {
+    "id":"BZD",
+    "text":"Belize Dollar"
+  },
+  {
+    "id":"BMD",
+    "text":"Bermudian Dollar"
+  },
+  {
+    "id":"VEF",
+    "text":"Bolivar "
+  },
+  {
+    "id":"BOB",
+    "text":"Boliviano"
+  },
+  {
+    "id":"XBA",
+    "text":"Bond Markets Unit European Composite Unit (EURCO)"
+  },
+  {
+    "id":"XBB",
+    "text":"Bond Markets Unit European Monetary Unit (E.M.U.-6)"
+  },
+  {
+    "id":"XBD",
+    "text":"Bond Markets Unit European Unit of Account 17 (E.U.A.-17)"
+  },
+  {
+    "id":"XBC",
+    "text":"Bond Markets Unit European Unit of Account 9 (E.U.A.-9)"
+  },
+  {
+    "id":"BRL",
+    "text":"Brazilian Real"
+  },
+  {
+    "id":"BND",
+    "text":"Brunei Dollar"
+  },
+  {
+    "id":"BGN",
+    "text":"Bulgarian Lev"
+  },
+  {
+    "id":"BIF",
+    "text":"Burundi Franc"
+  },
+  {
+    "id":"CAD",
+    "text":"Canadian Dollar"
+  },
+  {
+    "id":"CVE",
+    "text":"Cape Verde Escudo"
+  },
+  {
+    "id":"KYD",
+    "text":"Cayman Islands Dollar"
+  },
+  {
+    "id":"XOF",
+    "text":"CFA Franc BCEAO"
+  },
+  {
+    "id":"XAF",
+    "text":"CFA Franc BEAC"
+  },
+  {
+    "id":"XPF",
+    "text":"CFP Franc"
+  },
+  {
+    "id":"CLP",
+    "text":"Chilean Peso"
+  },
+  {
+    "id":"XTS",
+    "text":"Codes specifically reserved for testing purposes"
+  },
+  {
+    "id":"COP",
+    "text":"Colombian Peso"
+  },
+  {
+    "id":"KMF",
+    "text":"Comoro Franc"
+  },
+  {
+    "id":"CDF",
+    "text":"Congolese Franc"
+  },
+  {
+    "id":"BAM",
+    "text":"Convertible Mark"
+  },
+  {
+    "id":"NIO",
+    "text":"Cordoba Oro"
+  },
+  {
+    "id":"CRC",
+    "text":"Costa Rican Colon"
+  },
+  {
+    "id":"HRK",
+    "text":"Croatian Kuna"
+  },
+  {
+    "id":"CUP",
+    "text":"Cuban Peso"
+  },
+  {
+    "id":"CZK",
+    "text":"Czech Koruna"
+  },
+  {
+    "id":"GMD",
+    "text":"Dalasi"
+  },
+  {
+    "id":"DKK",
+    "text":"Danish Krone"
+  },
+  {
+    "id":"MKD",
+    "text":"Denar"
+  },
+  {
+    "id":"DJF",
+    "text":"Djibouti Franc"
+  },
+  {
+    "id":"STD",
+    "text":"Dobra"
+  },
+  {
+    "id":"DOP",
+    "text":"Dominican Peso"
+  },
+  {
+    "id":"VND",
+    "text":"Dong"
+  },
+  {
+    "id":"XCD",
+    "text":"East Caribbean Dollar"
+  },
+  {
+    "id":"EGP",
+    "text":"Egyptian Pound"
+  },
+  {
+    "id":"SVC",
+    "text":"El Salvador Colon"
+  },
+  {
+    "id":"ETB",
+    "text":"Ethiopian Birr"
+  },
+  {
+    "id":"EUR",
+    "text":"Euro"
+  },
+  {
+    "id":"FKP",
+    "text":"Falkland Islands Pound"
+  },
+  {
+    "id":"FJD",
+    "text":"Fiji Dollar"
+  },
+  {
+    "id":"HUF",
+    "text":"Forint"
+  },
+  {
+    "id":"GHS",
+    "text":"Ghana Cedi"
+  },
+  {
+    "id":"GIP",
+    "text":"Gibraltar Pound"
+  },
+  {
+    "id":"XAU",
+    "text":"Gold"
+  },
+  {
+    "id":"HTG",
+    "text":"Gourde"
+  },
+  {
+    "id":"PYG",
+    "text":"Guarani"
+  },
+  {
+    "id":"GNF",
+    "text":"Guinea Franc"
+  },
+  {
+    "id":"GYD",
+    "text":"Guyana Dollar"
+  },
+  {
+    "id":"HKD",
+    "text":"Hong Kong Dollar"
+  },
+  {
+    "id":"UAH",
+    "text":"Hryvnia"
+  },
+  {
+    "id":"ISK",
+    "text":"Iceland Krona"
+  },
+  {
+    "id":"INR",
+    "text":"Indian Rupee"
+  },
+  {
+    "id":"IRR",
+    "text":"Iranian Rial"
+  },
+  {
+    "id":"IQD",
+    "text":"Iraqi Dinar"
+  },
+  {
+    "id":"JMD",
+    "text":"Jamaican Dollar"
+  },
+  {
+    "id":"JOD",
+    "text":"Jordanian Dinar"
+  },
+  {
+    "id":"KES",
+    "text":"Kenyan Shilling"
+  },
+  {
+    "id":"PGK",
+    "text":"Kina"
+  },
+  {
+    "id":"LAK",
+    "text":"Kip"
+  },
+  {
+    "id":"KWD",
+    "text":"Kuwaiti Dinar"
+  },
+  {
+    "id":"MWK",
+    "text":"Kwacha"
+  },
+  {
+    "id":"AOA",
+    "text":"Kwanza"
+  },
+  {
+    "id":"MMK",
+    "text":"Kyat"
+  },
+  {
+    "id":"GEL",
+    "text":"Lari"
+  },
+  {
+    "id":"LVL",
+    "text":"Latvian Lats"
+  },
+  {
+    "id":"LBP",
+    "text":"Lebanese Pound"
+  },
+  {
+    "id":"ALL",
+    "text":"Lek"
+  },
+  {
+    "id":"HNL",
+    "text":"Lempira"
+  },
+  {
+    "id":"SLL",
+    "text":"Leone"
+  },
+  {
+    "id":"LRD",
+    "text":"Liberian Dollar"
+  },
+  {
+    "id":"LYD",
+    "text":"Libyan Dinar"
+  },
+  {
+    "id":"SZL",
+    "text":"Lilangeni"
+  },
+  {
+    "id":"LTL",
+    "text":"Lithuanian Litas"
+  },
+  {
+    "id":"LSL",
+    "text":"Loti"
+  },
+  {
+    "id":"MGA",
+    "text":"Malagasy Ariary"
+  },
+  {
+    "id":"MYR",
+    "text":"Malaysian Ringgit"
+  },
+  {
+    "id":"MUR",
+    "text":"Mauritius Rupee"
+  },
+  {
+    "id":"MXN",
+    "text":"Mexican Peso"
+  },
+  {
+    "id":"MXV",
+    "text":"Mexican Unidad de Inversion (UDI)"
+  },
+  {
+    "id":"MDL",
+    "text":"Moldovan Leu"
+  },
+  {
+    "id":"MAD",
+    "text":"Moroccan Dirham"
+  },
+  {
+    "id":"MZN",
+    "text":"Mozambique Metical"
+  },
+  {
+    "id":"BOV",
+    "text":"Mvdol"
+  },
+  {
+    "id":"NGN",
+    "text":"Naira"
+  },
+  {
+    "id":"ERN",
+    "text":"Nakfa"
+  },
+  {
+    "id":"NAD",
+    "text":"Namibia Dollar"
+  },
+  {
+    "id":"NPR",
+    "text":"Nepalese Rupee"
+  },
+  {
+    "id":"ANG",
+    "text":"Netherlands Antillean Guilder"
+  },
+  {
+    "id":"ILS",
+    "text":"New Israeli Sheqel"
+  },
+  {
+    "id":"RON",
+    "text":"New Romanian Leu"
+  },
+  {
+    "id":"TWD",
+    "text":"New Taiwan Dollar"
+  },
+  {
+    "id":"NZD",
+    "text":"New Zealand Dollar"
+  },
+  {
+    "id":"BTN",
+    "text":"Ngultrum"
+  },
+  {
+    "id":"KPW",
+    "text":"North Korean Won"
+  },
+  {
+    "id":"NOK",
+    "text":"Norwegian Krone"
+  },
+  {
+    "id":"PEN",
+    "text":"Nuevo Sol"
+  },
+  {
+    "id":"MRO",
+    "text":"Ouguiya"
+  },
+  {
+    "id":"TOP",
+    "text":"Pa’anga"
+  },
+  {
+    "id":"PKR",
+    "text":"Pakistan Rupee"
+  },
+  {
+    "id":"XPD",
+    "text":"Palladium"
+  },
+  {
+    "id":"MOP",
+    "text":"Pataca"
+  },
+  {
+    "id":"CUC",
+    "text":"Peso Convertible"
+  },
+  {
+    "id":"UYU",
+    "text":"Peso Uruguayo"
+  },
+  {
+    "id":"PHP",
+    "text":"Philippine Peso"
+  },
+  {
+    "id":"XPT",
+    "text":"Platinum"
+  },
+  {
+    "id":"GBP",
+    "text":"Pound Sterling"
+  },
+  {
+    "id":"BWP",
+    "text":"Pula"
+  },
+  {
+    "id":"QAR",
+    "text":"Qatari Rial"
+  },
+  {
+    "id":"GTQ",
+    "text":"Quetzal"
+  },
+  {
+    "id":"ZAR",
+    "text":"Rand"
+  },
+  {
+    "id":"OMR",
+    "text":"Rial Omani"
+  },
+  {
+    "id":"KHR",
+    "text":"Riel"
+  },
+  {
+    "id":"MVR",
+    "text":"Rufiyaa"
+  },
+  {
+    "id":"IDR",
+    "text":"Rupiah"
+  },
+  {
+    "id":"RUB",
+    "text":"Russian Ruble"
+  },
+  {
+    "id":"RWF",
+    "text":"Rwanda Franc"
+  },
+  {
+    "id":"SHP",
+    "text":"Saint Helena Pound"
+  },
+  {
+    "id":"SAR",
+    "text":"Saudi Riyal"
+  },
+  {
+    "id":"XDR",
+    "text":"SDR (Special Drawing Right)"
+  },
+  {
+    "id":"RSD",
+    "text":"Serbian Dinar"
+  },
+  {
+    "id":"SCR",
+    "text":"Seychelles Rupee"
+  },
+  {
+    "id":"XAG",
+    "text":"Silver"
+  },
+  {
+    "id":"SGD",
+    "text":"Singapore Dollar"
+  },
+  {
+    "id":"SBD",
+    "text":"Solomon Islands Dollar"
+  },
+  {
+    "id":"KGS",
+    "text":"Som"
+  },
+  {
+    "id":"SOS",
+    "text":"Somali Shilling"
+  },
+  {
+    "id":"TJS",
+    "text":"Somoni"
+  },
+  {
+    "id":"SSP",
+    "text":"South Sudanese Pound"
+  },
+  {
+    "id":"LKR",
+    "text":"Sri Lanka Rupee"
+  },
+  {
+    "id":"XSU",
+    "text":"Sucre"
+  },
+  {
+    "id":"SDG",
+    "text":"Sudanese Pound"
+  },
+  {
+    "id":"SRD",
+    "text":"Surinam Dollar"
+  },
+  {
+    "id":"SEK",
+    "text":"Swedish Krona"
+  },
+  {
+    "id":"CHF",
+    "text":"Swiss Franc"
+  },
+  {
+    "id":"CHF",
+    "text":"Swiss Franc"
+  },
+  {
+    "id":"SYP",
+    "text":"Syrian Pound"
+  },
+  {
+    "id":"BDT",
+    "text":"Taka"
+  },
+  {
+    "id":"WST",
+    "text":"Tala"
+  },
+  {
+    "id":"TZS",
+    "text":"Tanzanian Shilling"
+  },
+  {
+    "id":"KZT",
+    "text":"Tenge"
+  },
+  {
+    "id":"XXX",
+    "text":"The codes assigned for transactions where no currency is involved"
+  },
+  {
+    "id":"TTD",
+    "text":"Trinidad and Tobago Dollar"
+  },
+  {
+    "id":"MNT",
+    "text":"Tugrik"
+  },
+  {
+    "id":"TND",
+    "text":"Tunisian Dinar"
+  },
+  {
+    "id":"TRY",
+    "text":"Turkish Lira"
+  },
+  {
+    "id":"TMT",
+    "text":"Turkmenistan New Manat"
+  },
+  {
+    "id":"AED",
+    "text":"UAE Dirham"
+  },
+  {
+    "id":"UGX",
+    "text":"Uganda Shilling"
+  },
+  {
+    "id":"XFU",
+    "text":"UIC-Franc"
+  },
+  {
+    "id":"COU",
+    "text":"Unidad de Valor Real"
+  },
+  {
+    "id":"CLF",
+    "text":"Unidades de fomento"
+  },
+  {
+    "id":"UYI",
+    "text":"Uruguay Peso en Unidades Indexadas (URUIURUI)"
+  },
+  {
+    "id":"USD",
+    "text":"US Dollar"
+  },
+  {
+    "id":"USN",
+    "text":"US Dollar (Next day)"
+  },
+  {
+    "id":"USS",
+    "text":"US Dollar (Same day)"
+  },
+  {
+    "id":"UZS",
+    "text":"Uzbekistan Sum"
+  },
+  {
+    "id":"VUV",
+    "text":"Vatu"
+  },
+  {
+    "id":"CHE",
+    "text":"WIR Euro"
+  },
+  {
+    "id":"CHW",
+    "text":"WIR Franc"
+  },
+  {
+    "id":"KRW",
+    "text":"Won"
+  },
+  {
+    "id":"YER",
+    "text":"Yemeni Rial"
+  },
+  {
+    "id":"JPY",
+    "text":"Yen"
+  },
+  {
+    "id":"CNY",
+    "text":"Yuan Renminbi"
+  },
+  {
+    "id":"ZMK",
+    "text":"Zambian Kwacha"
+  },
+  {
+    "id":"ZWL",
+    "text":"Zimbabwe Dollar"
+  },
+  {
+    "id":"PLN",
+    "text":"Zloty"
+  }
+]

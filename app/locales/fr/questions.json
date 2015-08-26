@@ -1,0 +1,34 @@
+{
+    "applianceFrequency":{
+        "info":"Les équipements électriques sont conçus par le fabricant pour une certaine fréquence et ne peuvent pas être utilisés sur une autre fréquence. Certains appareils sont parfois conçus pour être utilisé avec les deux fréquences mais cela doit dans ce cas être spécifiquement mentionné sur la plaque signalétique (50/60 Hertz).",
+        "title":"Puis-je utiliser un appareil à 50Hz sur un courant de 60Hz"
+    },
+    "askVisa":{
+        "info":"Les visas doivent être demandés dans l'un des <a href=\"http://embassy.goabroad.com/\" target=\"_blank\">consulats</a> du <strong>pays de destination</strong> présent dans le pays où vous êtes actuellement (tous les pays). Vous pouvez également aller au service consulaire de l'ambassade du pays concerné. Mais dans certains cas, le visa doit être demander avant de quitter votre pays officiel.",
+        "title":"Où puis-je demander un visa?"
+    },
+    "dataSources":{
+        "info":"<p>Les données proviennent de certains jeux de données libres populaires comme <a href=\"http://www.geonames.org\" target=\"_blank\">geonames.org</a>, <a href=\"http://www.unicode.org\" target=\"_blank\">unicode.org</a>, <a href=\"http://www.worldbank.org\" target=\"_blank\">worldbank.org</a> ou <a href=\"http://www.ecb.europa.eu/\" target=\"_blank\">ecb.europa.eu</a>. Envoyez-nous un lien si vous connaissez d'autres données libres qui peuvent être utilisées dans cette application.</p>",
+        "title":"Où avez-vous trouvé les données?"
+    },
+    "moreProperties":{
+        "info":"En fait, cela dépend principalement des données que nous pouvons trouver. Essayez d'obtenir un ensemble de données gratuite (CSV​​, JSON, XML d', etc ...) ou en créer en un vous-même en utilisant notre modèle, nous serons heureux de l'intégrer à cette application. Une simple suggestion est cependant la bienvenue.<br/><a class=\"btn btn-xs btn-primary\" href=\"datas/json/custom/en/model.csv\" target=\"_blank\"><i class=\"glyphicon glyphicon-download\"></i>model.csv</a>",
+        "title":"Pouvez-vous ajouter d'autres priorités?"
+    },
+    "resetSettings":{
+        "info":"Vous pouvez réinitialiser tous les champs de votre profil et supprimer les données enregistrées en supprimant les cookies depuis les options de votre navigateur ou en utilisant le bouton ci-dessous.<br/><button type=\"button\" class=\"btn btn-primary btn-xs delete-cookies\"> <i class=\"glyphicon glyphicon-trash\"></i> Supprimer les cookies</button>",
+        "title":"Comment puis-je réinitialiser les paramètres?"
+    },
+    "saveData":{
+        "info":"Votre configuration est temporaire enregistré dans les cookies de votre navigateur Web durant 30 jours à moins que vous ne les supprimiez.",
+        "title":"Est-ce que ma configuration est sauvegardée?"
+    },
+    "scoreCalcul":{
+        "info":"Plus une priorité est élevée, plus elle donne de points. Si vous activez 3 priorités, la première donnera 300 points, la seconde 200 et la troisième 100. Si une priorité correspond partiellement, elle donnera seulement un pourcentage des points. Par exemple, si un pays correspond à 100% la première et à 50% à la troisième priorité, il obtiendra un score de (300 * 100%) + (200 * 0%) + (100 * 50 %) = 350 points.",
+        "title":"Comment sont calculés les scores?"
+    },
+    "scoreColor":{
+        "info":"Un score est calculé pour chaque pays en fonction des priorités que vous avez activé. Plus un pays correspondent à votre profil, plus il obtiendra de points, plus il sera coloré ce qui signifie qu'il devrait correspondre à vos attentes.",
+        "title":"Que signifient les scores et couleurs sur la carte?"
+    }
+}

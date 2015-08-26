@@ -1,0 +1,235 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: node-gettext\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgid "acPlugsPriority##info"
+msgstr "If you travel with electrical appliances, you may have to buy a travel adapter."
+
+msgid "acPlugsPriority##title"
+msgstr "I don't need a travel adapter"
+
+msgid "acVoltagesPriority##info"
+msgstr "You should take care about local voltage and frequency if you travel with electrical appliances. A tension converter can also be required in addition to the travel adapter."
+
+msgid "acVoltagesPriority##title"
+msgstr "I don't need a voltage converter"
+
+msgid "airPollutionPriority##info"
+msgstr ""
+
+msgid "airPollutionPriority##title"
+msgstr "Air pollution"
+
+msgid "assaultRatePriority##info"
+msgstr ""
+
+msgid "assaultRatePriority##title"
+msgstr "Assault rate"
+
+msgid "changeRatePriority##info"
+msgstr "Select countries where local currency is weaker than yours so you can probably have cheap holidays."
+
+msgid "changeRatePriority##title"
+msgstr "The change rate is advantageous"
+
+msgid "consultationOnRuleMakingPriority##info"
+msgstr ""
+
+msgid "consultationOnRuleMakingPriority##title"
+msgstr "Consultation on rule-making"
+
+msgid "currencyPriority##info"
+msgstr "You'll doesn't have to take care about change rate. Just ensure that Local ATMs accept your credit card."
+
+msgid "currencyPriority##title"
+msgstr "I don't have to change currencies"
+
+msgid "democracyPriority##info"
+msgstr "Select countries whose democratic level is considered high."
+
+msgid "democracyPriority##title"
+msgstr "The country is democratic"
+
+msgid "drivingSidePriority##info"
+msgstr "If you want to drive a car or a motorcycle, prefer country using the same driving direction."
+
+msgid "drivingSidePriority##title"
+msgstr "Drive on the same side of the road"
+
+msgid "dwellingsWithoutBasicFacilitiesPriority##info"
+msgstr ""
+
+msgid "dwellingsWithoutBasicFacilitiesPriority##title"
+msgstr "Dwellings without basic facilities"
+
+msgid "educationalAttainmentPriority##info"
+msgstr ""
+
+msgid "educationalAttainmentPriority##title"
+msgstr "Educational attainment"
+
+msgid "employeesWorkingVeryLongHoursPriority##info"
+msgstr ""
+
+msgid "employeesWorkingVeryLongHoursPriority##title"
+msgstr "Employees working very long hours"
+
+msgid "employmentRatePriority##info"
+msgstr ""
+
+msgid "employmentRatePriority##title"
+msgstr "Employment rate"
+
+msgid "homicideRatePriority##info"
+msgstr ""
+
+msgid "homicideRatePriority##title"
+msgstr "Homicide rate"
+
+msgid "householdNetAdjustedDisposableIncomePriority##info"
+msgstr ""
+
+msgid "householdNetAdjustedDisposableIncomePriority##title"
+msgstr "Household net adjusted disposable income"
+
+msgid "householdNetFinancialWealthPriority##info"
+msgstr ""
+
+msgid "householdNetFinancialWealthPriority##title"
+msgstr "High household net financial wealth"
+
+msgid "housingExpenditurePriority##info"
+msgstr ""
+
+msgid "housingExpenditurePriority##title"
+msgstr "Housing expenditure"
+
+msgid "islandPriority##info"
+msgstr "Use this priority for finding countries that are an island or the sovereign state of islands."
+
+msgid "islandPriority##title"
+msgstr "The country is or has islands"
+
+msgid "jobSecurityPriority##info"
+msgstr ""
+
+msgid "jobSecurityPriority##title"
+msgstr "Job security"
+
+msgid "lifeExpectancyPriority##info"
+msgstr ""
+
+msgid "lifeExpectancyPriority##title"
+msgstr "Life expectancy"
+
+msgid "lifeSatisfactionPriority##info"
+msgstr ""
+
+msgid "lifeSatisfactionPriority##title"
+msgstr "Life satisfaction"
+
+msgid "longTermUnemploymentRatePriority##info"
+msgstr ""
+
+msgid "longTermUnemploymentRatePriority##title"
+msgstr "Long-term unemployment rate"
+
+msgid "neighborPriority##info"
+msgstr "Maybe you prefer nearby countries so you can go by the ground or for a short stay."
+
+msgid "neighborPriority##title"
+msgstr "The border countries preferably"
+
+msgid "onwardTicketPriority##info"
+msgstr "Some countries require you to have your return airfare on arrival."
+
+msgid "onwardTicketPriority##title"
+msgstr "The return airfare is not required"
+
+msgid "personalEarningsPriority##info"
+msgstr ""
+
+msgid "personalEarningsPriority##title"
+msgstr "Personal earnings"
+
+msgid "qualityOfSupportNetworkPriority##info"
+msgstr ""
+
+msgid "qualityOfSupportNetworkPriority##title"
+msgstr "Quality of support network"
+
+msgid "readingLanguagePriority##info"
+msgstr "If you only know latin characters, you will not be able to read even the road signs in some countries."
+
+msgid "readingLanguagePriority##title"
+msgstr "I have no trouble reading the sign boards"
+
+msgid "religionPriority##info"
+msgstr ""
+
+msgid "religionPriority##title"
+msgstr "Part of the population is of my religion"
+
+msgid "roomsPerPersonPriority##info"
+msgstr ""
+
+msgid "roomsPerPersonPriority##title"
+msgstr "Rooms per person"
+
+msgid "selfReportedHealthPriority##info"
+msgstr ""
+
+msgid "selfReportedHealthPriority##title"
+msgstr "Healthy population"
+
+msgid "speakingLanguagePriority##info"
+msgstr "It's always easier to communicate if a large part of the population know your native or secondary language."
+
+msgid "speakingLanguagePriority##title"
+msgstr "Most people speak one of my languages"
+
+msgid "studentSkillsPriority##info"
+msgstr ""
+
+msgid "studentSkillsPriority##title"
+msgstr "Student skills"
+
+msgid "timeDevotedToLeisureAndPersonalCarePriority##info"
+msgstr ""
+
+msgid "timeDevotedToLeisureAndPersonalCarePriority##title"
+msgstr "Time devoted to leisure and personal care"
+
+msgid "visaFreePriority##info"
+msgstr "Depending on your citizenships, some countries are accessible with just a passport for a limited tourism stay."
+
+msgid "visaFreePriority##title"
+msgstr "I don't need a tourist VISA"
+
+msgid "voaFeePriority##info"
+msgstr "Avoid countries requiring to buy a visa while passing the border."
+
+msgid "voaFeePriority##title"
+msgstr "There is no visa-on-arrival fee"
+
+msgid "voterTurnoutPriority##info"
+msgstr ""
+
+msgid "voterTurnoutPriority##title"
+msgstr "Voter turnout"
+
+msgid "waterQualityPriority##info"
+msgstr ""
+
+msgid "waterQualityPriority##title"
+msgstr "Satisfactory water quality"
+
+msgid "yearsInEducationPriority##info"
+msgstr ""
+
+msgid "yearsInEducationPriority##title"
+msgstr "Years in education"

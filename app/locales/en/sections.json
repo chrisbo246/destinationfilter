@@ -1,0 +1,279 @@
+{
+    "about":{
+        "info":"This application was written \"for the fun\" by a penniless autodidact developer dreaming of escapes.",
+        "link":"About",
+        "title":"About"
+    },
+    "acStandards":{
+        "title":"AC standards"
+    },
+    "accuracy":{
+        "title":"Accuracy"
+    },
+    "administration":{
+        "title":"Administration"
+    },
+    "appliances":{
+        "info":"Fill the characteristics of your electrical appliances to check their compatibility with <a href=\"http://www.iec.ch/worldplugs/?ref=extfooter\" target=\"_blank\">local standards</a>.",
+        "title":"Electric appliances"
+    },
+    "askQuestion":{
+        "info":"You do not find an answer in the FAQ? You can ask your question here.",
+        "title":"Ask a question"
+    },
+    "baseLayer":{
+        "title":"Map"
+    },
+    "civicEngagement":{
+        "title":"Civic engagement"
+    },
+    "climate":{
+        "link":"Climate"
+    },
+    "communication":{
+        "link":"Communication",
+        "title":"Communication"
+    },
+    "communicationAbility":{
+        "info":"This information helps us to identify the countries in which you will have less communication difficulties.",
+        "title":"Communication ability"
+    },
+    "contact":{
+        "link":"Contact",
+        "title":"A message for Chris ?",
+        "info":""
+    },
+    "contribution":{
+        "info":"If you enjoyed this first beta version, you can help us improve this application by participating in different ways.",
+        "link":"Contribute",
+        "title":"What do you think about it?"
+    },
+    "country":{
+        "link":"Country",
+        "title":"Country"
+    },
+    "countryList":{
+        "info":"Choose among the top ranked countries. Click on the countries of interest for additional information.",
+        "title":"Best destinations"
+    },
+    "culture":{
+        "info":"This information helps us identify the country in which you will have less difficulty integrating culturally.",
+        "title":"Culture"
+    },
+    "destinations":{
+        "link":"My destinations"
+    },
+    "disabledPriorities":{
+        "info":"Use the filter to display some additional search criteria by theme. Select and activate the ones you want then go to the next section to reorder them according to your priorities.",
+        "title":"Search criteria"
+    },
+    "donation":{
+        "link":"Donate",
+        "info":"This application has pleased you and you would like to discover new features? Support this project by donating a few Euros. Donations are my only source of income. Thanks, jobs and invitations are also welcome ^_^.",
+        "title":"Support this application"
+    },
+    "driving":{
+        "title":"Driving"
+    },
+    "economy":{
+        "title":"Economy"
+    },
+    "education":{
+        "title":"Education"
+    },
+    "environment":{
+        "title":"Environment"
+    },
+    "faq":{
+        "info":"Use the filter to display questions / answers by category. Have a look in the next section if you do not find an answer.",
+        "title":"FAQ"
+    },
+    "geography":{
+        "link":"Geography"
+    },
+    "habits":{
+        "info":"This information helps us identify the countries in which you have to take new habits.",
+        "title":"Habits"
+    },
+    "happiness":{
+        "title":"Happiness"
+    },
+    "health":{
+        "title":"Health"
+    },
+    "help":{
+        "link":"Help"
+    },
+    "home":{
+        "link":"Home"
+    },
+    "housing":{
+        "link":"Housing",
+        "title":"Housing"
+    },
+    "income":{
+        "title":"Income"
+    },
+    "info":{
+        "link":"Infos"
+    },
+    "infoLayers":{
+        "title":"Infos"
+    },
+    "job":{
+        "link":"Job"
+    },
+    "jobs":{
+        "title":"Jobs"
+    },
+    "language":{
+        "title":"Language"
+    },
+    "legal":{
+        "info":"Access to some countries is more or less regulated depending on your citizenship.",
+        "title":"Legal status"
+    },
+    "life":{
+        "link":"Life"
+    },
+    "links":{
+        "link":"Links"
+    },
+    "location":{
+        "info":"We need to know where you are approximately to give you more relevant results.",
+        "title":"Actual location"
+    },
+    "map":{
+        "link":"Map"
+    },
+    "mobility":{
+        "title":"Mobility"
+    },
+    "myLayers":{
+        "title":"My layers"
+    },
+    "orientation":{
+        "title":"Orientation"
+    },
+    "overlayLayers":{
+        "title":"Overlays"
+    },
+    "policy":{
+        "title":"Policy"
+    },
+    "population":{
+        "link":"Population",
+        "title":"Population"
+    },
+    "position":{
+        "title":"Position"
+    },
+    "priorities":{
+        "info":"Add some search criteria then rank them according to your priorities.",
+        "link":"My priorities",
+        "title":"My priorities"
+    },
+    "profile":{
+        "info":"Tell us who you are so we can compare with the different countries.",
+        "link":"My profile",
+        "title":"Profile"
+    },
+    "purchasingPower":{
+        "info":"These parameters are mainly used to find countries that are cheap for you.",
+        "title":"Purchasing power"
+    },
+    "reliefLayers":{
+        "title":"Relief"
+    },
+    "report":{
+        "info":"Who better than you can help us to correct or complete data about your own country.",
+        "title":"Data report"
+    },
+    "research":{
+        "link":"Research"
+    },
+    "userProfileReset":{
+        "info":"Select your usual place of living then click OK to prefill or reset all fields of your profile.",
+        "title":"Prefill my profile"
+    },
+    "resetSettings":{
+        "info":"",
+        "title":"Reset"
+    },
+    "roadLayers":{
+        "title":"Road"
+    },
+    "roadWithReliefLayers":{
+        "title":"Road w/ relief"
+    },
+    "safety":{
+        "title":"Safety"
+    },
+    "satelliteLayers":{
+        "title":"Satellite"
+    },
+    "score":{
+        "link":"Score"
+    },
+    "scoreSettings":{
+        "info":"",
+        "title":"Score"
+    },
+    "settings":{
+        "link":"Settings"
+    },
+    "share":{
+        "info":"Help us to make this application popular by sharing on social networks and forums. It helps more than you think!",
+        "title":"Share on social networks"
+    },
+    "spending":{
+        "link":"Spending"
+    },
+    "standards":{
+        "link":"Standards"
+    },
+    "stripe":{
+      "title":"DESTINATION FINDER",
+      "info":"Donate by credit card"
+    },
+    "territorialDependencies":{
+        "title":"Territorial dependencies"
+    },
+    "time":{
+        "title":"Time & date"
+    },
+    "translation":{
+        "link":"Translate",
+        "info":"Help us to provide a quality translation in your language, you just have to use our dedicated online editor. Do not hesitate, it is very simple and risk free!",
+        "title":"Improvise you as a translator"
+    },
+    "travel":{
+        "link":"Travel"
+    },
+    "validCountryList":{
+        "info":"The countries with the highest scores would best suit your needs. Click on a country for detailed information or explore the map to have a global overview.",
+        "title":"Compare your destinations"
+    },
+    "validPriorities":{
+        "info":"Add some selection criteria then sort them according to your priorities. You will get more relevant results classified according to the percentage of correspondence.",
+        "title":"Sort your priorities"
+    },
+    "validUserProfile":{
+        "info":"Tell us who you are so that we can compare your lifestyle with that of each country. Make sure all field of your profile are fully valid.",
+        "title":"Fill in your profile"
+    },
+    "tourism":{
+        "info":"Your trip is only for tourist purposes, and generally for a limited time. You do not have permission to work.",
+        "title":"Tourism"
+    },
+    "citizenship":{
+        "title":"For citizens from"
+    },
+    "welcome":{
+        "content":"Need to get away for a quick trip abroad or for the journey of your life? Complete your profile, add a few search criteria and you'll get a map of the country that fits your priorities and lots of useful information to help you to find your next destination.",
+        "title":"Search for your next destination"
+    },
+    "workLifeBalance":{
+        "title":"Work-Life balance"
+    }
+}

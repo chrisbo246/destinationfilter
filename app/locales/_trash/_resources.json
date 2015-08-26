@@ -1,0 +1,3143 @@
+{
+  "aa":{
+    "translation":{}
+  },
+  "ab":{
+    "translation":{}
+  },
+  "ae":{
+    "translation":{}
+  },
+  "af":{
+    "translation":{}
+  },
+  "ak":{
+    "translation":{}
+  },
+  "am":{
+    "translation":{}
+  },
+  "an":{
+    "translation":{}
+  },
+  "ar":{
+    "translation":{}
+  },
+  "as":{
+    "translation":{}
+  },
+  "av":{
+    "translation":{}
+  },
+  "ay":{
+    "translation":{}
+  },
+  "az":{
+    "translation":{}
+  },
+  "ba":{
+    "translation":{}
+  },
+  "be":{
+    "translation":{}
+  },
+  "bg":{
+    "translation":{}
+  },
+  "bi":{
+    "translation":{}
+  },
+  "bm":{
+    "translation":{}
+  },
+  "bn":{
+    "translation":{}
+  },
+  "bo":{
+    "translation":{}
+  },
+  "br":{
+    "translation":{}
+  },
+  "bs":{
+    "translation":{}
+  },
+  "ca":{
+    "translation":{}
+  },
+  "ce":{
+    "translation":{}
+  },
+  "ch":{
+    "translation":{}
+  },
+  "co":{
+    "translation":{}
+  },
+  "cr":{
+    "translation":{}
+  },
+  "cs":{
+    "translation":{}
+  },
+  "cu":{
+    "translation":{}
+  },
+  "cv":{
+    "translation":{}
+  },
+  "cy":{
+    "translation":{}
+  },
+  "da":{
+    "translation":{}
+  },
+  "de":{
+    "translation":{}
+  },
+  "dv":{
+    "translation":{}
+  },
+  "dz":{
+    "translation":{}
+  },
+  "ee":{
+    "translation":{}
+  },
+  "el":{
+    "translation":{}
+  },
+  "en":{
+    "translation":{
+      "alerts":{
+        "noPriority":{
+          "info":"Add some search criteria and rank them according to your priorities to find your ideal destination.",
+          "title":"Add some priorities"
+        },
+        "outdatedBrowser":{
+          "info":"You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
+        }
+      },
+      "buttons":{
+        "add":{
+          "label":"Add"
+        },
+        "cancel":{
+          "label":"Cancel"
+        },
+        "centerCountry":{
+          "label":"Show on map"
+        },
+        "check":{
+          "label":"Check"
+        },
+        "close":{
+          "label":"Close"
+        },
+        "deleteCookies":{
+          "label":"Delete cookies"
+        },
+        "disableAll":{
+          "label":"Disable all"
+        },
+        "disableSelection":{
+          "label":"Disable selection"
+        },
+        "enableAll":{
+          "label":"Enable all"
+        },
+        "enableSelection":{
+          "label":"Enable selection"
+        },
+        "geolocate":{
+          "label":"Detect my position"
+        },
+        "ok":{
+          "label":"OK"
+        },
+        "olAttribution":{
+          "label":"Attributions"
+        },
+        "olFullScreen":{
+          "label":"Toggle full-screen"
+        },
+        "olLayerswitcher":{
+          "label":"Layers"
+        },
+        "olOverviewmap":{
+          "label":"Overview map"
+        },
+        "olRotateReset":{
+          "label":"Rotate reset"
+        },
+        "olScaleLine":{
+          "label":"Scale line"
+        },
+        "olZoomExtent":{
+          "label":"Fit to extent"
+        },
+        "olZoomIn":{
+          "label":"Zoom in"
+        },
+        "olZoomOut":{
+          "label":"Zoom out"
+        },
+        "reset":{
+          "label":"Reset"
+        },
+        "save":{
+          "label":"Save"
+        },
+        "send":{
+          "label":"Send"
+        },
+        "simulate":{
+          "label":"Simulate"
+        },
+        "start":{
+          "label":"Start now"
+        },
+        "tour":{
+          "label":"Quick tour"
+        },
+        "translate":{
+          "label":"Translate now"
+        }
+      },
+      "document":{
+        "description":"Need to get away for a quick trip abroad? Complete your profile, add a few criteria and you'll get a map of the country that best fits your priorities.",
+        "title":"DESTINATION FILTER - The most accessible countries for your next trip"
+      },
+      "fields":{
+        "CG_TRASG":{
+          "label":"Calls to vote annually"
+        },
+        "CG_VOTO":{
+          "label":"Voter turnout"
+        },
+        "EQ_AIRP":{
+          "label":"Air pollution"
+        },
+        "EQ_WATER":{
+          "label":"Water quality"
+        },
+        "ES_EDUA":{
+          "label":"Secondary school graduates"
+        },
+        "ES_EDUEX":{
+          "label":"Potential years of education"
+        },
+        "ES_STCS":{
+          "label":"Students skill (PISA score)"
+        },
+        "HO_BASE":{
+          "label":"Housing without toilet"
+        },
+        "HO_HISH":{
+          "label":"Housing expenditure / income"
+        },
+        "HO_NUMR":{
+          "label":"Rooms per person"
+        },
+        "HS_LEB":{
+          "label":"Life expectancy"
+        },
+        "HS_SFRH":{
+          "label":"Reported health"
+        },
+        "IW_HADI":{
+          "label":"Annual household income after tax"
+        },
+        "IW_HNFW":{
+          "label":"Total household wealth"
+        },
+        "JE_EMPL":{
+          "label":"Worked recently"
+        },
+        "JE_JT":{
+          "label":"Risk of losing a job"
+        },
+        "JE_LTUR":{
+          "label":"Unemployed for over a year"
+        },
+        "JE_PEARN":{
+          "label":"Annual personal income"
+        },
+        "PS_REPH":{
+          "label":"Homicide rate"
+        },
+        "PS_SFRV":{
+          "label":"Assault rate"
+        },
+        "SC_SNTWS":{
+          "label":"Quality of support network"
+        },
+        "SW_LIFS":{
+          "label":"Life satisfaction"
+        },
+        "WL_EWLH":{
+          "label":"Work more than 50 hours per week"
+        },
+        "WL_TNOW":{
+          "label":"Time devoted to leisure"
+        },
+        "allEmbassies":{
+          "label":"All embassies"
+        },
+        "area":{
+          "label":"Area"
+        },
+        "capital":{
+          "label":"Capital"
+        },
+        "changeRate":{
+          "label":"Change rate"
+        },
+        "continent":{
+          "label":"Continent"
+        },
+        "costOfLiving":{
+          "label":"Cost of living"
+        },
+        "democracyScore":{
+          "label":"Democratic level"
+        },
+        "disabledPrioritiesFilters":{
+          "label":"Filter"
+        },
+        "disabledPrioritiesLayout":{
+          "info":"",
+          "label":"Layout"
+        },
+        "drivingSide":{
+          "label":"Driving side"
+        },
+        "fipsCodes":{
+          "label":"FIPS codes"
+        },
+        "grossDomesticProduct":{
+          "label":"Gross domestic product"
+        },
+        "incomeLevel":{
+          "label":"Income level"
+        },
+        "islands":{
+          "label":"Islands"
+        },
+        "isoCodes":{
+          "label":"ISO codes"
+        },
+        "literacyPercent":{
+          "label":"Literacy percent"
+        },
+        "localEmbassies":{
+          "label":"Local consulates"
+        },
+        "highIncomes":{
+          "label":"Rich"
+        },
+        "lowIncomes":{
+          "label":"Poor"
+        },
+        "men":{
+          "label":"Men"
+        },
+        "officialCurrency":{
+          "label":"Official currency"
+        },
+        "officialLanguages":{
+          "de_facto_official":"de facto",
+          "label":"Official languages",
+          "official":"official",
+          "official_regional":"regional"
+        },
+        "phonePrefix":{
+          "label":"Phone prefix"
+        },
+        "points":{
+          "label":"points"
+        },
+        "politicalRegimeType":{
+          "label":"Regime type"
+        },
+        "population":{
+          "label":"Population"
+        },
+        "postalCodeFormat":{
+          "label":"Postal code format"
+        },
+        "religion":{
+          "label":"Religion"
+        },
+        "requiredOnArrival":{
+          "label":"Required on arrival"
+        },
+        "residentialPlugs":{
+          "label":"Residential plugs"
+        },
+        "score":{
+          "label":"Score"
+        },
+        "speakingLanguages":{
+          "label":"Speaking languages"
+        },
+        "timeZones":{
+          "label":"Time zones"
+        },
+        "total":{
+          "label":"Total"
+        },
+        "visaFree":{
+          "label":"Visa-free"
+        },
+        "voaFee":{
+          "label":"Visa-on-arrival fee"
+        },
+        "weather":{
+          "label":"Weather and climate"
+        },
+        "women":{
+          "label":"Women"
+        }
+      },
+      "inputs":{
+        "accuracy":{
+          "label":"Location accuracy"
+        },
+        "alpha":{
+          "label":"Alpha"
+        },
+        "altitude":{
+          "label":"Altitude"
+        },
+        "altitudeAccuracy":{
+          "label":"Altitude accuracy"
+        },
+        "beta":{
+          "label":"Beta"
+        },
+        "default":{
+          "messages":{
+            "emailAddress":"Your email doesn't seem to be valid.",
+            "notEmpty":"This field is required.",
+            "requiredByPriorities":"Your priorities require this information."
+          }
+        },
+        "delta":{
+          "label":"Delta"
+        },
+        "entry_1152240230":{
+          "info":"You don't find your answer in the FAQ? Ask any question that may also be useful to other users. We will add the answer to the FAQ.",
+          "label":"Your question",
+          "messages":{
+            "notEmpty":"You forget to ask your question."
+          }
+        },
+        "entry_1450479008":{
+          "label":"Your name"
+        },
+        "entry_297652874":{
+          "label":"Message"
+        },
+        "entry_593995947":{
+          "label":"Your email"
+        },
+        "gamma":{
+          "label":"Gamma"
+        },
+        "heading":{
+          "label":"Heading"
+        },
+        "latitude":{
+          "label":"Latitude"
+        },
+        "longitude":{
+          "label":"Longitude"
+        },
+        "priorityRatio":{
+          "label":"Priority ratio",
+          "info":"By default, ls higher priority is given twice more points than the last. Decrease the ratio if you find that there is too much difference between the different countries."
+        },
+        "resultLimit":{
+          "info":"Show only better.",
+          "label":"Limit results"
+        },
+        "send":{
+          "label":"Send"
+        },
+        "setLng":{
+          "info":"Translate"
+        },
+        "speed":{
+          "label":"Speed"
+        },
+        "track":{
+          "info":"If you are using a mobile device, your position will be automatically updated as and when you travel.",
+          "label":"Track my position"
+        },
+        "userAddress":{
+          "info":"Alternatively, you can set your location by providing a more or less precise address (eg 75001 Paris, France).",
+          "label":"Address"
+        },
+        "userCitizenships":{
+          "info":"Your official country indicated on your passport and identity documents. You should have a single citizenships, but some people have several.",
+          "label":"Citizenships",
+          "messages":{
+            "notEmpty":"Your priorities require this information."
+          },
+          "placeholder":" "
+        },
+        "userCountry":{
+          "info":"The country where you are physically right now.",
+          "label":"Country",
+          "messages":{
+            "notEmpty":"Your priorities require this information."
+          },
+          "placeholder":" "
+        },
+        "userCurrencies":{
+          "info":"Your money.",
+          "label":"Currencies",
+          "messages":{
+            "notEmpty":"Your priorities require this information."
+          },
+          "placeholder":" "
+        },
+        "userDrivingSides":{
+          "info":"The side of the road on which you usually drive in your country (if you have your driver's license). You can select both right and left if you are used to drive two different ways.",
+          "label":"Driving side",
+          "messages":{
+            "notEmpty":"Your priorities require this information."
+          },
+          "placeholder":" "
+        },
+        "userFirstDayOfWeek":{
+          "info":"",
+          "label":"Week Start Day",
+          "messages":{
+            "notEmpty":"Your priorities require this information."
+          },
+          "placeholder":" "
+        },
+        "userIncomeLevel":{
+          "info":"Default value is the average income level in your country in comparison to the rest of the world. Increase or decrease it only if you know what you are doing.",
+          "label":"Income level",
+          "messages":{
+            "notEmpty":"Your priorities require this information."
+          },
+          "placeholder":" "
+        },
+        "userMeasurementSystem":{
+          "info":"Do you normally use the metric system (kg / km), imperial (lb / miles), a hybrid system (lb / km), or are you comfortable with both.",
+          "label":"Measurement Units",
+          "messages":{
+            "notEmpty":"Your priorities require this information."
+          },
+          "placeholder":" "
+        },
+        "userPlugFrequencies":{
+          "info":"The different frequencies supported by the electrical appliances that you'd like to take.",
+          "label":"Frequencies",
+          "messages":{
+            "notEmpty":"Your priorities require this information."
+          },
+          "placeholder":" "
+        },
+        "userPlugTypes":{
+          "info":"The type of plug of the electrical appliances that you'd like to take.",
+          "label":"Plug types",
+          "placeholder":" "
+        },
+        "userPlugVoltages":{
+          "info":"The different voltages supported by the electrical appliances that you'd like to take.",
+          "label":"Electric potentials",
+          "messages":{
+            "notEmpty":"Your priorities require this information."
+          },
+          "placeholder":" "
+        },
+        "userProfile":{
+          "info":"Specify where you usually live and have the most habits. Your profile will be pre-filled or reset from that country.",
+          "label":"Country",
+          "messages":{
+            "notEmpty":"Your priorities require this information."
+          },
+          "placeholder":" "
+        },
+        "userReadingLanguages":{
+          "info":"Your native and other exotic languages you are able to read. Are you able to decipher the Chinese characters?",
+          "label":"Reading languages",
+          "messages":{
+            "notEmpty":"Your priorities require this information."
+          },
+          "placeholder":" "
+        },
+        "userReligion":{
+          "info":"Your religion is used to find the countries in which you will have little difficulty integrating culturally.",
+          "label":"Religion",
+          "placeholder":" "
+        },
+        "userSpeakingLanguages":{
+          "info":"Your native and other languages you could eventually use to speak with locals.",
+          "label":"Speaking languages",
+          "messages":{
+            "notEmpty":"Your priorities require this information."
+          },
+          "placeholder":" "
+        }
+      },
+      "lists":{
+        "priorities":{
+          "acPlugsPriority":{
+            "info":"If you travel with electrical appliances, you may have to buy a travel adapter.",
+            "title":"I don't need a travel adapter"
+          },
+          "acVoltagesPriority":{
+            "info":"You should take care about local voltage and frequency if you travel with electrical appliances. A tension converter can also be required in addition to the travel adapter.",
+            "title":"I don't need a voltage converter"
+          },
+          "airPollutionPriority":{
+            "info":"",
+            "title":"Air pollution"
+          },
+          "assaultRatePriority":{
+            "info":"",
+            "title":"Assault rate"
+          },
+          "changeRatePriority":{
+            "info":"Select countries where local currency is weaker than yours so you can probably have cheap holidays.",
+            "title":"The change rate is advantageous"
+          },
+          "consultationOnRuleMakingPriority":{
+            "info":"",
+            "title":"Consultation on rule-making"
+          },
+          "currencyPriority":{
+            "info":"You'll doesn't have to take care about change rate. Just ensure that Local ATMs accept your credit card.",
+            "title":"I don't have to change currencies"
+          },
+          "democracyPriority":{
+            "info":"Select countries whose democratic level is considered high.",
+            "title":"The country is democratic"
+          },
+          "drivingSidePriority":{
+            "info":"If you want to drive a car or a motorcycle, prefer country using the same driving direction.",
+            "title":"Drive on the same side of the road"
+          },
+          "dwellingsWithoutBasicFacilitiesPriority":{
+            "info":"",
+            "title":"Dwellings without basic facilities"
+          },
+          "educationalAttainmentPriority":{
+            "info":"",
+            "title":"Educational attainment"
+          },
+          "employeesWorkingVeryLongHoursPriority":{
+            "info":"",
+            "title":"Employees working very long hours"
+          },
+          "employmentRatePriority":{
+            "info":"",
+            "title":"Employment rate"
+          },
+          "homicideRatePriority":{
+            "info":"",
+            "title":"Homicide rate"
+          },
+          "householdNetAdjustedDisposableIncomePriority":{
+            "info":"",
+            "title":"Household net adjusted disposable income"
+          },
+          "householdNetFinancialWealthPriority":{
+            "info":"",
+            "title":"High household net financial wealth"
+          },
+          "housingExpenditurePriority":{
+            "info":"",
+            "title":"Housing expenditure"
+          },
+          "islandPriority":{
+            "info":"Use this priority for finding countries that are an island or the sovereign state of islands.",
+            "title":"The country is or has islands"
+          },
+          "jobSecurityPriority":{
+            "info":"",
+            "title":"Job security"
+          },
+          "lifeExpectancyPriority":{
+            "info":"",
+            "title":"Life expectancy"
+          },
+          "lifeSatisfactionPriority":{
+            "info":"",
+            "title":"Life satisfaction"
+          },
+          "longTermUnemploymentRatePriority":{
+            "info":"",
+            "title":"Long-term unemployment rate"
+          },
+          "neighborPriority":{
+            "info":"Maybe you prefer nearby countries so you can go by the ground or for a short stay.",
+            "title":"The border countries preferably"
+          },
+          "onwardTicketPriority":{
+            "info":"Some countries require you to have your return airfare on arrival.",
+            "title":"The return airfare is not required"
+          },
+          "personalEarningsPriority":{
+            "info":"",
+            "title":"Personal earnings"
+          },
+          "qualityOfSupportNetworkPriority":{
+            "info":"",
+            "title":"Quality of support network"
+          },
+          "readingLanguagePriority":{
+            "info":"If you only know latin characters, you will not be able to read even the road signs in some countries.",
+            "title":"I have no trouble reading the sign boards"
+          },
+          "religionPriority":{
+            "info":"",
+            "title":"Part of the population is of my religion"
+          },
+          "roomsPerPersonPriority":{
+            "info":"",
+            "title":"Rooms per person"
+          },
+          "selfReportedHealthPriority":{
+            "info":"",
+            "title":"Healthy population"
+          },
+          "speakingLanguagePriority":{
+            "info":"It's always easier to communicate if a large part of the population know your native or secondary language.",
+            "title":"Most people speak one of my languages"
+          },
+          "studentSkillsPriority":{
+            "info":"",
+            "title":"Student skills"
+          },
+          "timeDevotedToLeisureAndPersonalCarePriority":{
+            "info":"",
+            "title":"Time devoted to leisure and personal care"
+          },
+          "visaFreePriority":{
+            "info":"Depending on your citizenships, some countries are accessible with just a passport for a limited tourism stay.",
+            "title":"I don't need a tourist VISA"
+          },
+          "voaFeePriority":{
+            "info":"Avoid countries requiring to buy a visa while passing the border.",
+            "title":"There is no visa-on-arrival fee"
+          },
+          "voterTurnoutPriority":{
+            "info":"",
+            "title":"Voter turnout"
+          },
+          "waterQualityPriority":{
+            "info":"",
+            "title":"Satisfactory water quality"
+          },
+          "yearsInEducationPriority":{
+            "info":"",
+            "title":"Years in education"
+          }
+        },
+        "questions":{
+          "applianceFrequency":{
+            "info":"Electrical equipment are made by the manufacturer only for a certain frequency and cannot be used on an other frequency! In some cases it is made to be used for both frequencies and in that case specifically mentioned on the type plate: 50/60 Hertz.",
+            "title":"Can I use a appliance in 50Hz on a current of 60Hz?"
+          },
+          "askVisa":{
+            "info":"Visas must be asked in one of the <a href=\"http://embassy.goabroad.com/\" target=\"_blank\">consulates</a> of the <strong>destination country</strong> present in the country you are actually (any country). You can also go to the consulate service of the embassy of the concerned country. But in some cases, visa must be ask before you leave your official country.",
+            "title":"Where can I ask a visa?"
+          },
+          "dataSources":{
+            "info":"<p>Datas come from some popular free datasets like <a href=\"http://www.geonames.org\" target=\"_blank\">geonames.org</a>, <a href=\"http://www.unicode.org\" target=\"_blank\">unicode.org</a>, <a href=\"http://www.worldbank.org\" target=\"_blank\">worldbank.org</a> or <a href=\"http://www.ecb.europa.eu/\" target=\"_blank\">ecb.europa.eu</a>. Send us a link if you know others free datas that can be used in this application.</p>",
+            "title":"Where do you found datas?"
+          },
+          "moreProperties":{
+            "info":"In fact, it mostly depends on the datas that we can find. Try to get a FREE dataset (CSV, JSON, XML, etc...) or create one by yourself using our model. We will be happy to implement it. But a simple suggestion is always welcome.<br/><a class=\"btn btn-primary btn-xs\" href=\"datas/json/custom/en/model.csv\" target=\"_blank\"><i class=\"glyphicon glyphicon-download\"></i> model.csv</a>",
+            "title":"Can you add more priorities?"
+          },
+          "resetSettings":{
+            "info":"You can reset all fields and delete the stored datas by deleting the cookies from the options of your web browser or by using the button below.<br/> <button type=\"button\" class=\"btn btn-primary btn-xs delete-cookies\"> <i class=\"glyphicon glyphicon-trash\"></i> Delete cookies</button>",
+            "title":"How can I reset settings?"
+          },
+          "saveData":{
+            "info":"Your configuration is temporary saved in your web browser cookies during 30 days unless you delete them.",
+            "title":"Is my configuration saved?"
+          },
+          "scoreCalcul":{
+            "info":"The more the priority is high, the more it give points. If you enable 3 priorities, the first will give 300 points, the second 200 and the third 100. If a priority match partially, it will give only a percentage of the points. For instance, if a country match the first at 100% and the third priority at 50%, it will have a score of (300 * 100%) + (200 * 0%) + (100 * 50%) = 350 points.",
+            "title":"How are scores calculated?"
+          },
+          "scoreColor":{
+            "info":"A score is calculated for each country based on the priorities you have set. The more a country fit your profile, the more it will get points, the more it will be colored, which means it should match your needs.",
+            "title":"What means scores and map colors?"
+          }
+        }
+      },
+      "menu":{
+        "toggle":"Toggle navigation"
+      },
+      "results":{
+        "countryList":{
+          "info":"",
+          "title":"Best destinations"
+        },
+        "map":{
+          "info":"",
+          "mapOptions":{
+            "geochartRegion":{
+              "info":"",
+              "label":"Focus on",
+              "messages":{
+                "notEmpty":"This field is required"
+              }
+            },
+            "saveMap":"Save map"
+          },
+          "title":""
+        }
+      },
+      "sections":{
+        "about":{
+          "info":"This application was written \"for the fun\" by a penniless autodidact developer dreaming of escapes.",
+          "link":"About",
+          "title":"About"
+        },
+        "acStandards":{
+          "title":"AC standards"
+        },
+        "accuracy":{
+          "title":"Accuracy"
+        },
+        "administration":{
+          "title":"Administration"
+        },
+        "appliances":{
+          "info":"Fill the characteristics of your electrical appliances to check their compatibility with <a href=\"http://www.iec.ch/worldplugs/?ref=extfooter\" target=\"_blank\">local standards</a>.",
+          "title":"Electric appliances"
+        },
+        "baseLayer":{
+          "title":"Map"
+        },
+        "civicEngagement":{
+          "title":"Civic engagement"
+        },
+        "climate":{
+          "link":"Climate"
+        },
+        "communication":{
+          "link":"Communication",
+          "title":"Communication"
+        },
+        "communicationAbility":{
+          "info":"This information helps us to identify the countries in which you will have less communication difficulties.",
+          "title":"Communication ability"
+        },
+        "contact":{
+          "link":"Contact"
+        },
+        "contribution":{
+          "info":"If you enjoyed this first beta version, you can help us improve this application by participating in different ways.",
+          "link":"Help us",
+          "title":"What do you think about it?"
+        },
+        "resetSettings":{
+          "title":"Reset"
+        },
+        "country":{
+          "link":"Country",
+          "title":"Country"
+        },
+        "countryList":{
+          "info":"Now you just have to choose among the top ranked countries.",
+          "title":"Best destinations"
+        },
+        "culture":{
+          "info":"This information helps us identify the country in which you will have less difficulty integrating culturally.",
+          "title":"Cultural facilities"
+        },
+        "destinations":{
+          "link":"My destinations"
+        },
+        "disabledPriorities":{
+          "info":"Use the filter to display some additional search criteria by theme. Select and activate the ones you want then go to the next section to reorder them according to your priorities.",
+          "title":"Search criteria"
+        },
+        "donate":{
+          "content":"Support this project by donating a couple of dollars to encourage me to continue the development of this application.",
+          "title":"Support this application"
+        },
+        "driving":{
+          "title":"Driving"
+        },
+        "economy":{
+          "title":"Economy"
+        },
+        "education":{
+          "title":"Education"
+        },
+        "environment":{
+          "title":"Environment"
+        },
+        "faq":{
+          "info":"Use the filter to display questions / answers by category. Have a look in the next section if you do not find an answer.",
+          "title":"FAQ"
+        },
+        "geography":{
+          "link":"Geography"
+        },
+        "habits":{
+          "info":"This information helps us identify the countries in which you have to take new habits.",
+          "title":"Habits"
+        },
+        "happiness":{
+          "title":"Happiness"
+        },
+        "health":{
+          "title":"Health"
+        },
+        "help":{
+          "link":"Help"
+        },
+        "home":{
+          "link":"Home"
+        },
+        "housing":{
+          "link":"Housing",
+          "title":"Housing"
+        },
+        "income":{
+          "title":"Income"
+        },
+        "info":{
+          "link":"Infos"
+        },
+        "infoLayers":{
+          "title":"Infos"
+        },
+        "job":{
+          "link":"Job"
+        },
+        "jobs":{
+          "title":"Jobs"
+        },
+        "language":{
+          "title":"Language"
+        },
+        "legal":{
+          "info":"Access to some countries is more or less regulated depending on your citizenship.",
+          "title":"Legal status"
+        },
+        "life":{
+          "link":"Life"
+        },
+        "links":{
+          "link":"Links"
+        },
+        "location":{
+          "info":"We need to know where you are approximately to give you more relevant results.",
+          "title":"Actual location"
+        },
+        "map":{
+          "link":"Map"
+        },
+        "mobility":{
+          "title":"Mobility"
+        },
+        "myLayers":{
+          "title":"My layers"
+        },
+        "orientation":{
+          "title":"Orientation"
+        },
+        "overlayLayers":{
+          "title":"Overlays"
+        },
+        "policy":{
+          "title":"Policy"
+        },
+        "population":{
+          "link":"Population",
+          "title":"Population"
+        },
+        "position":{
+          "title":"Position"
+        },
+        "priorities":{
+          "info":"Add some search criteria then rank them according to your priorities.",
+          "link":"My priorities",
+          "title":"My priorities"
+        },
+        "profile":{
+          "info":"Tell us who you are so we can compare with the different countries.",
+          "link":"My profile",
+          "title":"Profile"
+        },
+        "purchasingPower":{
+          "info":"These parameters are mainly used to find countries that are cheap for you.",
+          "title":"Purchasing power"
+        },
+        "reliefLayers":{
+          "title":"Relief"
+        },
+        "report":{
+          "info":"Who better than you can help us to correct or complete data about your own country.",
+          "title":"Data report"
+        },
+        "research":{
+          "link":"Research"
+        },
+        "reset":{
+          "info":"Select your usual place of living then click OK to prefill or reset all fields of your profile.",
+          "title":"Profile prefill"
+        },
+        "roadLayers":{
+          "title":"Road"
+        },
+        "roadWithReliefLayers":{
+          "title":"Road w/ relief"
+        },
+        "safety":{
+          "title":"Safety"
+        },
+        "satelliteLayers":{
+          "title":"Satellite"
+        },
+        "score":{
+          "link":"Score"
+        },
+        "scoreSettings":{
+          "title":"Score"
+        },
+        "settings":{
+          "link":"Settings"
+        },
+        "share":{
+          "info":"Help us to make this application popular by sharing on social networks and forums. It helps more than you think!",
+          "title":"Share on social networks"
+        },
+        "spending":{
+          "link":"Spending"
+        },
+        "standards":{
+          "link":"Standards"
+        },
+        "territorialDependencies":{
+          "title":"Territorial dependencies"
+        },
+        "time":{
+          "title":"Time & date"
+        },
+        "translation":{
+          "info":"Help us to provide a quality translation in your language, you just have to use our dedicated online editor. Do not hesitate, it is very simple and risk free!",
+          "title":"Improvise you as a translator"
+        },
+        "travel":{
+          "link":"Travel"
+        },
+        "visa":{
+          "title":"Visa"
+        },
+        "welcome":{
+          "content":"Need to get away for a quick trip abroad or for the journey of your life? Complete your profile, add a few search criteria and you'll get a map of the country that fits your priorities and lots of useful information to help you to find your next destination.",
+          "title":"Search for your next destination"
+        },
+        "workLifeBalance":{
+          "title":"Work-Life balance"
+        }
+      },
+      "steps":{
+        "priorities":{
+          "info":"Add some selection criteria then sort them according to your priorities. You will get more relevant results classified according to the percentage of correspondence.",
+          "title":"Sort your priorities"
+        },
+        "results":{
+          "info":"The countries with the highest scores would best suit your needs. Click on a country for detailed information or explore the map to have a global overview.",
+          "title":"Compare your destinations"
+        },
+        "userProfile":{
+          "info":"Tell us who you are so that we can compare your lifestyle with that of each country. Make sure all field of your profile are fully valid.",
+          "title":"Fill in your profile"
+        }
+      },
+      "strings":{
+        "chosenNoResultsText":"No results for",
+        "forCitizensFrom":"for citizens from"
+      },
+      "units":{
+        "AVSCORE":" on average",
+        "HOUR":"h",
+        "MICRO_M3":"μg/m<sup>2</sup>",
+        "PC":"%",
+        "RATIO":"",
+        "USD":"$",
+        "YR":" ans",
+        "averageScore":"",
+        "hertz":"Hz",
+        "hours":"h",
+        "microgramsPerCubicMetres":"μg/m<sup>2</sup>",
+        "percentage":"%",
+        "ratio":"",
+        "squareKilometers":"km<sup>2</sup>",
+        "usDollar":"$",
+        "volt":"V",
+        "years":" ans"
+      },
+      "values":{
+        "countries":{
+          "AD":"Andorra",
+          "AE":"United Arab Emirates",
+          "AF":"Afghanistan",
+          "AG":"Antigua and Barbuda",
+          "AI":"Anguilla",
+          "AL":"Albania",
+          "AM":"Armenia",
+          "AN":"Netherlands Antilles",
+          "AO":"Angola",
+          "AQ":"Antarctica",
+          "AR":"Argentina",
+          "AS":"American Samoa",
+          "AT":"Austria",
+          "AU":"Australia",
+          "AW":"Aruba",
+          "AX":"Aland Islands",
+          "AZ":"Azerbaijan",
+          "BA":"Bosnia and Herzegovina",
+          "BB":"Barbados",
+          "BD":"Bangladesh",
+          "BE":"Belgium",
+          "BF":"Burkina Faso",
+          "BG":"Bulgaria",
+          "BH":"Bahrain",
+          "BI":"Burundi",
+          "BJ":"Benin",
+          "BL":"Saint Barthelemy",
+          "BM":"Bermuda",
+          "BN":"Brunei",
+          "BO":"Bolivia",
+          "BQ":"Bonaire, Saint Eustatius and Saba ",
+          "BR":"Brazil",
+          "BS":"Bahamas",
+          "BT":"Bhutan",
+          "BV":"Bouvet Island",
+          "BW":"Botswana",
+          "BY":"Belarus",
+          "BZ":"Belize",
+          "CA":"Canada",
+          "CC":"Cocos Islands",
+          "CD":"Democratic Republic of the Congo",
+          "CF":"Central African Republic",
+          "CG":"Republic of the Congo",
+          "CH":"Switzerland",
+          "CI":"Ivory Coast",
+          "CK":"Cook Islands",
+          "CL":"Chile",
+          "CM":"Cameroon",
+          "CN":"China",
+          "CO":"Colombia",
+          "CR":"Costa Rica",
+          "CS":"Serbia and Montenegro",
+          "CU":"Cuba",
+          "CV":"Cape Verde",
+          "CW":"Curacao",
+          "CX":"Christmas Island",
+          "CY":"Cyprus",
+          "CZ":"Czech Republic",
+          "DE":"Germany",
+          "DJ":"Djibouti",
+          "DK":"Denmark",
+          "DM":"Dominica",
+          "DO":"Dominican Republic",
+          "DZ":"Algeria",
+          "EC":"Ecuador",
+          "EE":"Estonia",
+          "EG":"Egypt",
+          "EH":"Western Sahara",
+          "ER":"Eritrea",
+          "ES":"Spain",
+          "ET":"Ethiopia",
+          "FI":"Finland",
+          "FJ":"Fiji",
+          "FK":"Falkland Islands",
+          "FM":"Micronesia",
+          "FO":"Faroe Islands",
+          "FR":"France",
+          "GA":"Gabon",
+          "GB":"United Kingdom",
+          "GD":"Grenada",
+          "GE":"Georgia",
+          "GF":"French Guiana",
+          "GG":"Guernsey",
+          "GH":"Ghana",
+          "GI":"Gibraltar",
+          "GL":"Greenland",
+          "GM":"Gambia",
+          "GN":"Guinea",
+          "GP":"Guadeloupe",
+          "GQ":"Equatorial Guinea",
+          "GR":"Greece",
+          "GS":"South Georgia and the South Sandwich Islands",
+          "GT":"Guatemala",
+          "GU":"Guam",
+          "GW":"Guinea-Bissau",
+          "GY":"Guyana",
+          "HK":"Hong Kong",
+          "HM":"Heard Island and McDonald Islands",
+          "HN":"Honduras",
+          "HR":"Croatia",
+          "HT":"Haiti",
+          "HU":"Hungary",
+          "ID":"Indonesia",
+          "IE":"Ireland",
+          "IL":"Israel",
+          "IM":"Isle of Man",
+          "IN":"India",
+          "IO":"British Indian Ocean Territory",
+          "IQ":"Iraq",
+          "IR":"Iran",
+          "IS":"Iceland",
+          "IT":"Italy",
+          "JE":"Jersey",
+          "JM":"Jamaica",
+          "JO":"Jordan",
+          "JP":"Japan",
+          "KE":"Kenya",
+          "KG":"Kyrgyzstan",
+          "KH":"Cambodia",
+          "KI":"Kiribati",
+          "KM":"Comoros",
+          "KN":"Saint Kitts and Nevis",
+          "KP":"North Korea",
+          "KR":"South Korea",
+          "KW":"Kuwait",
+          "KY":"Cayman Islands",
+          "KZ":"Kazakhstan",
+          "LA":"Laos",
+          "LB":"Lebanon",
+          "LC":"Saint Lucia",
+          "LI":"Liechtenstein",
+          "LK":"Sri Lanka",
+          "LR":"Liberia",
+          "LS":"Lesotho",
+          "LT":"Lithuania",
+          "LU":"Luxembourg",
+          "LV":"Latvia",
+          "LY":"Libya",
+          "MA":"Morocco",
+          "MC":"Monaco",
+          "MD":"Moldova",
+          "ME":"Montenegro",
+          "MF":"Saint Martin",
+          "MG":"Madagascar",
+          "MH":"Marshall Islands",
+          "MK":"Macedonia",
+          "ML":"Mali",
+          "MM":"Myanmar",
+          "MN":"Mongolia",
+          "MO":"Macao",
+          "MP":"Northern Mariana Islands",
+          "MQ":"Martinique",
+          "MR":"Mauritania",
+          "MS":"Montserrat",
+          "MT":"Malta",
+          "MU":"Mauritius",
+          "MV":"Maldives",
+          "MW":"Malawi",
+          "MX":"Mexico",
+          "MY":"Malaysia",
+          "MZ":"Mozambique",
+          "NA":"Namibia",
+          "NC":"New Caledonia",
+          "NE":"Niger",
+          "NF":"Norfolk Island",
+          "NG":"Nigeria",
+          "NI":"Nicaragua",
+          "NL":"Netherlands",
+          "NO":"Norway",
+          "NP":"Nepal",
+          "NR":"Nauru",
+          "NU":"Niue",
+          "NZ":"New Zealand",
+          "OM":"Oman",
+          "PA":"Panama",
+          "PE":"Peru",
+          "PF":"French Polynesia",
+          "PG":"Papua New Guinea",
+          "PH":"Philippines",
+          "PK":"Pakistan",
+          "PL":"Poland",
+          "PM":"Saint Pierre and Miquelon",
+          "PN":"Pitcairn",
+          "PR":"Puerto Rico",
+          "PS":"Palestinian Territory",
+          "PT":"Portugal",
+          "PW":"Palau",
+          "PY":"Paraguay",
+          "QA":"Qatar",
+          "RE":"Reunion",
+          "RO":"Romania",
+          "RS":"Serbia",
+          "RU":"Russia",
+          "RW":"Rwanda",
+          "SA":"Saudi Arabia",
+          "SB":"Solomon Islands",
+          "SC":"Seychelles",
+          "SD":"Sudan",
+          "SE":"Sweden",
+          "SG":"Singapore",
+          "SH":"Saint Helena",
+          "SI":"Slovenia",
+          "SJ":"Svalbard and Jan Mayen",
+          "SK":"Slovakia",
+          "SL":"Sierra Leone",
+          "SM":"San Marino",
+          "SN":"Senegal",
+          "SO":"Somalia",
+          "SR":"Suriname",
+          "SS":"South Sudan",
+          "ST":"Sao Tome and Principe",
+          "SV":"El Salvador",
+          "SX":"Sint Maarten",
+          "SY":"Syria",
+          "SZ":"Swaziland",
+          "TC":"Turks and Caicos Islands",
+          "TD":"Chad",
+          "TF":"French Southern Territories",
+          "TG":"Togo",
+          "TH":"Thailand",
+          "TJ":"Tajikistan",
+          "TK":"Tokelau",
+          "TL":"East Timor",
+          "TM":"Turkmenistan",
+          "TN":"Tunisia",
+          "TO":"Tonga",
+          "TR":"Turkey",
+          "TT":"Trinidad and Tobago",
+          "TV":"Tuvalu",
+          "TW":"Taiwan",
+          "TZ":"Tanzania",
+          "UA":"Ukraine",
+          "UG":"Uganda",
+          "UM":"United States Minor Outlying Islands",
+          "US":"United States",
+          "UY":"Uruguay",
+          "UZ":"Uzbekistan",
+          "VA":"Vatican",
+          "VC":"Saint Vincent and the Grenadines",
+          "VE":"Venezuela",
+          "VG":"British Virgin Islands",
+          "VI":"U.S. Virgin Islands",
+          "VN":"Vietnam",
+          "VU":"Vanuatu",
+          "WF":"Wallis and Futuna",
+          "WS":"Samoa",
+          "XK":"Kosovo",
+          "YE":"Yemen",
+          "YT":"Mayotte",
+          "ZA":"South Africa",
+          "ZM":"Zambia",
+          "ZW":"Zimbabwe"
+        },
+        "currencies":{},
+        "days":{
+          "friday":"Friday",
+          "monday":"Monday",
+          "saturday":"Saturday",
+          "sunday":"Sunday",
+          "thursday":"Thursday",
+          "tuesday":"Tuesday",
+          "wednesday":"Wednesday"
+        },
+        "faqFilters":{
+          "all":"All",
+          "application":"Application",
+          "traveler":"Traveler"
+        },
+        "incomeLevels":{
+          "LIC":"Low income",
+          "LMC":"Lower middle income",
+          "NOC":"High income",
+          "OEC":"High income",
+          "UMC":"Upper middle income"
+        },
+        "languages":{},
+        "measurementSystems":{
+          "burmese":"Burmese",
+          "customary":"Customary",
+          "hybrid":"Hybrid",
+          "imperial":"Imperial",
+          "metric":"Metric",
+          "non-metric":"Non-metric"
+        },
+        "mixitupLayouts":{
+          "grid":"Compact",
+          "list":"Detailed"
+        },
+        "plugTypes":{},
+        "priorityFilters":{
+          "all":"All",
+          "civicEngagement":"Civic engagement",
+          "communication":"Communication",
+          "community":"Community",
+          "education":"Education",
+          "electricStandards":"Electric standards",
+          "environment":"Environment",
+          "geography":"Geography",
+          "health":"Health",
+          "housing":"Housing",
+          "income":"Income",
+          "integration":"Integration",
+          "job":"Job",
+          "lifeQuality":"Life quality",
+          "lifeSatisfaction":"Life Satisfaction",
+          "money":"Money",
+          "move":"Move",
+          "none":"Other",
+          "popular":"Popular",
+          "safety":"Safety",
+          "visa":"Visa",
+          "workLifeBalance":"Work-Life Balance"
+        },
+        "religions":{
+          "buddhist":"Buddhist",
+          "christian":"Christian",
+          "empty":"",
+          "folk":"Folk Religion",
+          "hindu":"Hindu",
+          "jewish":"Jewish",
+          "muslim":"Muslim",
+          "other":"Other Religion"
+        },
+        "scoreLegends":{
+          "error":"Missing country data",
+          "success":"Calculated score",
+          "warning":"Incomplete profile"
+        },
+        "sides":{
+          "left":"Gauche",
+          "right":"Droite"
+        }
+      }
+    }
+  },
+  "eo":{
+    "translation":{}
+  },
+  "es":{
+    "translation":{}
+  },
+  "et":{
+    "translation":{}
+  },
+  "eu":{
+    "translation":{}
+  },
+  "fa":{
+    "translation":{}
+  },
+  "ff":{
+    "translation":{}
+  },
+  "fi":{
+    "translation":{}
+  },
+  "fj":{
+    "translation":{}
+  },
+  "fo":{
+    "translation":{}
+  },
+  "fr":{
+    "translation":{
+      "alerts":{
+        "noCountry":{
+          "content":"We did not find any destination matching your criteria. Make sure you have enabled at least one priority and filled all sections of your profile.",
+          "title":"Oups!"
+        },
+        "noPriority":{
+          "info":"Ajoutez quelques critères de recherche puis classez les selon vos priorités pour trouver votre destination idéale.",
+          "title":"Ajoutez des priorités"
+        },
+        "outdatedBrowser":{
+          "info":"Vous utilisez un navigateur <strong>désuet</strong>. Pensez à <a href=\"http://browsehappy.com/\">mettre à jour votre navigateur</a> afin d'améliorer votre expérience."
+        }
+      },
+      "buttons":{
+        "add":{
+          "label":"Ajouter"
+        },
+        "cancel":{
+          "label":"Annuler"
+        },
+        "centerCountry":{
+          "label":"Voir sur la carte"
+        },
+        "check":{
+          "label":"Vérifier"
+        },
+        "close":{
+          "label":"Fermer"
+        },
+        "deleteCookies":{
+          "label":"Supprimer les cookies"
+        },
+        "disableAll":{
+          "label":"Désactiver tout"
+        },
+        "disableSelection":{
+          "label":"Désactiver la sélection"
+        },
+        "enableAll":{
+          "label":"Activer tout"
+        },
+        "enableSelection":{
+          "label":"Activer la sélection"
+        },
+        "geolocate":{
+          "label":"Détecter ma position"
+        },
+        "ok":{
+          "label":"OK"
+        },
+        "olAttribution":{
+          "label":"Attributions"
+        },
+        "olFullScreen":{
+          "label":"Basculer en plein écran"
+        },
+        "olLayerswitcher":{
+          "label":"Couches"
+        },
+        "olOverviewmap":{
+          "label":"Aperçu"
+        },
+        "olRotateReset":{
+          "label":"réinitialiser la rotation"
+        },
+        "olScaleLine":{
+          "label":"Echelle"
+        },
+        "olZoomExtent":{
+          "label":"Dézoomer tout"
+        },
+        "olZoomIn":{
+          "label":"Zoomer"
+        },
+        "olZoomOut":{
+          "label":"Dézoomer"
+        },
+        "reset":{
+          "label":"Réinitialiser"
+        },
+        "save":{
+          "label":"Sauvegarder"
+        },
+        "send":{
+          "label":"Envoyer"
+        },
+        "simulate":{
+          "label":"Simuler"
+        },
+        "start":{
+          "label":"Commencer maintenant"
+        },
+        "tour":{
+          "label":"Présentation rapide"
+        },
+        "translate":{
+          "label":"Traduire maintenant"
+        }
+      },
+      "document":{
+        "description":"Besoin de vous échapper pour un bref séjour à l'étranger? Complétez votre profil et ajoutez quelques critères pour obtenir une carte des pays correspondant à vos priorités.",
+        "title":"DESTINATION FILTER - Les pays les plus accessibles pour votre prochain voyage"
+      },
+      "fields":{
+        "CG_TRASG":{
+          "label":"Appels à voter par an"
+        },
+        "CG_VOTO":{
+          "label":"Participation électorale"
+        },
+        "EQ_AIRP":{
+          "label":"Pollution de l'air"
+        },
+        "EQ_WATER":{
+          "label":"Qualité de l'eau"
+        },
+        "ES_EDUA":{
+          "label":"Diplômés du secondaire"
+        },
+        "ES_EDUEX":{
+          "label":"Années possibles d'éducation"
+        },
+        "ES_STCS":{
+          "label":"Compétence des élèves (score PISA)"
+        },
+        "HO_BASE":{
+          "label":"Logements sans toilettes"
+        },
+        "HO_HISH":{
+          "label":"Dépense de logement / revenu"
+        },
+        "HO_NUMR":{
+          "label":"Pièces par personne"
+        },
+        "HS_LEB":{
+          "label":"Espérance de vie"
+        },
+        "HS_SFRH":{
+          "label":"Santé déclarée"
+        },
+        "IW_HADI":{
+          "label":"Revenu annuel des ménages après imposition"
+        },
+        "IW_HNFW":{
+          "label":"Patrimoine total des ménages"
+        },
+        "JE_EMPL":{
+          "label":"A travaillé dernièrement"
+        },
+        "JE_JT":{
+          "label":"Risque de perdre son emploi"
+        },
+        "JE_LTUR":{
+          "label":"Au chômage depuis plus d'un an"
+        },
+        "JE_PEARN":{
+          "label":"Revenus personnels annuel"
+        },
+        "PS_REPH":{
+          "label":"Taux d'homicides"
+        },
+        "PS_SFRV":{
+          "label":"Taux d'agression"
+        },
+        "SC_SNTWS":{
+          "label":"Qualité du support internet"
+        },
+        "SW_LIFS":{
+          "label":"Niveau de satisfaction"
+        },
+        "WL_EWLH":{
+          "label":"Travaillent plus de 50h par semaine"
+        },
+        "WL_TNOW":{
+          "label":"Temps consacré aux loisirs"
+        },
+        "allEmbassies":{
+          "label":"Toutes les ambassades"
+        },
+        "area":{
+          "label":"Superficie"
+        },
+        "capital":{
+          "label":"Capitale"
+        },
+        "changeRate":{
+          "label":"Taux de change"
+        },
+        "continent":{
+          "label":"Continent"
+        },
+        "costOfLiving":{
+          "label":"Coût de la vie"
+        },
+        "democracyScore":{
+          "label":"Niveau démocratique"
+        },
+        "disabledPrioritiesFilters":{
+          "label":"Filtre"
+        },
+        "disabledPrioritiesLayout":{
+          "info":"",
+          "label":"Affichage"
+        },
+        "drivingSide":{
+          "label":"Sens de conduite"
+        },
+        "fipsCodes":{
+          "label":"Codes FIPS"
+        },
+        "grossDomesticProduct":{
+          "label":"Produit intérieur brut"
+        },
+        "incomeLevel":{
+          "label":"Niveau de revenu"
+        },
+        "islands":{
+          "label":"Îles"
+        },
+        "isoCodes":{
+          "label":"Codes ISO"
+        },
+        "literacyPercent":{
+          "label":"Alphabétisation"
+        },
+        "localEmbassies":{
+          "label":"Consulats locaux"
+        },
+        "highIncomes":{
+          "label":"Riches"
+        },
+        "lowIncomes":{
+          "label":"Pauvres"
+        },
+        "men":{
+          "label":"Hommes"
+        },
+        "officialCurrency":{
+          "label":"Monnaie officielle"
+        },
+        "officialLanguages":{
+          "de_facto_official":"de fait",
+          "label":"Langues officielles",
+          "official":"officiel",
+          "official_regional":"régional"
+        },
+        "phonePrefix":{
+          "label":"Préfixe téléphonique"
+        },
+        "points":{
+          "label":"points"
+        },
+        "politicalRegimeType":{
+          "label":"Régime politique"
+        },
+        "population":{
+          "label":"Population"
+        },
+        "postalCodeFormat":{
+          "label":"Format de code postal"
+        },
+        "religions":{
+          "label":"Religions"
+        },
+        "requiredOnArrival":{
+          "label":"Requis à l'arrivée"
+        },
+        "residentialPlugs":{
+          "label":"Prises électriques"
+        },
+        "score":{
+          "label":"Score"
+        },
+        "speakingLanguages":{
+          "label":"Langues parlées"
+        },
+        "timeZones":{
+          "label":"Fuseaux horaires"
+        },
+        "total":{
+          "label":"Total"
+        },
+        "visaFree":{
+          "label":"Exemption de visa"
+        },
+        "voaFee":{
+          "label":"Frais à l'arrivée"
+        },
+        "weather":{
+          "label":"Météo et climat"
+        },
+        "women":{
+          "label":"Femmes"
+        }
+      },
+      "inputs":{
+        "accuracy":{
+          "label":"Précision de la localisation"
+        },
+        "alpha":{
+          "label":"Alpha"
+        },
+        "altitude":{
+          "label":"Altitude"
+        },
+        "altitudeAccuracy":{
+          "label":"Précision de l'altitude"
+        },
+        "beta":{
+          "label":"Beta"
+        },
+        "default":{
+          "messages":{
+            "emailAddress":"Votre email semble invalide.",
+            "notEmpty":"Ce champ est requis.",
+            "requiredByPriorities":"Vos priorités requièrent cette information."
+          }
+        },
+        "delta":{
+          "label":"Delta"
+        },
+        "entry_1152240230":{
+          "info":"Vous n'avez pas trouvé de réponse dans la FAQ? Posez toutes questions pouvant également être utile à d'autres utilisateurs. Nous ajouterons la réponse à la FAQ.",
+          "label":"Votre question",
+          "messages":{
+            "notEmpty":"Vous avez oublié de poser votre question!"
+          }
+        },
+        "entry_1450479008":{
+          "label":"Votre nom"
+        },
+        "entry_297652874":{
+          "label":"Message"
+        },
+        "entry_593995947":{
+          "label":"Votre email"
+        },
+        "gamma":{
+          "label":"Gamma"
+        },
+        "heading":{
+          "label":"Direction"
+        },
+        "latitude":{
+          "label":"Latitude"
+        },
+        "longitude":{
+          "label":"Longitude"
+        },
+        "priorityRatio":{
+          "label":"Ratio de priorité",
+          "info":"Par défaut, ls priorité supérieur se voit attribuer deux fois plus de points que la précédente. Diminuez le ratio si vous trouvez qu'il y a trop d'écart entre les différents pays."
+        },
+        "resultLimit":{
+          "info":"N'afficher que les meilleurs résultats.",
+          "label":"Limite de résultats"
+        },
+        "setLng":{
+          "info":"Traduire"
+        },
+        "speed":{
+          "label":"Vitesse"
+        },
+        "track":{
+          "info":"Si vous utilisez un appareil mobile, votre position sera automatiquement actualisée au fur et à mesure de vos déplacements.",
+          "label":"Suivre ma position",
+          "message":""
+        },
+        "userAddress":{
+          "info":"Alternativement, vous pouvez définir votre position en fournissant une adresse plus ou moins précise (ex: 75001 Paris, France).",
+          "label":"Adresse",
+          "message":""
+        },
+        "userCitizenships":{
+          "info":"Votre pays officiel indiqué sur votre passeport et documents d'identité. Vous avez normalement une seule citoyenneté, mais certaines personnes en ont plusieurs.",
+          "label":"Citoyennetés",
+          "placeholder":" "
+        },
+        "userCountry":{
+          "info":"Le pays où vous êtes physiquement en ce moment.",
+          "label":"Pays",
+          "placeholder":" "
+        },
+        "userCurrencies":{
+          "info":"Votre monnaie habituelle.",
+          "label":"Devises"
+        },
+        "userDrivingSides":{
+          "info":"Le côté de la route sur laquelle vous conduisez habituellement dans votre pays (si vous avez un permis de conduire). Vous pouvez sélectionner à la fois à droite et gauche si vous êtes habitué à conduire des deux manières.",
+          "label":"Sens de conduite",
+          "placeholder":" "
+        },
+        "userFirstDayOfWeek":{
+          "info":"",
+          "label":"Premier jour de la semaine",
+          "placeholder":" "
+        },
+        "userIncomeLevel":{
+          "info":"La valeur par défaut est le niveau de revenu moyen dans votre pays par rapport au reste du monde. N'augmentez ou diminuez cette valeur que si vous savez ce que vous faites.",
+          "label":"Niveau de revenu",
+          "placeholder":" "
+        },
+        "userMeasurementSystem":{
+          "info":"Utilisez-vous habituellement le système métrique (kg / km), impériales (lb / miles), un système hybride (lb / km), ou êtes-vous à l'aise avec les deux.",
+          "label":"Unités de mesure",
+          "placeholder":" "
+        },
+        "userPlugFrequencies":{
+          "info":"Les différentes fréquences prises en charge par les appareils électriques que vous souhaitez emporter.",
+          "label":"Fréquences",
+          "placeholder":" "
+        },
+        "userPlugTypes":{
+          "info":"Le format de prise des appareils électriques que vous souhaitez emporter.",
+          "label":"Types de prises",
+          "placeholder":" "
+        },
+        "userPlugVoltages":{
+          "info":"Les différentes tensions prises en charge par les appareils électriques que vous souhaitez emporter.",
+          "label":"Voltages",
+          "placeholder":" "
+        },
+        "userProfile":{
+          "info":"Indiquez l'endroit où vous vivez habituellement. Votre profil sera pré-remplit ou réinitialisé d'après ce pays.",
+          "label":"Pays",
+          "placeholder":" "
+        },
+        "userReadingLanguages":{
+          "info":"Votre langue maternelle et autres langues exotiques que vous êtes en mesure lire. Êtes vous capable de décrypter les caractères Chinois?",
+          "label":"Langues lues",
+          "placeholder":" "
+        },
+        "userReligion":{
+          "info":"Votre religion est utilisée pour trouver les pays dans lesquels vous aurez peu de difficultés d'intégration au niveau culturel.",
+          "label":"Religion",
+          "placeholder":" "
+        },
+        "userSpeakingLanguages":{
+          "info":"Votre langue maternelle et d'autres langues que vous pourriez éventuellement utiliser pour parler avec les habitants.",
+          "label":"Langues parlées",
+          "placeholder":" "
+        }
+      },
+      "lists":{
+        "priorities":{
+          "acPlugsPriority":{
+            "info":"Sélectionnez de préférence les pays utilisant des prises électriques compatibles avec les appareils électriques que vous souhaitez emporter de sorte que vous n'aillez pas besoin d'acheter un adaptateur de voyage. Notez que vous pouvez néanmoins avoir besoin d'un convertisseur de tension.",
+            "title":"Je n'ai pas besoin d'un adaptateur de voyage"
+          },
+          "acVoltagesPriority":{
+            "info":"Sélectionnez de préférence les pays utilisant un standard électrique compatible avec les appareils électriques que vous souhaitez emporter. Vous n'aurez ainsi pas besoin d'acheter un convertisseur de tension lourd et encombrant.",
+            "title":"Je n'ai pas besoin d'un convertisseur de tension"
+          },
+          "airPollutionPriority":{
+            "info":"Sélectionnez de préférence les pays où la qualité globale de l'air est bonne.",
+            "title":"Niveau de pollution de l'air"
+          },
+          "assaultRatePriority":{
+            "info":"Sélectionnez de préférence les pays où les agressions sont globalement peu nombreuses.",
+            "title":"Faible taux d'agression"
+          },
+          "changeRatePriority":{
+            "info":"Sélectionnez de préférence les pays où la devise locale est plus faible que votre monnaie habituelle ce qui peut éventuellement vous permettre de faire des faire des économies.",
+            "title":"Le taux de change est avantageux"
+          },
+          "consultationOnRuleMakingPriority":{
+            "info":"",
+            "title":"Consultation sur élaboration de la réglementation"
+          },
+          "currencyPriority":{
+            "info":"Sélectionnez de préférence les pays utilisant le même système monétaire que vous de sorte que vous n'ayez pas à vous soucier des frais de change.",
+            "title":"Je n'ai pas à changer de monnaie"
+          },
+          "democracyPriority":{
+            "info":"Sélectionnez en priorité les pays dont le niveau démocratique est considéré comme élevé.",
+            "title":"Le pays est démocratique"
+          },
+          "drivingSidePriority":{
+            "info":"Sélectionnez de préférence les pays ou la circulation se fait dans votre sens habituel afin que vous puissiez utilisez un véhicule sans difficultés particulières.",
+            "title":"La conduite se faite sur le même côté de la route"
+          },
+          "dwellingsWithoutBasicFacilitiesPriority":{
+            "info":"Sélectionnez de préférence les pays où la majorité des habitations disposent de l'eau courante et de l'électricité.",
+            "title":"Logements avec installations de base"
+          },
+          "educationalAttainmentPriority":{
+            "info":"Sélectionnez de préférence les pays où le niveau d'étude moyen est élevé.",
+            "title":"Niveau d'étude élevé"
+          },
+          "employeesWorkingVeryLongHoursPriority":{
+            "info":"Sélectionnez de préférence les pays où le nombre d'heures de travail légal est peu élevé.",
+            "title":"Les employés travaillent peu"
+          },
+          "employmentRatePriority":{
+            "info":"Sélectionnez de préférence les pays où le taux de chaumage est faible.",
+            "title":"Taux d'emploi élevé"
+          },
+          "homicideRatePriority":{
+            "info":"Sélectionnez de préférence les pays où il y a peu de meurtres.",
+            "title":"Faible taux d'homicide"
+          },
+          "householdNetAdjustedDisposableIncomePriority":{
+            "info":"Sélectionnez de préférence les pays où le niveau de revenu global par foyer est élevé comparativement au coût de la vie.",
+            "title":"Revenu net des ménages élevé"
+          },
+          "householdNetFinancialWealthPriority":{
+            "info":"Sélectionnez les pays où les foyers disposent d'un fort pouvoir d'achat.",
+            "title":"Richesse financière nette des ménages élevée"
+          },
+          "housingExpenditurePriority":{
+            "info":"Sélectionnez en priorité les pays où le prix des logements est peu élevé.",
+            "title":"Faibles dépenses de logement"
+          },
+          "islandPriority":{
+            "info":"Sélectionnez de préférence les îles ou les pays possédant des îles.",
+            "title":"Le pays est ou possède des îles"
+          },
+          "jobSecurityPriority":{
+            "info":"Sélectionnez de préférence les pays où la sécurité de l'emploi est élevée.",
+            "title":"Sécurité de l'emploi élevée"
+          },
+          "lifeExpectancyPriority":{
+            "info":"Sélectionnez de préférences les pays où les habitants vivent en moyenne plus longtemps.",
+            "title":"Espérance de vie élevée"
+          },
+          "lifeSatisfactionPriority":{
+            "info":"Sélectionnez les pays où une majorité d'habitants considèrent être satisfait de leur vie.",
+            "title":"Bon niveau de satisfaction de la vie"
+          },
+          "longTermUnemploymentRatePriority":{
+            "info":"Sélectionnez de préférence les pays où les habitants retrouvent rapidement un emploi.",
+            "title":"Taux de chômage de longue durée faible"
+          },
+          "neighborPriority":{
+            "info":"Préférez les pays limitrophes accessibles par la route pour un court séjour.",
+            "title":"Les pays frontaliers de préférence"
+          },
+          "onwardTicketPriority":{
+            "info":"Évitez de préférence les pays qui demandent de disposer du billet de retour lors de l'arrivée sur le territoire.",
+            "title":"Le billet de retour n'est pas nécessaire"
+          },
+          "personalEarningsPriority":{
+            "info":"Sélectionnez de préférence les pays où le niveau de salaire est élevé.",
+            "title":"Niveau de revenu personnel élevé"
+          },
+          "qualityOfSupportNetworkPriority":{
+            "info":"Sélectionnez de préférence les pays ou la qualité du service client des fournisseurs d'accès à internet est de bonne qualité.",
+            "title":"Service client internet de qualité"
+          },
+          "readingLanguagePriority":{
+            "info":"Sélectionnez de préférence les pays où la signalisation utilise les mêmes caractères d'écriture que ceux que vous connaissez afin d'être sûr de pouvoir au minimum vous diriger.",
+            "title":"Je n'ai aucune difficulté à lire les panneaux de signalisation"
+          },
+          "religionPriority":{
+            "info":"",
+            "title":"Une partie de la population est de ma religion"
+          },
+          "roomsPerPersonPriority":{
+            "info":"Sélectionnez de préférence les pays où les habitants disposent en majorité de logements spacieux.",
+            "title":"Nombre de pièces par personne faible"
+          },
+          "selfReportedHealthPriority":{
+            "info":"Sélectionnez de préférence les pays où la population est globalement en bonne santé.",
+            "title":"La population est en bonne santé"
+          },
+          "speakingLanguagePriority":{
+            "info":"Sélectionnez de préférence les pays dont une majorité de la population utilise l'une de vos langues afin de pouvoir communiquer aisément.",
+            "title":"La plupart des gens parlent l'une de mes langues"
+          },
+          "studentSkillsPriority":{
+            "info":"Sélectionnez de préférence les pays où les élèves disposent d'un niveau de compétences élevé.",
+            "title":"Compétences des élèves élevées"
+          },
+          "timeDevotedToLeisureAndPersonalCarePriority":{
+            "info":"Sélectionnez de préférence les pays où les habitants consacrent généralement une part importante de leur temps au loisirs.",
+            "title":"Temps consacré aux loisirs élevé"
+          },
+          "visaFreePriority":{
+            "info":"Sélectionnez de préférence les pays autorisant un séjour touristique d'une durée limitée sans qu'il soit nécessaire de demander un visa. Notez que cela dépend de votre nationalité.",
+            "title":"Je n'ai pas besoin d'un visa de tourisme"
+          },
+          "voaFeePriority":{
+            "info":"Évitez de préférence les pays nécessitant d'acheter un visa lors du passage à la frontière.",
+            "title":"Il n'y a pas de frais de visa à l'arrivée"
+          },
+          "voterTurnoutPriority":{
+            "info":"Sélectionnez de préférence les pays ou le niveau d'abstention aux élections est faible.",
+            "title":"Taux de participation aux élections élevé"
+          },
+          "waterQualityPriority":{
+            "info":"Sélectionnez de préférence les pays où la qualité de l'eau du robinet est globalement bonne.",
+            "title":"Qualité de l'eau satisfaisante"
+          },
+          "yearsInEducationPriority":{
+            "info":"Sélectionnez de préférence les pays où la durée des études est généralement longue.",
+            "title":"Années d'études important"
+          }
+        },
+        "questions":{
+          "applianceFrequency":{
+            "info":"Les équipements électriques sont conçus par le fabricant pour une certaine fréquence et ne peuvent pas être utilisés sur une autre fréquence. Certains appareils sont parfois conçus pour être utilisé avec les deux fréquences mais cela doit dans ce cas être spécifiquement mentionné sur la plaque signalétique (50/60 Hertz).",
+            "title":"Puis-je utiliser un appareil à 50Hz sur un courant de 60Hz"
+          },
+          "askVisa":{
+            "info":"Les visas doivent être demandés dans l'un des <a href=\"http://embassy.goabroad.com/\" target=\"_blank\">consulats</a> du <strong>pays de destination</strong> présent dans le pays où vous êtes actuellement (tous les pays). Vous pouvez également aller au service consulaire de l'ambassade du pays concerné. Mais dans certains cas, le visa doit être demander avant de quitter votre pays officiel.",
+            "title":"Où puis-je demander un visa?"
+          },
+          "dataSources":{
+            "info":"<p>Les données proviennent de certains jeux de données libres populaires comme <a href=\"http://www.geonames.org\" target=\"_blank\">geonames.org</a>, <a href=\"http://www.unicode.org\" target=\"_blank\">unicode.org</a>, <a href=\"http://www.worldbank.org\" target=\"_blank\">worldbank.org</a> ou <a href=\"http://www.ecb.europa.eu/\" target=\"_blank\">ecb.europa.eu</a>. Envoyez-nous un lien si vous connaissez d'autres données libres qui peuvent être utilisées dans cette application.</p>",
+            "title":"Où avez-vous trouvé les données?"
+          },
+          "moreProperties":{
+            "info":"En fait, cela dépend principalement des données que nous pouvons trouver. Essayez d'obtenir un ensemble de données gratuite (CSV​​, JSON, XML d', etc ...) ou en créer en un vous-même en utilisant notre modèle, nous serons heureux de l'intégrer à cette application. Une simple suggestion est cependant la bienvenue.<br/><a class=\"btn btn-xs btn-primary\" href=\"datas/json/custom/en/model.csv\" target=\"_blank\"><i class=\"glyphicon glyphicon-download\"></i>model.csv</a>",
+            "title":"Pouvez-vous ajouter d'autres priorités?"
+          },
+          "resetSettings":{
+            "info":"Vous pouvez réinitialiser tous les champs de votre profil et supprimer les données enregistrées en supprimant les cookies depuis les options de votre navigateur ou en utilisant le bouton ci-dessous.<br/><button type=\"button\" class=\"btn btn-primary btn-xs delete-cookies\"> <i class=\"glyphicon glyphicon-trash\"></i> Supprimer les cookies</button>",
+            "title":"Comment puis-je réinitialiser les paramètres?"
+          },
+          "saveData":{
+            "info":"Votre configuration est temporaire enregistré dans les cookies de votre navigateur Web durant 30 jours à moins que vous ne les supprimiez.",
+            "title":"Est-ce que ma configuration est sauvegardée?"
+          },
+          "scoreCalcul":{
+            "info":"Plus une priorité est élevée, plus elle donne de points. Si vous activez 3 priorités, la première donnera 300 points, la seconde 200 et la troisième 100. Si une priorité correspond partiellement, elle donnera seulement un pourcentage des points. Par exemple, si un pays correspond à 100% la première et à 50% à la troisième priorité, il obtiendra un score de (300 * 100%) + (200 * 0%) + (100 * 50 %) = 350 points.",
+            "title":"Comment sont calculés les scores?"
+          },
+          "scoreColor":{
+            "info":"Un score est calculé pour chaque pays en fonction des priorités que vous avez activé. Plus un pays correspondent à votre profil, plus il obtiendra de points, plus il sera coloré ce qui signifie qu'il devrait correspondre à vos attentes.",
+            "title":"Que signifient les scores et couleurs sur la carte?"
+          }
+        }
+      },
+      "menu":{
+        "toggle":"Afficher le menu"
+      },
+      "results":{
+        "countryList":{
+          "alert":{
+            "content":"Nous n'avons pas trouvé de destination correspondant à vos critères. Assurez vous d'avoir activé au moins une priorité et complété tous les champs de votre profil.",
+            "title":"Oups!"
+          },
+          "info":"",
+          "title":"Liste des pays"
+        },
+        "map":{
+          "info":"",
+          "mapOptions":{
+            "geochartRegion":{
+              "info":"",
+              "label":"Région",
+              "messages":{
+                "notEmpty":"Ce champ est requis."
+              }
+            },
+            "saveMap":"Enregistrer la carte"
+          },
+          "title":""
+        }
+      },
+      "sections":{
+        "about":{
+          "info":"Cette application a été développée \"pour le fun\" par un développeur autodidacte fauché rêvant d'escapades.",
+          "link":"A propos",
+          "title":"A propos"
+        },
+        "acStandards":{
+          "title":"Standards électriques"
+        },
+        "accuracy":{
+          "title":"Précision"
+        },
+        "administration":{
+          "title":"Administration"
+        },
+        "appliances":{
+          "info":"Renseignez les caractéristiques de vos appareils électriques pour vérifier leur compatibilité avec les <a href=\"http://www.iec.ch/worldplugs/?ref=extfooter\" target=\"_blank\">normes locales</a>.",
+          "title":"Appareils électriques"
+        },
+        "baseLayer":{
+          "title":"Carte"
+        },
+        "civicEngagement":{
+          "title":"Engagement civique"
+        },
+        "climate":{
+          "link":"Climat"
+        },
+        "communication":{
+          "link":"Communication",
+          "title":"Communication"
+        },
+        "communicationAbility":{
+          "info":"Ces renseignements nous aident à trouver les pays dans lesquels vous aurez le moins de difficultés de communication.",
+          "title":"Capacité de communication"
+        },
+        "contact":{
+          "link":"Contact"
+        },
+        "contribution":{
+          "info":"Si vous avez apprécié cette première version bêta, vous pouvez nous aider à améliorer cette application en participant de différentes manières.",
+          "link":"Nous aider",
+          "title":"Qu'en pensez-vous?"
+        },
+        "resetSettings":{
+          "title":"Réinitialisation"
+        },
+        "country":{
+          "link":"Pays",
+          "title":"Pays"
+        },
+        "countryList":{
+          "info":"Maintenant vous n'avez plus qu'à faire votre choix parmi les pays les mieux classés.",
+          "title":"Meilleurs destinations"
+        },
+        "culture":{
+          "info":"Ces renseignements nous aident à trouver les pays dans lesquels vous aurez le moins de difficultés d'intégration au niveau culturel.",
+          "title":"Facilités culturelles"
+        },
+        "destinations":{
+          "link":"Mes destinations"
+        },
+        "disabledPriorities":{
+          "info":"Utilisez le filtre pour afficher des critères de recherche supplémentaire par thème. Sélectionnez et activez ceux qui vous intéressent puis rendez vous dans la section suivant pour les classer selon vos priorités.",
+          "title":"Critères de recherche"
+        },
+        "donate":{
+          "content":"Soutenez ce projet en faisant un don de quelques Euros pour m'encourager à poursuivre le développement de cette application.",
+          "title":"Supportez cette application"
+        },
+        "driving":{
+          "title":"Conduite"
+        },
+        "economy":{
+          "title":"Economie"
+        },
+        "education":{
+          "title":"Education"
+        },
+        "environment":{
+          "title":"Environnement"
+        },
+        "faq":{
+          "info":"Utilisez le filtre pour afficher les questions / réponses par catégorie. Allez faire un tour dans la section suivante si vous ne trouvez pas de réponse.",
+          "title":"FAQ"
+        },
+        "geography":{
+          "link":"Géographie"
+        },
+        "habits":{
+          "info":"Ces renseignements nous aident à trouver les pays dans lesquels vous devrez prendre de nouvelles habitudes.",
+          "title":"Habitudes"
+        },
+        "happiness":{
+          "title":"Bonheur"
+        },
+        "health":{
+          "title":"Santé"
+        },
+        "help":{
+          "link":"Aide"
+        },
+        "home":{
+          "link":"Accueil"
+        },
+        "housing":{
+          "link":"Logement",
+          "title":"Logement"
+        },
+        "income":{
+          "title":"Revenu"
+        },
+        "info":{
+          "link":"Infos"
+        },
+        "infoLayers":{
+          "title":"Infos"
+        },
+        "job":{
+          "link":"Emploi"
+        },
+        "jobs":{
+          "title":"Emplois"
+        },
+        "language":{
+          "title":"Langue"
+        },
+        "legal":{
+          "info":"L'accès à certains pays est plus ou moins régulée en fonction de votre citoyenneté.",
+          "title":"Statut légal"
+        },
+        "life":{
+          "link":"Vie"
+        },
+        "links":{
+          "link":"Liens"
+        },
+        "location":{
+          "info":"Nous avons besoin de savoir où vous êtes approximativement situé pour vous fournir des résultats plus pertinents.",
+          "title":"Localisation actuelle"
+        },
+        "map":{
+          "link":"Carte"
+        },
+        "mobility":{
+          "title":"Mobilité"
+        },
+        "myLayers":{
+          "title":"Mes couches"
+        },
+        "orientation":{
+          "title":"Orientation"
+        },
+        "overlayLayers":{
+          "title":"Couches"
+        },
+        "policy":{
+          "title":"Politique"
+        },
+        "population":{
+          "link":"Population",
+          "title":"Population"
+        },
+        "position":{
+          "title":"Position"
+        },
+        "priorities":{
+          "info":"Ajoutez quelques critères de recherche puis classez les selon vos priorités.",
+          "link":"Mes priorités",
+          "title":"Mes priorités"
+        },
+        "profile":{
+          "info":"Dites-nous qui vous êtes afin que nous puissions comparer votre profil avec les différents pays.",
+          "link":"Mon profil",
+          "title":"Profil"
+        },
+        "purchasingPower":{
+          "info":"Ces paramètres sont principalement utilisés pour trouver les pays qui sont bon marché pour vous.",
+          "placeholder":" ",
+          "title":"Pouvoir d'achat"
+        },
+        "reliefLayers":{
+          "title":"Relief"
+        },
+        "report":{
+          "info":"Qui serait mieux placé que vous pour nous aider à corriger ou compléter les données concernant votre propre pays.",
+          "title":"Modifier des données"
+        },
+        "research":{
+          "link":"Recherche"
+        },
+        "reset":{
+          "info":"Sélectionner votre lieu de vie habituel puis cliquez sur OK pour pré-remplir ou réinitialiser tous les champs de votre profil.",
+          "title":"Pré-remplissage du profil"
+        },
+        "roadLayers":{
+          "title":"Route"
+        },
+        "roadWithReliefLayers":{
+          "title":"Route et relief"
+        },
+        "safety":{
+          "title":"Sécurité"
+        },
+        "satelliteLayers":{
+          "title":"Satellite"
+        },
+        "score":{
+          "link":"Score"
+        },
+        "scoreSettings":{
+          "title":"Score"
+        },
+        "settings":{
+          "link":"Réglages"
+        },
+        "share":{
+          "info":"Si vous avez apprécié cette première version bêta, aidez-nous à rendre cette application populaire en partageant sur via les réseaux sociaux. Cela aide plus que vous ne le pensez!",
+          "title":"Partagez sur les réseaux sociaux"
+        },
+        "spending":{
+          "link":"Dépenses"
+        },
+        "standards":{
+          "link":"Standards"
+        },
+        "territorialDependencies":{
+          "title":"Dépendances territoriales"
+        },
+        "time":{
+          "title":"Heure et date"
+        },
+        "translation":{
+          "info":"Aidez-nous à offrir une traduction de qualité dans votre langue, il vous suffit d'utiliser notre éditeur en ligne dédié. N'hésitez pas, c'est très simple et sans risque!",
+          "title":"Improvisez vous traducteur"
+        },
+        "travel":{
+          "link":"Voyage"
+        },
+        "visa":{
+          "title":"Visa"
+        },
+        "welcome":{
+          "content":"Besoin de vous échapper pour un bref séjour à l'étranger ou pour le voyage de votre vie? Complétez votre profil, ajoutez quelques critères de recherche et vous obtiendrez une carte des pays correspondant à vos priorités ainsi qu'un tas d'informations utiles pour vous aider à trouver votre prochaine destination.",
+          "title":"Recherchez votre prochaine destination"
+        },
+        "workLifeBalance":{
+          "title":"Balance travail-vie"
+        }
+      },
+      "steps":{
+        "priorities":{
+          "info":"Ajouter quelques critères de sélection puis classez les en fonction de vos priorités. Vous obtiendrez des résultats plus pertinents et classés selon le pourcentage de correspondance.",
+          "title":"Classez vos priorités"
+        },
+        "results":{
+          "info":"Les pays avec les scores les plus élevés devraient correspondre au mieux à vos attentes. Cliquez sur un pays pour obtenir des informations détaillées ou explorez la carte pour avoir un aperçu global.",
+          "title":"Comparez vos destinations"
+        },
+        "userProfile":{
+          "info":"Dites-nous qui vous êtes afin que nous puissions comparer votre mode de vie avec celui de chaque pays. Assurez-vous que tous les champ de votre profil soient bien valides.",
+          "title":"Complétez votre profil"
+        }
+      },
+      "strings":{
+        "chosenNoResultsText":"Aucun résultat pour",
+        "forCitizensFrom":"pour les citoyens de"
+      },
+      "units":{
+        "AVSCORE":" en moyenne",
+        "HOUR":"h",
+        "MICRO_M3":"μg/m<sup>2</sup>",
+        "PC":"%",
+        "RATIO":"",
+        "USD":"$",
+        "YR":" years",
+        "averageScore":"",
+        "hertz":"Hz",
+        "hours":"h",
+        "microgramsPerCubicMetres":"μg/m<sup>2</sup>",
+        "percentage":"%",
+        "ratio":"",
+        "squareKilometers":"km<sup>2</sup>",
+        "usDollar":"$",
+        "volt":"V",
+        "years":" years"
+      },
+      "values":{
+        "countries":{
+          "AD":"Andorre",
+          "AE":"Emirats arabes unis",
+          "AF":"Afghanistan",
+          "AG":"Antigua-et-Barbuda",
+          "AI":"Anguilla",
+          "AL":"Albanie",
+          "AM":"Arménie",
+          "AN":"Antilles néerlandaises",
+          "AO":"Angola",
+          "AQ":"Antarctique",
+          "AR":"Argentine",
+          "AS":"American Samoa",
+          "AT":"Autriche",
+          "AU":"Australie",
+          "AW":"Aruba",
+          "AX":"Aland Islands",
+          "AZ":"Azerbaïdjan",
+          "BA":"Bosnie-Herzégovine",
+          "BB":"Barbade",
+          "BD":"Bangladesh",
+          "BE":"Belgique",
+          "BF":"Burkina Faso",
+          "BG":"Bulgarie",
+          "BH":"Bahreïn",
+          "BI":"Burundi",
+          "BJ":"Bénin",
+          "BL":"Saint-Barthélemy",
+          "BM":"Bermudes",
+          "BN":"Brunei",
+          "BO":"Bolivie",
+          "BQ":"Bonaire, Saint-Eustache et Saba",
+          "BR":"Brésil",
+          "BS":"Bahamas",
+          "BT":"Bhoutan",
+          "BV":"île Bouvet",
+          "BW":"Le Botswana",
+          "BY":"Biélorussie",
+          "BZ":"Belize",
+          "CA":"Canada",
+          "CC":"îles Cocos",
+          "CD":"République démocratique du Congo",
+          "CE":"Equateur",
+          "CF":"République centrafricaine",
+          "CG":"République du Congo",
+          "CH":"Suisse",
+          "CI":"Côte-d'Ivoire",
+          "CK":"îles Cook",
+          "CL":"Chili",
+          "CM":"Cameroun",
+          "CN":"Chine",
+          "CO":"Colombie",
+          "CR":"Costa Rica",
+          "CS":"Serbie et Monténégro",
+          "CU":"Cuba",
+          "CV":"Cap Vert",
+          "CW":"Curaçao",
+          "CX":"Christmas Island",
+          "CY":"Chypre",
+          "CZ":"République tchèque",
+          "DE":"Allemagne",
+          "DJ":"Djibouti",
+          "DK":"Danemark",
+          "DM":"Dominique",
+          "DO":"République dominicaine",
+          "DZ":"Algérie",
+          "EE":"Estonie",
+          "EG":"Égypte",
+          "EH":"Sahara Occidental",
+          "ES":"Espagne",
+          "ET":"Ethiopie",
+          "FI":"Finlande",
+          "FJ":"Fidji",
+          "FK":"îles Falkland",
+          "FM":"Micronésie",
+          "FO":"Îles Féroé",
+          "FR":"France",
+          "GA":"Gabon",
+          "GD":"Grenade",
+          "GE":"Georgia",
+          "GF":"Guyane française",
+          "GG":"Guernsey",
+          "GH":"Le Ghana",
+          "GI":"Gibraltar",
+          "GL":"Groenland",
+          "GM":"Gambie",
+          "GN":"Guinée",
+          "GP":"Guadeloupe",
+          "GQ":"Guinée équatoriale",
+          "GR":"Grèce",
+          "GS":"Géorgie du Sud et les îles Sandwich du Sud",
+          "GT":"Guatemala",
+          "GU":"Guam",
+          "GW":"Guinée-Bissau",
+          "GY":"Guyane",
+          "Go":"Royaume-Uni",
+          "HK":"Hong Kong",
+          "HM":"îles Heard et McDonald",
+          "HN":"Honduras",
+          "HR":"Croatie",
+          "HT":"Haïti",
+          "HU":"Hongrie",
+          "ID":"Indonésie",
+          "IE":"Irlande",
+          "IL":"Israël",
+          "IM":"Isle of Man",
+          "IN":"Inde",
+          "IO":"Territoire britannique de l'océan Indien",
+          "IR":"Iran",
+          "IS":"Islande",
+          "IT":"Italie",
+          "JE":"Jersey",
+          "JM":"Jamaica",
+          "JO":"Jordanie",
+          "JP":"Japon",
+          "KE":"Kenya",
+          "KG":"Kirghizistan",
+          "KH":"Cambodge",
+          "KI":"Kiribati",
+          "KM":"Comores",
+          "KN":"Saint-Kitts-et-Nevis",
+          "KP":"Corée du Nord",
+          "KR":"Corée du Sud",
+          "KW":"Koweït",
+          "KY":"îles Caïmans",
+          "KZ":"Kazakhstan",
+          "LA":"Laos",
+          "LB":"Liban",
+          "LC":"Saint Lucia",
+          "LI":"Liechtenstein",
+          "LK":"Sri Lanka",
+          "LR":"Liberia",
+          "LS":"Lesotho",
+          "LT":"Lituanie",
+          "LU":"Luxembourg",
+          "LV":"Lettonie",
+          "LY":"Libye",
+          "MA":"Maroc",
+          "MC":"Monaco",
+          "MD":"Moldova",
+          "ME":"Monténégro",
+          "MF":"Saint Martin",
+          "MG":"Madagascar",
+          "MH":"îles Marshall",
+          "MK":"Macédoine",
+          "ML":"Mali",
+          "MM":"Myanmar",
+          "MN":"Mongolie",
+          "MO":"Macao",
+          "MP":"îles Mariannes du Nord",
+          "MQ":"Martinique",
+          "MR":"Mauritanie",
+          "MS":"Montserrat",
+          "MT":"Malte",
+          "MU":"Maurice",
+          "MV":"Maldives",
+          "MW":"Le Malawi",
+          "MX":"Mexique",
+          "MY":"Malaisie",
+          "MZ":"Mozambique",
+          "NA":"Namibie",
+          "NC":"Nouvelle-Calédonie",
+          "NE":"Niger",
+          "NF":"île de Norfolk",
+          "NG":"Nigeria",
+          "NI":"Nicaragua",
+          "NL":"Pays-Bas",
+          "NO":"Norvège",
+          "NP":"Nepal",
+          "NR":"Nauru",
+          "NU":"Nioué",
+          "NZ":"Nouvelle-Zélande",
+          "OM":"Oman",
+          "PA":"Panama",
+          "PE":"Pérou",
+          "PF":"Polynésie française",
+          "PG":"Papouasie-Nouvelle-Guinée",
+          "PH":"Philippines",
+          "PK":"Pakistan",
+          "PL":"Pologne",
+          "PM":"Saint-Pierre-et-Miquelon",
+          "PN":"Pitcairn",
+          "PR":"Puerto Rico",
+          "PS":"Territoire palestinien",
+          "PT":"Portugal",
+          "PW":"Palau",
+          "PY":"Le Paraguay",
+          "QA":"Qatar",
+          "QI":"Irak",
+          "RE":"Réunion",
+          "RO":"Roumanie",
+          "RS":"Serbie",
+          "RU":"Russie",
+          "RW":"Rwanda",
+          "SA":"Arabie saoudite",
+          "SB":"îles Salomon",
+          "SC":"Seychelles",
+          "SD":"Soudan",
+          "SE":"Suède",
+          "SG":"Singapour",
+          "SH":"Saint Helena",
+          "SI":"Slovénie",
+          "SJ":"Svalbard et Jan Mayen",
+          "SK":"Slovaquie",
+          "SL":"Sierra Leone",
+          "SM":"San Marino",
+          "SN":"Sénégal",
+          "SO":"Somalie",
+          "SR":"Suriname",
+          "SS":"Sud-Soudan",
+          "ST":"Sao Tomé et Principe",
+          "SV":"El Salvador",
+          "SX":"Sint Maarten",
+          "SY":"Syrie",
+          "SZ":"Swaziland",
+          "TC":"îles Turques et Caïques",
+          "TD":"Tchad",
+          "TF":"Terres australes françaises",
+          "TG":"Togo",
+          "TH":"Thaïlande",
+          "TJ":"Tadjikistan",
+          "TK":"Tokélaou",
+          "TL":"Timor oriental",
+          "TM":"Turkménistan",
+          "TN":"Tunisie",
+          "TO":"Tonga",
+          "TR":"Turquie",
+          "TT":"Trinité-et-Tobago",
+          "TV":"Tuvalu",
+          "TW":"Taiwan",
+          "TZ":"Tanzanie",
+          "UA":"Ukraine",
+          "UG":"Ouganda",
+          "UM":"États-Unis Îles mineures éloignées",
+          "US":"États-Unis",
+          "UY":"Uruguay",
+          "UZ":"Ouzbékistan",
+          "Urgences":"Erythrée",
+          "VA":"Vatican",
+          "VC":"Saint-Vincent-et-les Grenadines",
+          "VE":"Venezuela",
+          "VG":"Îles Vierges britanniques",
+          "VI":"Îles Vierges Américaines",
+          "VN":"Vietnam",
+          "VU":"Vanuatu",
+          "WF":"Wallis et Futuna",
+          "WS":"Samoa",
+          "XK":"Kosovo",
+          "YE":"Yémen",
+          "YT":"Mayotte",
+          "ZA":"Afrique du Sud",
+          "ZM":"Zambie",
+          "ZW":"Zimbabwe"
+        },
+        "currencies":{},
+        "days":{
+          "friday":"Vendredi",
+          "monday":"Lundi",
+          "saturday":"Samedi",
+          "sunday":"Dimanche",
+          "thursday":"Jeudi",
+          "tuesday":"Mardi",
+          "wednesday":"Mercredi"
+        },
+        "faqFilters":{
+          "all":"Tout",
+          "application":"Application",
+          "traveler":"Voyageur"
+        },
+        "incomeLevels":{
+          "LIC":"Faible revenu",
+          "LMC":"Revenu moyen inférieur",
+          "NOC":"Revenu élevé",
+          "OEC":"Revenu élevé",
+          "UMC":"Revenu moyen supérieur"
+        },
+        "languages":{},
+        "measurementSystems":{
+          "burmese":"Birmane",
+          "customary":"Coutumier",
+          "hybrid":"Hybride",
+          "imperial":"Impérial",
+          "metric":"Métrique",
+          "non-metric":"Non-métrique"
+        },
+        "mixitupLayouts":{
+          "grid":"Compact",
+          "list":"Détaillé"
+        },
+        "plugTypes":{},
+        "priorityFilters":{
+          "all":"Tout",
+          "civicEngagement":"Engagement civique",
+          "communication":"Communication",
+          "community":"Communauté",
+          "education":"Education",
+          "electricStandards":"Standards électriques ",
+          "environment":"Environnement",
+          "geography":"Géographie",
+          "health":"Santé",
+          "housing":"Hébergement",
+          "income":"Revenu",
+          "integration":"Intégration",
+          "job":"Emploi",
+          "lifeQuality":"Qualité de vie",
+          "lifeSatisfaction":"Satisfaction",
+          "money":"Monnaie",
+          "move":"Déplacement",
+          "none":"Autre",
+          "popular":"Populaire",
+          "safety":"Sécurité",
+          "visa":"Visa",
+          "workLifeBalance":"Balance travail-vie"
+        },
+        "religions":{
+          "buddhist":"Bouddhiste",
+          "christian":"Chrétien",
+          "empty":"",
+          "folk":"Religion folklorique",
+          "hindu":"Hindou",
+          "jewish":"Juif",
+          "muslim":"Musulman",
+          "other":"Autre Religion"
+        },
+        "scoreLegends":{
+          "error":"Données manquantes",
+          "success":"Score calculé",
+          "warning":"Profil incomplet"
+        },
+        "sides":{
+          "left":"Gauche",
+          "right":"Droite"
+        }
+      }
+    }
+  },
+  "fy":{
+    "translation":{}
+  },
+  "ga":{
+    "translation":{}
+  },
+  "gd":{
+    "translation":{}
+  },
+  "gl":{
+    "translation":{}
+  },
+  "gn":{
+    "translation":{}
+  },
+  "gu":{
+    "translation":{}
+  },
+  "gv":{
+    "translation":{}
+  },
+  "ha":{
+    "translation":{}
+  },
+  "he":{
+    "translation":{}
+  },
+  "hi":{
+    "translation":{}
+  },
+  "ho":{
+    "translation":{}
+  },
+  "hr":{
+    "translation":{}
+  },
+  "ht":{
+    "translation":{}
+  },
+  "hu":{
+    "translation":{}
+  },
+  "hy":{
+    "translation":{}
+  },
+  "hz":{
+    "translation":{}
+  },
+  "ia":{
+    "translation":{}
+  },
+  "id":{
+    "translation":{}
+  },
+  "ig":{
+    "translation":{}
+  },
+  "ii":{
+    "translation":{}
+  },
+  "ik":{
+    "translation":{}
+  },
+  "is":{
+    "translation":{}
+  },
+  "it":{
+    "translation":{}
+  },
+  "iu":{
+    "translation":{}
+  },
+  "ja":{
+    "translation":{}
+  },
+  "jv":{
+    "translation":{}
+  },
+  "ka":{
+    "translation":{}
+  },
+  "kg":{
+    "translation":{}
+  },
+  "ki":{
+    "translation":{}
+  },
+  "kj":{
+    "translation":{}
+  },
+  "kk":{
+    "translation":{}
+  },
+  "kl":{
+    "translation":{}
+  },
+  "km":{
+    "translation":{}
+  },
+  "kn":{
+    "translation":{}
+  },
+  "ko":{
+    "translation":{}
+  },
+  "kr":{
+    "translation":{}
+  },
+  "ks":{
+    "translation":{}
+  },
+  "ku":{
+    "translation":{}
+  },
+  "kv":{
+    "translation":{}
+  },
+  "kw":{
+    "translation":{}
+  },
+  "ky":{
+    "translation":{}
+  },
+  "la":{
+    "translation":{}
+  },
+  "lb":{
+    "translation":{}
+  },
+  "lg":{
+    "translation":{}
+  },
+  "li":{
+    "translation":{}
+  },
+  "ln":{
+    "translation":{}
+  },
+  "lo":{
+    "translation":{}
+  },
+  "lt":{
+    "translation":{}
+  },
+  "lu":{
+    "translation":{}
+  },
+  "lv":{
+    "translation":{}
+  },
+  "mg":{
+    "translation":{}
+  },
+  "mh":{
+    "translation":{}
+  },
+  "mi":{
+    "translation":{}
+  },
+  "mk":{
+    "translation":{}
+  },
+  "ml":{
+    "translation":{}
+  },
+  "mn":{
+    "translation":{}
+  },
+  "mr":{
+    "translation":{}
+  },
+  "ms":{
+    "translation":{}
+  },
+  "mt":{
+    "translation":{}
+  },
+  "my":{
+    "translation":{}
+  },
+  "na":{
+    "translation":{}
+  },
+  "nb":{
+    "translation":{}
+  },
+  "nd":{
+    "translation":{}
+  },
+  "ne":{
+    "translation":{}
+  },
+  "ng":{
+    "translation":{}
+  },
+  "nl":{
+    "translation":{}
+  },
+  "nn":{
+    "translation":{}
+  },
+  "no":{
+    "translation":{}
+  },
+  "nr":{
+    "translation":{}
+  },
+  "nv":{
+    "translation":{}
+  },
+  "ny":{
+    "translation":{}
+  },
+  "oc":{
+    "translation":{}
+  },
+  "oj":{
+    "translation":{}
+  },
+  "om":{
+    "translation":{}
+  },
+  "or":{
+    "translation":{}
+  },
+  "os":{
+    "translation":{}
+  },
+  "pa":{
+    "translation":{}
+  },
+  "pi":{
+    "translation":{}
+  },
+  "pl":{
+    "translation":{}
+  },
+  "ps":{
+    "translation":{}
+  },
+  "pt":{
+    "translation":{}
+  },
+  "qu":{
+    "translation":{}
+  },
+  "rm":{
+    "translation":{}
+  },
+  "rn":{
+    "translation":{}
+  },
+  "ro":{
+    "translation":{}
+  },
+  "ru":{
+    "translation":{}
+  },
+  "rw":{
+    "translation":{}
+  },
+  "sa":{
+    "translation":{}
+  },
+  "sc":{
+    "translation":{}
+  },
+  "sd":{
+    "translation":{}
+  },
+  "se":{
+    "translation":{}
+  },
+  "sg":{
+    "translation":{}
+  },
+  "sh":{
+    "translation":{}
+  },
+  "si":{
+    "translation":{}
+  },
+  "sk":{
+    "translation":{}
+  },
+  "sl":{
+    "translation":{}
+  },
+  "sm":{
+    "translation":{}
+  },
+  "sn":{
+    "translation":{}
+  },
+  "so":{
+    "translation":{}
+  },
+  "sq":{
+    "translation":{}
+  },
+  "sr":{
+    "translation":{}
+  },
+  "ss":{
+    "translation":{}
+  },
+  "st":{
+    "translation":{}
+  },
+  "su":{
+    "translation":{}
+  },
+  "sv":{
+    "translation":{}
+  },
+  "sw":{
+    "translation":{}
+  },
+  "ta":{
+    "translation":{}
+  },
+  "te":{
+    "translation":{}
+  },
+  "tg":{
+    "translation":{}
+  },
+  "th":{
+    "translation":{}
+  },
+  "ti":{
+    "translation":{}
+  },
+  "tk":{
+    "translation":{}
+  },
+  "tl":{
+    "translation":{}
+  },
+  "tn":{
+    "translation":{}
+  },
+  "to":{
+    "translation":{}
+  },
+  "tr":{
+    "translation":{}
+  },
+  "ts":{
+    "translation":{}
+  },
+  "tt":{
+    "translation":{}
+  },
+  "tw":{
+    "translation":{}
+  },
+  "ty":{
+    "translation":{}
+  },
+  "ug":{
+    "translation":{}
+  },
+  "uk":{
+    "translation":{}
+  },
+  "ur":{
+    "translation":{}
+  },
+  "uz":{
+    "translation":{}
+  },
+  "ve":{
+    "translation":{}
+  },
+  "vi":{
+    "translation":{}
+  },
+  "vo":{
+    "translation":{}
+  },
+  "wa":{
+    "translation":{}
+  },
+  "wo":{
+    "translation":{}
+  },
+  "xh":{
+    "translation":{}
+  },
+  "yi":{
+    "translation":{}
+  },
+  "yo":{
+    "translation":{}
+  },
+  "za":{
+    "translation":{}
+  },
+  "zh":{
+    "translation":{}
+  },
+  "zu":{
+    "translation":{}
+  }
+}

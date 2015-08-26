@@ -1,0 +1,932 @@
+[
+  {
+    "name":"Antigua and Barbuda",
+    "geographic_configuration":"Two main islands",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":85632,
+    "area":440,
+    "density":194,
+    "geographic_location":"Caribbean Sea, Leeward Islands"
+  },
+  {
+    "name":"Australia",
+    "geographic_configuration":"One main island",
+    "geologic_location":"Australian continent",
+    "sovereign_state":"",
+    "population":22547870,
+    "area":7686848,
+    "density":2.93,
+    "geographic_location":"Australia"
+  },
+  {
+    "name":"Bahamas",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":330000,
+    "area":13878,
+    "density":23.27,
+    "geographic_location":"Atlantic Ocean, Bahamas"
+  },
+  {
+    "name":"Bahrain",
+    "geographic_configuration":"One main island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":791000,
+    "area":750,
+    "density":1189.5,
+    "geographic_location":"Persian Gulf"
+  },
+  {
+    "name":"Barbados",
+    "geographic_configuration":"One main island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":269556,
+    "area":430,
+    "density":627,
+    "geographic_location":"Caribbean Sea, Windward Islands"
+  },
+  {
+    "name":"Brunei",
+    "geographic_configuration":"Part of a larger island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":388190,
+    "area":5765,
+    "density":67.3,
+    "geographic_location":"Maritime Southeast Asia"
+  },
+  {
+    "name":"Cape Verde",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"",
+    "population":567000,
+    "area":4033,
+    "density":125.5,
+    "geographic_location":"Atlantic Ocean, Africa"
+  },
+  {
+    "name":"Comoros",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"",
+    "population":798000,
+    "area":2235,
+    "density":275,
+    "geographic_location":"Indian Ocean, Africa"
+  },
+  {
+    "name":"Cook Islands",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"",
+    "population":10777,
+    "area":236,
+    "density":45.7,
+    "geographic_location":"Pacific Ocean, Polynesia"
+  },
+  {
+    "name":"Cuba",
+    "geographic_configuration":"One main island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":11241161,
+    "area":109884,
+    "density":102.3,
+    "geographic_location":"Caribbean Sea, Greater Antilles"
+  },
+  {
+    "name":"Cyprus",
+    "geographic_configuration":"Part of a larger island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":793963,
+    "area":9251,
+    "density":85,
+    "geographic_location":"Mediterranean Sea"
+  },
+  {
+    "name":"Dominica",
+    "geographic_configuration":"One main island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":72660,
+    "area":754,
+    "density":105,
+    "geographic_location":"Caribbean Sea, Lesser Antilles"
+  },
+  {
+    "name":"Dominican Republic",
+    "geographic_configuration":"Shares one main island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":10990000,
+    "area":48442,
+    "density":208.2,
+    "geographic_location":"Caribbean Sea, Greater Antilles"
+  },
+  {
+    "name":"East Timor",
+    "geographic_configuration":"Part of a larger island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":1066582,
+    "area":14874,
+    "density":76.2,
+    "geographic_location":"Maritime Southeast Asia"
+  },
+  {
+    "name":"Federated States of Micronesia",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"",
+    "population":111000,
+    "area":702,
+    "density":158.1,
+    "geographic_location":"Pacific Ocean, Micronesia"
+  },
+  {
+    "name":"Fiji",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"",
+    "population":849000,
+    "area":18274,
+    "density":46.4,
+    "geographic_location":"Pacific Ocean, Melanesia"
+  },
+  {
+    "name":"Grenada",
+    "geographic_configuration":"One main island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":110000,
+    "area":344,
+    "density":319.8,
+    "geographic_location":"Caribbean Sea, Windward Islands"
+  },
+  {
+    "name":"Haiti",
+    "geographic_configuration":"Shares one main island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":9700000,
+    "area":27750,
+    "density":350,
+    "geographic_location":"Caribbean Sea, Greater Antilles"
+  },
+  {
+    "name":"Iceland",
+    "geographic_configuration":"One main island",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"",
+    "population":316252,
+    "area":103000,
+    "density":3.1,
+    "geographic_location":"Atlantic Ocean"
+  },
+  {
+    "name":"Indonesia",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Two continental shelves",
+    "sovereign_state":"",
+    "population":237556363,
+    "area":1904569,
+    "density":124.7,
+    "geographic_location":"Maritime Southeast Asia"
+  },
+  {
+    "name":"Ireland",
+    "geographic_configuration":"Shares one main island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":4588252,
+    "area":70273,
+    "density":65.3,
+    "geographic_location":"Atlantic Ocean, British Isles"
+  },
+  {
+    "name":"Jamaica",
+    "geographic_configuration":"One main island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":2847232,
+    "area":10991,
+    "density":252,
+    "geographic_location":"Caribbean Sea, Greater Antilles"
+  },
+  {
+    "name":"Japan",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":127433494,
+    "area":377873,
+    "density":337,
+    "geographic_location":"Pacific Ocean, East Asia"
+  },
+  {
+    "name":"Kiribati",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"",
+    "population":98000,
+    "area":811,
+    "density":135,
+    "geographic_location":"Pacific Ocean, Micronesia"
+  },
+  {
+    "name":"Madagascar",
+    "geographic_configuration":"One main island",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"",
+    "population":20653556,
+    "area":587041,
+    "density":35.2,
+    "geographic_location":"Indian Ocean, Africa"
+  },
+  {
+    "name":"Maldives",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"",
+    "population":329198,
+    "area":298,
+    "density":1105,
+    "geographic_location":"Indian Ocean"
+  },
+  {
+    "name":"Malta",
+    "geographic_configuration":"Two main islands",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":404500,
+    "area":316,
+    "density":1282,
+    "geographic_location":"Mediterranean Sea"
+  },
+  {
+    "name":"Marshall Islands",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"",
+    "population":62000,
+    "area":181,
+    "density":342.5,
+    "geographic_location":"Pacific Ocean, Micronesia"
+  },
+  {
+    "name":"Mauritius",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"",
+    "population":1244663,
+    "area":2040,
+    "density":610,
+    "geographic_location":"Indian Ocean, Africa"
+  },
+  {
+    "name":"Nauru",
+    "geographic_configuration":"One island",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"",
+    "population":13635,
+    "area":21,
+    "density":649,
+    "geographic_location":"Pacific Ocean, Micronesia"
+  },
+  {
+    "name":"New Zealand",
+    "geographic_configuration":"Two main islands",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":4027947,
+    "area":268680,
+    "density":15,
+    "geographic_location":"Pacific Ocean, Polynesia"
+  },
+  {
+    "name":"Niue",
+    "geographic_configuration":"Single island",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"",
+    "population":1269,
+    "area":260,
+    "density":4.9,
+    "geographic_location":"Pacific Ocean, Polynesia"
+  },
+  {
+    "name":"Northern Cyprus",
+    "geographic_configuration":"Part of a larger island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":285359,
+    "area":3355,
+    "density":78,
+    "geographic_location":"Mediterranean Sea"
+  },
+  {
+    "name":"Palau",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"",
+    "population":20000,
+    "area":459,
+    "density":43.6,
+    "geographic_location":"Pacific Ocean, Micronesia"
+  },
+  {
+    "name":"Papua New Guinea",
+    "geographic_configuration":"Part of a larger island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":6732000,
+    "area":462840,
+    "density":14.5,
+    "geographic_location":"Pacific Ocean, Melanesia"
+  },
+  {
+    "name":"Philippines",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":88574614,
+    "area":300000,
+    "density":295,
+    "geographic_location":"Maritime Southeast Asia"
+  },
+  {
+    "name":"Saint Kitts and Nevis",
+    "geographic_configuration":"Two main islands",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":51300,
+    "area":261,
+    "density":164,
+    "geographic_location":"Caribbean Sea, Leeward Islands"
+  },
+  {
+    "name":"Saint Lucia",
+    "geographic_configuration":"One main island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":173765,
+    "area":616,
+    "density":298,
+    "geographic_location":"Caribbean Sea, Windward Islands"
+  },
+  {
+    "name":"Saint Vincent and the Grenadines",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":120000,
+    "area":389,
+    "density":307,
+    "geographic_location":"Caribbean Sea, Windward Islands"
+  },
+  {
+    "name":"Samoa",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"",
+    "population":179000,
+    "area":2831,
+    "density":63.2,
+    "geographic_location":"Pacific Ocean, Polynesia"
+  },
+  {
+    "name":"Seychelles",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"",
+    "population":87500,
+    "area":455,
+    "density":192,
+    "geographic_location":"Indian Ocean, Africa"
+  },
+  {
+    "name":"Singapore",
+    "geographic_configuration":"One main island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":5399200,
+    "area":716.1,
+    "density":7540,
+    "geographic_location":"Maritime Southeast Asia"
+  },
+  {
+    "name":"Solomon Islands",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"",
+    "population":523000,
+    "area":28400,
+    "density":18.1,
+    "geographic_location":"Pacific Ocean, Melanesia"
+  },
+  {
+    "name":"Sri Lanka",
+    "geographic_configuration":"One main island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":23650000,
+    "area":65610,
+    "density":314,
+    "geographic_location":"Indian Ocean"
+  },
+  {
+    "name":"São Tomé and Príncipe",
+    "geographic_configuration":"Two main islands",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":163000,
+    "area":1001,
+    "density":169.1,
+    "geographic_location":"Atlantic Ocean, Africa"
+  },
+  {
+    "name":"Taiwan ",
+    "geographic_configuration":"One main island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":22911292,
+    "area":36188,
+    "density":633,
+    "geographic_location":"Pacific Ocean, East Asia"
+  },
+  {
+    "name":"Tonga",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"",
+    "population":104000,
+    "area":748,
+    "density":139,
+    "geographic_location":"Pacific Ocean, Polynesia"
+  },
+  {
+    "name":"Trinidad and Tobago",
+    "geographic_configuration":"Two main islands",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":1299953,
+    "area":5131,
+    "density":254.4,
+    "geographic_location":"Caribbean Sea, South America"
+  },
+  {
+    "name":"Tuvalu",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"",
+    "population":12373,
+    "area":26,
+    "density":475.88,
+    "geographic_location":"Pacific Ocean, Polynesia"
+  },
+  {
+    "name":"United Kingdom",
+    "geographic_configuration":"One main island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"",
+    "population":60587300,
+    "area":244820,
+    "density":246,
+    "geographic_location":"Atlantic Ocean, British Isles"
+  },
+  {
+    "name":"Vanuatu",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"",
+    "population":243304,
+    "area":12190,
+    "density":19.7,
+    "geographic_location":"Pacific Ocean, Melanesia"
+  },
+  {
+    "name":"Alderney",
+    "geographic_configuration":"Single island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"Guernsey  United Kingdom",
+    "population":2400,
+    "area":7.8,
+    "density":307.7,
+    "geographic_location":"English Channel"
+  },
+  {
+    "name":"American Samoa",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"United States",
+    "population":54947,
+    "area":199,
+    "density":276,
+    "geographic_location":"Polynesia"
+  },
+  {
+    "name":"Anguilla",
+    "geographic_configuration":"One main island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"United Kingdom",
+    "population":15423,
+    "area":91,
+    "density":169,
+    "geographic_location":"Caribbean Sea, Leeward Islands"
+  },
+  {
+    "name":"Aruba",
+    "geographic_configuration":"Single island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"Netherlands",
+    "population":107635,
+    "area":180,
+    "density":598,
+    "geographic_location":"Caribbean Sea, Leeward Antilles"
+  },
+  {
+    "name":"Bermuda",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"United Kingdom",
+    "population":62500,
+    "area":53.3,
+    "density":1170,
+    "geographic_location":"Atlantic Ocean, North America"
+  },
+  {
+    "name":"British Virgin Islands",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"United Kingdom",
+    "population":31148,
+    "area":151,
+    "density":206,
+    "geographic_location":"Caribbean Sea, Leeward Islands"
+  },
+  {
+    "name":"Caribbean Netherlands",
+    "geographic_configuration":"Three main islands",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"Netherlands",
+    "population":21133,
+    "area":127,
+    "density":166,
+    "geographic_location":"Caribbean Sea"
+  },
+  {
+    "name":"Cayman Islands",
+    "geographic_configuration":"Three islands",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"United Kingdom",
+    "population":52560,
+    "area":264,
+    "density":199,
+    "geographic_location":"Caribbean Sea, Greater Antilles"
+  },
+  {
+    "name":"Christmas Island",
+    "geographic_configuration":"One main island",
+    "geologic_location":"",
+    "sovereign_state":"Australia",
+    "population":1496,
+    "area":135,
+    "density":11.1,
+    "geographic_location":"Maritime Southeast Asia"
+  },
+  {
+    "name":"Cocos (Keeling) Islands",
+    "geographic_configuration":"Two main islands",
+    "geologic_location":"",
+    "sovereign_state":"Australia",
+    "population":596,
+    "area":14,
+    "density":42.6,
+    "geographic_location":"Maritime Southeast Asia"
+  },
+  {
+    "name":"Collectivity of Saint Martin",
+    "geographic_configuration":"Part of a larger island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"France",
+    "population":30959,
+    "area":54.4,
+    "density":569,
+    "geographic_location":"Caribbean Sea, Leeward Islands"
+  },
+  {
+    "name":"Curaçao",
+    "geographic_configuration":"One main island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"Netherlands",
+    "population":145834,
+    "area":444,
+    "density":328,
+    "geographic_location":"Caribbean Sea, Leeward Antilles"
+  },
+  {
+    "name":"Falkland Islands",
+    "geographic_configuration":"Two main islands",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"United Kingdom",
+    "population":3140,
+    "area":12173,
+    "density":0.26,
+    "geographic_location":"Atlantic Ocean, South America"
+  },
+  {
+    "name":"Faroe Islands",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"",
+    "sovereign_state":"Denmark",
+    "population":49483,
+    "area":1393,
+    "density":35.5,
+    "geographic_location":"Atlantic Ocean, British Isles"
+  },
+  {
+    "name":"French Polynesia",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"France",
+    "population":274512,
+    "area":3827,
+    "density":71.7,
+    "geographic_location":"Pacific Ocean, Polynesia"
+  },
+  {
+    "name":"Greenland",
+    "geographic_configuration":"One major island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"Denmark",
+    "population":57695,
+    "area":2166086,
+    "density":0.03,
+    "geographic_location":"North America"
+  },
+  {
+    "name":"Guadeloupe",
+    "geographic_configuration":"One main island",
+    "geologic_location":"Continental Shelf",
+    "sovereign_state":"France",
+    "population":405500,
+    "area":1628,
+    "density":250,
+    "geographic_location":"Caribbean Sea, Leeward Islands"
+  },
+  {
+    "name":"Guam",
+    "geographic_configuration":"Single island",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"United States",
+    "population":159914,
+    "area":544,
+    "density":293,
+    "geographic_location":"Pacific Ocean, Micronesia"
+  },
+  {
+    "name":"Guernsey",
+    "geographic_configuration":"One main island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"United Kingdom",
+    "population":65345,
+    "area":78,
+    "density":838,
+    "geographic_location":"English Channel"
+  },
+  {
+    "name":"Hawaii  (formerly Territory, Republic, and Kingdom of Hawaii)",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"United States",
+    "population":1392313,
+    "area":28311,
+    "density":82.6,
+    "geographic_location":"Pacific Ocean, Polynesia"
+  },
+  {
+    "name":"Isle of Man",
+    "geographic_configuration":"Single island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"United Kingdom",
+    "population":85421,
+    "area":572,
+    "density":149,
+    "geographic_location":"Irish Sea, British Isles"
+  },
+  {
+    "name":"Jersey",
+    "geographic_configuration":"Single island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"United Kingdom",
+    "population":94949,
+    "area":116,
+    "density":819,
+    "geographic_location":"English Channel"
+  },
+  {
+    "name":"Martinique",
+    "geographic_configuration":"Single Island",
+    "geologic_location":"Continental Shelf",
+    "sovereign_state":"France",
+    "population":403795,
+    "area":1128,
+    "density":360,
+    "geographic_location":"Caribbean Sea, Leeward Islands"
+  },
+  {
+    "name":"Mayotte",
+    "geographic_configuration":"One main island",
+    "geologic_location":"",
+    "sovereign_state":"France",
+    "population":194000,
+    "area":374,
+    "density":498.5,
+    "geographic_location":"Indian Ocean, Africa"
+  },
+  {
+    "name":"Montserrat",
+    "geographic_configuration":"One main island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"United Kingdom",
+    "population":5164,
+    "area":102,
+    "density":50.6,
+    "geographic_location":"Caribbean Sea, Leeward Islands"
+  },
+  {
+    "name":"New Caledonia",
+    "geographic_configuration":"One main island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"France",
+    "population":260166,
+    "area":18275,
+    "density":14.2,
+    "geographic_location":"Pacific Ocean, Melanesia"
+  },
+  {
+    "name":"Norfolk Island",
+    "geographic_configuration":"One main island",
+    "geologic_location":"",
+    "sovereign_state":"Australia",
+    "population":2182,
+    "area":36,
+    "density":60.6,
+    "geographic_location":"Pacific Ocean, Melanesia"
+  },
+  {
+    "name":"Northern Mariana Islands",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"United States",
+    "population":51395,
+    "area":464,
+    "density":111,
+    "geographic_location":"Pacific Ocean, Micronesia"
+  },
+  {
+    "name":"Pitcairn Islands",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"United Kingdom",
+    "population":48,
+    "area":47,
+    "density":1.0,
+    "geographic_location":"Pacific Ocean, Polynesia"
+  },
+  {
+    "name":"Puerto Rico",
+    "geographic_configuration":"One main island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"United States",
+    "population":3690923,
+    "area":8870,
+    "density":416,
+    "geographic_location":"Caribbean Sea, Greater Antilles"
+  },
+  {
+    "name":"Réunion",
+    "geographic_configuration":"One main island",
+    "geologic_location":"",
+    "sovereign_state":"France",
+    "population":893500,
+    "area":2512,
+    "density":330,
+    "geographic_location":"Indian Ocean, Africa"
+  },
+  {
+    "name":"Saint Barthélemy",
+    "geographic_configuration":"One main island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"France",
+    "population":7332,
+    "area":21,
+    "density":349,
+    "geographic_location":"Caribbean Sea, Leeward Islands"
+  },
+  {
+    "name":"Saint Helena, Ascension and Tristan da Cunha",
+    "geographic_configuration":"Three main islands distant from each other",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"United Kingdom",
+    "population":7728,
+    "area":308,
+    "density":25.1,
+    "geographic_location":"Atlantic Ocean"
+  },
+  {
+    "name":"Saint Pierre and Miquelon",
+    "geographic_configuration":"Two main islands",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"France",
+    "population":5831,
+    "area":242,
+    "density":24.1,
+    "geographic_location":"North America"
+  },
+  {
+    "name":"Sark",
+    "geographic_configuration":"Single island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"Guernsey  United Kingdom",
+    "population":600,
+    "area":5.45,
+    "density":110,
+    "geographic_location":"English Channel"
+  },
+  {
+    "name":"Sint Maarten",
+    "geographic_configuration":"Part of a larger island",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"Netherlands",
+    "population":39088,
+    "area":34,
+    "density":1150,
+    "geographic_location":"Caribbean Sea, Leeward Islands"
+  },
+  {
+    "name":"Svalbard",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"",
+    "sovereign_state":"Norway",
+    "population":1970,
+    "area":62045,
+    "density":0.03,
+    "geographic_location":"Arctic Ocean"
+  },
+  {
+    "name":"Tokelau",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"New Zealand",
+    "population":1368,
+    "area":12,
+    "density":114,
+    "geographic_location":"Pacific Ocean, Polynesia"
+  },
+  {
+    "name":"Turks and Caicos Islands",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"United Kingdom",
+    "population":46335,
+    "area":948,
+    "density":48.9,
+    "geographic_location":"Caribbean Sea, Greater Antilles"
+  },
+  {
+    "name":"U.S. Virgin Islands",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"United States",
+    "population":105275,
+    "area":346,
+    "density":304,
+    "geographic_location":"Caribbean Sea, Leeward Islands"
+  },
+  {
+    "name":"Wallis and Futuna",
+    "geographic_configuration":"Three main islands",
+    "geologic_location":"Oceanic",
+    "sovereign_state":"France",
+    "population":15289,
+    "area":264,
+    "density":57.9,
+    "geographic_location":"Pacific Ocean, Polynesia"
+  },
+  {
+    "name":"Åland",
+    "geographic_configuration":"Archipelago",
+    "geologic_location":"Continental shelf",
+    "sovereign_state":"Finland",
+    "population":28355,
+    "area":1580,
+    "density":17.9,
+    "geographic_location":"Baltic Sea, Gulf of Bothnia"
+  }
+]

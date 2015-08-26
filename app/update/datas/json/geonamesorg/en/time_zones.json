@@ -1,0 +1,2928 @@
+[
+  {
+    "CountryCode":"CI",
+    "TimeZoneId":"Africa/Abidjan",
+    "GMT offset 1. Jan 2013":0.0,
+    "DST offset 1. Jul 2013":0.0,
+    "rawOffset (independant of DST)":0.0
+  },
+  {
+    "CountryCode":"GH",
+    "TimeZoneId":"Africa/Accra",
+    "GMT offset 1. Jan 2013":0.0,
+    "DST offset 1. Jul 2013":0.0,
+    "rawOffset (independant of DST)":0.0
+  },
+  {
+    "CountryCode":"ET",
+    "TimeZoneId":"Africa/Addis_Ababa",
+    "GMT offset 1. Jan 2013":3.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":3.0
+  },
+  {
+    "CountryCode":"DZ",
+    "TimeZoneId":"Africa/Algiers",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":1.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"ER",
+    "TimeZoneId":"Africa/Asmara",
+    "GMT offset 1. Jan 2013":3.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":3.0
+  },
+  {
+    "CountryCode":"ML",
+    "TimeZoneId":"Africa/Bamako",
+    "GMT offset 1. Jan 2013":0.0,
+    "DST offset 1. Jul 2013":0.0,
+    "rawOffset (independant of DST)":0.0
+  },
+  {
+    "CountryCode":"CF",
+    "TimeZoneId":"Africa/Bangui",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":1.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"GM",
+    "TimeZoneId":"Africa/Banjul",
+    "GMT offset 1. Jan 2013":0.0,
+    "DST offset 1. Jul 2013":0.0,
+    "rawOffset (independant of DST)":0.0
+  },
+  {
+    "CountryCode":"GW",
+    "TimeZoneId":"Africa/Bissau",
+    "GMT offset 1. Jan 2013":0.0,
+    "DST offset 1. Jul 2013":0.0,
+    "rawOffset (independant of DST)":0.0
+  },
+  {
+    "CountryCode":"MW",
+    "TimeZoneId":"Africa/Blantyre",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"CG",
+    "TimeZoneId":"Africa/Brazzaville",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":1.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"BI",
+    "TimeZoneId":"Africa/Bujumbura",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"EG",
+    "TimeZoneId":"Africa/Cairo",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"MA",
+    "TimeZoneId":"Africa/Casablanca",
+    "GMT offset 1. Jan 2013":0.0,
+    "DST offset 1. Jul 2013":1.0,
+    "rawOffset (independant of DST)":0.0
+  },
+  {
+    "CountryCode":"ES",
+    "TimeZoneId":"Africa/Ceuta",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"GN",
+    "TimeZoneId":"Africa/Conakry",
+    "GMT offset 1. Jan 2013":0.0,
+    "DST offset 1. Jul 2013":0.0,
+    "rawOffset (independant of DST)":0.0
+  },
+  {
+    "CountryCode":"SN",
+    "TimeZoneId":"Africa/Dakar",
+    "GMT offset 1. Jan 2013":0.0,
+    "DST offset 1. Jul 2013":0.0,
+    "rawOffset (independant of DST)":0.0
+  },
+  {
+    "CountryCode":"TZ",
+    "TimeZoneId":"Africa/Dar_es_Salaam",
+    "GMT offset 1. Jan 2013":3.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":3.0
+  },
+  {
+    "CountryCode":"DJ",
+    "TimeZoneId":"Africa/Djibouti",
+    "GMT offset 1. Jan 2013":3.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":3.0
+  },
+  {
+    "CountryCode":"CM",
+    "TimeZoneId":"Africa/Douala",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":1.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"EH",
+    "TimeZoneId":"Africa/El_Aaiun",
+    "GMT offset 1. Jan 2013":0.0,
+    "DST offset 1. Jul 2013":0.0,
+    "rawOffset (independant of DST)":0.0
+  },
+  {
+    "CountryCode":"SL",
+    "TimeZoneId":"Africa/Freetown",
+    "GMT offset 1. Jan 2013":0.0,
+    "DST offset 1. Jul 2013":0.0,
+    "rawOffset (independant of DST)":0.0
+  },
+  {
+    "CountryCode":"BW",
+    "TimeZoneId":"Africa/Gaborone",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"ZW",
+    "TimeZoneId":"Africa/Harare",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"ZA",
+    "TimeZoneId":"Africa/Johannesburg",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"SS",
+    "TimeZoneId":"Africa/Juba",
+    "GMT offset 1. Jan 2013":3.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":3.0
+  },
+  {
+    "CountryCode":"UG",
+    "TimeZoneId":"Africa/Kampala",
+    "GMT offset 1. Jan 2013":3.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":3.0
+  },
+  {
+    "CountryCode":"SD",
+    "TimeZoneId":"Africa/Khartoum",
+    "GMT offset 1. Jan 2013":3.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":3.0
+  },
+  {
+    "CountryCode":"RW",
+    "TimeZoneId":"Africa/Kigali",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"CD",
+    "TimeZoneId":"Africa/Kinshasa",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":1.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"NG",
+    "TimeZoneId":"Africa/Lagos",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":1.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"GA",
+    "TimeZoneId":"Africa/Libreville",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":1.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"TG",
+    "TimeZoneId":"Africa/Lome",
+    "GMT offset 1. Jan 2013":0.0,
+    "DST offset 1. Jul 2013":0.0,
+    "rawOffset (independant of DST)":0.0
+  },
+  {
+    "CountryCode":"AO",
+    "TimeZoneId":"Africa/Luanda",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":1.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"CD",
+    "TimeZoneId":"Africa/Lubumbashi",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"ZM",
+    "TimeZoneId":"Africa/Lusaka",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"GQ",
+    "TimeZoneId":"Africa/Malabo",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":1.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"MZ",
+    "TimeZoneId":"Africa/Maputo",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"LS",
+    "TimeZoneId":"Africa/Maseru",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"SZ",
+    "TimeZoneId":"Africa/Mbabane",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"SO",
+    "TimeZoneId":"Africa/Mogadishu",
+    "GMT offset 1. Jan 2013":3.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":3.0
+  },
+  {
+    "CountryCode":"LR",
+    "TimeZoneId":"Africa/Monrovia",
+    "GMT offset 1. Jan 2013":0.0,
+    "DST offset 1. Jul 2013":0.0,
+    "rawOffset (independant of DST)":0.0
+  },
+  {
+    "CountryCode":"KE",
+    "TimeZoneId":"Africa/Nairobi",
+    "GMT offset 1. Jan 2013":3.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":3.0
+  },
+  {
+    "CountryCode":"TD",
+    "TimeZoneId":"Africa/Ndjamena",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":1.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"NE",
+    "TimeZoneId":"Africa/Niamey",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":1.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"MR",
+    "TimeZoneId":"Africa/Nouakchott",
+    "GMT offset 1. Jan 2013":0.0,
+    "DST offset 1. Jul 2013":0.0,
+    "rawOffset (independant of DST)":0.0
+  },
+  {
+    "CountryCode":"BF",
+    "TimeZoneId":"Africa/Ouagadougou",
+    "GMT offset 1. Jan 2013":0.0,
+    "DST offset 1. Jul 2013":0.0,
+    "rawOffset (independant of DST)":0.0
+  },
+  {
+    "CountryCode":"BJ",
+    "TimeZoneId":"Africa/Porto-Novo",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":1.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"ST",
+    "TimeZoneId":"Africa/Sao_Tome",
+    "GMT offset 1. Jan 2013":0.0,
+    "DST offset 1. Jul 2013":0.0,
+    "rawOffset (independant of DST)":0.0
+  },
+  {
+    "CountryCode":"LY",
+    "TimeZoneId":"Africa/Tripoli",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"TN",
+    "TimeZoneId":"Africa/Tunis",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":1.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"NA",
+    "TimeZoneId":"Africa/Windhoek",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":1.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/Adak",
+    "GMT offset 1. Jan 2013":-10.0,
+    "DST offset 1. Jul 2013":-9.0,
+    "rawOffset (independant of DST)":-10.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/Anchorage",
+    "GMT offset 1. Jan 2013":-9.0,
+    "DST offset 1. Jul 2013":-8.0,
+    "rawOffset (independant of DST)":-9.0
+  },
+  {
+    "CountryCode":"AI",
+    "TimeZoneId":"America/Anguilla",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"AG",
+    "TimeZoneId":"America/Antigua",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"BR",
+    "TimeZoneId":"America/Araguaina",
+    "GMT offset 1. Jan 2013":-2.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-3.0
+  },
+  {
+    "CountryCode":"AR",
+    "TimeZoneId":"America/Argentina/Buenos_Aires",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-3.0
+  },
+  {
+    "CountryCode":"AR",
+    "TimeZoneId":"America/Argentina/Catamarca",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-3.0
+  },
+  {
+    "CountryCode":"AR",
+    "TimeZoneId":"America/Argentina/Cordoba",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-3.0
+  },
+  {
+    "CountryCode":"AR",
+    "TimeZoneId":"America/Argentina/Jujuy",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-3.0
+  },
+  {
+    "CountryCode":"AR",
+    "TimeZoneId":"America/Argentina/La_Rioja",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-3.0
+  },
+  {
+    "CountryCode":"AR",
+    "TimeZoneId":"America/Argentina/Mendoza",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-3.0
+  },
+  {
+    "CountryCode":"AR",
+    "TimeZoneId":"America/Argentina/Rio_Gallegos",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-3.0
+  },
+  {
+    "CountryCode":"AR",
+    "TimeZoneId":"America/Argentina/Salta",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-3.0
+  },
+  {
+    "CountryCode":"AR",
+    "TimeZoneId":"America/Argentina/San_Juan",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-3.0
+  },
+  {
+    "CountryCode":"AR",
+    "TimeZoneId":"America/Argentina/San_Luis",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-3.0
+  },
+  {
+    "CountryCode":"AR",
+    "TimeZoneId":"America/Argentina/Tucuman",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-3.0
+  },
+  {
+    "CountryCode":"AR",
+    "TimeZoneId":"America/Argentina/Ushuaia",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-3.0
+  },
+  {
+    "CountryCode":"AW",
+    "TimeZoneId":"America/Aruba",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"PY",
+    "TimeZoneId":"America/Asuncion",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"CA",
+    "TimeZoneId":"America/Atikokan",
+    "GMT offset 1. Jan 2013":-5.0,
+    "DST offset 1. Jul 2013":-5.0,
+    "rawOffset (independant of DST)":-5.0
+  },
+  {
+    "CountryCode":"BR",
+    "TimeZoneId":"America/Bahia",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-3.0
+  },
+  {
+    "CountryCode":"MX",
+    "TimeZoneId":"America/Bahia_Banderas",
+    "GMT offset 1. Jan 2013":-6.0,
+    "DST offset 1. Jul 2013":-5.0,
+    "rawOffset (independant of DST)":-6.0
+  },
+  {
+    "CountryCode":"BB",
+    "TimeZoneId":"America/Barbados",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"BR",
+    "TimeZoneId":"America/Belem",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-3.0
+  },
+  {
+    "CountryCode":"BZ",
+    "TimeZoneId":"America/Belize",
+    "GMT offset 1. Jan 2013":-6.0,
+    "DST offset 1. Jul 2013":-6.0,
+    "rawOffset (independant of DST)":-6.0
+  },
+  {
+    "CountryCode":"CA",
+    "TimeZoneId":"America/Blanc-Sablon",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"BR",
+    "TimeZoneId":"America/Boa_Vista",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"CO",
+    "TimeZoneId":"America/Bogota",
+    "GMT offset 1. Jan 2013":-5.0,
+    "DST offset 1. Jul 2013":-5.0,
+    "rawOffset (independant of DST)":-5.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/Boise",
+    "GMT offset 1. Jan 2013":-7.0,
+    "DST offset 1. Jul 2013":-6.0,
+    "rawOffset (independant of DST)":-7.0
+  },
+  {
+    "CountryCode":"CA",
+    "TimeZoneId":"America/Cambridge_Bay",
+    "GMT offset 1. Jan 2013":-7.0,
+    "DST offset 1. Jul 2013":-6.0,
+    "rawOffset (independant of DST)":-7.0
+  },
+  {
+    "CountryCode":"BR",
+    "TimeZoneId":"America/Campo_Grande",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"MX",
+    "TimeZoneId":"America/Cancun",
+    "GMT offset 1. Jan 2013":-6.0,
+    "DST offset 1. Jul 2013":-5.0,
+    "rawOffset (independant of DST)":-6.0
+  },
+  {
+    "CountryCode":"VE",
+    "TimeZoneId":"America/Caracas",
+    "GMT offset 1. Jan 2013":-4.5,
+    "DST offset 1. Jul 2013":-4.5,
+    "rawOffset (independant of DST)":-4.5
+  },
+  {
+    "CountryCode":"GF",
+    "TimeZoneId":"America/Cayenne",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-3.0
+  },
+  {
+    "CountryCode":"KY",
+    "TimeZoneId":"America/Cayman",
+    "GMT offset 1. Jan 2013":-5.0,
+    "DST offset 1. Jul 2013":-5.0,
+    "rawOffset (independant of DST)":-5.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/Chicago",
+    "GMT offset 1. Jan 2013":-6.0,
+    "DST offset 1. Jul 2013":-5.0,
+    "rawOffset (independant of DST)":-6.0
+  },
+  {
+    "CountryCode":"MX",
+    "TimeZoneId":"America/Chihuahua",
+    "GMT offset 1. Jan 2013":-7.0,
+    "DST offset 1. Jul 2013":-6.0,
+    "rawOffset (independant of DST)":-7.0
+  },
+  {
+    "CountryCode":"CR",
+    "TimeZoneId":"America/Costa_Rica",
+    "GMT offset 1. Jan 2013":-6.0,
+    "DST offset 1. Jul 2013":-6.0,
+    "rawOffset (independant of DST)":-6.0
+  },
+  {
+    "CountryCode":"CA",
+    "TimeZoneId":"America/Creston",
+    "GMT offset 1. Jan 2013":-7.0,
+    "DST offset 1. Jul 2013":-7.0,
+    "rawOffset (independant of DST)":-7.0
+  },
+  {
+    "CountryCode":"BR",
+    "TimeZoneId":"America/Cuiaba",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"CW",
+    "TimeZoneId":"America/Curacao",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"GL",
+    "TimeZoneId":"America/Danmarkshavn",
+    "GMT offset 1. Jan 2013":0.0,
+    "DST offset 1. Jul 2013":0.0,
+    "rawOffset (independant of DST)":0.0
+  },
+  {
+    "CountryCode":"CA",
+    "TimeZoneId":"America/Dawson",
+    "GMT offset 1. Jan 2013":-8.0,
+    "DST offset 1. Jul 2013":-7.0,
+    "rawOffset (independant of DST)":-8.0
+  },
+  {
+    "CountryCode":"CA",
+    "TimeZoneId":"America/Dawson_Creek",
+    "GMT offset 1. Jan 2013":-7.0,
+    "DST offset 1. Jul 2013":-7.0,
+    "rawOffset (independant of DST)":-7.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/Denver",
+    "GMT offset 1. Jan 2013":-7.0,
+    "DST offset 1. Jul 2013":-6.0,
+    "rawOffset (independant of DST)":-7.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/Detroit",
+    "GMT offset 1. Jan 2013":-5.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-5.0
+  },
+  {
+    "CountryCode":"DM",
+    "TimeZoneId":"America/Dominica",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"CA",
+    "TimeZoneId":"America/Edmonton",
+    "GMT offset 1. Jan 2013":-7.0,
+    "DST offset 1. Jul 2013":-6.0,
+    "rawOffset (independant of DST)":-7.0
+  },
+  {
+    "CountryCode":"BR",
+    "TimeZoneId":"America/Eirunepe",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"SV",
+    "TimeZoneId":"America/El_Salvador",
+    "GMT offset 1. Jan 2013":-6.0,
+    "DST offset 1. Jul 2013":-6.0,
+    "rawOffset (independant of DST)":-6.0
+  },
+  {
+    "CountryCode":"BR",
+    "TimeZoneId":"America/Fortaleza",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-3.0
+  },
+  {
+    "CountryCode":"CA",
+    "TimeZoneId":"America/Glace_Bay",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"GL",
+    "TimeZoneId":"America/Godthab",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-2.0,
+    "rawOffset (independant of DST)":-3.0
+  },
+  {
+    "CountryCode":"CA",
+    "TimeZoneId":"America/Goose_Bay",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"TC",
+    "TimeZoneId":"America/Grand_Turk",
+    "GMT offset 1. Jan 2013":-5.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-5.0
+  },
+  {
+    "CountryCode":"GD",
+    "TimeZoneId":"America/Grenada",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"GP",
+    "TimeZoneId":"America/Guadeloupe",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"GT",
+    "TimeZoneId":"America/Guatemala",
+    "GMT offset 1. Jan 2013":-6.0,
+    "DST offset 1. Jul 2013":-6.0,
+    "rawOffset (independant of DST)":-6.0
+  },
+  {
+    "CountryCode":"EC",
+    "TimeZoneId":"America/Guayaquil",
+    "GMT offset 1. Jan 2013":-5.0,
+    "DST offset 1. Jul 2013":-5.0,
+    "rawOffset (independant of DST)":-5.0
+  },
+  {
+    "CountryCode":"GY",
+    "TimeZoneId":"America/Guyana",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"CA",
+    "TimeZoneId":"America/Halifax",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"CU",
+    "TimeZoneId":"America/Havana",
+    "GMT offset 1. Jan 2013":-5.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-5.0
+  },
+  {
+    "CountryCode":"MX",
+    "TimeZoneId":"America/Hermosillo",
+    "GMT offset 1. Jan 2013":-7.0,
+    "DST offset 1. Jul 2013":-7.0,
+    "rawOffset (independant of DST)":-7.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/Indiana/Indianapolis",
+    "GMT offset 1. Jan 2013":-5.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-5.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/Indiana/Knox",
+    "GMT offset 1. Jan 2013":-6.0,
+    "DST offset 1. Jul 2013":-5.0,
+    "rawOffset (independant of DST)":-6.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/Indiana/Marengo",
+    "GMT offset 1. Jan 2013":-5.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-5.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/Indiana/Petersburg",
+    "GMT offset 1. Jan 2013":-5.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-5.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/Indiana/Tell_City",
+    "GMT offset 1. Jan 2013":-6.0,
+    "DST offset 1. Jul 2013":-5.0,
+    "rawOffset (independant of DST)":-6.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/Indiana/Vevay",
+    "GMT offset 1. Jan 2013":-5.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-5.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/Indiana/Vincennes",
+    "GMT offset 1. Jan 2013":-5.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-5.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/Indiana/Winamac",
+    "GMT offset 1. Jan 2013":-5.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-5.0
+  },
+  {
+    "CountryCode":"CA",
+    "TimeZoneId":"America/Inuvik",
+    "GMT offset 1. Jan 2013":-7.0,
+    "DST offset 1. Jul 2013":-6.0,
+    "rawOffset (independant of DST)":-7.0
+  },
+  {
+    "CountryCode":"CA",
+    "TimeZoneId":"America/Iqaluit",
+    "GMT offset 1. Jan 2013":-5.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-5.0
+  },
+  {
+    "CountryCode":"JM",
+    "TimeZoneId":"America/Jamaica",
+    "GMT offset 1. Jan 2013":-5.0,
+    "DST offset 1. Jul 2013":-5.0,
+    "rawOffset (independant of DST)":-5.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/Juneau",
+    "GMT offset 1. Jan 2013":-9.0,
+    "DST offset 1. Jul 2013":-8.0,
+    "rawOffset (independant of DST)":-9.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/Kentucky/Louisville",
+    "GMT offset 1. Jan 2013":-5.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-5.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/Kentucky/Monticello",
+    "GMT offset 1. Jan 2013":-5.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-5.0
+  },
+  {
+    "CountryCode":"BQ",
+    "TimeZoneId":"America/Kralendijk",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"BO",
+    "TimeZoneId":"America/La_Paz",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"PE",
+    "TimeZoneId":"America/Lima",
+    "GMT offset 1. Jan 2013":-5.0,
+    "DST offset 1. Jul 2013":-5.0,
+    "rawOffset (independant of DST)":-5.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/Los_Angeles",
+    "GMT offset 1. Jan 2013":-8.0,
+    "DST offset 1. Jul 2013":-7.0,
+    "rawOffset (independant of DST)":-8.0
+  },
+  {
+    "CountryCode":"SX",
+    "TimeZoneId":"America/Lower_Princes",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"BR",
+    "TimeZoneId":"America/Maceio",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-3.0
+  },
+  {
+    "CountryCode":"NI",
+    "TimeZoneId":"America/Managua",
+    "GMT offset 1. Jan 2013":-6.0,
+    "DST offset 1. Jul 2013":-6.0,
+    "rawOffset (independant of DST)":-6.0
+  },
+  {
+    "CountryCode":"BR",
+    "TimeZoneId":"America/Manaus",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"MF",
+    "TimeZoneId":"America/Marigot",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"MQ",
+    "TimeZoneId":"America/Martinique",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"MX",
+    "TimeZoneId":"America/Matamoros",
+    "GMT offset 1. Jan 2013":-6.0,
+    "DST offset 1. Jul 2013":-5.0,
+    "rawOffset (independant of DST)":-6.0
+  },
+  {
+    "CountryCode":"MX",
+    "TimeZoneId":"America/Mazatlan",
+    "GMT offset 1. Jan 2013":-7.0,
+    "DST offset 1. Jul 2013":-6.0,
+    "rawOffset (independant of DST)":-7.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/Menominee",
+    "GMT offset 1. Jan 2013":-6.0,
+    "DST offset 1. Jul 2013":-5.0,
+    "rawOffset (independant of DST)":-6.0
+  },
+  {
+    "CountryCode":"MX",
+    "TimeZoneId":"America/Merida",
+    "GMT offset 1. Jan 2013":-6.0,
+    "DST offset 1. Jul 2013":-5.0,
+    "rawOffset (independant of DST)":-6.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/Metlakatla",
+    "GMT offset 1. Jan 2013":-8.0,
+    "DST offset 1. Jul 2013":-8.0,
+    "rawOffset (independant of DST)":-8.0
+  },
+  {
+    "CountryCode":"MX",
+    "TimeZoneId":"America/Mexico_City",
+    "GMT offset 1. Jan 2013":-6.0,
+    "DST offset 1. Jul 2013":-5.0,
+    "rawOffset (independant of DST)":-6.0
+  },
+  {
+    "CountryCode":"PM",
+    "TimeZoneId":"America/Miquelon",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-2.0,
+    "rawOffset (independant of DST)":-3.0
+  },
+  {
+    "CountryCode":"CA",
+    "TimeZoneId":"America/Moncton",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"MX",
+    "TimeZoneId":"America/Monterrey",
+    "GMT offset 1. Jan 2013":-6.0,
+    "DST offset 1. Jul 2013":-5.0,
+    "rawOffset (independant of DST)":-6.0
+  },
+  {
+    "CountryCode":"UY",
+    "TimeZoneId":"America/Montevideo",
+    "GMT offset 1. Jan 2013":-2.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-3.0
+  },
+  {
+    "CountryCode":"CA",
+    "TimeZoneId":"America/Montreal",
+    "GMT offset 1. Jan 2013":-5.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-5.0
+  },
+  {
+    "CountryCode":"MS",
+    "TimeZoneId":"America/Montserrat",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"BS",
+    "TimeZoneId":"America/Nassau",
+    "GMT offset 1. Jan 2013":-5.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-5.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/New_York",
+    "GMT offset 1. Jan 2013":-5.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-5.0
+  },
+  {
+    "CountryCode":"CA",
+    "TimeZoneId":"America/Nipigon",
+    "GMT offset 1. Jan 2013":-5.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-5.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/Nome",
+    "GMT offset 1. Jan 2013":-9.0,
+    "DST offset 1. Jul 2013":-8.0,
+    "rawOffset (independant of DST)":-9.0
+  },
+  {
+    "CountryCode":"BR",
+    "TimeZoneId":"America/Noronha",
+    "GMT offset 1. Jan 2013":-2.0,
+    "DST offset 1. Jul 2013":-2.0,
+    "rawOffset (independant of DST)":-2.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/North_Dakota/Beulah",
+    "GMT offset 1. Jan 2013":-6.0,
+    "DST offset 1. Jul 2013":-5.0,
+    "rawOffset (independant of DST)":-6.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/North_Dakota/Center",
+    "GMT offset 1. Jan 2013":-6.0,
+    "DST offset 1. Jul 2013":-5.0,
+    "rawOffset (independant of DST)":-6.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/North_Dakota/New_Salem",
+    "GMT offset 1. Jan 2013":-6.0,
+    "DST offset 1. Jul 2013":-5.0,
+    "rawOffset (independant of DST)":-6.0
+  },
+  {
+    "CountryCode":"MX",
+    "TimeZoneId":"America/Ojinaga",
+    "GMT offset 1. Jan 2013":-7.0,
+    "DST offset 1. Jul 2013":-6.0,
+    "rawOffset (independant of DST)":-7.0
+  },
+  {
+    "CountryCode":"PA",
+    "TimeZoneId":"America/Panama",
+    "GMT offset 1. Jan 2013":-5.0,
+    "DST offset 1. Jul 2013":-5.0,
+    "rawOffset (independant of DST)":-5.0
+  },
+  {
+    "CountryCode":"CA",
+    "TimeZoneId":"America/Pangnirtung",
+    "GMT offset 1. Jan 2013":-5.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-5.0
+  },
+  {
+    "CountryCode":"SR",
+    "TimeZoneId":"America/Paramaribo",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-3.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/Phoenix",
+    "GMT offset 1. Jan 2013":-7.0,
+    "DST offset 1. Jul 2013":-7.0,
+    "rawOffset (independant of DST)":-7.0
+  },
+  {
+    "CountryCode":"HT",
+    "TimeZoneId":"America/Port-au-Prince",
+    "GMT offset 1. Jan 2013":-5.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-5.0
+  },
+  {
+    "CountryCode":"TT",
+    "TimeZoneId":"America/Port_of_Spain",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"BR",
+    "TimeZoneId":"America/Porto_Velho",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"PR",
+    "TimeZoneId":"America/Puerto_Rico",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"CA",
+    "TimeZoneId":"America/Rainy_River",
+    "GMT offset 1. Jan 2013":-6.0,
+    "DST offset 1. Jul 2013":-5.0,
+    "rawOffset (independant of DST)":-6.0
+  },
+  {
+    "CountryCode":"CA",
+    "TimeZoneId":"America/Rankin_Inlet",
+    "GMT offset 1. Jan 2013":-6.0,
+    "DST offset 1. Jul 2013":-5.0,
+    "rawOffset (independant of DST)":-6.0
+  },
+  {
+    "CountryCode":"BR",
+    "TimeZoneId":"America/Recife",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-3.0
+  },
+  {
+    "CountryCode":"CA",
+    "TimeZoneId":"America/Regina",
+    "GMT offset 1. Jan 2013":-6.0,
+    "DST offset 1. Jul 2013":-6.0,
+    "rawOffset (independant of DST)":-6.0
+  },
+  {
+    "CountryCode":"CA",
+    "TimeZoneId":"America/Resolute",
+    "GMT offset 1. Jan 2013":-6.0,
+    "DST offset 1. Jul 2013":-5.0,
+    "rawOffset (independant of DST)":-6.0
+  },
+  {
+    "CountryCode":"BR",
+    "TimeZoneId":"America/Rio_Branco",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"MX",
+    "TimeZoneId":"America/Santa_Isabel",
+    "GMT offset 1. Jan 2013":-8.0,
+    "DST offset 1. Jul 2013":-7.0,
+    "rawOffset (independant of DST)":-8.0
+  },
+  {
+    "CountryCode":"BR",
+    "TimeZoneId":"America/Santarem",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-3.0
+  },
+  {
+    "CountryCode":"CL",
+    "TimeZoneId":"America/Santiago",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"DO",
+    "TimeZoneId":"America/Santo_Domingo",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"BR",
+    "TimeZoneId":"America/Sao_Paulo",
+    "GMT offset 1. Jan 2013":-2.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-3.0
+  },
+  {
+    "CountryCode":"GL",
+    "TimeZoneId":"America/Scoresbysund",
+    "GMT offset 1. Jan 2013":-1.0,
+    "DST offset 1. Jul 2013":0.0,
+    "rawOffset (independant of DST)":-1.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/Shiprock",
+    "GMT offset 1. Jan 2013":-7.0,
+    "DST offset 1. Jul 2013":-6.0,
+    "rawOffset (independant of DST)":-7.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/Sitka",
+    "GMT offset 1. Jan 2013":-9.0,
+    "DST offset 1. Jul 2013":-8.0,
+    "rawOffset (independant of DST)":-9.0
+  },
+  {
+    "CountryCode":"BL",
+    "TimeZoneId":"America/St_Barthelemy",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"CA",
+    "TimeZoneId":"America/St_Johns",
+    "GMT offset 1. Jan 2013":-3.5,
+    "DST offset 1. Jul 2013":-2.5,
+    "rawOffset (independant of DST)":-3.5
+  },
+  {
+    "CountryCode":"KN",
+    "TimeZoneId":"America/St_Kitts",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"LC",
+    "TimeZoneId":"America/St_Lucia",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"VI",
+    "TimeZoneId":"America/St_Thomas",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"VC",
+    "TimeZoneId":"America/St_Vincent",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"CA",
+    "TimeZoneId":"America/Swift_Current",
+    "GMT offset 1. Jan 2013":-6.0,
+    "DST offset 1. Jul 2013":-6.0,
+    "rawOffset (independant of DST)":-6.0
+  },
+  {
+    "CountryCode":"HN",
+    "TimeZoneId":"America/Tegucigalpa",
+    "GMT offset 1. Jan 2013":-6.0,
+    "DST offset 1. Jul 2013":-6.0,
+    "rawOffset (independant of DST)":-6.0
+  },
+  {
+    "CountryCode":"GL",
+    "TimeZoneId":"America/Thule",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"CA",
+    "TimeZoneId":"America/Thunder_Bay",
+    "GMT offset 1. Jan 2013":-5.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-5.0
+  },
+  {
+    "CountryCode":"MX",
+    "TimeZoneId":"America/Tijuana",
+    "GMT offset 1. Jan 2013":-8.0,
+    "DST offset 1. Jul 2013":-7.0,
+    "rawOffset (independant of DST)":-8.0
+  },
+  {
+    "CountryCode":"CA",
+    "TimeZoneId":"America/Toronto",
+    "GMT offset 1. Jan 2013":-5.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-5.0
+  },
+  {
+    "CountryCode":"VG",
+    "TimeZoneId":"America/Tortola",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"CA",
+    "TimeZoneId":"America/Vancouver",
+    "GMT offset 1. Jan 2013":-8.0,
+    "DST offset 1. Jul 2013":-7.0,
+    "rawOffset (independant of DST)":-8.0
+  },
+  {
+    "CountryCode":"CA",
+    "TimeZoneId":"America/Whitehorse",
+    "GMT offset 1. Jan 2013":-8.0,
+    "DST offset 1. Jul 2013":-7.0,
+    "rawOffset (independant of DST)":-8.0
+  },
+  {
+    "CountryCode":"CA",
+    "TimeZoneId":"America/Winnipeg",
+    "GMT offset 1. Jan 2013":-6.0,
+    "DST offset 1. Jul 2013":-5.0,
+    "rawOffset (independant of DST)":-6.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"America/Yakutat",
+    "GMT offset 1. Jan 2013":-9.0,
+    "DST offset 1. Jul 2013":-8.0,
+    "rawOffset (independant of DST)":-9.0
+  },
+  {
+    "CountryCode":"CA",
+    "TimeZoneId":"America/Yellowknife",
+    "GMT offset 1. Jan 2013":-7.0,
+    "DST offset 1. Jul 2013":-6.0,
+    "rawOffset (independant of DST)":-7.0
+  },
+  {
+    "CountryCode":"AQ",
+    "TimeZoneId":"Antarctica/Casey",
+    "GMT offset 1. Jan 2013":8.0,
+    "DST offset 1. Jul 2013":8.0,
+    "rawOffset (independant of DST)":8.0
+  },
+  {
+    "CountryCode":"AQ",
+    "TimeZoneId":"Antarctica/Davis",
+    "GMT offset 1. Jan 2013":7.0,
+    "DST offset 1. Jul 2013":7.0,
+    "rawOffset (independant of DST)":7.0
+  },
+  {
+    "CountryCode":"AQ",
+    "TimeZoneId":"Antarctica/DumontDUrville",
+    "GMT offset 1. Jan 2013":10.0,
+    "DST offset 1. Jul 2013":10.0,
+    "rawOffset (independant of DST)":10.0
+  },
+  {
+    "CountryCode":"AU",
+    "TimeZoneId":"Antarctica/Macquarie",
+    "GMT offset 1. Jan 2013":11.0,
+    "DST offset 1. Jul 2013":11.0,
+    "rawOffset (independant of DST)":11.0
+  },
+  {
+    "CountryCode":"AQ",
+    "TimeZoneId":"Antarctica/Mawson",
+    "GMT offset 1. Jan 2013":5.0,
+    "DST offset 1. Jul 2013":5.0,
+    "rawOffset (independant of DST)":5.0
+  },
+  {
+    "CountryCode":"AQ",
+    "TimeZoneId":"Antarctica/McMurdo",
+    "GMT offset 1. Jan 2013":13.0,
+    "DST offset 1. Jul 2013":12.0,
+    "rawOffset (independant of DST)":12.0
+  },
+  {
+    "CountryCode":"AQ",
+    "TimeZoneId":"Antarctica/Palmer",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-4.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"AQ",
+    "TimeZoneId":"Antarctica/Rothera",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-3.0
+  },
+  {
+    "CountryCode":"AQ",
+    "TimeZoneId":"Antarctica/South_Pole",
+    "GMT offset 1. Jan 2013":13.0,
+    "DST offset 1. Jul 2013":12.0,
+    "rawOffset (independant of DST)":12.0
+  },
+  {
+    "CountryCode":"AQ",
+    "TimeZoneId":"Antarctica/Syowa",
+    "GMT offset 1. Jan 2013":3.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":3.0
+  },
+  {
+    "CountryCode":"AQ",
+    "TimeZoneId":"Antarctica/Vostok",
+    "GMT offset 1. Jan 2013":6.0,
+    "DST offset 1. Jul 2013":6.0,
+    "rawOffset (independant of DST)":6.0
+  },
+  {
+    "CountryCode":"SJ",
+    "TimeZoneId":"Arctic/Longyearbyen",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"YE",
+    "TimeZoneId":"Asia/Aden",
+    "GMT offset 1. Jan 2013":3.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":3.0
+  },
+  {
+    "CountryCode":"KZ",
+    "TimeZoneId":"Asia/Almaty",
+    "GMT offset 1. Jan 2013":6.0,
+    "DST offset 1. Jul 2013":6.0,
+    "rawOffset (independant of DST)":6.0
+  },
+  {
+    "CountryCode":"JO",
+    "TimeZoneId":"Asia/Amman",
+    "GMT offset 1. Jan 2013":3.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":3.0
+  },
+  {
+    "CountryCode":"RU",
+    "TimeZoneId":"Asia/Anadyr",
+    "GMT offset 1. Jan 2013":12.0,
+    "DST offset 1. Jul 2013":12.0,
+    "rawOffset (independant of DST)":12.0
+  },
+  {
+    "CountryCode":"KZ",
+    "TimeZoneId":"Asia/Aqtau",
+    "GMT offset 1. Jan 2013":5.0,
+    "DST offset 1. Jul 2013":5.0,
+    "rawOffset (independant of DST)":5.0
+  },
+  {
+    "CountryCode":"KZ",
+    "TimeZoneId":"Asia/Aqtobe",
+    "GMT offset 1. Jan 2013":5.0,
+    "DST offset 1. Jul 2013":5.0,
+    "rawOffset (independant of DST)":5.0
+  },
+  {
+    "CountryCode":"TM",
+    "TimeZoneId":"Asia/Ashgabat",
+    "GMT offset 1. Jan 2013":5.0,
+    "DST offset 1. Jul 2013":5.0,
+    "rawOffset (independant of DST)":5.0
+  },
+  {
+    "CountryCode":"IQ",
+    "TimeZoneId":"Asia/Baghdad",
+    "GMT offset 1. Jan 2013":3.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":3.0
+  },
+  {
+    "CountryCode":"BH",
+    "TimeZoneId":"Asia/Bahrain",
+    "GMT offset 1. Jan 2013":3.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":3.0
+  },
+  {
+    "CountryCode":"AZ",
+    "TimeZoneId":"Asia/Baku",
+    "GMT offset 1. Jan 2013":4.0,
+    "DST offset 1. Jul 2013":5.0,
+    "rawOffset (independant of DST)":4.0
+  },
+  {
+    "CountryCode":"TH",
+    "TimeZoneId":"Asia/Bangkok",
+    "GMT offset 1. Jan 2013":7.0,
+    "DST offset 1. Jul 2013":7.0,
+    "rawOffset (independant of DST)":7.0
+  },
+  {
+    "CountryCode":"LB",
+    "TimeZoneId":"Asia/Beirut",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"KG",
+    "TimeZoneId":"Asia/Bishkek",
+    "GMT offset 1. Jan 2013":6.0,
+    "DST offset 1. Jul 2013":6.0,
+    "rawOffset (independant of DST)":6.0
+  },
+  {
+    "CountryCode":"BN",
+    "TimeZoneId":"Asia/Brunei",
+    "GMT offset 1. Jan 2013":8.0,
+    "DST offset 1. Jul 2013":8.0,
+    "rawOffset (independant of DST)":8.0
+  },
+  {
+    "CountryCode":"MN",
+    "TimeZoneId":"Asia/Choibalsan",
+    "GMT offset 1. Jan 2013":8.0,
+    "DST offset 1. Jul 2013":8.0,
+    "rawOffset (independant of DST)":8.0
+  },
+  {
+    "CountryCode":"CN",
+    "TimeZoneId":"Asia/Chongqing",
+    "GMT offset 1. Jan 2013":8.0,
+    "DST offset 1. Jul 2013":8.0,
+    "rawOffset (independant of DST)":8.0
+  },
+  {
+    "CountryCode":"LK",
+    "TimeZoneId":"Asia/Colombo",
+    "GMT offset 1. Jan 2013":5.5,
+    "DST offset 1. Jul 2013":5.5,
+    "rawOffset (independant of DST)":5.5
+  },
+  {
+    "CountryCode":"SY",
+    "TimeZoneId":"Asia/Damascus",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"BD",
+    "TimeZoneId":"Asia/Dhaka",
+    "GMT offset 1. Jan 2013":6.0,
+    "DST offset 1. Jul 2013":6.0,
+    "rawOffset (independant of DST)":6.0
+  },
+  {
+    "CountryCode":"TL",
+    "TimeZoneId":"Asia/Dili",
+    "GMT offset 1. Jan 2013":9.0,
+    "DST offset 1. Jul 2013":9.0,
+    "rawOffset (independant of DST)":9.0
+  },
+  {
+    "CountryCode":"AE",
+    "TimeZoneId":"Asia/Dubai",
+    "GMT offset 1. Jan 2013":4.0,
+    "DST offset 1. Jul 2013":4.0,
+    "rawOffset (independant of DST)":4.0
+  },
+  {
+    "CountryCode":"TJ",
+    "TimeZoneId":"Asia/Dushanbe",
+    "GMT offset 1. Jan 2013":5.0,
+    "DST offset 1. Jul 2013":5.0,
+    "rawOffset (independant of DST)":5.0
+  },
+  {
+    "CountryCode":"PS",
+    "TimeZoneId":"Asia/Gaza",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"CN",
+    "TimeZoneId":"Asia/Harbin",
+    "GMT offset 1. Jan 2013":8.0,
+    "DST offset 1. Jul 2013":8.0,
+    "rawOffset (independant of DST)":8.0
+  },
+  {
+    "CountryCode":"PS",
+    "TimeZoneId":"Asia/Hebron",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"VN",
+    "TimeZoneId":"Asia/Ho_Chi_Minh",
+    "GMT offset 1. Jan 2013":7.0,
+    "DST offset 1. Jul 2013":7.0,
+    "rawOffset (independant of DST)":7.0
+  },
+  {
+    "CountryCode":"HK",
+    "TimeZoneId":"Asia/Hong_Kong",
+    "GMT offset 1. Jan 2013":8.0,
+    "DST offset 1. Jul 2013":8.0,
+    "rawOffset (independant of DST)":8.0
+  },
+  {
+    "CountryCode":"MN",
+    "TimeZoneId":"Asia/Hovd",
+    "GMT offset 1. Jan 2013":7.0,
+    "DST offset 1. Jul 2013":7.0,
+    "rawOffset (independant of DST)":7.0
+  },
+  {
+    "CountryCode":"RU",
+    "TimeZoneId":"Asia/Irkutsk",
+    "GMT offset 1. Jan 2013":9.0,
+    "DST offset 1. Jul 2013":9.0,
+    "rawOffset (independant of DST)":9.0
+  },
+  {
+    "CountryCode":"ID",
+    "TimeZoneId":"Asia/Jakarta",
+    "GMT offset 1. Jan 2013":7.0,
+    "DST offset 1. Jul 2013":7.0,
+    "rawOffset (independant of DST)":7.0
+  },
+  {
+    "CountryCode":"ID",
+    "TimeZoneId":"Asia/Jayapura",
+    "GMT offset 1. Jan 2013":9.0,
+    "DST offset 1. Jul 2013":9.0,
+    "rawOffset (independant of DST)":9.0
+  },
+  {
+    "CountryCode":"IL",
+    "TimeZoneId":"Asia/Jerusalem",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"AF",
+    "TimeZoneId":"Asia/Kabul",
+    "GMT offset 1. Jan 2013":4.5,
+    "DST offset 1. Jul 2013":4.5,
+    "rawOffset (independant of DST)":4.5
+  },
+  {
+    "CountryCode":"RU",
+    "TimeZoneId":"Asia/Kamchatka",
+    "GMT offset 1. Jan 2013":12.0,
+    "DST offset 1. Jul 2013":12.0,
+    "rawOffset (independant of DST)":12.0
+  },
+  {
+    "CountryCode":"PK",
+    "TimeZoneId":"Asia/Karachi",
+    "GMT offset 1. Jan 2013":5.0,
+    "DST offset 1. Jul 2013":5.0,
+    "rawOffset (independant of DST)":5.0
+  },
+  {
+    "CountryCode":"CN",
+    "TimeZoneId":"Asia/Kashgar",
+    "GMT offset 1. Jan 2013":8.0,
+    "DST offset 1. Jul 2013":8.0,
+    "rawOffset (independant of DST)":8.0
+  },
+  {
+    "CountryCode":"NP",
+    "TimeZoneId":"Asia/Kathmandu",
+    "GMT offset 1. Jan 2013":5.75,
+    "DST offset 1. Jul 2013":5.75,
+    "rawOffset (independant of DST)":5.75
+  },
+  {
+    "CountryCode":"RU",
+    "TimeZoneId":"Asia/Khandyga",
+    "GMT offset 1. Jan 2013":10.0,
+    "DST offset 1. Jul 2013":10.0,
+    "rawOffset (independant of DST)":10.0
+  },
+  {
+    "CountryCode":"IN",
+    "TimeZoneId":"Asia/Kolkata",
+    "GMT offset 1. Jan 2013":5.5,
+    "DST offset 1. Jul 2013":5.5,
+    "rawOffset (independant of DST)":5.5
+  },
+  {
+    "CountryCode":"RU",
+    "TimeZoneId":"Asia/Krasnoyarsk",
+    "GMT offset 1. Jan 2013":8.0,
+    "DST offset 1. Jul 2013":8.0,
+    "rawOffset (independant of DST)":8.0
+  },
+  {
+    "CountryCode":"MY",
+    "TimeZoneId":"Asia/Kuala_Lumpur",
+    "GMT offset 1. Jan 2013":8.0,
+    "DST offset 1. Jul 2013":8.0,
+    "rawOffset (independant of DST)":8.0
+  },
+  {
+    "CountryCode":"MY",
+    "TimeZoneId":"Asia/Kuching",
+    "GMT offset 1. Jan 2013":8.0,
+    "DST offset 1. Jul 2013":8.0,
+    "rawOffset (independant of DST)":8.0
+  },
+  {
+    "CountryCode":"KW",
+    "TimeZoneId":"Asia/Kuwait",
+    "GMT offset 1. Jan 2013":3.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":3.0
+  },
+  {
+    "CountryCode":"MO",
+    "TimeZoneId":"Asia/Macau",
+    "GMT offset 1. Jan 2013":8.0,
+    "DST offset 1. Jul 2013":8.0,
+    "rawOffset (independant of DST)":8.0
+  },
+  {
+    "CountryCode":"RU",
+    "TimeZoneId":"Asia/Magadan",
+    "GMT offset 1. Jan 2013":12.0,
+    "DST offset 1. Jul 2013":12.0,
+    "rawOffset (independant of DST)":12.0
+  },
+  {
+    "CountryCode":"ID",
+    "TimeZoneId":"Asia/Makassar",
+    "GMT offset 1. Jan 2013":8.0,
+    "DST offset 1. Jul 2013":8.0,
+    "rawOffset (independant of DST)":8.0
+  },
+  {
+    "CountryCode":"PH",
+    "TimeZoneId":"Asia/Manila",
+    "GMT offset 1. Jan 2013":8.0,
+    "DST offset 1. Jul 2013":8.0,
+    "rawOffset (independant of DST)":8.0
+  },
+  {
+    "CountryCode":"OM",
+    "TimeZoneId":"Asia/Muscat",
+    "GMT offset 1. Jan 2013":4.0,
+    "DST offset 1. Jul 2013":4.0,
+    "rawOffset (independant of DST)":4.0
+  },
+  {
+    "CountryCode":"CY",
+    "TimeZoneId":"Asia/Nicosia",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"RU",
+    "TimeZoneId":"Asia/Novokuznetsk",
+    "GMT offset 1. Jan 2013":7.0,
+    "DST offset 1. Jul 2013":7.0,
+    "rawOffset (independant of DST)":7.0
+  },
+  {
+    "CountryCode":"RU",
+    "TimeZoneId":"Asia/Novosibirsk",
+    "GMT offset 1. Jan 2013":7.0,
+    "DST offset 1. Jul 2013":7.0,
+    "rawOffset (independant of DST)":7.0
+  },
+  {
+    "CountryCode":"RU",
+    "TimeZoneId":"Asia/Omsk",
+    "GMT offset 1. Jan 2013":7.0,
+    "DST offset 1. Jul 2013":7.0,
+    "rawOffset (independant of DST)":7.0
+  },
+  {
+    "CountryCode":"KZ",
+    "TimeZoneId":"Asia/Oral",
+    "GMT offset 1. Jan 2013":5.0,
+    "DST offset 1. Jul 2013":5.0,
+    "rawOffset (independant of DST)":5.0
+  },
+  {
+    "CountryCode":"KH",
+    "TimeZoneId":"Asia/Phnom_Penh",
+    "GMT offset 1. Jan 2013":7.0,
+    "DST offset 1. Jul 2013":7.0,
+    "rawOffset (independant of DST)":7.0
+  },
+  {
+    "CountryCode":"ID",
+    "TimeZoneId":"Asia/Pontianak",
+    "GMT offset 1. Jan 2013":7.0,
+    "DST offset 1. Jul 2013":7.0,
+    "rawOffset (independant of DST)":7.0
+  },
+  {
+    "CountryCode":"KP",
+    "TimeZoneId":"Asia/Pyongyang",
+    "GMT offset 1. Jan 2013":9.0,
+    "DST offset 1. Jul 2013":9.0,
+    "rawOffset (independant of DST)":9.0
+  },
+  {
+    "CountryCode":"QA",
+    "TimeZoneId":"Asia/Qatar",
+    "GMT offset 1. Jan 2013":3.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":3.0
+  },
+  {
+    "CountryCode":"KZ",
+    "TimeZoneId":"Asia/Qyzylorda",
+    "GMT offset 1. Jan 2013":6.0,
+    "DST offset 1. Jul 2013":6.0,
+    "rawOffset (independant of DST)":6.0
+  },
+  {
+    "CountryCode":"MM",
+    "TimeZoneId":"Asia/Rangoon",
+    "GMT offset 1. Jan 2013":6.5,
+    "DST offset 1. Jul 2013":6.5,
+    "rawOffset (independant of DST)":6.5
+  },
+  {
+    "CountryCode":"SA",
+    "TimeZoneId":"Asia/Riyadh",
+    "GMT offset 1. Jan 2013":3.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":3.0
+  },
+  {
+    "CountryCode":"RU",
+    "TimeZoneId":"Asia/Sakhalin",
+    "GMT offset 1. Jan 2013":11.0,
+    "DST offset 1. Jul 2013":11.0,
+    "rawOffset (independant of DST)":11.0
+  },
+  {
+    "CountryCode":"UZ",
+    "TimeZoneId":"Asia/Samarkand",
+    "GMT offset 1. Jan 2013":5.0,
+    "DST offset 1. Jul 2013":5.0,
+    "rawOffset (independant of DST)":5.0
+  },
+  {
+    "CountryCode":"KR",
+    "TimeZoneId":"Asia/Seoul",
+    "GMT offset 1. Jan 2013":9.0,
+    "DST offset 1. Jul 2013":9.0,
+    "rawOffset (independant of DST)":9.0
+  },
+  {
+    "CountryCode":"CN",
+    "TimeZoneId":"Asia/Shanghai",
+    "GMT offset 1. Jan 2013":8.0,
+    "DST offset 1. Jul 2013":8.0,
+    "rawOffset (independant of DST)":8.0
+  },
+  {
+    "CountryCode":"SG",
+    "TimeZoneId":"Asia/Singapore",
+    "GMT offset 1. Jan 2013":8.0,
+    "DST offset 1. Jul 2013":8.0,
+    "rawOffset (independant of DST)":8.0
+  },
+  {
+    "CountryCode":"TW",
+    "TimeZoneId":"Asia/Taipei",
+    "GMT offset 1. Jan 2013":8.0,
+    "DST offset 1. Jul 2013":8.0,
+    "rawOffset (independant of DST)":8.0
+  },
+  {
+    "CountryCode":"UZ",
+    "TimeZoneId":"Asia/Tashkent",
+    "GMT offset 1. Jan 2013":5.0,
+    "DST offset 1. Jul 2013":5.0,
+    "rawOffset (independant of DST)":5.0
+  },
+  {
+    "CountryCode":"GE",
+    "TimeZoneId":"Asia/Tbilisi",
+    "GMT offset 1. Jan 2013":4.0,
+    "DST offset 1. Jul 2013":4.0,
+    "rawOffset (independant of DST)":4.0
+  },
+  {
+    "CountryCode":"IR",
+    "TimeZoneId":"Asia/Tehran",
+    "GMT offset 1. Jan 2013":3.5,
+    "DST offset 1. Jul 2013":4.5,
+    "rawOffset (independant of DST)":3.5
+  },
+  {
+    "CountryCode":"BT",
+    "TimeZoneId":"Asia/Thimphu",
+    "GMT offset 1. Jan 2013":6.0,
+    "DST offset 1. Jul 2013":6.0,
+    "rawOffset (independant of DST)":6.0
+  },
+  {
+    "CountryCode":"JP",
+    "TimeZoneId":"Asia/Tokyo",
+    "GMT offset 1. Jan 2013":9.0,
+    "DST offset 1. Jul 2013":9.0,
+    "rawOffset (independant of DST)":9.0
+  },
+  {
+    "CountryCode":"MN",
+    "TimeZoneId":"Asia/Ulaanbaatar",
+    "GMT offset 1. Jan 2013":8.0,
+    "DST offset 1. Jul 2013":8.0,
+    "rawOffset (independant of DST)":8.0
+  },
+  {
+    "CountryCode":"CN",
+    "TimeZoneId":"Asia/Urumqi",
+    "GMT offset 1. Jan 2013":8.0,
+    "DST offset 1. Jul 2013":8.0,
+    "rawOffset (independant of DST)":8.0
+  },
+  {
+    "CountryCode":"RU",
+    "TimeZoneId":"Asia/Ust-Nera",
+    "GMT offset 1. Jan 2013":11.0,
+    "DST offset 1. Jul 2013":11.0,
+    "rawOffset (independant of DST)":11.0
+  },
+  {
+    "CountryCode":"LA",
+    "TimeZoneId":"Asia/Vientiane",
+    "GMT offset 1. Jan 2013":7.0,
+    "DST offset 1. Jul 2013":7.0,
+    "rawOffset (independant of DST)":7.0
+  },
+  {
+    "CountryCode":"RU",
+    "TimeZoneId":"Asia/Vladivostok",
+    "GMT offset 1. Jan 2013":11.0,
+    "DST offset 1. Jul 2013":11.0,
+    "rawOffset (independant of DST)":11.0
+  },
+  {
+    "CountryCode":"RU",
+    "TimeZoneId":"Asia/Yakutsk",
+    "GMT offset 1. Jan 2013":10.0,
+    "DST offset 1. Jul 2013":10.0,
+    "rawOffset (independant of DST)":10.0
+  },
+  {
+    "CountryCode":"RU",
+    "TimeZoneId":"Asia/Yekaterinburg",
+    "GMT offset 1. Jan 2013":6.0,
+    "DST offset 1. Jul 2013":6.0,
+    "rawOffset (independant of DST)":6.0
+  },
+  {
+    "CountryCode":"AM",
+    "TimeZoneId":"Asia/Yerevan",
+    "GMT offset 1. Jan 2013":4.0,
+    "DST offset 1. Jul 2013":4.0,
+    "rawOffset (independant of DST)":4.0
+  },
+  {
+    "CountryCode":"PT",
+    "TimeZoneId":"Atlantic/Azores",
+    "GMT offset 1. Jan 2013":-1.0,
+    "DST offset 1. Jul 2013":0.0,
+    "rawOffset (independant of DST)":-1.0
+  },
+  {
+    "CountryCode":"BM",
+    "TimeZoneId":"Atlantic/Bermuda",
+    "GMT offset 1. Jan 2013":-4.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-4.0
+  },
+  {
+    "CountryCode":"ES",
+    "TimeZoneId":"Atlantic/Canary",
+    "GMT offset 1. Jan 2013":0.0,
+    "DST offset 1. Jul 2013":1.0,
+    "rawOffset (independant of DST)":0.0
+  },
+  {
+    "CountryCode":"CV",
+    "TimeZoneId":"Atlantic/Cape_Verde",
+    "GMT offset 1. Jan 2013":-1.0,
+    "DST offset 1. Jul 2013":-1.0,
+    "rawOffset (independant of DST)":-1.0
+  },
+  {
+    "CountryCode":"FO",
+    "TimeZoneId":"Atlantic/Faroe",
+    "GMT offset 1. Jan 2013":0.0,
+    "DST offset 1. Jul 2013":1.0,
+    "rawOffset (independant of DST)":0.0
+  },
+  {
+    "CountryCode":"PT",
+    "TimeZoneId":"Atlantic/Madeira",
+    "GMT offset 1. Jan 2013":0.0,
+    "DST offset 1. Jul 2013":1.0,
+    "rawOffset (independant of DST)":0.0
+  },
+  {
+    "CountryCode":"IS",
+    "TimeZoneId":"Atlantic/Reykjavik",
+    "GMT offset 1. Jan 2013":0.0,
+    "DST offset 1. Jul 2013":0.0,
+    "rawOffset (independant of DST)":0.0
+  },
+  {
+    "CountryCode":"GS",
+    "TimeZoneId":"Atlantic/South_Georgia",
+    "GMT offset 1. Jan 2013":-2.0,
+    "DST offset 1. Jul 2013":-2.0,
+    "rawOffset (independant of DST)":-2.0
+  },
+  {
+    "CountryCode":"SH",
+    "TimeZoneId":"Atlantic/St_Helena",
+    "GMT offset 1. Jan 2013":0.0,
+    "DST offset 1. Jul 2013":0.0,
+    "rawOffset (independant of DST)":0.0
+  },
+  {
+    "CountryCode":"FK",
+    "TimeZoneId":"Atlantic/Stanley",
+    "GMT offset 1. Jan 2013":-3.0,
+    "DST offset 1. Jul 2013":-3.0,
+    "rawOffset (independant of DST)":-3.0
+  },
+  {
+    "CountryCode":"AU",
+    "TimeZoneId":"Australia/Adelaide",
+    "GMT offset 1. Jan 2013":10.5,
+    "DST offset 1. Jul 2013":9.5,
+    "rawOffset (independant of DST)":9.5
+  },
+  {
+    "CountryCode":"AU",
+    "TimeZoneId":"Australia/Brisbane",
+    "GMT offset 1. Jan 2013":10.0,
+    "DST offset 1. Jul 2013":10.0,
+    "rawOffset (independant of DST)":10.0
+  },
+  {
+    "CountryCode":"AU",
+    "TimeZoneId":"Australia/Broken_Hill",
+    "GMT offset 1. Jan 2013":10.5,
+    "DST offset 1. Jul 2013":9.5,
+    "rawOffset (independant of DST)":9.5
+  },
+  {
+    "CountryCode":"AU",
+    "TimeZoneId":"Australia/Currie",
+    "GMT offset 1. Jan 2013":11.0,
+    "DST offset 1. Jul 2013":10.0,
+    "rawOffset (independant of DST)":10.0
+  },
+  {
+    "CountryCode":"AU",
+    "TimeZoneId":"Australia/Darwin",
+    "GMT offset 1. Jan 2013":9.5,
+    "DST offset 1. Jul 2013":9.5,
+    "rawOffset (independant of DST)":9.5
+  },
+  {
+    "CountryCode":"AU",
+    "TimeZoneId":"Australia/Eucla",
+    "GMT offset 1. Jan 2013":8.75,
+    "DST offset 1. Jul 2013":8.75,
+    "rawOffset (independant of DST)":8.75
+  },
+  {
+    "CountryCode":"AU",
+    "TimeZoneId":"Australia/Hobart",
+    "GMT offset 1. Jan 2013":11.0,
+    "DST offset 1. Jul 2013":10.0,
+    "rawOffset (independant of DST)":10.0
+  },
+  {
+    "CountryCode":"AU",
+    "TimeZoneId":"Australia/Lindeman",
+    "GMT offset 1. Jan 2013":10.0,
+    "DST offset 1. Jul 2013":10.0,
+    "rawOffset (independant of DST)":10.0
+  },
+  {
+    "CountryCode":"AU",
+    "TimeZoneId":"Australia/Lord_Howe",
+    "GMT offset 1. Jan 2013":11.0,
+    "DST offset 1. Jul 2013":10.5,
+    "rawOffset (independant of DST)":10.5
+  },
+  {
+    "CountryCode":"AU",
+    "TimeZoneId":"Australia/Melbourne",
+    "GMT offset 1. Jan 2013":11.0,
+    "DST offset 1. Jul 2013":10.0,
+    "rawOffset (independant of DST)":10.0
+  },
+  {
+    "CountryCode":"AU",
+    "TimeZoneId":"Australia/Perth",
+    "GMT offset 1. Jan 2013":8.0,
+    "DST offset 1. Jul 2013":8.0,
+    "rawOffset (independant of DST)":8.0
+  },
+  {
+    "CountryCode":"AU",
+    "TimeZoneId":"Australia/Sydney",
+    "GMT offset 1. Jan 2013":11.0,
+    "DST offset 1. Jul 2013":10.0,
+    "rawOffset (independant of DST)":10.0
+  },
+  {
+    "CountryCode":"NL",
+    "TimeZoneId":"Europe/Amsterdam",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"AD",
+    "TimeZoneId":"Europe/Andorra",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"GR",
+    "TimeZoneId":"Europe/Athens",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"RS",
+    "TimeZoneId":"Europe/Belgrade",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"DE",
+    "TimeZoneId":"Europe/Berlin",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"SK",
+    "TimeZoneId":"Europe/Bratislava",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"BE",
+    "TimeZoneId":"Europe/Brussels",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"RO",
+    "TimeZoneId":"Europe/Bucharest",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"HU",
+    "TimeZoneId":"Europe/Budapest",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"DE",
+    "TimeZoneId":"Europe/Busingen",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"MD",
+    "TimeZoneId":"Europe/Chisinau",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"DK",
+    "TimeZoneId":"Europe/Copenhagen",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"IE",
+    "TimeZoneId":"Europe/Dublin",
+    "GMT offset 1. Jan 2013":0.0,
+    "DST offset 1. Jul 2013":1.0,
+    "rawOffset (independant of DST)":0.0
+  },
+  {
+    "CountryCode":"GI",
+    "TimeZoneId":"Europe/Gibraltar",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"GG",
+    "TimeZoneId":"Europe/Guernsey",
+    "GMT offset 1. Jan 2013":0.0,
+    "DST offset 1. Jul 2013":1.0,
+    "rawOffset (independant of DST)":0.0
+  },
+  {
+    "CountryCode":"FI",
+    "TimeZoneId":"Europe/Helsinki",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"IM",
+    "TimeZoneId":"Europe/Isle_of_Man",
+    "GMT offset 1. Jan 2013":0.0,
+    "DST offset 1. Jul 2013":1.0,
+    "rawOffset (independant of DST)":0.0
+  },
+  {
+    "CountryCode":"TR",
+    "TimeZoneId":"Europe/Istanbul",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"JE",
+    "TimeZoneId":"Europe/Jersey",
+    "GMT offset 1. Jan 2013":0.0,
+    "DST offset 1. Jul 2013":1.0,
+    "rawOffset (independant of DST)":0.0
+  },
+  {
+    "CountryCode":"RU",
+    "TimeZoneId":"Europe/Kaliningrad",
+    "GMT offset 1. Jan 2013":3.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":3.0
+  },
+  {
+    "CountryCode":"UA",
+    "TimeZoneId":"Europe/Kiev",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"PT",
+    "TimeZoneId":"Europe/Lisbon",
+    "GMT offset 1. Jan 2013":0.0,
+    "DST offset 1. Jul 2013":1.0,
+    "rawOffset (independant of DST)":0.0
+  },
+  {
+    "CountryCode":"SI",
+    "TimeZoneId":"Europe/Ljubljana",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"GB",
+    "TimeZoneId":"Europe/London",
+    "GMT offset 1. Jan 2013":0.0,
+    "DST offset 1. Jul 2013":1.0,
+    "rawOffset (independant of DST)":0.0
+  },
+  {
+    "CountryCode":"LU",
+    "TimeZoneId":"Europe/Luxembourg",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"ES",
+    "TimeZoneId":"Europe/Madrid",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"MT",
+    "TimeZoneId":"Europe/Malta",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"AX",
+    "TimeZoneId":"Europe/Mariehamn",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"BY",
+    "TimeZoneId":"Europe/Minsk",
+    "GMT offset 1. Jan 2013":3.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":3.0
+  },
+  {
+    "CountryCode":"MC",
+    "TimeZoneId":"Europe/Monaco",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"RU",
+    "TimeZoneId":"Europe/Moscow",
+    "GMT offset 1. Jan 2013":4.0,
+    "DST offset 1. Jul 2013":4.0,
+    "rawOffset (independant of DST)":4.0
+  },
+  {
+    "CountryCode":"NO",
+    "TimeZoneId":"Europe/Oslo",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"FR",
+    "TimeZoneId":"Europe/Paris",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"ME",
+    "TimeZoneId":"Europe/Podgorica",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"CZ",
+    "TimeZoneId":"Europe/Prague",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"LV",
+    "TimeZoneId":"Europe/Riga",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"IT",
+    "TimeZoneId":"Europe/Rome",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"RU",
+    "TimeZoneId":"Europe/Samara",
+    "GMT offset 1. Jan 2013":4.0,
+    "DST offset 1. Jul 2013":4.0,
+    "rawOffset (independant of DST)":4.0
+  },
+  {
+    "CountryCode":"SM",
+    "TimeZoneId":"Europe/San_Marino",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"BA",
+    "TimeZoneId":"Europe/Sarajevo",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"UA",
+    "TimeZoneId":"Europe/Simferopol",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"MK",
+    "TimeZoneId":"Europe/Skopje",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"BG",
+    "TimeZoneId":"Europe/Sofia",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"SE",
+    "TimeZoneId":"Europe/Stockholm",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"EE",
+    "TimeZoneId":"Europe/Tallinn",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"AL",
+    "TimeZoneId":"Europe/Tirane",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"UA",
+    "TimeZoneId":"Europe/Uzhgorod",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"LI",
+    "TimeZoneId":"Europe/Vaduz",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"VA",
+    "TimeZoneId":"Europe/Vatican",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"AT",
+    "TimeZoneId":"Europe/Vienna",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"LT",
+    "TimeZoneId":"Europe/Vilnius",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"RU",
+    "TimeZoneId":"Europe/Volgograd",
+    "GMT offset 1. Jan 2013":4.0,
+    "DST offset 1. Jul 2013":4.0,
+    "rawOffset (independant of DST)":4.0
+  },
+  {
+    "CountryCode":"PL",
+    "TimeZoneId":"Europe/Warsaw",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"HR",
+    "TimeZoneId":"Europe/Zagreb",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"UA",
+    "TimeZoneId":"Europe/Zaporozhye",
+    "GMT offset 1. Jan 2013":2.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":2.0
+  },
+  {
+    "CountryCode":"CH",
+    "TimeZoneId":"Europe/Zurich",
+    "GMT offset 1. Jan 2013":1.0,
+    "DST offset 1. Jul 2013":2.0,
+    "rawOffset (independant of DST)":1.0
+  },
+  {
+    "CountryCode":"MG",
+    "TimeZoneId":"Indian/Antananarivo",
+    "GMT offset 1. Jan 2013":3.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":3.0
+  },
+  {
+    "CountryCode":"IO",
+    "TimeZoneId":"Indian/Chagos",
+    "GMT offset 1. Jan 2013":6.0,
+    "DST offset 1. Jul 2013":6.0,
+    "rawOffset (independant of DST)":6.0
+  },
+  {
+    "CountryCode":"CX",
+    "TimeZoneId":"Indian/Christmas",
+    "GMT offset 1. Jan 2013":7.0,
+    "DST offset 1. Jul 2013":7.0,
+    "rawOffset (independant of DST)":7.0
+  },
+  {
+    "CountryCode":"CC",
+    "TimeZoneId":"Indian/Cocos",
+    "GMT offset 1. Jan 2013":6.5,
+    "DST offset 1. Jul 2013":6.5,
+    "rawOffset (independant of DST)":6.5
+  },
+  {
+    "CountryCode":"KM",
+    "TimeZoneId":"Indian/Comoro",
+    "GMT offset 1. Jan 2013":3.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":3.0
+  },
+  {
+    "CountryCode":"TF",
+    "TimeZoneId":"Indian/Kerguelen",
+    "GMT offset 1. Jan 2013":5.0,
+    "DST offset 1. Jul 2013":5.0,
+    "rawOffset (independant of DST)":5.0
+  },
+  {
+    "CountryCode":"SC",
+    "TimeZoneId":"Indian/Mahe",
+    "GMT offset 1. Jan 2013":4.0,
+    "DST offset 1. Jul 2013":4.0,
+    "rawOffset (independant of DST)":4.0
+  },
+  {
+    "CountryCode":"MV",
+    "TimeZoneId":"Indian/Maldives",
+    "GMT offset 1. Jan 2013":5.0,
+    "DST offset 1. Jul 2013":5.0,
+    "rawOffset (independant of DST)":5.0
+  },
+  {
+    "CountryCode":"MU",
+    "TimeZoneId":"Indian/Mauritius",
+    "GMT offset 1. Jan 2013":4.0,
+    "DST offset 1. Jul 2013":4.0,
+    "rawOffset (independant of DST)":4.0
+  },
+  {
+    "CountryCode":"YT",
+    "TimeZoneId":"Indian/Mayotte",
+    "GMT offset 1. Jan 2013":3.0,
+    "DST offset 1. Jul 2013":3.0,
+    "rawOffset (independant of DST)":3.0
+  },
+  {
+    "CountryCode":"RE",
+    "TimeZoneId":"Indian/Reunion",
+    "GMT offset 1. Jan 2013":4.0,
+    "DST offset 1. Jul 2013":4.0,
+    "rawOffset (independant of DST)":4.0
+  },
+  {
+    "CountryCode":"WS",
+    "TimeZoneId":"Pacific/Apia",
+    "GMT offset 1. Jan 2013":14.0,
+    "DST offset 1. Jul 2013":13.0,
+    "rawOffset (independant of DST)":13.0
+  },
+  {
+    "CountryCode":"NZ",
+    "TimeZoneId":"Pacific/Auckland",
+    "GMT offset 1. Jan 2013":13.0,
+    "DST offset 1. Jul 2013":12.0,
+    "rawOffset (independant of DST)":12.0
+  },
+  {
+    "CountryCode":"NZ",
+    "TimeZoneId":"Pacific/Chatham",
+    "GMT offset 1. Jan 2013":13.75,
+    "DST offset 1. Jul 2013":12.75,
+    "rawOffset (independant of DST)":12.75
+  },
+  {
+    "CountryCode":"FM",
+    "TimeZoneId":"Pacific/Chuuk",
+    "GMT offset 1. Jan 2013":10.0,
+    "DST offset 1. Jul 2013":10.0,
+    "rawOffset (independant of DST)":10.0
+  },
+  {
+    "CountryCode":"CL",
+    "TimeZoneId":"Pacific/Easter",
+    "GMT offset 1. Jan 2013":-5.0,
+    "DST offset 1. Jul 2013":-6.0,
+    "rawOffset (independant of DST)":-6.0
+  },
+  {
+    "CountryCode":"VU",
+    "TimeZoneId":"Pacific/Efate",
+    "GMT offset 1. Jan 2013":11.0,
+    "DST offset 1. Jul 2013":11.0,
+    "rawOffset (independant of DST)":11.0
+  },
+  {
+    "CountryCode":"KI",
+    "TimeZoneId":"Pacific/Enderbury",
+    "GMT offset 1. Jan 2013":13.0,
+    "DST offset 1. Jul 2013":13.0,
+    "rawOffset (independant of DST)":13.0
+  },
+  {
+    "CountryCode":"TK",
+    "TimeZoneId":"Pacific/Fakaofo",
+    "GMT offset 1. Jan 2013":13.0,
+    "DST offset 1. Jul 2013":13.0,
+    "rawOffset (independant of DST)":13.0
+  },
+  {
+    "CountryCode":"FJ",
+    "TimeZoneId":"Pacific/Fiji",
+    "GMT offset 1. Jan 2013":13.0,
+    "DST offset 1. Jul 2013":12.0,
+    "rawOffset (independant of DST)":12.0
+  },
+  {
+    "CountryCode":"TV",
+    "TimeZoneId":"Pacific/Funafuti",
+    "GMT offset 1. Jan 2013":12.0,
+    "DST offset 1. Jul 2013":12.0,
+    "rawOffset (independant of DST)":12.0
+  },
+  {
+    "CountryCode":"EC",
+    "TimeZoneId":"Pacific/Galapagos",
+    "GMT offset 1. Jan 2013":-6.0,
+    "DST offset 1. Jul 2013":-6.0,
+    "rawOffset (independant of DST)":-6.0
+  },
+  {
+    "CountryCode":"PF",
+    "TimeZoneId":"Pacific/Gambier",
+    "GMT offset 1. Jan 2013":-9.0,
+    "DST offset 1. Jul 2013":-9.0,
+    "rawOffset (independant of DST)":-9.0
+  },
+  {
+    "CountryCode":"SB",
+    "TimeZoneId":"Pacific/Guadalcanal",
+    "GMT offset 1. Jan 2013":11.0,
+    "DST offset 1. Jul 2013":11.0,
+    "rawOffset (independant of DST)":11.0
+  },
+  {
+    "CountryCode":"GU",
+    "TimeZoneId":"Pacific/Guam",
+    "GMT offset 1. Jan 2013":10.0,
+    "DST offset 1. Jul 2013":10.0,
+    "rawOffset (independant of DST)":10.0
+  },
+  {
+    "CountryCode":"US",
+    "TimeZoneId":"Pacific/Honolulu",
+    "GMT offset 1. Jan 2013":-10.0,
+    "DST offset 1. Jul 2013":-10.0,
+    "rawOffset (independant of DST)":-10.0
+  },
+  {
+    "CountryCode":"UM",
+    "TimeZoneId":"Pacific/Johnston",
+    "GMT offset 1. Jan 2013":-10.0,
+    "DST offset 1. Jul 2013":-10.0,
+    "rawOffset (independant of DST)":-10.0
+  },
+  {
+    "CountryCode":"KI",
+    "TimeZoneId":"Pacific/Kiritimati",
+    "GMT offset 1. Jan 2013":14.0,
+    "DST offset 1. Jul 2013":14.0,
+    "rawOffset (independant of DST)":14.0
+  },
+  {
+    "CountryCode":"FM",
+    "TimeZoneId":"Pacific/Kosrae",
+    "GMT offset 1. Jan 2013":11.0,
+    "DST offset 1. Jul 2013":11.0,
+    "rawOffset (independant of DST)":11.0
+  },
+  {
+    "CountryCode":"MH",
+    "TimeZoneId":"Pacific/Kwajalein",
+    "GMT offset 1. Jan 2013":12.0,
+    "DST offset 1. Jul 2013":12.0,
+    "rawOffset (independant of DST)":12.0
+  },
+  {
+    "CountryCode":"MH",
+    "TimeZoneId":"Pacific/Majuro",
+    "GMT offset 1. Jan 2013":12.0,
+    "DST offset 1. Jul 2013":12.0,
+    "rawOffset (independant of DST)":12.0
+  },
+  {
+    "CountryCode":"PF",
+    "TimeZoneId":"Pacific/Marquesas",
+    "GMT offset 1. Jan 2013":-9.5,
+    "DST offset 1. Jul 2013":-9.5,
+    "rawOffset (independant of DST)":-9.5
+  },
+  {
+    "CountryCode":"UM",
+    "TimeZoneId":"Pacific/Midway",
+    "GMT offset 1. Jan 2013":-11.0,
+    "DST offset 1. Jul 2013":-11.0,
+    "rawOffset (independant of DST)":-11.0
+  },
+  {
+    "CountryCode":"NR",
+    "TimeZoneId":"Pacific/Nauru",
+    "GMT offset 1. Jan 2013":12.0,
+    "DST offset 1. Jul 2013":12.0,
+    "rawOffset (independant of DST)":12.0
+  },
+  {
+    "CountryCode":"NU",
+    "TimeZoneId":"Pacific/Niue",
+    "GMT offset 1. Jan 2013":-11.0,
+    "DST offset 1. Jul 2013":-11.0,
+    "rawOffset (independant of DST)":-11.0
+  },
+  {
+    "CountryCode":"NF",
+    "TimeZoneId":"Pacific/Norfolk",
+    "GMT offset 1. Jan 2013":11.5,
+    "DST offset 1. Jul 2013":11.5,
+    "rawOffset (independant of DST)":11.5
+  },
+  {
+    "CountryCode":"NC",
+    "TimeZoneId":"Pacific/Noumea",
+    "GMT offset 1. Jan 2013":11.0,
+    "DST offset 1. Jul 2013":11.0,
+    "rawOffset (independant of DST)":11.0
+  },
+  {
+    "CountryCode":"AS",
+    "TimeZoneId":"Pacific/Pago_Pago",
+    "GMT offset 1. Jan 2013":-11.0,
+    "DST offset 1. Jul 2013":-11.0,
+    "rawOffset (independant of DST)":-11.0
+  },
+  {
+    "CountryCode":"PW",
+    "TimeZoneId":"Pacific/Palau",
+    "GMT offset 1. Jan 2013":9.0,
+    "DST offset 1. Jul 2013":9.0,
+    "rawOffset (independant of DST)":9.0
+  },
+  {
+    "CountryCode":"PN",
+    "TimeZoneId":"Pacific/Pitcairn",
+    "GMT offset 1. Jan 2013":-8.0,
+    "DST offset 1. Jul 2013":-8.0,
+    "rawOffset (independant of DST)":-8.0
+  },
+  {
+    "CountryCode":"FM",
+    "TimeZoneId":"Pacific/Pohnpei",
+    "GMT offset 1. Jan 2013":11.0,
+    "DST offset 1. Jul 2013":11.0,
+    "rawOffset (independant of DST)":11.0
+  },
+  {
+    "CountryCode":"PG",
+    "TimeZoneId":"Pacific/Port_Moresby",
+    "GMT offset 1. Jan 2013":10.0,
+    "DST offset 1. Jul 2013":10.0,
+    "rawOffset (independant of DST)":10.0
+  },
+  {
+    "CountryCode":"CK",
+    "TimeZoneId":"Pacific/Rarotonga",
+    "GMT offset 1. Jan 2013":-10.0,
+    "DST offset 1. Jul 2013":-10.0,
+    "rawOffset (independant of DST)":-10.0
+  },
+  {
+    "CountryCode":"MP",
+    "TimeZoneId":"Pacific/Saipan",
+    "GMT offset 1. Jan 2013":10.0,
+    "DST offset 1. Jul 2013":10.0,
+    "rawOffset (independant of DST)":10.0
+  },
+  {
+    "CountryCode":"PF",
+    "TimeZoneId":"Pacific/Tahiti",
+    "GMT offset 1. Jan 2013":-10.0,
+    "DST offset 1. Jul 2013":-10.0,
+    "rawOffset (independant of DST)":-10.0
+  },
+  {
+    "CountryCode":"KI",
+    "TimeZoneId":"Pacific/Tarawa",
+    "GMT offset 1. Jan 2013":12.0,
+    "DST offset 1. Jul 2013":12.0,
+    "rawOffset (independant of DST)":12.0
+  },
+  {
+    "CountryCode":"TO",
+    "TimeZoneId":"Pacific/Tongatapu",
+    "GMT offset 1. Jan 2013":13.0,
+    "DST offset 1. Jul 2013":13.0,
+    "rawOffset (independant of DST)":13.0
+  },
+  {
+    "CountryCode":"UM",
+    "TimeZoneId":"Pacific/Wake",
+    "GMT offset 1. Jan 2013":12.0,
+    "DST offset 1. Jul 2013":12.0,
+    "rawOffset (independant of DST)":12.0
+  },
+  {
+    "CountryCode":"WF",
+    "TimeZoneId":"Pacific/Wallis",
+    "GMT offset 1. Jan 2013":12.0,
+    "DST offset 1. Jul 2013":12.0,
+    "rawOffset (independant of DST)":12.0
+  }
+]

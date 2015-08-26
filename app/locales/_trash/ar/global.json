@@ -1,0 +1,30 @@
+{
+    "app":{
+        "name":"",
+        "description":"",
+        "title":""
+    },
+    "strings":{
+        "chosenNoResultsText":"",
+        "forCitizensFrom":""
+    },
+    "units":{
+        "AVSCORE":"",
+        "HOUR":"",
+        "MICRO_M3":"",
+        "PC":"",
+        "RATIO":"",
+        "USD":"",
+        "YR":"",
+        "averageScore":"",
+        "hertz":"",
+        "hours":"",
+        "microgramsPerCubicMetres":"",
+        "percentage":"",
+        "ratio":"",
+        "squareKilometers":"",
+        "usDollar":"",
+        "volt":"",
+        "years":""
+    }
+}

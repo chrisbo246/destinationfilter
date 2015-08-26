@@ -1,0 +1,92 @@
+{
+    "add":{
+        "label":"Add"
+    },
+    "cancel":{
+        "label":"Cancel"
+    },
+    "centerCountry":{
+        "label":"Show on map"
+    },
+    "check":{
+        "label":"Check"
+    },
+    "close":{
+        "label":"Close"
+    },
+    "deleteCookies":{
+        "label":"Delete cookies"
+    },
+    "disableAll":{
+        "label":"Disable all"
+    },
+    "disableSelection":{
+        "label":"Disable selection"
+    },
+    "donate":{
+        "label":"Pay by card"
+    },
+    "enableAll":{
+        "label":"All"
+    },
+    "enableSelection":{
+        "label":"Selection"
+    },
+    "geolocate":{
+        "label":"Detect my position"
+    },
+    "ok":{
+        "label":"OK"
+    },
+    "olAttribution":{
+        "label":"Attributions"
+    },
+    "olFullScreen":{
+        "label":"Toggle full-screen"
+    },
+    "olLayerswitcher":{
+        "label":"Layers"
+    },
+    "olOverviewmap":{
+        "label":"Overview map"
+    },
+    "olRotateReset":{
+        "label":"Rotate reset"
+    },
+    "olScaleLine":{
+        "label":"Scale line"
+    },
+    "olZoomExtent":{
+        "label":"Fit to extent"
+    },
+    "olZoomIn":{
+        "label":"Zoom in"
+    },
+    "olZoomOut":{
+        "label":"Zoom out"
+    },
+    "reset":{
+        "label":"Reset"
+    },
+    "save":{
+        "label":"Save"
+    },
+    "send":{
+        "label":"Send"
+    },
+    "simulate":{
+        "label":"Simulate"
+    },
+    "start":{
+        "label":"Start now"
+    },
+    "stripePanelLabel":{
+      "label":"Send"
+    },
+    "tour":{
+        "label":"Quick tour"
+    },
+    "translate":{
+        "label":"Translate now"
+    }
+}

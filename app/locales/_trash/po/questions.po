@@ -1,0 +1,55 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: node-gettext\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgid "applianceFrequency##info"
+msgstr "Electrical equipment are made by the manufacturer only for a certain frequency and cannot be used on an other frequency! In some cases it is made to be used for both frequencies and in that case specifically mentioned on the type plate: 50/60 Hertz."
+
+msgid "applianceFrequency##title"
+msgstr "Can I use a appliance in 50Hz on a current of 60Hz?"
+
+msgid "askVisa##info"
+msgstr "Visas must be asked in one of the <a href=\"http://embassy.goabroad.com/\" target=\"_blank\">consulates</a> of the <strong>destination country</strong> present in the country you are actually (any country). You can also go to the consulate service of the embassy of the concerned country. But in some cases, visa must be ask before you leave your official country."
+
+msgid "askVisa##title"
+msgstr "Where can I ask a visa?"
+
+msgid "dataSources##info"
+msgstr "<p>Datas come from some popular free datasets like <a href=\"http://www.geonames.org\" target=\"_blank\">geonames.org</a>, <a href=\"http://www.unicode.org\" target=\"_blank\">unicode.org</a>, <a href=\"http://www.worldbank.org\" target=\"_blank\">worldbank.org</a> or <a href=\"http://www.ecb.europa.eu/\" target=\"_blank\">ecb.europa.eu</a>. Send us a link if you know others free datas that can be used in this application.</p>"
+
+msgid "dataSources##title"
+msgstr "Where do you found datas?"
+
+msgid "moreProperties##info"
+msgstr "In fact, it mostly depends on the datas that we can find. Try to get a FREE dataset (CSV, JSON, XML, etc...) or create one by yourself using our model. We will be happy to implement it. But a simple suggestion is always welcome.<br/><a class=\"btn btn-primary btn-xs\" href=\"datas/json/custom/en/model.csv\" target=\"_blank\"><i class=\"glyphicon glyphicon-download\"></i> model.csv</a>"
+
+msgid "moreProperties##title"
+msgstr "Can you add more priorities?"
+
+msgid "resetSettings##info"
+msgstr "You can reset all fields and delete the stored datas by deleting the cookies from the options of your web browser or by using the button below.<br/> <button type=\"button\" class=\"btn btn-primary btn-xs delete-cookies\"> <i class=\"glyphicon glyphicon-trash\"></i> Delete cookies</button>"
+
+msgid "resetSettings##title"
+msgstr "How can I reset settings?"
+
+msgid "saveData##info"
+msgstr "Your configuration is temporary saved in your web browser cookies during 30 days unless you delete them."
+
+msgid "saveData##title"
+msgstr "Is my configuration saved?"
+
+msgid "scoreCalcul##info"
+msgstr "The more the priority is high, the more it give points. If you enable 3 priorities, the first will give 300 points, the second 200 and the third 100. If a priority match partially, it will give only a percentage of the points. For instance, if a country match the first at 100% and the third priority at 50%, it will have a score of (300 * 100%) + (200 * 0%) + (100 * 50%) = 350 points."
+
+msgid "scoreCalcul##title"
+msgstr "How are scores calculated?"
+
+msgid "scoreColor##info"
+msgstr "A score is calculated for each country based on the priorities you have set. The more a country fit your profile, the more it will get points, the more it will be colored, which means it should match your needs."
+
+msgid "scoreColor##title"
+msgstr "What means scores and map colors?"

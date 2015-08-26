@@ -1,0 +1,57 @@
+<div class="container">
+    <!--
+        <div class="page-header clearfix" data-stellar-background-ratio="0.5">
+            <h1 class="pull-left" data-toggle="popover" data-i18n="[data-original-title]sections:faq.info">
+                <span class="glyphicon glyphicon-question-sign"></span>
+                <span data-i18n="sections:faq.title"></span>&nbsp;
+            </h1>
+            <div class="btn-group pull-right">
+                <a data-toggle="modal" href="#question_modal" class="btn btn-primary">
+                <span class="glyphicon glyphicon-envelope"></span>
+                <span data-i18n="help.question.add"></span>
+                </a>
+            </div>
+        </div>
+        -->
+    <div class="row">
+        <div class="col-md-12">
+            <div id="faq_filters" class="form-group">
+                {{#faqView.filters}}
+                <button type="button" class="btn btn-info btn-sm filter" data-filter=".{{.}}" data-i18n="values:faqFilters.{{.}}"></button>
+                {{/faqView.filters}}
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div id="faq_list" class="panel-group">
+                {{#faqView.faq_list}}
+                <div class="panel panel-default mix {{filters}}">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a href="#question_{{order}}" class="accordion-toggle clearfix" data-toggle="collapse" data-parent="#faq_list">
+                            <span data-i18n="questions:{{id}}.title"></span>
+                            <span class="indicator glyphicon glyphicon-chevron-down pull-right"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="question_{{order}}" class="panel-collapse collapse">
+                        <div class="panel-body" data-i18n="[html]questions:{{id}}.info">
+                        </div>
+                    </div>
+                </div>
+                {{/faqView.faq_list}}
+            </div>
+        </div>
+    </div>
+</div>
+<div class="navbar navbar-inverse navbar-fixed-bottom">
+    <ul class="nav navbar-nav navbar-right col-xs-12">
+        <li class="col-xs-12 text-center">
+            <a data-toggle="modal" href="#question_modal" class="btn">
+            <span class="glyphicon glyphicon-envelope"></span><br />
+            <span data-i18n="buttons:add.label"></span>
+            </a>
+        </li>
+    </ul>
+</div>
