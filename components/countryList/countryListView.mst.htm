@@ -1,0 +1,53 @@
+<div class="container">
+  <div class="table-responsive">
+    <table id="country_list" class="table table-striped table-hover -table-condensed">
+      <colgroup>
+        <col class="col-sm-2">
+        <col class="col-sm-8">
+        <col class="col-sm-2">
+      </colgroup>
+      <!--
+      <thead>
+        <tr>
+          <th>Country</th>
+          <th class="text-right">Matching</th>
+        </tr>
+      </thead>
+      -->
+      {{#countries}}
+      <tr>
+        <td class="text-left">
+        </td>
+        <td class="text-center">
+          <a href="#" data-id="{{id}}" data-row="{{row}}" class="a-unstyled" data-toggle="modal" data-placement="top" data-target="#country_details" data-i18n="{{countryName}}">{{countryName}}</a>
+        </td>
+        <td class="text-right">
+        <!--
+        <small>
+          {{#warning}}<i class="glyphicon glyphicon-info-sign text-info" data-toggle="tooltip" data-i18n="[title]country_details.legend.warning"></i>{{/warning}}
+          {{#error}}<i class="glyphicon glyphicon-warning-sign text-warning" data-toggle="tooltip" data-i18n="[title]country_details.legend.error"></i>{{/error}}
+        </small>
+        -->       
+        {{percent}}{{#percent}}%{{/percent}}
+        </td>
+      </tr>
+      {{/countries}}
+    </table>
+  </div>
+  <!--
+  <small>
+    <ul class="list-inline pull-right">
+      <li><i class="glyphicon glyphicon-info-sign text-info"></i> <span data-i18n="country_details.legend.warning"></span></li>
+      <li><i class="glyphicon glyphicon-warning-sign text-warning"></i> <span data-i18n="country_details.legend.error"></span></li>
+    </ul>
+  </small>
+  -->
+  <!--
+  {{^countries}}
+  <div class="alert alert-warning">
+  <h4 data-i18n="results.country_list.alert.title"></h4>
+  <p data-i18n="[html]results.country_list.alert.content"></p>
+  </div>
+  {{/countries}}
+  -->
+</div>

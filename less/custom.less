@@ -1,0 +1,220 @@
+/*
+  Author's custom styles
+
+  IMPORTS
+
+  LAYOUT
+  - Fixed header fixes
+  - Form
+
+  BOOTSTRAP
+  - Laptop only
+  - Layout
+  - Panel
+
+  CUSTOM
+  - Color
+  - Icon
+  - Link
+  - Mask
+  - Text
+
+  STYLE
+  - Sections backgrounds
+  
+*/
+
+
+/* LAYOUT
+   ================================================== */
+
+/* ===[ Fixed header fixes ]=== */
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -60px;
+  visibility: hidden;
+}
+
+/* BOOTSTRAP // After Bootstrap css
+   ================================================== */
+
+body {
+padding-top: 60px;
+padding-bottom: 80px;
+}
+
+.navbar-fixed-bottom {
+margin-top:20px;
+}
+
+/* ===[ Laptop only ]=== */
+
+@media (min-width: 992px) {
+    .affix {
+      position: fixed;
+      top: 50px;
+    }
+
+    .equal-height {  overflow: hidden }
+
+    .equal-height > div {
+      margin-bottom: -99999px;
+      padding-bottom: 99999px;
+    }
+}
+
+/* ===[ Layout ]=== */
+
+.fill {
+height: 100%;
+min-height: 100%;
+}
+
+.affix {  position: relative }
+
+/* ===[ Panel ]=== */
+
+.panel-title a {
+text-decoration: none;
+}
+
+/* ===[ Form ]=== */
+
+.has-addon-feedback .form-control-feedback {
+    position: absolute;   
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+}
+
+/* CUSTOM
+   ================================================== */
+
+/* ===[ Colors ]=== */
+
+.green {  color: #3f0 }
+
+.red {  color: #e00 }
+
+/* ===[ Icons ]=== */
+
+// Icon Sizes
+// -------------------------
+
+@fa-css-prefix: glyphicon;
+@fa-border-color: #eee;
+
+/* makes the font 33% larger relative to the icon container */
+.@{fa-css-prefix}-lg {
+  font-size: (4em / 3);
+  line-height: (3em / 4);
+  vertical-align: -15%;
+}
+.@{fa-css-prefix}-2x { font-size: 2em; }
+.@{fa-css-prefix}-3x { font-size: 3em; }
+.@{fa-css-prefix}-4x { font-size: 4em; }
+.@{fa-css-prefix}-5x { font-size: 5em; }
+
+.@{fa-css-prefix}-border {
+  padding: .2em .25em .15em;
+  border: solid .08em @fa-border-color;
+  border-radius: .1em;
+}
+
+.@{fa-css-prefix} {
+  &.pull-left { margin-right: .3em; }
+  &.pull-right { margin-left: .3em; }
+}
+
+/* ===[ Link ]=== */
+
+a.a-unstyled {
+text-decoration:none;
+}
+
+/* ===[ Text ]=== */
+
+select>option {
+text-decoration:none;
+}
+
+
+/* CUSTOM
+   ================================================== */
+   
+/* ===[ Sections backgrounds ]=== */
+
+/*
+.background-image {
+position:relative;
+height:100%;
+}
+
+.background-image:before,
+.background-image:after {
+content:"";
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+overflow:hidden;
+}
+
+.background-image:before {
+z-index:-2;
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: relative;
+-webkit-background-size: 100%;
+-moz-background-size: 100%;
+-o-background-size: 100%;
+background-size: 100%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+-webkit-filter: saturate(0.1);
+-webkit-filter: blur(5px) saturate(0.1);
+-moz-filter: blur(5px) saturate(0.1);
+-o-filter: blur(5px) saturate(0.1);
+-ms-filter: blur(5px) saturate(0.1);
+filter: blur(5px) saturate(0.1);
+}
+
+.background-image:after{
+z-index:-1;
+background-image:url(../images/background/pixel.png);
+background-repeat:repeat;
+}
+
+[data-anchor="home_jumbotron"].background-image:before {
+background-image: url(../images/background/map.jpg);
+}
+[data-anchor="user_profile"].background-image:before {
+background-image: url(../images/background/user.jpg);
+}
+[data-anchor="enabled_priorities"].background-image:before {
+background-image: url(../images/background/plane.jpg);
+}
+[data-anchor="map_settings"].background-image:before {
+background-image: url(../images/background/destinations.jpg);
+}
+[data-anchor="faq"].background-image:before {
+background-image: url(../images/background/help.jpg);
+}
+[data-anchor="contact"].background-image:before {
+background-image: url(../images/background/contact.jpg);
+}
+
+.background-image {
+background-color: fade(@body-bg, 60%);
+}
+
+.background-image .jumbotron {
+background-color: fade(@jumbotron-bg, 50%);
+}
+*/

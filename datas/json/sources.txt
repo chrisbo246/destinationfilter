@@ -1,0 +1,10 @@
+
+http://api.worldbank.org/v2/datacatalog?format=json
+http://api.worldbank.org/country?per_page=100&format=json
+http://api.worldbank.org/countries/indicators/1.2_ACCESS.ELECTRICITY.RURAL?per_page=100&date=2013:2014&format=json
+
+http://cldr.unicode.org/index/downloads
+
+http://stats.oecd.org/Index.aspx?DataSetCode=BLI
+
+http://themoneyconverter.com/rss-feed/EUR/rss.xml
