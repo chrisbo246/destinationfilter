@@ -37,7 +37,7 @@ module.exports = function (grunt) {
         tasks: ['wiredep']
       },
       babel: {
-        files: ['<%= config.app %>/scripts/{,*/}*.js'],
+        files: ['<%= config.app %>/scripts/{,*/}*.js', '<%= config.app %>/locales/{,*/}*.json'],
         tasks: ['babel:dist']
       },
       babelTest: {
@@ -56,7 +56,7 @@ module.exports = function (grunt) {
         tasks: ['newer:copy:styles', 'postcss']
       },
       assemble: {
-        files: ['<%= config.app %>/{content,data,templates}/{,*/}*.{md,hbs,yml}', '<%= config.app %>/modules/{,*/}*.{htm,hbs,json}'],
+        files: ['<%= config.app %>/{content,data,templates}/{,*/}*.{md,hbs,yml,htm}', '<%= config.app %>/modules/{,*/}*.{htm,hbs,json}'],
         tasks: ['assemble']
       }
     },
@@ -217,8 +217,24 @@ module.exports = function (grunt) {
     // Automatically inject Bower components into the HTML file
     wiredep: {
       app: {
-        src: ['<%= config.app %>/index.html'],
-        exclude: ['bootstrap.js'],
+        //src: ['<%= config.app %>/index.html'],
+        src: ['<%= config.app %>/templates/layouts/default.hbs'],
+        exclude: [
+            '/bower_components/bootstrap-sass/assets/javascripts/bootstrap.js',
+            '/bower_components/ol3-layerswitcher/src/ol3-layerswitcher.css',
+            '/bower_components/bootstrap/',
+            '/bower_components/d3/',
+            '/bower_components/fastclick/',
+            '/bower_components/jquery-cookie/',
+            '/bower_components/jquery-smooth-scroll/',
+            '/bower_components/jquery-xml2json/',
+            '/bower_components/modernizr/',
+            '/bower_components/moment/',
+            '/bower_components/moment-timezone/',
+            '/bower_components/Numeral-j/',
+            '/bower_components/proj4/',
+            '/bower_components/topojson/'
+        ],
         ignorePath: /^(\.\.\/)*\.\./
       },
       sass: {
@@ -233,7 +249,7 @@ module.exports = function (grunt) {
         src: [
           '<%= config.dist %>/scripts/{,*/}*.js',
           '<%= config.dist %>/styles/{,*/}*.css',
-          '<%= config.dist %>/images/{,*/}*.*',
+          //'<%= config.dist %>/images/{,*/}*.*',
           '<%= config.dist %>/styles/fonts/{,*/}*.*',
           '<%= config.dist %>/*.{ico,png}'
         ]
@@ -299,7 +315,9 @@ module.exports = function (grunt) {
           // true would impact styles with attribute selectors
           removeRedundantAttributes: false,
           useShortDoctype: true,
-          // Custom changes
+          // custom
+          minifyCSS: true,
+          minifyJS: true,
           removeComments: true
         },
         files: [{
@@ -351,7 +369,11 @@ module.exports = function (grunt) {
             '{,*/}*.html',
             'styles/fonts/{,*/}*.*',
             'locales/{,*/}*.json',
-            'data/{,*/}*.*'
+            'data/{,*/}*.*',
+            'modules/{,*/}*.json', //disabledPrioritiesModal.json
+            'modules/{,*/}*.hbs',   //countryListView.hbs
+            'templates/partials/{,*/}*.hbs'
+            //'.htaccess'
           ]
         }, {
           expand: true,
@@ -359,6 +381,13 @@ module.exports = function (grunt) {
           cwd: '.',
           src: 'bower_components/bootstrap-sass/assets/fonts/bootstrap/*',
           dest: '<%= config.dist %>'
+        }, {
+          expand: true,
+          //dot: true,
+          //cwd: '.',
+          flatten: true,
+          src: 'bower_components/world-countries/data/*.svg',
+          dest: '<%= config.dist %>/images/flags/'
         }]
       }
     },
@@ -396,7 +425,7 @@ module.exports = function (grunt) {
         'svgmin'
       ]
     },
-    
+
     assemble: {
         pages: {
             options: {
@@ -404,7 +433,7 @@ module.exports = function (grunt) {
                 assets: '<%= config.dist %>/assets',
                 layout: '<%= config.app %>/templates/layouts/default.hbs',
                 data: ['<%= config.app %>/data/*.{json,yml}', '<%= config.app %>/modules/**/*.{json,yml}'],
-                partials: ['<%= config.app %>/templates/partials/*.{hbs,htm}', '<%= config.app %>/modules/**/*.{hbs,htm}'], 
+                partials: ['<%= config.app %>/templates/partials/*.{hbs,htm}', '<%= config.app %>/modules/**/*.{hbs,htm}'],
                 plugins: ['assemble-contrib-permalinks', 'assemble-contrib-sitemap'],
             },
             files: {
@@ -412,8 +441,53 @@ module.exports = function (grunt) {
                 '<%= config.app %>/': ['<%= config.app %>/templates/pages/*.hbs']
             }
         }
+    },
+
+    'json-minify': {
+        dist: {
+            files: '<%= config.dist %>/**/*.json'
+            /*files: {
+                '<%= config.dist %>/locales/en/translations.json': ['<%= config.app %>/locales/en/*.json'],
+                '<%= config.dist %>/locales/fr/translations.json': ['<%= config.app %>/locales/fr/*.json'],
+                '<%= config.dist %>/data/json/countriesData.json': '<%= config.app %>/data/json/countriesData.json'
+            }*/
+        }
+    },
+    
+    svgstore: {
+        options: {
+            //prefix : 'flag-', // This will prefix each ID 
+            //svg: { // will add and overide the the default xmlns="http://www.w3.org/2000/svg" attribute to the resulting SVG 
+            //    viewBox : '0 0 100 100',
+            //    xmlns: 'http://www.w3.org/2000/svg'
+            //}
+        },
+        flags: {
+            files: {
+                '<%= config.dist %>/images/country-flags.svg': ['bower_components/world-countries/data/*.svg'],
+            }
+        }
+    },
+  
+    removelogging: {
+        dist: {
+            files: ['<%= config.dist %>/scripts/*.js'],          
+            options: {
+                // namespace: 'console',
+                methods: ['log', 'time']
+            }
+        }
+    },
+    
+    bowerRequirejs: {
+        all: {
+            rjsConfig: '<%= config.app %>/scripts/config.js',
+            options: {
+                exclude: ['modernizr', 'bootstrap-sass']
+            }
+        }
     }
-        
+
   });
 
 
@@ -467,7 +541,10 @@ module.exports = function (grunt) {
     'modernizr',
     'filerev',
     'usemin',
-    'htmlmin'
+    'htmlmin',
+    'json-minify:dist',
+    'svgstore:flags'
+    // 'removelogging:dist'
   ]);
 
   grunt.registerTask('default', [

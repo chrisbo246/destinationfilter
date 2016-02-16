@@ -33,37 +33,42 @@
     "test": "grunt assemble"
   },
   "devDependencies": {
-    "autoprefixer-core": "^5.2.1",
+    "assemble": "^0.7.3",
+    "assemble-contrib-permalinks": "*",
+    "assemble-contrib-sitemap": "*",
+    "autoprefixer-core": "^6.0.1",
     "grunt": "^0.4.5",
-    "grunt-babel": "^5.0.0",
+    "grunt-babel": "^6.0.0",
+    "grunt-bower-requirejs": "^2.0.0",
     "grunt-browser-sync": "^2.1.2",
-    "grunt-concurrent": "^1.0.0",
-    "grunt-contrib-clean": "^0.6.0",
+    "grunt-concurrent": "^2.1.0",
+    "grunt-contrib-clean": "^0.7.0",
     "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-connect": "^0.11.2",
     "grunt-contrib-copy": "^0.8.0",
-    "grunt-contrib-cssmin": "^0.12.2",
-    "grunt-contrib-htmlmin": "^0.4.0",
-    "grunt-contrib-imagemin": "^0.9.3",
-    "grunt-contrib-uglify": "^0.8.0",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-htmlmin": "^0.6.0",
+    "grunt-contrib-imagemin": "^1.0.0",
+    "grunt-contrib-uglify": "^0.11.0",
     "grunt-contrib-watch": "^0.6.1",
-    "grunt-eslint": "^16.0.0",
+    "grunt-eslint": "^17.3.1",
     "grunt-filerev": "^2.2.0",
+    "grunt-json-minify": "^0.4.0",
+    "grunt-minjson": "^0.3.0",
     "grunt-mocha": "^0.4.12",
-    "grunt-modernizr": "^0.6.0",
+    "grunt-modernizr": "^1.0.2",
     "grunt-newer": "^1.1.0",
-    "grunt-postcss": "^0.5.3",
+    "grunt-postcss": "^0.7.1",
     "grunt-processhtml": "^0.3.8",
+    "grunt-remove-logging": "^0.2.0",
     "grunt-sass": "^1.0.0",
-    "grunt-svgmin": "^2.0.1",
+    "grunt-svgmin": "^3.1.2",
+    "grunt-svgstore": "^0.5.0",
     "grunt-usemin": "^3.0.0",
     "grunt-wiredep": "^2.0.0",
     "jit-grunt": "^0.9.1",
-    "time-grunt": "^1.1.0",
-    "assemble": "^0.4.42",
-    "grunt-contrib-connect": "^0.8.0",
-    "load-grunt-tasks": "^0.6.0",
-    "assemble-contrib-permalinks": "*",
-    "assemble-contrib-sitemap": "*"
+    "load-grunt-tasks": "^3.4.0",
+    "time-grunt": "^1.1.0"
   },
   "eslintConfig": {
     "env": {
@@ -79,7 +84,7 @@
     }
   },
   "dependencies": {
-    "bootswatch": "^3.3.5",
-    "openlayers": "^3.8.2"
+    "i18next": "^2.0.22",
+    "i18next-xhr-backend": "^0.3.0"
   }
 }

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2015-04-09T22:30:02Z"/>
+
+  <node id="1461575835" lat="49.8935511" lon="10.8887888">
+    <tag k="amenity" v="fountain"/>
+    <tag k="potable" v="yes"/>
+  </node>
+  <node id="1899286943" lat="49.4093935" lon="8.7114074">
+    <tag k="amenity" v="fountain"/>
+    <tag k="name" v="Liselotte-Brunnen"/>
+    <tag k="note" v="zwischen Hausnummer 39 und 41"/>
+    <tag k="potable" v="yes"/>
+    <tag k="source:position" v="HiRes aerial imagery"/>
+  </node>
+  <node id="2199366707" lat="47.5114289" lon="19.0840352">
+    <tag k="amenity" v="fountain"/>
+    <tag k="artist_name" v="Halász Arisztid"/>
+    <tag k="name" v="Bohóc kút"/>
+    <tag k="potable" v="yes"/>
+    <tag k="start_date" v="1983"/>
+    <tag k="tourism" v="artwork"/>
+  </node>
+  <node id="2426945074" lat="37.6723641" lon="-1.6996887">
+    <tag k="amenity" v="fountain"/>
+    <tag k="drinkable" v="yes"/>
+    <tag k="potable" v="yes"/>
+  </node>
+  <node id="2552807521" lat="40.3834978" lon="-8.3775256"/>
+  <node id="2552807523" lat="40.3834571" lon="-8.3775266"/>
+  <node id="2552807525" lat="40.3834571" lon="-8.3774189"/>
+  <node id="2552807527" lat="40.3834963" lon="-8.3774189"/>
+  <way id="248501775">
+    <nd ref="2552807521"/>
+    <nd ref="2552807523"/>
+    <nd ref="2552807525"/>
+    <nd ref="2552807527"/>
+    <nd ref="2552807521"/>
+    <tag k="amenity" v="fountain"/>
+    <tag k="drinkable" v="yes"/>
+    <tag k="natural" v="water"/>
+    <tag k="potable" v="yes"/>
+  </way>
+
+</osm>

@@ -1,0 +1,342 @@
+<div class="container">
+    <!--
+        <div class="clearfix">
+            <h2 class="pull-left" data-toggle="tooltip" data-i18n="[data-original-title]sections:location.info">
+                <span class="glyphicon glyphicon-map-marker"></span>
+                <span data-i18n="sections:location.title"></span>
+            </h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <fieldset>
+                    <div class="form-group">
+                        <div class="checkbox">
+                            <label for="track" class=" control-label" data-toggle="tooltip" data-i18n="[data-original-title]fields:track.info">
+                            <input id="track" type="checkbox" checked/>
+                            <span data-i18n="fields:track.label"></span>
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+                <p data-i18n="fields:or.label"></p>
+                <fieldset>
+                    <div class="form-group">
+                        <button id="geolocate" type="button" class="btn btn-primary btn-lg" data-i18n="fields:geolocate.label"></button>
+                        <button id="simulate" type="button" class="btn btn-default btn-lg hidden" data-i18n="fields:simulate.label"></button>
+                    </div>
+                </fieldset>
+                <p data-i18n="fields:or.label"></p>
+                <form>
+                    <fieldset>
+                        <div class="form-group">
+                            <label for="user_address" class="control-label" data-toggle="tooltip" data-i18n="fields:userAddress.label;[data-original-title]fields:userAddress.info"></label>
+                            <div class="input-group col-sm-12">
+                                <input id="user_address" class="form-control" type="text" placeholder="address, zipcode city, country"/>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="col-md-6 well">
+                <form class="form-horizontal">
+                    <fieldset class="col-md-4">
+                        <legend data-toggle="tooltip" data-placement="bottom" data-i18n="sections:position.title"></legend>
+                        <div class="form-group">
+                            <label class="col-sm-6" data-i18n="fields:longitude.label"></label>
+                            <div class="col-sm-6">
+                                <p id="longitude" class="form-control-static"></p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-6" data-i18n="fields:latitude.label"></label>
+                            <div class="col-sm-6">
+                                <p id="latitude" class="form-control-static"></p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-6" data-i18n="fields:altitude.label"></label>
+                            <div class="col-sm-6">
+                                <p id="altitude" class="form-control-static"></p>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="col-md-4">
+                        <legend data-toggle="tooltip" data-placement="bottom" data-i18n="sections:mobility.title"></legend>
+                        <div class="form-group">
+                            <label class="col-sm-6" data-i18n="fields:speed.label"></label>
+                            <div class="col-sm-6">
+                                <p id="speed" class="form-control-static"></p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-6" data-i18n="fields:heading.label"></label>
+                            <div class="col-sm-6">
+                                <p id="heading" class="form-control-static"></p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-6" data-i18n="fields:delta.label"></label>
+                            <div class="col-sm-6">
+                                <p id="delta" class="form-control-static"></p>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="col-md-4">
+                        <legend data-toggle="tooltip" data-placement="bottom" data-i18n="sections:orientation.title"></legend>
+                        <div class="form-group">
+                            <label for="alpha" class="col-sm-4" data-i18n="fields:alpha.label"></label>
+                            <span id="alpha" class="col-sm-8"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="beta" class="col-sm-4" data-i18n="fields:beta.label"></label>
+                            <span id="beta" class="col-sm-8"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="gamma" class="col-sm-4" data-i18n="fields:gamma.label"></label>
+                            <span id="gamma" class="col-sm-8"></span>
+                        </div>
+                    </fieldset>
+                    <fieldset class="col-md-4">
+                        <legend data-toggle="tooltip" data-placement="bottom" data-i18n="sections:accuracy.title"></legend>
+                        <div class="form-group">
+                            <label class="col-sm-6" data-i18n="fields:accuracy.label"></label>
+                            <div class="col-sm-6">
+                                <p id="accuracy" class="form-control-static"></p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-6" data-i18n="fields:altitudeAccuracy.label"></label>
+                            <div class="col-sm-6">
+                                <p id="altitudeAccuracy" class="form-control-static"></p>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="page-header clearfix" data-stellar-background-ratio="0.5">
+            <h1 class="pull-left">
+                <span class="glyphicon glyphicon-user"></span>
+                <span data-i18n="sections:profile.title"></span>&nbsp;
+            </h1>
+            <div class="btn-group pull-right">
+                <a data-toggle="modal" href="#profile_modal" class="btn btn-primary">
+                <span class="glyphicon glyphicon-new-window"></span>
+                <span data-i18n="user.profile.editProfile"></span>
+                </a>
+            </div>
+        </div>
+        -->
+    <form id="user_profile_form" class="sayt" data-persist="garlic" role="form">
+        <div class="row">
+            <div class="row-same-height row-full-height">
+                <div class="col-md-10 col-md-height col-top">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <fieldset class="form-horizontal location">
+                                <legend data-toggle="tooltip" data-placement="bottom" data-i18n="[data-original-title]sections:origin.info">
+                                    <span data-i18n="sections:origin.title"></span>
+                                </legend>
+                                <div class="form-group">
+                                    <label for="user_country" class="control-label col-sm-4" data-toggle="tooltip" data-i18n="fields:userCountry.label;[data-original-title]fields:userCountry.info"></label>
+                                    <div class="col-sm-8">
+                                        <select id="user_country" name="user_country2" class="chosen-select sort form-control" data-i18n="[placeholder]fields:userCountry.placeholder" >
+                                            {{> countryOptions}}
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="user_citizenships" class="control-label col-sm-4" data-toggle="tooltip" data-i18n="fields:userCitizenships.label;[data-original-title]fields:userCitizenships.info"></label>
+                                    <div class="col-sm-8">
+                                        <select id="user_citizenships" name="user_citizenships" class="chosen-select sort form-control" multiple data-i18n="[placeholder]fields:userCitizenships.placeholder" >
+                                            {{> countryOptions}}
+                                        </select>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <fieldset class="form-horizontal communication">
+                                <legend data-toggle="tooltip" data-placement="bottom" data-i18n="[data-original-title]sections:communicationAbility.info">
+                                    <span data-i18n="sections:communicationAbility.title"></span>
+                                </legend>
+                                <div class="form-group">
+                                    <label for="user_speaking_languages" class="control-label col-sm-4" data-toggle="tooltip" data-i18n="fields:userSpeakingLanguages.label;[data-original-title]fields:userSpeakingLanguages.info"></label>
+                                    <div class="col-sm-8">
+                                        <select id="user_speaking_languages" name="user_speaking_languages" class="chosen-select sort form-control" multiple data-i18n="[placeholder]fields:userSpeakingLanguages.placeholder" >
+                                            {{> languageOptions}}
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="user_reading_languages" class="control-label col-sm-4" data-toggle="tooltip" data-i18n="fields:userReadingLanguages.label;[data-original-title]fields:userReadingLanguages.info"></label>
+                                    <div class="col-sm-8">
+                                        <select id="user_reading_languages" name="user_reading_languages" class="chosen-select sort form-control" multiple data-i18n="[placeholder]fields:userReadingLanguages.placeholder" >
+                                            {{> languageOptions}}
+                                        </select>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <fieldset class="form-horizontal purchasing-power">
+                                <legend data-toggle="tooltip" data-placement="bottom" data-i18n="[data-original-title]sections:purchasingPower.info">
+                                    <span data-i18n="sections:purchasingPower.title"></span>
+                                </legend>
+                                <div class="form-group">
+                                    <label for="user_currencies" class="control-label col-sm-4" data-toggle="tooltip" data-i18n="fields:userCurrencies.label;[data-original-title]fields:userCurrencies.info"></label>
+                                    <div class="col-sm-8">
+                                        <select id="user_currencies" name="user_currencies" class="chosen-select form-control" multiple data-i18n="[placeholder]fields:userCurrencies.placeholder" >
+                                            {{> currencyOptions}}
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="user_income_level" class="control-label col-sm-4" data-toggle="tooltip" data-i18n="fields:userIncomeLevel.label;[data-original-title]fields:userIncomeLevel.info"></label>
+                                    <div class="col-sm-8">
+                                        <div class="input-group">
+                                            <select id="user_income_level" name="user_income_level" class="chosen-select form-control" data-i18n="[placeholder]fields:userIncomeLevel.placeholder" >
+                                                <option value="1045" data-i18n="values:incomeLevels.LIC">Low income</option>
+                                                <option value="4125" data-i18n="values:incomeLevels.LMC">Lower middle income</option>
+                                                <option value="12746" data-i18n="values:incomeLevels.UMC">Upper middle income</option>
+                                                <option value="25000" data-i18n="values:incomeLevels.OEC">High income: OECD</option>
+                                                <!--<option value="25000" data-i18n="values:incomeLevels.NOC">High income: nonOECD</option>-->
+                                            </select>
+                                            <span class="input-group-addon">USD</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="col-md-6 col-md-height col-top">
+                            <fieldset class="form-horizontal habits">
+                                <legend>
+                                    <span data-placement="bottom" data-toggle="tooltip" data-i18n="sections:habits.title;[data-original-title]sections:habits.info"></span>
+                                </legend>
+                                <div class="form-group">
+                                    <label for="user_driving_sides" class="control-label col-sm-4" data-toggle="tooltip" data-i18n="fields:userDrivingSides.label;[data-original-title]fields:userDrivingSides.info"></label>
+                                    <div class="col-sm-8">
+                                        <select id="user_driving_sides" name="user_driving_sides" class="chosen-select form-control" multiple data-i18n="[placeholder]fields:userDrivingSides.placeholder" >
+                                            <option value="right" data-i18n="values:sides.right">Right</option>
+                                            <option value="left" data-i18n="values:sides.left">Left</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="user_measurement_system" class="control-label col-sm-4" data-toggle="tooltip" data-i18n="fields:userMeasurementSystem.label;[data-original-title]fields:userMeasurementSystem.info"></label>
+                                    <div class="col-sm-8">
+                                        <select id="user_measurement_system" name="user_measurement_system" class="chosen-select form-control" multiple data-i18n="[placeholder]fields:userMeasurementSystem.placeholder" >
+                                            <option value="metric" data-i18n="values:measurementSystems.metric">Metric </option>
+                                            <option value="imperial" data-i18n="values:measurementSystems.imperial">Imperial</option>
+                                            <option value="hybrid" data-i18n="values:measurementSystems.hybrid">Hybrid</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="user_first_day_of_week" class="control-label col-sm-4" data-toggle="tooltip" data-i18n="fields:userFirstDayOfWeek.label;[data-original-title]fields:userFirstDayOfWeek.info"></label>
+                                    <div class="col-sm-8">
+                                        <select id="user_first_day_of_week" name="user_first_day_of_week" class="chosen-select form-control" data-i18n="[placeholder]fields:userFirstDayOfWeek.placeholder" >
+                                            <option value="mon" data-i18n="values:days.monday">Monday</option>
+                                            <option value="sun" data-i18n="values:days.sunday">Sunday</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <fieldset class="form-horizontal culture">
+                                <legend data-toggle="tooltip" data-placement="bottom" data-i18n="[data-original-title]sections:culture.info">
+                                    <span data-i18n="sections:culture.title"></span>
+                                </legend>
+                                <div class="form-group">
+                                    <label for="user_religion" class="control-label col-sm-4" data-toggle="tooltip" data-i18n="fields:userReligion.label;[data-original-title]fields:userReligion.info"></label>
+                                    <div class="col-sm-8">
+                                        <select id="user_religion" name="user_religion" class="chosen-select sort form-control" data-i18n="[placeholder]fields:userReligion.placeholder" >
+                                            <option data-i18n="values:religions.empty">&nbsp;</option>
+                                            <option value="christian" data-i18n="values:religions.christian">Christian</option>
+                                            <option value="muslim" data-i18n="values:religions.muslim">Muslim</option>
+                                            <option value="hindu" data-i18n="values:religions.hindu">Hindu</option>
+                                            <option value="buddhist" data-i18n="values:religions.buddhist">Buddhist</option>
+                                            <option value="jewish" data-i18n="values:religions.jewish">Jewish</option>
+                                            <option value="folk" data-i18n="values:religions.folk">Folk Religion</option>
+                                            <option value="other" data-i18n="values:religions.other">Other Religion</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <fieldset class="form-horizontal appliances">
+                            <legend data-toggle="tooltip" data-placement="bottom" data-i18n="[data-original-title]sections:appliances.info">
+                                <span data-i18n="sections:appliances.title"></span>
+                            </legend>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="user_plug_types" class="control-label -col-sm-4" data-toggle="tooltip" data-i18n="fields:userPlugTypes.label;[data-original-title]fields:userPlugTypes.info"></label>
+                                    <div class="-col-sm-8 clearfix">
+                                        <select id="user_plug_types" name="user_plug_types" class="-chosen-select image-picker form-control" multiple="multiple" data-i18n="[placeholder]fields:userPlugTypes.placeholder" >
+                                            <option value="A" data-i18n="values:plugTypes.A" data-img-src="images/plugs_sockets/A_3d_plug_s.png">A</option>
+                                            <option value="B" data-i18n="values:plugTypes.B" data-img-src="images/plugs_sockets/B_3d_plug_s.png">B</option>
+                                            <option value="C" data-i18n="values:plugTypes.C" data-img-src="images/plugs_sockets/C_3d_plug_s.png">C</option>
+                                            <option value="D" data-i18n="values:plugTypes.D" data-img-src="images/plugs_sockets/D_3d_plug_s.png">D</option>
+                                            <option value="E" data-i18n="values:plugTypes.E" data-img-src="images/plugs_sockets/E_3d_plug_s.png">E</option>
+                                            <option value="F" data-i18n="values:plugTypes.F" data-img-src="images/plugs_sockets/F_3d_plug_s.png">F</option>
+                                            <option value="G" data-i18n="values:plugTypes.G" data-img-src="images/plugs_sockets/G_3d_plug_s.png">G</option>
+                                            <option value="H" data-i18n="values:plugTypes.H" data-img-src="images/plugs_sockets/H_3d_plug_s.png">H</option>
+                                            <option value="I" data-i18n="values:plugTypes.I" data-img-src="images/plugs_sockets/I_3d_plug_s.png">I</option>
+                                            <option value="J" data-i18n="values:plugTypes.J" data-img-src="images/plugs_sockets/J_3d_plug_s.png">J</option>
+                                            <option value="K" data-i18n="values:plugTypes.K" data-img-src="images/plugs_sockets/K_3d_plug_s.png">K</option>
+                                            <option value="L" data-i18n="values:plugTypes.L" data-img-src="images/plugs_sockets/L_3d_plug_s.png">L</option>
+                                            <option value="M" data-i18n="values:plugTypes.M" data-img-src="images/plugs_sockets/M_3d_plug_s.png">M</option>
+                                            <option value="N" data-i18n="values:plugTypes.N" data-img-src="images/plugs_sockets/N_3d_plug_s.png">N</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>    
+                            <div class="col-md-6">            
+                                <div class="form-group">
+                                    <label for="user_plug_voltages" class="control-label col-sm-4" data-toggle="tooltip" data-i18n="fields:userPlugVoltages.label;[data-original-title]fields:userPlugVoltages.info"></label>
+                                    <div class="col-sm-8">
+                                        <div class="input-group">
+                                            <select id="user_plug_voltages" name="user_plug_voltages" class="chosen-select form-control" multiple data-i18n="[placeholder]fields:userPlugVoltages.placeholder" >
+                                                <option value="100">100</option>
+                                                <option value="110">110</option>
+                                                <option value="115">115</option>
+                                                <option value="120">120</option>
+                                                <option value="127">127</option>
+                                                <option value="220">220</option>
+                                                <option value="230">230</option>
+                                                <option value="240">240</option>
+                                            </select>
+                                            <span class="input-group-addon">V</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="user_plug_frequencies" class="control-label col-sm-4" data-toggle="tooltip" data-i18n="fields:userPlugFrequencies.label;[data-original-title]fields:userPlugFrequencies.info"></label>
+                                    <div class="col-sm-8">
+                                        <div class="input-group">
+                                            <select id="user_plug_frequencies" name="user_plug_frequencies" class="chosen-select form-control" multiple data-i18n="[placeholder]fields:userPlugFrequencies.placeholder" >
+                                                <option value="50">50</option>
+                                                <option value="60">60</option>
+                                            </select>
+                                            <span class="input-group-addon">Hz</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-actions"></div>
+                            </div>    
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="col-md-2 col-md-height col-full-height responsive-advert-container fixed-advert-container col-top text-center">
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="navbar navbar-inverse navbar-fixed-bottom">
+    <ul class="nav navbar-nav col-xs-12">
+        <li class="col-xs-12 text-center">
+            <a href="#user_profile_reset_modal" class="btn" data-toggle="modal">
+            <span class="glyphicon glyphicon-refresh"></span><br />
+            <span data-i18n="buttons:reset.label"></span>
+            </a>
+        </li>
+    </ul>
+</div>

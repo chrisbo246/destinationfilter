@@ -24,26 +24,39 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 // Plugin styles
 @import "../../bower_components/bootswatch/superhero/_bootswatch"; /* ! After Bootstrap mixins */
+@import "../../bower_components/image-picker/source/sass/image-picker.scss";
 //@import "../../vendors/jasny-bootstrap/less/_jasny-bootstrap";
 
 
 // App styles
-@import "./_custom";
-@import "./_jquery-ui";
-@import "./_plugins";
-@import "./_bootstrap_addons";
-@import "./_country_backgrounds";
-//@import "./_animation";
+@import "_custom";
+@import "_jquery-ui";
+@import "_plugins";
+@import "_bootstrap_addons";
+//@import "_country_backgrounds";
+//@import "_animation";
 
 
 // Module styles
-@import "../modules/map/_map";
-@import "../modules/enabledPriorities/_enabledPriorities";
-@import "../modules/disabledPriorities/_disabledPriorities";
-@import "../modules/userProfile/_userProfile";
-@import "../modules/countryList/_countryList";
+@import "_map";
+@import "_enabledPriorities";
+@import "_disabledPriorities";
+@import "_userProfile";
+@import "_countryList";
 
 
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 4px;
+}
+
+dd ul:last-of-type {
+  margin-bottom: 0;
+}
 
 .browsehappy {
   margin: 0.2em 0;
@@ -132,3 +145,4 @@ body {
     border-bottom: 0;
   }
 }
+

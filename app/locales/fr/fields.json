@@ -150,6 +150,12 @@
     "gamma":{
         "label":"Gamma"
     },
+    "getExtent":{
+        "label":"Couverture"
+    },
+	"global":{
+        "label":"Global"
+    },
     "grossDomesticProduct":{
         "label":"Produit intérieur brut"
     },
@@ -165,8 +171,17 @@
     "islands":{
         "label":"Îles"
     },
+    "code":{
+        "label":"Code"
+    },
     "codes":{
         "label":"Codes"
+    },
+    "getMetersPerUnit":{
+        "label":"Mètres par unité"
+    },
+    "getUnits":{
+        "label":"Unités"
     },
     "latitude":{
         "label":"Latitude"
@@ -234,7 +249,7 @@
     "score":{
         "label":"Score"
     },
-    "setLng":{
+    "lng":{
         "info":"Traduire"
     },
     "speakingLanguages":{
@@ -266,7 +281,7 @@
     },
     "userCountry":{
         "info":"Le pays où vous êtes physiquement en ce moment.",
-        "label":"Pays",
+        "label":"Localisation",
         "placeholder":" "
     },
     "userCurrencies":{

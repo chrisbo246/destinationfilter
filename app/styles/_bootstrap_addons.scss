@@ -1,4 +1,6 @@
 
+/* ===[ cursor ]=== */
+
 .clickable {
 cursor:pointer; 
 }
@@ -411,3 +413,76 @@ $icon-li-width:         (30em / 14);
 .col-bottom {
   vertical-align: bottom;
 }
+
+
+/* No collapse navbar fix */
+
+.navbar-no-collapse .navbar-nav > li {
+    float: left;
+}
+.navbar-no-collapse .navbar-form .form-group {
+    display: inline-block;
+}
+.navbar-no-collapse .navbar-left {
+    float: left !important;
+}
+.navbar-no-collapse .navbar-right {
+    float: right !important;
+}
+.navbar-no-collapse .navbar-form .form-control {
+    display: inline-block;
+	width: auto;
+}
+.navbar-no-collapse  .navbar-form {
+    width: auto;
+    border: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-shadow: none;
+}
+
+/* Affix */
+
+$body_padding_top: 70px; // affix attr
+$target_height: 500px; // affix
+
+$target_offset_top: 0px; // data-offset-top = target sliding height (target height max)
+$body_offset: 50px; // body attr = navbar height
+
+/*
+//#map:not(:-webkit-full-screen),
+//#map:not(:-moz-full-screen),
+//#map:not(:-ms-fullscreen),
+#map:not(:fullscreen){
+height: $target_height - 50px; // affix - editor nav
+}
+#editor {
+//min-height: $target_offset_top;
+}
+#editor_header{
+margin-top: $body_offset - $body_padding_top; // -20px body padding-top - navbar height 
+z-index: 1 !important;
+}
+#editor_header.affix {
+  top: $body_padding_top - $target_offset_top; // -130px;//
+}
+#editor_header.affix {
+  //top: $body_padding_top - $target_offset_top; // -130px;//
+  //width: 100%;
+}
+#editor_header.affix-top{
+
+}
+#editor_header.affix-top~ .container-fluid{
+
+}
+#editor_header.affix ~ .container-fluid {
+ position: relative;
+ top: $target_height;
+}
+#editor_header.affix-bottom~ .container-fluid{
+
+}
+*/

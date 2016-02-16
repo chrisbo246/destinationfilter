@@ -1,0 +1,47 @@
+
+1 - Define XAPI request
+
+See http://harrywood.co.uk/maps/uixapi/xapi.html
+
+2 - Download data (.OSM.XML format)
+
+wget --timeout=0 'http://overpass-api.de/api/xapi?node[amenity=embassy]' -O embassy.osm
+wget --timeout=0 'http://www.overpass-api.de/api/interpreter?data=[timeout:380];node[amenity=toilets];out;' -O toilets.osm
+wget --timeout=0 http://www.informationfreeway.org/api/0.6/node[amenity=hospital] -O data.osm
+wget --timeout=0 http://overpass-api.de/api/xapi?map?bbox=27,61,27.1,61.1&timeout=900 -O toilets.osm
+wget --timeout=0 http://www.overpass-api.de/api/xapi?*[bbox=27,61,28,62][amenity=fast_food]
+or
+http://www.overpass-api.de/api/interpreter?data=[timeout:380];rel[route=bicycle](area:3600051684);(._;way(r)(area:3600051684);>);out meta;
+or
+http://nominatim.openstreetmap.org/search?q=france[embassy]&format=json&polygon=0&addressdetails=1
+or
+curl --location --globoff "http://www.informationfreeway.org/api/0.6/node[amenity=hospital]" -o data.osm
+
+echo "data=node[name=\"Gielgen\"];out;" >query.osm
+wget -O target.osm --post-file=query.osm "http://overpass-api.de/api/interpreter"
+
+see http://wiki.openstreetmap.org/wiki/Xapi http://wiki.openstreetmap.org/wiki/Overpass_API/XAPI_Compatibility_Layer
+
+
+<!-- element-limit="1073741824" -->
+<osm-script timeout="9990">
+<union>
+<query type="node">
+  <has-kv k="amenity" v="drinking_water"/>
+</query>
+<query type="node">
+  <has-kv k="amenity" v="toilets"/>
+  <has-kv k="drinking_water" v="yes"/>
+</query>
+<query type="node">
+  <has-kv k="amenity" v="fountain"/>
+  <has-kv k="potable" v="yes"/>
+</query>
+<query type="node">
+  <has-kv k="man_made" v="water_well"/>
+  <has-kv k="potable" v="yes"/>
+</query>
+</union>
+<print mode="meta"/>
+</osm-script>
+

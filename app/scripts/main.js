@@ -13,6 +13,7 @@ global
     initBlock,
     adsbygoogle: true
 */
+
 /**
  * www.destinationfilter.tk 0.7.0
  * https://github.com/christopheboisier/DestinationFinder/
@@ -21,384 +22,463 @@ global
  *
  * Copyright (C) 2015 Christophe BOISIER
  */
-console.time('app.js script loaded');
 
-
-
-/**
- *
- */
-/*
-function restoreCookies() {
-  'use strict';
-  console.time(restoreCookies.name + ' function executed');
-
-  // Restore sortable priorities from cookies
-  if ($.cookie('enabled_priorities')) {
-    $.each($.cookie('enabled_priorities').split(','), function (i, id) {
-      $('#' + id).appendTo($('#enabled_priorities'));
-    });
-  }
-  // if ($.cookie('disabled_priorities')) {
-  //  $.each($.cookie('disabled_priorities').split(','), function (i, id) {
-  //    $('#' + id).appendTo($('#disabled_priorities'));
-  //  });
-  // }
-
-  console.timeEnd(restoreCookies.name + ' function executed');
-
-}
-*/
-
-/**
- * Delete cookies
- */
-
-function deleteCookies() {
+var appModule = (function () {
     'use strict';
-    console.time(deleteCookies.name + ' function executed');
 
-    var cookies = $.cookie();
-    for (var cookie in cookies) {
-        $.removeCookie(cookie);
-    }
+    var debug = (document.domain === 'localhost');
+
+    var options = {
+
+        // http://formvalidation.io/
+        bootstrapValidator: {
+                framework: 'bootstrap',
+                excluded: [':disabled'], // , ':hidden', ':not(:visible)'
+                live: 'enabled'
+            },
+
+        // https://harvesthq.github.io/chosen/
+        chosen: {
+                width: '100%',
+                html_template: '<img class="{class_name}" src="{url}">'
+            },
+
+        // http://i18next.com/docs/options/
+        i18next: {
+                whitelist: ['en', 'fr'], // 'ar', 'bn', 'de', 'en', 'es', 'fr', 'hi', 'it', 'ja', 'pt', 'ru', 'zh'
+                ns:  ['global', 'fields', 'values', 'sections', 'buttons', 'alerts', 'priorities', 'questions'],
+                fallbackLng: 'en',
+                fallbackNS: 'global',
+                defaultNs: 'global',
+                debug: debug,
+                //https://github.com/i18next/i18next-browser-languageDetector
+                detection: {
+                    lookupQuerystring: 'lng'
+                },
+                // https://github.com/i18next/i18next-xhr-backend
+                backend: {
+                    loadPath: 'locales/{{lng}}/{{ns}}.json',
+                    addPath: 'locales/add/{{lng}}/{{ns}}',
+                    crossDomain: false
+                },
+                // https://github.com/i18next/i18next-localStorage-cache
+                cache: {
+
+                }
+            },
+
+        // http://rvera.github.io/image-picker/
+        imagePicker: {
+            // hide_select: true,
+            // limit: 2,
+            // show_label: true
+        },
+
+        // https://github.com/i18next/jquery-i18next
+        jqueryI18next: {
+
+        },
+
+        // https://github.com/peachananr/onepage-scroll
+        onepageScroll: {
+            sectionContainer: '.section'/*,
+            easing: 'ease',
+            animationTime: 1000,
+            pagination: true,
+            updateURL: false,
+            beforeMove: function (index) {},
+            afterMove: function (index) {},
+            loop: false,
+            keyboard: true,
+            responsiveFallback: false,
+            direction: 'vertical'*/
+        },
+
+        /*parsley: {
+            errorClass: 'has-error',
+            successClass: 'has-success',
+            classHandler: function(ParsleyField) {
+                return ParsleyField.$element.parents('.form-group');
+            },
+            errorsContainer: function(ParsleyField) {
+                return ParsleyField.$element.parents('.form-group');
+            },
+            errorsWrapper: '<span class="help-block">',
+            errorTemplate: '<div></div>'
+        },*/
+
+        popover: {
+            container: 'body',
+            html: 'true'/*,
+            placement: 'auto right',
+            trigger: 'hover', // click | hover | focus | manual
+            delay: {
+                'show': 900,
+                'hide': 100
+            },
+            animation: true*/
+        },
+
+        scrollReveal: {
+            // enter:    'bottom',
+            // move:     '8px',
+            // over:     '0.6s',
+            // wait:     '0s',
+            // easing:   'ease',
+            // scale:    { direction: 'up', power: '5%' },
+            // rotate:   { x: 0, y: 0, z: 0 },
+            // opacity:  0,
+            mobile:   true
+            // reset:    false,
+            // viewport: window.document.documentElement,
+            // delay:    'once', // 'always' 'onload' 'once'
+            // vFactor:  0.60,
+            // complete: function ( el ){}
+        },
+
+        tooltip: {
+                animation: true,
+                container: 'body',
+                html: 'true',
+                delay: {
+                    'show': 900,
+                    'hide': 100
+                }
+                // placement: 'auto top',
+                // trigger: 'hover'
+            }
+
+    },
+
+        deferred = {
+            init: {
+                i18next: $.Deferred()
+            },
+            load: {
+                map: $.Deferred(),
+                mapSettings: $.Deferred()
+            },
+            ready: {
+                userProfile: $.Deferred(),
+                userProfileReset: $.Deferred(),
+                priorities: $.Deferred(),
+                enabledPriorities: $.Deferred(),
+                disabledPriorities: $.Deferred(),
+                map: $.Deferred(),
+                mapControls: $.Deferred(),
+                mapInteractions: $.Deferred(),
+                mapLayers: $.Deferred(),
+                mapOverlays: $.Deferred(),
+                mapSettings: $.Deferred(),
+                appSettings: $.Deferred()
+            }
+        },
+        countriesData = {},
+        countryCodesISO2 = {},
+        i18nextInstance,
+        userData = {},
+        currenciesData = {};
+
+    var oecdIncomeLevels = {
+            'LIC': '1045',
+            'LMC': '4125',
+            'UMC': '12746',
+            'OEC': '25000',
+            'NOC': '25000'
+        };
+
+    var steps = [{
+        'id': 'userProfile'
+    }, {
+        'id': 'priorities'
+    }, {
+        'id': 'results'
+    }];
 
 
-    // if (jQuery().sayt()) {
-    // $('#profile_form, #disabled_priorities_form, #enabled_priorities_form').sayt({
-    $('form[id].sayt').each(function () {
-        var $el = $(this);
-        $el.sayt({
-            // $('form[id].sayt').sayt({
-            erase: true
-        });
-        // console.log('sayt cookies deleted');
-    });
-    // }
-    /*
-        $.removeCookie('enabled_priorities');
-        $.removeCookie('disabled_priorities');
-        $.removeCookie('i18next');
-        */
 
-    window.location.reload(true);
+    /**
+     * Validation steps before result udate
+     */
+    var validationStepPercent = function (i, percent) {
 
-    console.timeEnd(deleteCookies.name + ' function executed');
+        var $el;
 
-}
-
-
-
-/**
- * Initialize Google Adsense dynamic ads when the document is ready
- */
-/*
-function initAds() {
-    'use strict';
-    $(document).ready(function () {
-        $('.adsbygoogle').filter(':visible').each(function () {
-            var $container = $(this).parent();
-            //if ($container.width() > 0 && $container.height() > 0) {
-                (adsbygoogle = window.adsbygoogle || []).push({});
-                console.log('Ads initialized');
-            //}
-        });
-    });
-}
-*/
-
-
-/**
- *
- */
-function resizeSections() {
-    'use strict';
-    console.time(resizeSections.name + ' function executed');
-
-    var height = $(window).height(), // $('body').prop('scrollHeight'), // window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight,
-        navTop = $('.navbar-fixed-top').filter(':visible').height(),
-        navBottom = $('#fullpage .tab-pane.active .navbar-fixed-bottom').filter(':visible').height(),
-        paddingTop = $('.navbar-fixed-top').filter(':visible').outerHeight(true),
-        paddingBottom = $('#fullpage .tab-pane.active .navbar-fixed-bottom').filter(':visible').outerHeight(true),
-        offset = $('body').offset();
-
-    $('body, .page, .section, .slide')
-        .css('min-height', height);
-
-    /*var maxHeight = height - paddingTop - paddingBottom;
-    $('.responsive-ad-container').each(function (i, div) {
-        var $div = $(div);
-        if ($div.height() > maxHeight) {
-            $div.css('height', maxHeight);
+        if (!steps[i]) {
+            return false;
         }
-    });*/
 
-    $('.slide-no-padding')
-        .css('height', height);
+        if (steps[i].percent === 100 && steps[i].percent === percent) {
+            return false;
+        }
 
-    $('.slide-no-padding')
-        .css('padding-top', navTop)
-        .css('padding-bottom', navBottom);
+        steps[i].percent = percent;
 
-    $('.slide')
-        .css('padding-top', paddingTop)
-        .css('padding-bottom', paddingBottom);
+        // Update text class
+        $el = $('#steps').find('div:nth-child(' + (i + 1) + ') .surrounded');
+        if ($el) {
+            $el
+                .removeClass('text-success text-warning text-danger')
+                .addClass((percent === 100) ? 'text-success' : (percent > 0) ? 'text-warning' : 'text-danger');
+        }
 
-    // height = height - parseInt($('body').css('padding-top'), 16) - parseInt($('body').css('padding-bottom'), 16);
-    // $('.section, .slide').css('min-height', height);
-    // $('.full-height').css('height', height);
+        // Update the progress bar class
+        $el = $('#steps-progress');
+        if ($el) {
+            $el.find('.progress-bar:nth-child(' + (i + 1) + ')')
+                .removeClass('progress-bar-success progress-bar-warning progress-bar-danger')
+                .addClass((percent === 100) ? 'progress-bar-success' : (percent > 0) ? 'progress-bar-warning' : 'progress-bar-danger');
+            $el.find('.progress-bar').css('width', (100 / steps.length).toFixed(2) + '%');
+        }
 
-    console.log('Section height adjusted > ' + height + 'px');
-    console.log('Section padding adjusted > padding-top: ' + paddingTop + 'px, padding-bottom: ' + paddingBottom + 'px');
-    console.log('Section without padding adjusted > padding-top: ' + navTop + 'px, padding-bottom: ' + navBottom + 'px');
-    if (offset.top !== 0 || offset.left !== 0) {
-        console.warn('Body offset negative values > top: ' + offset.top + 'px, left: ' + offset.left + 'px'); /* RemoveLogging:skip */
+        if (i !== 2) {
+            validationStepPercent(2, (steps[0].percent + steps[1].percent) / 2);
+        }
+
     }
-    console.timeEnd(resizeSections.name + ' function executed');
-
-}
 
 
 
-$(function () {
-    'use strict';
-    console.info('$(function () {');
-    initBlock('body');
-});
+    /**
+     * Initialize jquery plugins in a freshly created block
+     * @param selector Initialize plugins in this element
+     */
+    var initBlock = function (selector) {
+
+        console.time('initBlock(' + selector + ') function executed');
+
+        if (!selector) {
+            selector = 'body';
+        }
+
+        var $block = $(selector);
+
+        if (!$block) {
+            return false;
+        }
+
+        // Translate elements with a data-i18n attribut
+        $.when(deferred.init.i18next).done(function () {
+            $block.localize();
+        });
+
+        // Reveal some elements when in viewport
+        window.sr = new ScrollReveal(options.scrollReveal);
+
+        // Sort select options
+        $block.find('select.sort').each(function () {
+            var $el = $(this);
+            var options = $el.find('option');
+            options.sort(function (a, b) {
+                return $(a).text() > $(b).text();
+            });
+            $el.html('').append(options);
+        });
+
+        // Convert placeholder attribut (created by i18next) to data-placeholder (used by chosen)
+        $block.find('.chosen-select').each(function () {
+            $(this).attr('data-placeholder', $(this).attr('placeholder'));
+        });
+
+        // Initialize chosen select inputs
+        $block.find('.chosen-select').chosen(options.chosen);
+
+        // Image picker
+        $block.find('.image-picker').imagepicker(options.imagePicker);
+
+        // Convert checkboxes into switches
+        $block.find('.switch').bootstrapSwitch();
+
+        // Bootstrap popover & tooltip
+        $block.find('[data-toggle="popover"]').popover(options.popover);
+        $block.find('[data-toggle="tooltip"], [title]').tooltip(options.tooltip);
+
+        // Form validation
+        //var $forms = $block.find('form');
+        //$forms.parsley();
+
+        console.timeEnd('initBlock(' + selector + ') function executed');
+
+    }
 
 
 
-// Translate site title / description
-$(document).ready(function () {
-    'use strict';
-    console.info('$(document).ready(function ()');
+    /**
+     * Resize sections according to viewport height when the window size change
+     */
+    var resizeSections = function () {
 
-    // Translated site title / description
-    //$(document).attr('title', $.t('app.title'));
-    //$(document).attr('description', $.t('app.description'));
+        console.time('resizeSections function executed');
 
-    $(window).resize(function () {
+        var $navbarTop = $('.navbar-fixed-top').filter(':visible');
+        var $navbarBottom = $('.tab-pane.active .navbar-fixed-bottom').filter(':visible');
 
-        // Adapt current section height
-        resizeSections();
+        var height = $(window).height(),
+            navTop = $navbarTop.height() || 0,
+            navBottom = $navbarBottom.height() || 0,
+            paddingTop = $navbarTop.outerHeight(true) || 0,
+            paddingBottom = $navbarBottom.filter(':visible').outerHeight(true) || 0,
+            offset = $('body').offset();
 
-        $('#main-menu').find('a[data-toggle="tab"]').one('shown.bs.tab', function (e) {
+        $('body, .page, .section, .slide')
+            .css('min-height', height);
 
-            var paneId = $(e.target).attr('href');
+        $('.slide-no-padding')
+            .css('height', height);
 
-            // Adapt section height in next displayed pane
+        $('.slide-no-padding')
+            .css('padding-top', navTop)
+            .css('padding-bottom', navBottom);
+
+        $('.slide')
+            .css('padding-top', paddingTop)
+            .css('padding-bottom', paddingBottom);
+
+        console.log('Section height adjusted > ' + height + 'px');
+        console.log('Section padding adjusted > padding-top: ' + paddingTop + 'px, padding-bottom: ' + paddingBottom + 'px');
+        console.log('Section without padding adjusted > padding-top: ' + navTop + 'px, padding-bottom: ' + navBottom + 'px');
+        if (offset.top !== 0 || offset.left !== 0) {
+            console.warn('Body offset negative values > top: ' + offset.top + 'px, left: ' + offset.left + 'px'); /* RemoveLogging:skip */
+        }
+        console.timeEnd('resizeSections function executed');
+
+    }
+
+
+
+    commonsModule.adsense();
+    commonsModule.storeActiveTab();
+    commonsModule.resetButton({buttonSelector: '.delete-cookies'});
+    commonsModule.debug({
+        debug : debug,
+        mixitupSelector: '#disabled_priorities, #faq_list',
+        i18nextInstance: i18nextInstance
+    });
+    //commonsModule.loadGoogleFonts();
+    //commonsModule.parallax();
+    
+    
+    
+    // Load JSON data
+    console.time('Load currencies.json');
+    $.getJSON('data/currencies.json', function (json) {
+        currenciesData = json;
+        console.timeEnd('Load currencies.json');
+    }).promise(currenciesData);
+    console.time('Load countries.json');
+    
+    console.time('Load countries.json');
+    $.getJSON('data/countries.json', function (json) {
+        countriesData = json;
+        console.log('countriesData', countriesData);
+        // Build an array allowing ISO3 to ISO2 country codes conversion
+        $.each(json, function (id, country) {
+            if (country.ISO && country.shapeId) {
+                countryCodesISO2[country.shapeId] = id;
+            }
+        });
+        console.timeEnd('Load countries.json');
+    }).promise(countriesData);
+    /*
+    $.when(appModule.countriesData).then(function () {
+        //console.log('main.js d', d);
+        console.log('main.js appModule.countriesData', appModule.countriesData);
+    });*/
+    
+    // i18next translation
+    console.time('i18next plugin initialization');
+    var i18nextInstance = i18next.createInstance();
+    i18nextInstance
+        .use(i18nextXHRBackend)
+        .use(i18nextBrowserLanguageDetector)
+        .init(options.i18next, (err, t) => {
+
+            // Initialize content translation via HTML attributs
+            i18nextJquery.init(i18nextInstance, $, options.i18nextJquery);
+
+            $(function () {
+                // Translate site title and description
+                $(document).attr('title', i18nextInstance.t('app.title'));
+                $(document).attr('description',i18nextInstance.t('app.description'));
+                // Translate chosen strings
+                options.chosen.no_results_text = i18nextInstance.t('strings.chosenNoResultsText');
+            });
+
+            console.timeEnd('i18next plugin initialization');
+            deferred.init.i18next.resolve();
+        });
+
+
+
+    // When HTML is loaded (except images) and DOM is ready
+    $(function () {
+
+        // Initialize various plugins for the whole document
+        initBlock('body');
+
+
+        // Adapt sections height
+        // when the window size change
+        $(window).resize(function () {
             resizeSections();
+        }).trigger('resize');
+        // when navbar height change
+        var $el = $('.navbar-fixed-top, .navbar-fixed-bottom');
+        $el.resize(function () {
+            resizeSections();
+        });
+        // when a page (tab) is shown for the first time
+        $('#main-menu').find('a[data-toggle="tab"]').one('shown.bs.tab', function (e) {
+            resizeSections();
+        });
 
-            // Change body class depending on selected tab
+        // Change section class depending on selected tab (for background-image)
+        // When a tab is shown for the first time...
+        $('#main-menu').find('a[data-toggle="tab"]').one('shown.bs.tab', function (e) {
+            var paneId = $(e.target).attr('href');
             var bodyClass = paneId.replace('#', '');
             $('section').removeClass().addClass(bodyClass);
             console.log('Body class changed to ' + bodyClass);
-
         });
 
+        // Toggle chevrons when user open a panel
+        $('.panel-group').on('shown.bs.collapse hidden.bs.collapse', function (e) {
+            console.time('Show .panel-group');
+            $(e.target)
+                .prev('.panel-heading')
+                .find('.indicator')
+                .toggleClass('glyphicon-chevron-down glyphicon-chevron-up');
+            console.timeEnd('Show .panel-group');
+        });
 
-    }).trigger('resize');
+        // Stop propagation
+        $('.dropdown-menu').find('form').on('click', function (e) {
+            e.stopPropagation();
+        });
 
-    var $el = $('.navbar-fixed-top, .navbar-fixed-bottom');
-    $el.resize(function () {
-        resizeSections();
+        $(window).scroll(function () {
+            var top = $(document).scrollTop();
+            $('.background-image').css({'background-position': '0px -' + (top/3).toFixed(2) + 'px'});
+        });
+
     });
 
+
+
+    return {
+        options: options,
+        initBlock: initBlock,
+        validationStepPercent: validationStepPercent,
+        deferred: deferred,
+        i18n: i18nextInstance,
+        countriesData: countriesData,
+        currenciesData: currenciesData,
+        countryCodesISO2: countryCodesISO2
+    };
+
+})();
+
+$.when(appModule.countriesData).done(function () {
+    console.log('appModule.countriesData', appModule.countriesData);
+    console.log('appModule.countriesData.promise()', appModule.countriesData.promise());
 });
-
-// Once all html is ready
-$(window).on('load', function () {
-    'use strict';
-    console.info('$(window).on(\'load\')');
-
-    console.time('onepage_scroll plugin initialized');
-    // $('.tab-pane').onepage_scroll(options.onepageScroll);
-    console.timeEnd('onepage_scroll plugin initialized');
-
-    // Restore cookies
-    // restoreCookies();
-
-    // Delete cookies button
-    $('.delete-cookies').on('click', function (e) {
-        e.preventDefault();
-        deleteCookies();
-    });
-
-    // Secondary fixed navbar
-    /*$('.navbar-fixed-top + .navbar').affix({
-      offset: {top: 50}
-    });*/
-
-    // Adjust modal size
-    $('.modal-wide').on('show.bs.modal', function () {
-        // var height = $(window).height();
-        // $(this).find('.modal-body').css('max-height', height - 200);
-    });
-
-    // Toggle accordion chevron
-    $('.panel-group').on('shown.bs.collapse hidden.bs.collapse', function (e) {
-        console.time('Show .panel-group');
-        $(e.target)
-            .prev('.panel-heading')
-            .find('i.indicator')
-            .toggleClass('glyphicon-chevron-down glyphicon-chevron-up');
-        console.timeEnd('Show .panel-group');
-    });
-
-    // Stop propagation
-    $('.dropdown-menu').find('form').click(function (e) {
-        e.stopPropagation();
-    });
-
-    // $('.navbar-fixed-top').addClass('navbar-transparent');
-    $(window).scroll(function () {
-        var top = $(document).scrollTop();
-        $('.background-image').css({'background-position': '0px -' + (top/3).toFixed(2) + 'px'});
-        /*if (top > 50) {
-            $('.navbar-fixed-top').removeClass('navbar-transparent');
-        } else {
-            $('.navbar-fixed-top').addClass('navbar-transparent');
-        }*/
-    });
-
-    // Initialize visible Ads
-    $('.responsive-advert-container').filter(':visible').each(function (i, container) {
-        var $container = $(container);
-        $container.html('<ins class="adsbygoogle" data-ad-client="ca-pub-8495719252049968" data-ad-slot="3723415549" data-ad-format="auto"></ins>');
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        console.log('Ad initialized');
-    });
-
-    // Initialize other ads when a tab become visible for the first time
-    $('a[data-toggle="tab"]').filter(':not(.active)').each(function (i, tab) {
-        $(tab).one('shown.bs.tab', function (e) {
-            var paneId = $(e.target).attr('href');
-            var $pane = $(paneId);
-            $pane.find('.responsive-advert-container').filter(':visible').each(function (i, container) {
-                var $container = $(container);
-                $container.html('<ins class="adsbygoogle" data-ad-client="ca-pub-8495719252049968" data-ad-slot="3723415549" data-ad-format="auto"></ins>');
-                (adsbygoogle = window.adsbygoogle || []).push({});
-                console.log('Ad initialized in ' + paneId + ' pane');
-            });
-
-            /*var ads = $pane.find('.fixed-ad-container ins');
-            ads.each(function (i, ad) {
-                var next = ads[i + 1];
-                $(ad).scrollToFixed({
-                    marginTop: $('.navbar-fixed-top').filter(':visible').outerHeight(true) + 10,
-                    limit: function () {
-                        var limit = 0;
-                        if (next) {
-                            limit = $(next).offset().top - $(this).outerHeight(true) - 10;
-                        } else {
-                            limit = $('.navbar-fixed-bottom').filter(':visible').offset().top - $(this).outerHeight(true) - 10;
-                        }
-                        return limit;
-                    },
-                    zIndex: 999
-                });
-            });*/
-
-        });
-    });
-
-    /*$(document).on('scroll', function () {
-        $('.fixed-ad-container').filter(':visible').each(function (i, container) {
-            var $container = $(container);
-            var $ins = $container.find('ins').first();
-            var height = $(window).height();
-            var scrollTop = $(document).scrollTop();
-            var navTop = $('.navbar-fixed-top').filter(':visible').height();
-            var navBottom = $('.navbar-fixed-bottom').filter(':visible').height();
-            ins.css('top': Math.max((height - navTop), scrollTop) + 'px')
-            //ins.css('bottom': Math.max((height - navBottom), ins.bottom()) + 'px')
-        });
-    });*/
-
-
-    // Auto-save / restore forms (with id) from cookies
-    /*$('form[id].sayt').each(function () {
-        var $el = $(this);
-        // var $el = $('form[id]');
-        // if ($el.attr('id')) {
-        $el.sayt(options.sayt);
-        $el.find(':input').trigger('change');
-        $el.bootstrapValidator('validate'); // formValidation
-        console.log('#' + $el.attr('id') + ' restored from cookies and validated');
-        // $el.find(':input').trigger('change');
-        // }
-    });*/
-
-    // $('#profile_form').filter(':input').trigger('change');
-    /*if($('#profile_form').sayt({'checksaveexists': true}) === true) {
-      console.log('Profile form has an existing save cookie.');
-    }*/
-
-    // Adapt some colors to Bootstrap theme
-    $('head').append(
-        '<style>'
-        /*+ '.ui-state-default {'
-        + 'background-color:' + $('.btn-default.disabled').css('background-color') + ';'
-        + 'color:' + $('.btn-default.disabled').css('color') + ';'
-        + '}'
-        + '.ui-state-primary {'
-        + 'background-color:' + $('.btn-primary.disabled').css('background-color') + ';'
-        + 'color:' + $('.btn-primary.disabled').css('color') + ';'
-        + '}'*/
-        /*+ '.ui-state-default {'
-        + 'background-color:' + $('.well').css('background-color') + ';'
-        + 'color:' + $('.well').css('color') + ';'
-        + '}'
-        + '.ui-state-highlight {'
-        + 'background-color:' + $('.btn-primary').css('background-color') + ';'
-        + 'color:' + $('.btn-primary').css('color') + ';'
-        + '}'*/
-        + '.fp-controlArrow.fp-prev {' + 'border-color: transparent ' + $('.pager li > a').css('background-color') + ' transparent transparent;' + '}' + '.fp-controlArrow.fp-prev:hover {' + 'border-color: transparent ' + $('.pager li > a:hover').css('background-color') + ' transparent transparent;' + '}' + '.fp-controlArrow.fp-next {' + 'border-color: transparent transparent transparent ' + $('.pager li > a').css('background-color') + ';' + '}' + '.fp-controlArrow.fp-next:hover {' + 'border-color: transparent transparent transparent ' + $('.pager li > a:hover').css('background-color') + ';' + '}' + '#fp-nav span, .fp-slidesNav span {' + 'border-color: ' + $('body').css('color') + ';' + '}'
-        // + '.ui-widget-content {'
-        // + 'background-color:' + $('body').css('background-color') + ';'
-        // + 'background-image:' + $('body').css('background-image') + ';'
-        // + 'background-repeat:' + $('body').css('background-repeat') + ';'
-        // + 'background-position:' + $('body').css('background-position') + ';'
-        // + '}'
-        // + '.ui-widget-overlay {'
-        // + 'background-color:' + $('body').css('background-color') + ';'
-        // + 'opacity: .5;'
-        // + '}'
-        // + '.sortable_priorities {'
-        // + 'border-color:' + $('.btn-primary').css('background-color') + ';'
-        // + '}'
-        + '</style>'
-    );
-
-    // Google Adsense
-    // initAds();
-    // (adsbygoogle = window.adsbygoogle || []).push({});
-
-    // Activate default tabs
-    // $('.nav .active').tab('show');
-
-    // Global logs
-    /*
-    $('.ui-sortable').on('sortactivate sortbeforeStop sortchange sortcreate sortdeactivate sortout sortover sortreceive sortremove sort sortstart sortstop sortupdate', function (event) { // event, ui
-        console.log('#' + $(this).attr('id') + ' event ' + event.type + '(' + $(this).sortable('toArray').length + ')');
-    });
-    $(':input').on('change', function () {
-        console.log('Input #' + $(this).attr('id') + '=' + $(this).val());
-    });
-    $(':input').on('chosen:updated', function () {
-        console.log('Chosen input #' + $(this).attr('id') + '=' + $(this).val());
-    });
-    $('#disabled_priorities, #faq_list').on('mixLoad mixStart mixEnd mixFail mixBusy', function (event, state) { // event, state
-        console.log('mixItUp ' + event.type + ': ' + state.totalShow + ' elements match the current filter');
-    });
-    $(':checkbox').on('switchChange.bootstrapSwitch', function () { // event, state
-        console.log('bootstrapSwitch #' + $(this).attr('id') + '=' + this.checked);
-    });
-    */
-    /*$(':checkbox').on('click', function (event) {
-      console.log('checkbox ' + ($(this).attr('id') || '') + ' checked=' + this.checked);
-    });*/
-
-});
-
-console.timeEnd('app.js script loaded');

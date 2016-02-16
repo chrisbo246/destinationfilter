@@ -57,11 +57,14 @@
         "title":"Meilleurs destinations"
     },
     "culture":{
-        "info":"Ces renseignements nous aident à trouver les pays dans lesquels vous aurez le moins de difficultés d'intégration au niveau culturel.",
+        "info":"Ces renseignements sont utiles pour identifier les pays dans lesquels vous êtres susceptible de rencontrer (ou pas) des difficultés d'intégration au niveau culturel.",
         "title":"Culture"
     },
     "destinations":{
         "link":"Mes destinations"
+    },
+	"device":{
+        "title":"Appareil"
     },
     "disabledPriorities":{
         "info":"Utilisez le filtre pour afficher des critères de recherche supplémentaire par thème. Sélectionnez et activez ceux qui vous intéressent puis rendez vous dans la section suivant pour les classer selon vos priorités.",
@@ -74,6 +77,9 @@
     },
     "driving":{
         "title":"Conduite"
+    },
+	"draw":{
+        "title":"Draw"
     },
     "economy":{
         "title":"Economie"
@@ -92,7 +98,7 @@
         "link":"Géographie"
     },
     "habits":{
-        "info":"Ces renseignements nous aident à trouver les pays dans lesquels vous devrez prendre de nouvelles habitudes.",
+        "info":"Ces renseignements servent à trouver les pays dans lesquels vous aurez potentiellement de nouvelles habitudes à prendre.",
         "title":"Habitudes"
     },
     "happiness":{
@@ -129,19 +135,11 @@
     "language":{
         "title":"Langue"
     },
-    "legal":{
-        "info":"L'accès à certains pays est plus ou moins régulée en fonction de votre citoyenneté.",
-        "title":"Statut légal"
-    },
     "life":{
         "link":"Vie"
     },
     "links":{
         "link":"Liens"
-    },
-    "location":{
-        "info":"Nous avons besoin de savoir où vous êtes approximativement situé pour vous fournir des résultats plus pertinents.",
-        "title":"Localisation actuelle"
     },
     "map":{
         "link":"Carte"
@@ -154,6 +152,10 @@
     },
     "orientation":{
         "title":"Orientation"
+    },
+    "origin":{
+        "info":"Votre localisation et statut officiel sont nécessaires pour déterminer (entre autre) les destinations les moins contraignantes administrativement.",
+        "title":"Origine"
     },
     "overlayLayers":{
         "title":"Couches"
@@ -177,6 +179,9 @@
         "info":"Dites-nous qui vous êtes afin que nous puissions comparer votre profil avec les différents pays.",
         "link":"Mon profil",
         "title":"Profil"
+    },
+	"projection":{
+        "title":"Projection"
     },
     "purchasingPower":{
         "info":"Ces paramètres sont principalement utilisés pour trouver les pays qui sont bon marché pour vous.",
@@ -243,6 +248,9 @@
     "time":{
         "title":"Heure et date"
     },
+    "toggle":{
+        "link":"Ouvrir"
+    },
     "translation":{
         "link":"Traduire",
         "info":"Aidez-nous à offrir une traduction de qualité dans votre langue, il vous suffit d'utiliser notre éditeur en ligne dédié. N'hésitez pas, c'est très simple et sans risque!",
@@ -262,6 +270,9 @@
     "validUserProfile":{
         "info":"Dites-nous qui vous êtes afin que nous puissions comparer votre mode de vie avec celui de chaque pays. Assurez-vous que tous les champ de votre profil soient bien valides.",
         "title":"Complétez votre profil"
+    },
+	"various":{
+        "title":"Divers"
     },
     "tourism":{
         "info":"Votre voyage est uniquement à but touristique et généralement pour une durée limitée. Vous n'avez pas l'autorisation de travailler.",

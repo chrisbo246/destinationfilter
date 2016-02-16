@@ -1,0 +1,3 @@
+#RewriteEngine on
+#RewriteRule ^([a-z]{2})$ /$1/ [R]
+#RewriteRule ^([a-z]{2})/$ /?setLng=$1

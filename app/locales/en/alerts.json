@@ -5,7 +5,7 @@
     },
     "noEnabledPriority":{
         "info":"Add some search criteria and rank them according to your priorities to find your ideal destination.",
-        "title":"You have not set any priority"
+        "title":"What are your priorities?"
     },
     "noDisabledPriority":{
         "info":"You have enabled all priorities available but if you still want more, your suggestions are welcome.",

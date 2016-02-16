@@ -6,6 +6,7 @@
   - Feedback_me
   - Google Adsense
   - Google form
+  - Openlayers  
   - Mixitup
 */
 /* PLUGINS
@@ -53,6 +54,14 @@ border: 0;
 .ss-form-container {
 background-color: transparent;
 border: none;
+}
+
+/* ================================================== */
+
+/* ===[ Openlayers ]=== */
+
+.ol-attribution ul {
+  font-size: 1rem;
 }
 
 /* ================================================== */

@@ -57,11 +57,14 @@
         "title":"Best destinations"
     },
     "culture":{
-        "info":"This information helps us identify the country in which you will have less difficulty integrating culturally.",
+        "info":"This information is useful to identify the countries where you may encounter (or not) integration difficulties at the cultural level.",
         "title":"Culture"
     },
     "destinations":{
         "link":"My destinations"
+    },
+    "device":{
+        "title":"Device"
     },
     "disabledPriorities":{
         "info":"Use the filter to display some additional search criteria by theme. Select and activate the ones you want then go to the next section to reorder them according to your priorities.",
@@ -74,6 +77,9 @@
     },
     "driving":{
         "title":"Driving"
+    },
+	"draw":{
+        "title":"Draw"
     },
     "economy":{
         "title":"Economy"
@@ -92,7 +98,7 @@
         "link":"Geography"
     },
     "habits":{
-        "info":"This information helps us identify the countries in which you have to take new habits.",
+        "info":"This information is used to find the countries in which you will potentially new habits to take.",
         "title":"Habits"
     },
     "happiness":{
@@ -129,19 +135,11 @@
     "language":{
         "title":"Language"
     },
-    "legal":{
-        "info":"Access to some countries is more or less regulated depending on your citizenship.",
-        "title":"Legal status"
-    },
     "life":{
         "link":"Life"
     },
     "links":{
         "link":"Links"
-    },
-    "location":{
-        "info":"We need to know where you are approximately to give you more relevant results.",
-        "title":"Actual location"
     },
     "map":{
         "link":"Map"
@@ -155,6 +153,10 @@
     "orientation":{
         "title":"Orientation"
     },
+    "origin":{
+        "info":"Your location and official status is needed to determine (among others) the least restrictive destinations administratively.",
+        "title":"Origine"
+    },    
     "overlayLayers":{
         "title":"Overlays"
     },
@@ -177,6 +179,9 @@
         "info":"Tell us who you are so we can compare with the different countries.",
         "link":"My profile",
         "title":"Profile"
+    },
+	"projection":{
+        "title":"Projection"
     },
     "purchasingPower":{
         "info":"These parameters are mainly used to find countries that are cheap for you.",
@@ -242,6 +247,9 @@
     "time":{
         "title":"Time & date"
     },
+	"toggle":{
+        "link":"Toggle"
+    },
     "translation":{
         "link":"Translate",
         "info":"Help us to provide a quality translation in your language, you just have to use our dedicated online editor. Do not hesitate, it is very simple and risk free!",
@@ -261,6 +269,9 @@
     "validUserProfile":{
         "info":"Tell us who you are so that we can compare your lifestyle with that of each country. Make sure all field of your profile are fully valid.",
         "title":"Fill in your profile"
+    },
+	"various":{
+        "title":"Various"
     },
     "tourism":{
         "info":"Your trip is only for tourist purposes, and generally for a limited time. You do not have permission to work.",

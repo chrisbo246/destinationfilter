@@ -1,0 +1,300 @@
+/*
+  PLUGINS
+  - Bing translator
+  - Bootstrap-tour
+  - BootstrapValidator
+  - Chosen
+  - Image-Select for Chosen
+  - Feedback_me
+  - Google ads
+  - Google form
+  - Google translate
+  - Jasny offcanvas
+  - Mixitup
+  - Tooltipster
+*/
+/* PLUGINS
+================================================== */
+/* ===[ Bing translator ]=== */
+#MicrosoftTranslatorWidget{
+float:right;
+}
+
+#LauncherTranslatePhrase{
+padding:0;
+}
+
+#WidgetFloaterPanels{
+top:0;
+right:70px;
+left:inherit;
+}
+
+/* ================================================== */
+/* ===[ Bootstrap-tour ]=== */
+.tour-tour {  opacity: .95 }
+.tour-tour:hover {  opacity: 1 }
+.tour-tour .btn {  padding: .2em .5em }
+/* ===[ BootstrapValidator ]=== */
+.has-feedback .form-control-feedback {
+top: 25px;
+right: 0;
+}
+
+.form-horizontal .has-feedback .form-control-feedback {
+top: 0;
+right: -15px;
+}
+
+/* ===[ Chosen (adaptations for bootstrap) ]=== */
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="month"] {
+line-height: @input-height-base;
+// IE8+ misaligns the text within date inputs, so we reset
+line-height: @line-height-base ~"\0";
+&.input-sm + .chosen-container {
+line-height: @input-height-small;
+}
+
+&.input-lg + .chosen-container {
+line-height: @input-height-large;
+}
+
+}
+
+.form-control-static {
+// Size it appropriately next to real form controls
+padding-top: (@padding-base-vertical + 1);
+padding-bottom: (@padding-base-vertical + 1);
+// Remove default margin from `p`
+margin-bottom: 0;
+&.input-lg + .chosen-container,
+&.input-sm + .chosen-container {
+padding-left: 0;
+padding-right: 0;
+}
+
+}
+
+.input-sm + .chosen-container {
+.input-size(@input-height-small; @padding-small-vertical; @padding-small-horizontal; @font-size-small; @line-height-small; @border-radius-small);
+}
+
+.input-lg + .chosen-container {
+.input-size(@input-height-large; @padding-large-vertical; @padding-large-horizontal; @font-size-large; @line-height-large; @border-radius-large);
+}
+
+.input-lg + .chosen-container + .form-control-feedback {
+width: @input-height-large;
+height: @input-height-large;
+line-height: @input-height-large;
+}
+
+.input-sm + .chosen-container + .form-control-feedback {
+width: @input-height-small;
+height: @input-height-small;
+line-height: @input-height-small;
+}
+
+/*
+.chosen-container-single .form-control-feedback{
+right:2em;
+}
+
+.chosen-container-multi .chosen-choices li.search-field {  width: 1px }
+.chosen-container-multi .chosen-choices li.search-field input[type=text] {  height: auto }
+.chosen-container{
+width:100%!important;
+}
+
+.chosen-container-multi .chosen-choices,
+.chosen-container-single .chosen-single{
+height: 34px;
+padding: 3px 7px;
+border-radius: 4px;
+}
+
+.chosen-single div {
+padding: 5px 3px;
+}
+
+.chosen-container-active {
+border-color: #66afe9;
+outline: 0;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+
+.input-group .chosen-choices:last-child {
+border-top-left-radius: 0;
+border-bottom-left-radius: 0;
+}
+
+.input-group .chosen-choices:first-child {
+border-top-right-radius: 0;
+border-bottom-right-radius: 0;
+}
+
+.chosen-drop{
+color:#000;
+}
+*/
+
+/* ===[ Image-Select for Chosen ]=== */
+.chose-image {
+width:150px;
+height:150px;
+}
+
+.chose-image-small {
+width:82x;
+height:82px;
+}
+
+/* ================================================== */
+/* ===[ Fullpage ]=== */
+.fullpage {
+height:100%;
+}
+
+.section{
+overflow:hidden;
+}
+
+.fp-slide {
+width:100%;
+}
+
+/*.fp-scrollable*/
+@media (max-width:768px) {
+.fp-next {
+right: 0!important
+}
+
+.fp-prev {
+left: 0!important
+}
+
+}
+
+@media (min-width:768px) {
+.fp-slide {
+padding-right: 60px!important;
+padding-left: 60px!important;
+}
+
+}
+
+/* ===[ Google ads ]=== */
+.adsbygoogle {
+max-width: 100%;
+border: 0;
+}
+
+/* ===[ Google form ]=== */
+.ss-form-container {
+background-color: transparent;
+border: none;
+}
+
+/* ===[ Google translate ]=== */
+#google_translate_element {
+position:absolute;
+top:0;
+right:0;
+z-index:99
+}
+
+/* ================================================== */
+/* ===[ Jasny offcanvas ]=== */
+//fix
+.navmenu-default, .navbar-default .navbar-offcanvas {
+background: none!important;
+}
+
+#map-navbar,
+#map-offcanvas {
+top: 40px;
+}
+
+#map-navbar .navbar-toggle {
+float: left;
+margin-left: 15px;
+opacity:.25;
+}
+
+@media (min-width: 0) {
+#map-navbar .navbar-toggle {
+display: block; /* force showing the toggle */
+}
+
+}
+
+@media (min-width: 992px) {
+body {
+padding: 0;
+}
+
+#map-navbar {
+right: auto;
+background: none;
+border: none;
+}
+
+}
+
+/* ===[ MixItUp ]=== */
+.mix{
+display: none; // important !
+//min-width: 49.8%;
+}
+
+/*
+.list .mix,
+.list .gap{
+display:block;
+width: 100%;
+}
+
+.grid .mix,
+.grid .gap{
+display:inline-block;
+}
+
+*/
+/*@media all and (min-width: 768px){
+.grid .mix,
+.grid .gap{
+width: 50%;
+}
+
+}
+
+@media all and (min-width: 992px){
+.grid .mix,
+.grid .gap{
+width: 33.33333333%;
+}
+
+}
+*/
+/* ===[ Tooltipster ]=== */
+.tooltiptered {  cursor: help }
+.tooltipster-icon {
+cursor: help;
+display: block;
+position: absolute;
+top: .1em;
+right: -1.3em;
+border-radius: 100%;
+text-align: center;
+font-weight: 700;
+background: #0078c9;
+color: #fff;
+line-height: 1em;
+font-size: 0.6em;
+width: 1.25em;
+height: 1.25em;
+}

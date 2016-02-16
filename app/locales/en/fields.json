@@ -150,6 +150,12 @@
     "gamma":{
         "label":"Gamma"
     },
+    "getExtent":{
+        "label":"Get extent"
+    },
+	"global":{
+        "label":"Global"
+    },
     "grossDomesticProduct":{
         "label":"Gross domestic product"
     },
@@ -165,10 +171,19 @@
     "islands":{
         "label":"Islands"
     },
+   "code":{
+        "label":"Code"
+    },
     "codes":{
         "label":"Codes"
     },
-    "latitude":{
+    "getMetersPerUnit":{
+        "label":"Meters per unit"
+    },
+    "getUnits":{
+        "label":"Units"
+    },
+	"latitude":{
         "label":"Latitude"
     },
     "literacyPercent":{
@@ -237,7 +252,7 @@
     "send":{
         "label":"Send"
     },
-    "setLng":{
+    "lng":{
         "info":"Translate"
     },
     "speakingLanguages":{
@@ -270,7 +285,7 @@
     },
     "userCountry":{
         "info":"The country where you are physically right now.",
-        "label":"Country",
+        "label":"Location",
         "messages":{
             "notEmpty":"Your priorities require this information."
         },
