@@ -1,0 +1,1357 @@
+/*old-jslint indent: 2, unparam: true, plusplus: true */
+/*
+jslint
+    devel: true,
+    browser: true,
+    node: false
+*/
+/*
+global
+    $,
+    ol,
+    updateScores,
+    showCountryDetails,
+    deferred: true,
+    countriesDatas: true,
+    countryCodesISO2: false
+*/
+/*
+exported
+    centerMap,
+    fitCountry
+*/
+/**
+ * www.destinationfilter.tk 0.7.0
+ * https://github.com/christopheboisier/DestinationFinder/
+ * MIT licensed
+ * @author Christophe BOISIER
+ *
+ * Copyright (C) 2015 Christophe BOISIER
+ */
+console.time('mapController.js script loaded');
+
+
+
+var map;
+
+var layerSwitcher;
+
+// "EPSG:3857" Spherical Mercator used by Google Maps, OpenStreetMap, Bing; unit is meter (see http://epsg.io/3857)
+// "EPSG:4326" World Geodetic System used in GPS; unit is longitude, latitude (see http://epsg.io/4326)
+var projection = ol.proj.get('EPSG:3857'); // EPSG:3857 EPSG:4326
+// var projection = view.getProjection()
+
+// var extent = [0, 0, 180, 85];
+// var extent = ol.proj.transformExtent([-180, -90, 180, 90], 'EPSG:4326', 'EPSG:3857');
+var extent = projection.getExtent();
+
+// var center =  ol.proj.transform([6.4090530, 46.0780249], 'EPSG:4326', 'EPSG:3857');
+var center = ol.extent.getCenter(extent);
+
+var view = new ol.View({
+    center: center,
+    extent: extent,
+    maxResolution: 39135.76,
+    projection: projection,
+    zoom: 0
+    // minZoom: 4,
+    // maxZoom: 16
+    // resolutions: [65536, 32768, 16384, 8192, 4096, 2048],
+    // resolutions: [9784, 2446, 1223, 76.44, 9.55, 2.39]
+});
+
+// Features ________________________________________________________________________________________
+
+/*
+positionFeature.setStyle(new ol.style.Style({
+    image: new ol.style.Circle({
+        radius: 6,
+        fill: new ol.style.Fill({
+            color: '#3399CC'
+        }),
+        stroke: new ol.style.Stroke({
+            color: '#fff',
+            width: 2
+        })
+    })
+}));
+*/
+
+
+// Styles __________________________________________________________________________________________
+
+/**
+ * Timezones layer style
+ * See http://openlayers.org/en/v3.4.0/examples/kml-timezones.html
+ */
+ 
+var timezonesStyleFunction = function (feature) { // feature, resolution
+    'use strict';
+    var offset = 0;
+    var name = feature.get('name'); // e.g. GMT -08:30
+    var match = name.match(/([\-+]\d{2}):(\d{2})$/);
+    if (match) {
+        var hours = parseInt(match[1], 10);
+        var minutes = parseInt(match[2], 10);
+        offset = 60 * hours + minutes;
+    }
+    var date = new Date();
+    var local = new Date(date.getTime() +
+        (date.getTimezoneOffset() + offset) * 60000);
+    // offset from local noon (in hours)
+    var delta = Math.abs(12 - local.getHours() + (local.getMinutes() / 60));
+    if (delta > 12) {
+        delta = 24 - delta;
+    }
+    var opacity = 0.75 * (1 - delta / 12);
+    return [new ol.style.Style({
+        fill: new ol.style.Fill({
+            color: [0x55, 0x55, 0x55, opacity]
+            //color: [0xff, 0xff, 0x33, opacity]
+        }),
+        stroke: new ol.style.Stroke({
+            color: '#ffffff'
+        })
+    })];
+
+};
+
+
+
+/**
+ * Destinations layer style
+ */
+ 
+var destinationStyleFunction = function (feature) { // feature, resolution
+    'use strict';
+    
+    var opacity,
+        score = 0,
+        id = feature.getId(); // ISO2 lower case
+
+    if (countriesDatas && countryCodesISO2[id]) {
+        id = countryCodesISO2[id].toLowerCase(); // ISO3 lower case
+        if (countriesDatas[id] && countriesDatas[id].percent) {
+            score = countriesDatas[id].percent;
+            // score = countriesDatas[id].score / countriesDatas[id].scoreMax * 100;
+        }
+    }
+
+    opacity = ((score || 0) / 100) * 0.8;
+
+    var style = new ol.style.Style({
+        fill: new ol.style.Fill({
+            color: [0x33, 0xff, 0x00, opacity]
+            // color: [0xff, 0x33, 0x00, opacity]
+        })
+        /*stroke: new ol.style.Stroke({
+          color: '#3f0',
+          width: 1
+        })*/
+    });
+
+    return [style];
+};
+
+
+
+/**
+ * Score layer style
+ */
+ 
+var scoreStyleFunction = function (feature, resolution) {
+
+    var score,
+        id;
+
+    score = 0;
+    id = feature.getId(); // ISO2 lower case
+    if (countriesDatas && countryCodesISO2[id]) {
+        id = countryCodesISO2[id].toLowerCase(); // ISO3 lower case
+        if (countriesDatas[id] && countriesDatas[id].percent) {
+            score = countriesDatas[id].percent;
+            // score = countriesDatas[id].score / countriesDatas[id].scoreMax * 100;
+        }
+    }
+
+    var style = new ol.style.Style({
+        text: new ol.style.Text({
+            font: '1.25em bold Calibri,sans-serif',
+            fill: new ol.style.Fill({
+                color: 'rgba(0,0,0,.5)'
+            }),
+            stroke: new ol.style.Stroke({
+                color: 'rgba(255,255,255,.5)',
+                width: 3
+            })
+        })
+    });
+
+    if (score > 0) {
+        style.getText().setText(resolution > 300 ? score.toFixed() + '%' : '');
+    }
+
+    return [style];
+};
+
+
+
+deferred.load.map.resolve();
+
+$.when(deferred.load.map, deferred.load.mapSettings, deferred.load.data).then(function () {
+
+    'use strict';
+
+    // Sources _____________________________________________________________________________________
+    
+    var countriesSource = new ol.source.GeoJSON({
+        projection: 'EPSG:3857',
+        url: 'datas/geojson/countries.geojson'
+    });
+    
+    // See http://openlayers.org/en/v3.4.0/examples/tileutfgrid.html
+    var gridSource = new ol.source.TileUTFGrid({
+        url: 'http://api.tiles.mapbox.com/v3/mapbox.geography-class.json'
+    });
+    
+    
+    
+    // Base layers _________________________________________________________________________________
+    
+    console.time('Map layers defined');
+    
+    var openStreetMapLayer = new ol.layer.Tile({
+        name: 'openStreetMap',
+        title: 'OpenStreetMap', // (offline)
+        style: 'Road',
+        visible: true,
+        type: 'base',
+        preload: Infinity,
+        source: new ol.source.OSM({
+            // crossOrigin: null,
+            urls: [
+                'http://a.tile.openstreetmap.org/{z}/{x}/{y}.png'
+                /*,
+                      '../../Datas/Tiles/osm_mapnik/{z}/{x}/{y}.png'*/
+            ]
+        })
+    });
+
+    var openCycleMapLayer = new ol.layer.Tile({
+        name: 'openCycleMap',
+        title: 'OpenCycleMap', // (offline)
+        style: 'Road',
+        visible: false,
+        type: 'base',
+        preload: Infinity,
+        source: new ol.source.XYZ({
+            attributions: [
+                new ol.Attribution({
+                    html: 'All maps &copy; <a href="http://www.opencyclemap.org/">OpenCycleMap</a>'
+                })
+                // ol.source.OSM.DATA_ATTRIBUTION // issue
+            ],
+            urls: [
+                'http://{a-c}.tile.opencyclemap.org/cycle/{z}/{x}/{y}.png',
+                'http://{a-c}.tile.thunderforest.com/cycle/{z}/{x}/{y}.png'
+                /*,
+                      '../../Datas/Tiles/OpenCycleMap/{z}/{x}/{y}.png'*/
+            ]
+        })
+    });
+
+    var openSeaMapLayer = new ol.layer.Tile({
+        name: 'openSeaMap',
+        title: 'OpenSeaMap',
+        // style: 'Road',
+        visible: false,
+        type: 'base',
+        preload: Infinity,
+        source: new ol.source.OSM({
+            attributions: [
+                new ol.Attribution({
+                    html: 'All maps &copy; ' +
+                        '<a href="http://www.openseamap.org/">OpenSeaMap</a>'
+                }),
+                ol.source.OSM.ATTRIBUTION
+            ],
+            crossOrigin: null,
+            urls: [
+                'http://tiles.openseamap.org/seamark/{z}/{x}/{y}.png',
+                'http://t1.openseamap.org/seamark/{z}/{x}/{y}.png'
+            ]
+        })
+    });
+
+    var mapquestOSMLayer = new ol.layer.Tile({
+        name: 'mapquestOSM',
+        title: 'MapQuest OSM',
+        style: 'Road',
+        visible: false,
+        type: 'base',
+        preload: Infinity,
+        source: new ol.source.MapQuest({
+            layer: 'osm'
+        })
+    });
+
+    var mapquestSatLayer = new ol.layer.Tile({
+        name: 'mapquestSat',
+        title: 'MapQuest satellite',
+        style: 'Aerial',
+        visible: false,
+        type: 'base',
+        preload: Infinity,
+        source: new ol.source.MapQuest({
+            layer: 'sat'
+        })
+    });
+
+    var arcgisLayer = new ol.layer.Tile({
+        name: 'arcgis',
+        title: 'ArcGIS',
+        style: 'Road',
+        visible: false,
+        type: 'base',
+        preload: Infinity,
+        source: new ol.source.XYZ({
+            crossOrigin: 'anonymous', // Important
+            attributions: [
+                new ol.Attribution({
+                    html: 'Tiles &copy; <a href="http://services.arcgisonline.com/ArcGIS/' +
+                        'rest/services/World_Topo_Map/MapServer">ArcGIS</a>'
+                })
+            ],
+            url: 'http://server.arcgisonline.com/ArcGIS/rest/services/' +
+                'World_Topo_Map/MapServer/tile/{z}/{y}/{x}'
+
+        })
+    });
+
+    // Layer groups
+    var roadBaselayers = new ol.layer.Group({
+        name: 'roadBaselayers',
+        title: $.t('sections:roadLayers.title'),
+        layers: [
+            // hikeBikeMapLayer,
+            openStreetMapLayer,
+            openSeaMapLayer,
+            openCycleMapLayer,
+            mapquestOSMLayer
+        ]
+    });
+
+    var reliefBaselayers = new ol.layer.Group({
+        name: 'reliefBaselayers',
+        title: $.t('sections:roadWithReliefLayers.title'),
+        layers: [
+            // stamenTerrainWithLabelsLayer,
+            arcgisLayer
+        ]
+    });
+
+    var aerialBaselayers = new ol.layer.Group({
+        name: 'aerialBaselayers',
+        title: $.t('sections:satelliteLayers.title'),
+        layers: [
+            mapquestSatLayer
+        ]
+    });
+
+    /*
+    var hybridBaselayers = new ol.layer.Group({
+        name: 'hybridBaselayers',
+        title: 'Satellite w/ labels',
+        layers: [
+            // mapquestAerialWithLabelsLayer
+        ]
+    });
+
+    var variousBaselayers = new ol.layer.Group({
+        name: 'variousBaselayers',
+        title: 'Various',
+        layers: [
+
+        ]
+    });
+    */
+
+    var baselayers = new ol.layer.Group({
+        name: 'baseLayers',
+        title: $.t('sections:baseLayer.title'),
+        layers: [
+            // variousBaselayers,
+            // hybridBaselayers,
+            aerialBaselayers,
+            reliefBaselayers,
+            roadBaselayers
+        ]
+    });
+    
+    
+    
+    // Overlays ____________________________________________________________________________________
+    /*
+    var mapquestHybLayer = new ol.layer.Tile({
+        name: 'mapquestHyb',
+        title: 'MapQuest city names',
+        style: 'AerialHybrid',
+        visible: false,
+        source: new ol.source.MapQuest({
+            layer: 'hyb'
+        })
+    });
+
+
+    var lonviaCyclingLayer = new ol.layer.Tile({
+        name: 'lonviaCycling',
+        title: 'Lonvia cycling',
+        style: 'Road',
+        visible: false,
+        opacity: 0.8,
+        source: new ol.source.OSM({
+            attributions: [
+                new ol.Attribution({
+                    html: 'Map data &copy; <a href="http://www.openstreetmap.org/">OpenStreetMap</a> and contributors <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+                }),
+                ol.source.OSM.ATTRIBUTION
+            ],
+            crossOrigin: null,
+            url: 'http://tile.lonvia.de/cycling/{z}/{x}/{y}.png'
+            // urls: [
+            //  'http://tile.waymarkedtrails.org/cycling/{z}/{x}/{y}.png',
+            //  'http://tile.lonvia.de/cycling/{z}/{x}/{y}.png',
+            //  '../../Datas/Tiles/lonvia_cycling/{z}/{x}/{y}.png'
+            // ]
+        })
+    });
+
+    var lonviaHikingLayer = new ol.layer.Tile({
+        name: 'lonviaHiking',
+        title: 'Lonvia hiking',
+        style: 'Road',
+        visible: false,
+        source: new ol.source.OSM({
+            attributions: [
+                new ol.Attribution({
+                    html: 'Map data &copy; <a href="http://www.openstreetmap.org/">OpenStreetMap</a> and contributors <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+                }),
+                ol.source.OSM.ATTRIBUTION
+            ],
+            crossOrigin: null,
+            url: 'http://tile.lonvia.de/hiking/{z}/{x}/{y}.png'
+        })
+    });
+
+    var toolserverHillShadingLayer = new ol.layer.Tile({
+        name: 'toolserverHillShading',
+        title: 'Toolserver hill shading',
+        visible: false,
+        minZoom: 2,
+        maxZoom: 15,
+        source: new ol.source.XYZ({
+            // crossOrigin: null,
+            urls: [
+                // 'http://toolserver.org/~cmarqu/hill/{z}/{x}/{y}.png',
+                'http://a.tiles.wmflabs.org/hillshading/{z}/{x}/{y}.png',
+                'http://b.tiles.wmflabs.org/hillshading/{z}/{x}/{y}.png',
+                'http://c.tiles.wmflabs.org/hillshading/{z}/{x}/{y}.png'
+            ]
+        })
+    });
+
+    var scoresLayer = new ol.layer.Vector({
+        name: 'scores',
+        title: 'Scores',
+        style: scoreStyleFunction,
+        visible: true,
+        minResolution: 200,
+        // maxResolution: 20000
+        source: countriesSource
+        //source: new ol.source.Vector({
+        //    url: 'datas/geojson/countries.geojson',
+        //    format: new ol.format.GeoJSON({
+        //      extractStyles: false
+        //    })
+        //})
+    });
+
+    var destinationsLayer = new ol.layer.Vector({
+        name: 'destinations',
+        title: 'My destinations',
+        style: destinationStyleFunction,
+        visible: true,
+        minResolution: 200,
+        // maxResolution: 20000
+        source: countriesSource
+        //source: new ol.source.Vector({
+        //    url: 'datas/geojson/countries.geojson',
+        //    format: new ol.format.GeoJSON({
+        //      extractStyles: false
+        //    })
+        //})
+    });
+    // if (map && map.getView()) {
+    //    map.addLayer(scoresLayer);
+    // } else {
+    //    userOverlays.push(scoresLayer);
+    // }
+
+    // See http://openlayers.org/en/v3.4.0/examples/kml-timezones.html
+    var timeZonesLayer = new ol.layer.Vector({
+        name: 'timeZones',
+        title: 'Time Zones',
+        visible: false,
+        style: timezonesStyleFunction,
+        minResolution: 4891,
+        source: new ol.source.KML({
+            extractStyles: false,
+            projection: 'EPSG:3857',
+            url: 'datas/kml/timezones.kml'
+        })
+        //source: new ol.source.Vector({
+        //    url: 'datas/kml/timezones.kml',
+        //    format: new ol.format.KML({
+        //        extractStyles: false
+        //    })
+        //})
+    });
+
+    var drawingVectorLayer = new ol.layer.Tile({
+        name: 'drawing',
+        title: 'My drawings',
+        visible: false
+        // ,
+        //    source: new ol.source.MapQuest({layer: 'sat'})
+    });
+
+    //var gridLayer = new ol.layer.Tile({
+    //  name: 'gridLayer',
+    //  title: 'Country data',
+    //  style: 'Grid',
+    //  visible: false,
+    //  source: gridSource
+    //});
+
+    // Groups
+    var roadOverlays = new ol.layer.Group({
+        name: 'roadOverlays',
+        title: $.t('sections:roadLayers.title'),
+        layers: [
+            mapquestHybLayer,
+            lonviaHikingLayer,
+            lonviaCyclingLayer
+        ]
+    });
+
+    //var markerOverlays = new ol.layer.Group({
+    //    name: 'markerOverlays',
+    //    title: 'Markers',
+    //    layers: [
+    //    ]
+    //});
+
+    var informationOverlays = new ol.layer.Group({
+        name: 'informationOverlays',
+        title: $.t('sections:infoLayers.title'),
+        layers: [
+            timeZonesLayer
+            // gridLayer
+        ]
+    });
+
+    var terrainOverlays = new ol.layer.Group({
+        name: 'terrainOverlays',
+        title: $.t('sections:reliefLayers.title'),
+        layers: [
+            toolserverHillShadingLayer
+        ]
+    });
+
+    var userOverlays = new ol.layer.Group({
+        name: 'userOverlays',
+        title: $.t('sections:myLayers.title'),
+        layers: [
+            destinationsLayer,
+            scoresLayer,
+            drawingVectorLayer
+        ]
+    });
+
+    var overlays = new ol.layer.Group({
+        name: 'overlays',
+        title: $.t('sections:overlayLayers.title'),
+        layers: [
+            userOverlays,
+            // toolOverlays,
+            // euroveloRoutesOverlay,
+            informationOverlays,
+            terrainOverlays,
+            roadOverlays
+        ]
+    });
+    */
+
+
+    console.timeEnd('Map layers defined');
+    
+    
+
+    // Controls ________________________________________________________________________________________
+
+    // overviewmap-custom
+    var overviewMapControl = new ol.control.OverviewMap({
+        // see in overviewmap-custom.html to see the custom CSS used
+        className: 'ol-overviewmap ol-custom-overviewmap',
+        layers: [
+            baselayers
+        ],
+        collapseLabel: '\u00AB',
+        label: '\u00BB',
+        collapsed: true,
+        tipLabel: $.t('buttons:olOverviewmap.label')
+    });
+
+    var attribution = new ol.control.Attribution({
+        collapsible: true,
+        tipLabel: $.t('buttons:olAttribution.label')
+    });
+
+    var zoomToExtentControl = new ol.control.ZoomToExtent({
+        extent: extent,
+        tipLabel: $.t('buttons:olZoomExtent.label')
+    });
+
+    // scale-line
+    var scaleLineControl = new ol.control.ScaleLine({
+        tipLabel: $.t('buttons:olScaleLine.label')
+    });
+
+    // mouse-position
+    var mousePositionControl = new ol.control.MousePosition({
+        coordinateFormat: ol.coordinate.createStringXY(4),
+        projection: 'EPSG:4326', // infoProjection
+        // comment the following two lines to have the mouse position
+        // be placed within the map.
+        className: 'custom-mouse-position',
+        target: document.getElementById('mouse-position'),
+        undefinedHTML: '&nbsp;'
+    });
+
+    // Layerswitcher
+    layerSwitcher = new ol.control.LayerSwitcher({
+        tipLabel: $.t('buttons:olLayerswitcher.label')
+    });
+    // map.addControl(layerSwitcher);
+
+    var fullScreenControl = new ol.control.FullScreen({
+        // className: 'ol-glyphicon',
+        // label: '\e140',
+        tipLabel: $.t('buttons:olFullScreen.label')
+    });
+
+
+
+    // Overlays ________________________________________________________________________________________
+
+    /**
+     * See http://openlayers.org/en/v3.4.0/examples/tileutfgrid.html
+     */
+
+    var infoElement = document.getElementById('country-info');
+    var infoOverlay = new ol.Overlay({
+        element: infoElement,
+        offset: [15, 15],
+        stopEvent: false
+    });
+    // map.addOverlay(infoOverlay);
+
+    var popupElement = document.getElementById('popup');
+    var popup = new ol.Overlay({
+        element: popupElement,
+        positioning: 'bottom-center',
+        stopEvent: false
+    });
+    // map.addOverlay(popup);
+
+
+
+
+
+    /**
+     * button-title
+     */
+
+
+    // Tooltips translation
+    // $('#map .ol-zoom-in[data-original-title]').attr('data-original-title', $.t('buttons:olZoomIn.label'));
+    // $('#map .ol-zoom-out[data-original-title]').attr('data-original-title', $.t('buttons:olZoomOut.label'));
+
+    var noDownloadInfo = document.getElementById('no-download');
+    var noWebglInfo = document.getElementById('no-webgl');
+
+    // _________________________________________________________________________________________________
+
+    // Tooltip
+    // See http://openlayers.org/en/v3.4.0/examples/kml-timezones.html
+    var mapTooltip = $('#map-tooltip');
+    mapTooltip.tooltip({
+        animation: false,
+        trigger: 'manual'
+    });
+
+    // Auto save/restore form fields with cookies
+    // console.time('sayt initialized for #settings_form, #position_form');
+    // $('#settings_form, #position_form').sayt(options.sayt);
+    // console.timeEnd('sayt initialized for #settings_form, #position_form');
+
+    var mapElement = document.getElementById('map');
+
+
+    // Map _____________________________________________________________________________________________
+
+    if (!ol.has.WEBGL) {
+        noWebglInfo.style.display = '';
+        // var renderer = 'canvas';
+    } else {
+        // var renderer = 'webgl';
+    }
+
+    map = new ol.Map({
+        logo: false,
+        view: view,
+        controls: ol.control.defaults({
+            attribution: false,
+            attributionOptions: /** @type {olx.control.AttributionOptions} */ ({
+                collapsible: false
+            }),
+            zoomOptions: {
+                zoomInTipLabel: $.t('buttons:olZoomIn.label'),
+                zoomOutTipLabel: $.t('buttons:olZoomOut.label')
+            }
+        }).extend([
+            attribution,
+            mousePositionControl,
+            scaleLineControl,
+            overviewMapControl,
+            zoomToExtentControl,
+            fullScreenControl,
+            layerSwitcher
+        ]),
+        interactions: ol.interaction.defaults({
+
+        }).extend([
+            new ol.interaction.DragRotateAndZoom()
+        ]),
+        layers: [
+            baselayers
+            // overlays
+            // markerOverlays
+        ],
+        overlays: [
+            infoOverlay,
+            popup
+            //marker
+        ],
+        // renderer: renderer, // dom webgl canvas ol.RendererHint.CANVAS
+        target: mapElement,
+        loadTilesWhileInteracting: true
+    });  
+    
+    // Adapt map controls
+    $('.ol-zoom-in, .ol-zoom-out, .ol-overviewmap button[title], .ol-zoom-extent button[title]').tooltip({
+        placement: 'right'
+    });
+    $('.ol-rotate-reset, .ol-attribution button[title], .ol-full-screen button[title], .layer-switcher button[title]').tooltip({
+        placement: 'left'
+    });
+    $('.layer-switcher button').addClass('ol-control');
+    
+    console.info('Map initialized');
+    
+    // Tell the world that map is ready
+    deferred.ready.map.resolve();
+
+    // Layer
+    // var layer,
+    // var layer = map.getLayers().getArray()[0]; // brightness-contrast
+    // var lyrs = map.getLayers().getArray().slice().reverse();
+
+
+    // Optional layers _______________________________________________________________________________
+
+    // Load optional layers only when user open the map tab
+    /*
+    $('a[data-toggle="tab"]').one('shown.bs.tab', function (e) {
+        console.log('Map tab opened');
+        var pane_id = $(e.target).attr('href');
+        if (pane_id === '#map_pane') {
+            console.log('Load optionalLayers.js');
+            $.getScript('components/map/optionalLayers.js', function (data, textStatus, jqxhr) {
+
+            });
+
+        }
+    });
+    */
+
+    // Feature overlay _________________________________________________________________________________
+
+    /*var featuresOverlay = new ol.FeatureOverlay({
+        map: map,
+        features: [accuracyFeature, positionFeature]
+    });*/
+
+
+
+    /**
+     * image-vector-layer
+     */
+
+    var countryFeatureOverlay = new ol.FeatureOverlay({
+        map: map,
+        minResolution: 300,
+        style: new ol.style.Style({
+            stroke: new ol.style.Stroke({
+                color: '#f00',
+                width: 1
+            }),
+            fill: new ol.style.Fill({
+                color: 'rgba(255,0,0,0.1)'
+            })
+        })
+    });
+
+
+
+
+
+    // Before functions ________________________________________________________________________________
+
+    /**
+     * select-features
+     */
+
+    var select = null; // ref to currently selected interaction
+
+    // select interaction working on "singleclick"
+    var selectSingleClick = new ol.interaction.Select();
+
+    // select interaction working on "click"
+    var selectClick = new ol.interaction.Select({
+        condition: ol.events.condition.click
+    });
+
+    // select interaction working on "pointermove"
+    var selectPointerMove = new ol.interaction.Select({
+        condition: ol.events.condition.pointerMove
+    });
+
+    // See http://openlayers.org/en/v3.4.0/examples/tileutfgrid.html
+    var flagElement = document.getElementById('country-flag');
+    var nameElement = document.getElementById('country-name');
+    // var infoElement = document.getElementById('country-info');
+
+
+    // Functions (after map initialization) ____________________________________________________________
+
+    /**
+     * http://openlayers.org/en/v3.4.0/examples/image-vector-layer.html
+     */
+
+    var highlight;
+
+    var displayCountryFeatureInfo = function (pixel) {
+
+        var info,
+            feature;
+
+        feature = map.forEachFeatureAtPixel(pixel, function (feature) { // feature, layer
+            return feature;
+        });
+
+        info = document.getElementById('map_info');
+        if (feature) {
+            info.innerHTML = feature.getId() + ': ' + feature.get('name');
+        } else {
+            info.innerHTML = '&nbsp;';
+        }
+
+        if (feature !== highlight) {
+            if (highlight) {
+                countryFeatureOverlay.removeFeature(highlight);
+            }
+            if (feature) {
+                countryFeatureOverlay.addFeature(feature);
+            }
+            highlight = feature;
+        }
+
+    };
+
+
+
+    /**
+     * Convert SVG to image
+     */
+    /*
+    var svgToImage = function (src, width, height) {
+        'use strict';
+        var canvas = $('<canvas/>')[0],
+            context,
+            svgImage = new Image(),
+            image = new Image();
+
+        canvas.height = height;
+        canvas.width = width;
+
+        context = canvas.getContext('2d');
+
+        svgImage.src = src;
+        context.drawImage(svgImage, 0, 0, width, height);
+        image.src = canvas.toDataURL();
+        return image;
+    }
+    */
+
+
+
+    /**
+     * See http://openlayers.org/en/v3.4.0/examples/kml-timezones.html
+     */
+
+    var displayTimezonesFeatureInfo = function (pixel) {
+
+        mapTooltip.css({
+            left: pixel[0] + 'px',
+            top: (pixel[1] - 15) + 'px'
+        });
+        var feature = map.forEachFeatureAtPixel(pixel, function(feature) { // feature, layer
+            return feature;
+        });
+        if (feature) {
+            mapTooltip.tooltip('hide')
+                .attr('data-original-title', feature.get('name'))
+                .tooltip('fixTitle')
+                .tooltip('show');
+        } else {
+            mapTooltip.tooltip('hide');
+        }
+
+    };
+
+
+
+    /**
+     * Change mouse interaction
+     * See http://openlayers.org/en/v3.4.0/examples/select-features.html
+     */
+
+    var changeInteraction = function () {
+        if (select !== null) {
+            map.removeInteraction(select);
+        }
+        var value = selectElement.value;
+        if (value === 'singleclick') {
+            select = selectSingleClick;
+        } else if (value === 'click') {
+            select = selectClick;
+        } else if (value === 'pointermove') {
+            select = selectPointerMove;
+        } else {
+            select = null;
+        }
+        if (select !== null) {
+            map.addInteraction(select);
+            select.on('select', function (e) {
+                if (e.selected) {
+                    $('#status').html('&nbsp;' + e.target.getFeatures().getLength() +
+                        ' selected features (last operation selected ' + e.selected.length +
+                        ' and deselected ' + e.deselected.length + ' features)');
+                }
+
+            });
+        }
+    };
+
+    
+
+    /**
+     * Display country name and flag
+     * See http://openlayers.org/en/v3.4.0/examples/tileutfgrid.html
+     */
+
+    var displayCountryInfo = function (coordinate) {
+        var viewResolution = /** @type {number} */ (view.getResolution());
+        gridSource.forDataAtCoordinateAndResolution(coordinate, viewResolution,
+            function (data) {
+                // If you want to use the template from the TileJSON,
+                //  load the mustache.js library separately and call
+                //  info.innerHTML = Mustache.render(gridSource.getTemplate(), data);
+                mapElement.style.cursor = data ? 'pointer' : '';
+                if (data) {
+                    /* jshint -W069 */
+                    flagElement.src = 'data:image/png;base64,' + data.flag_png;
+                    nameElement.innerHTML = data.admin;
+                    /* jshint +W069 */
+                }
+                infoOverlay.setPosition(data ? coordinate : undefined);
+
+            });
+    };
+
+
+
+    /**
+     * Center map at a GPS position
+     */
+
+    function centerMap(longitude, latitude, zoom) {
+        'use strict';
+        map.getView().setCenter(ol.proj.transform([longitude, latitude], 'EPSG:4326', 'EPSG:3857'));
+        if (zoom) {
+            map.getView().setZoom(zoom);
+        }
+        console.log('Map centered at longitude: ' + longitude + ' latitude: ' + latitude + ' zoom: ' + zoom);
+    }
+
+
+
+    /**
+     * Center the map on a country and adjust zoom
+     * See http://openlayers.org/en/v3.4.0/examples/center.html
+     */
+
+    function fitCountry(id) {
+        //var feature = source.getFeatures()[0];
+        var source = countriesSource;
+        var feature = source.getFeatureById(id);
+        var polygon = /** @type {ol.geom.SimpleGeometry} */ (feature.getGeometry());
+        var size = /** @type {ol.Size} */ (map.getSize());
+        view.fitGeometry(
+            polygon,
+            size,
+            {
+              padding: [0, 0, 0, 0],
+              constrainResolution: false
+              // nearest: true,
+              // minResolution: 50
+            }
+        );
+    }
+
+
+    
+    /**
+     * Open country details modal
+     */
+     
+    var displayCountryDetails = function (pixel) { // coordinate
+
+        var feature;
+
+        mapTooltip.css({
+            left: pixel[0] + 'px',
+            top: (pixel[1] - 15) + 'px'
+        });
+
+        feature = map.forEachFeatureAtPixel(pixel, function (feature) { // feature, layer
+            return feature;
+        });
+
+        if (feature) {
+            if (countryCodesISO2) {
+                console.log('Show country details for ' + feature.get('name') + ' (' + feature.getId() + ')');
+                // console.info('countryCodesISO2 = ' + JSON.stringify(countryCodesISO2));
+                var fid = feature.getId();
+                var cid = countryCodesISO2[fid];
+                if (cid) {
+                    $('#country_details').modal('show');
+                    showCountryDetails(cid.toLowerCase());
+                } else {
+                    console.warn('Country clicked but ISO3:' + fid + ' to ISO2:' + cid + ' conversion has failed'); /* RemoveLogging:skip */
+                }
+            } else {
+                console.warn('countryCodesISO2 array is not defined'); /* RemoveLogging:skip */
+            }
+        }
+
+
+        /*
+        var viewResolution = / ** @type {number} * / (view.getResolution());
+        gridSource.forDataAtCoordinateAndResolution(coordinate, viewResolution,
+            function (data) {
+
+                console.log('Show country details');
+                if (data) {
+                    console.log('Show country details: ' + JSON.stringify(data));
+                    $('#country_details').modal('show');
+                    var id = countryCodesISO2[data.id].toLowerCase();
+                    showCountryDetails(id);
+                }
+
+            }
+        );
+        */
+
+    };
+
+
+
+    /**
+     * See http://openlayers.org/en/v3.4.0/examples/moveend.html
+     */
+
+    function wrapLon(value) {
+        var worlds = Math.floor((value + 180) / 360);
+        return value - (worlds * 360);
+    }
+
+
+
+    /**
+     * See http://openlayers.org/en/v3.4.0/examples/moveend.html
+     */
+
+    function onMoveEnd(evt) {
+        var map = evt.map,
+            extent = map.getView().calculateExtent(map.getSize()),
+            bottomLeft = ol.proj.transform(ol.extent.getBottomLeft(extent), 'EPSG:3857', 'EPSG:4326'),
+            topRight = ol.proj.transform(ol.extent.getTopRight(extent), 'EPSG:3857', 'EPSG:4326');
+        document.getElementById('left').value = wrapLon(bottomLeft[0]).toFixed(2);
+        document.getElementById('bottom').value = bottomLeft[1].toFixed(2)
+        document.getElementById('right').value = wrapLon(topRight[0]).toFixed(2);
+        document.getElementById('top').value = topRight[1].toFixed(2);
+    }
+
+
+
+    /**
+     * 
+     * See http://openlayers.org/en/v3.4.0/examples/kml.html
+     */
+
+    var displayKMLFeatureInfo = function (pixel) {
+        var features = [],
+            info,
+            i,
+            ii;
+        map.forEachFeatureAtPixel(pixel, function (feature) { // feature, layer
+            features.push(feature);
+        });
+        if (features.length > 0) {
+            info = [];
+            for (i = 0, ii = features.length; i < ii; i = i + 1) {
+                info.push(features[i].get('name'));
+            }
+            document.getElementById('map_info').innerHTML = info.join(', ') || '(unknown)';
+            map.getTarget().style.cursor = 'pointer';
+        } else {
+            document.getElementById('map_info').innerHTML = '&nbsp;';
+            map.getTarget().style.cursor = '';
+        }
+    };
+
+
+
+    // Events ______________________________________________________________________________________
+
+    // Map click event
+    // See http://openlayers.org/en/v3.4.0/examples/kml-timezones.html
+    // See http://openlayers.org/en/v3.4.0/examples/kml.html    
+    // See http://openlayers.org/en/v3.4.0/examples/tileutfgrid.html
+    map.on('click', function (evt) {
+        displayCountryFeatureInfo(evt.pixel);
+        displayKMLFeatureInfo(evt.pixel);
+        displayTimezonesFeatureInfo(evt.pixel);
+        displayCountryInfo(evt.coordinate);
+        displayCountryDetails(evt.pixel);
+    });
+
+    // Pointer move
+    // See http://openlayers.org/en/v3.4.0/examples/tileutfgrid.html
+    // See http://openlayers.org/en/v3.4.0/examples/kml.html
+    // See http://openlayers.org/en/v3.4.0/examples/image-vector-layer.html
+    map.on('pointermove', function (evt) {
+
+        var pixel,
+            coordinate,
+            hit;
+
+        if (evt.dragging) {
+            mapTooltip.tooltip('hide');
+            return;
+        }
+        pixel = map.getEventPixel(evt.originalEvent);
+        coordinate = map.getEventCoordinate(evt.originalEvent);
+        hit = map.hasFeatureAtPixel(pixel);
+
+        displayCountryFeatureInfo(pixel);
+        displayKMLFeatureInfo(pixel);
+        displayCountryInfo(coordinate);
+
+        // Popup
+        if (evt.dragging) {
+            $(popupElement).popover('destroy');
+            return;
+        }
+        map.getTarget().style.cursor = hit ? 'pointer' : '';
+
+    });
+    
+    // Pointer stop
+    // See http://openlayers.org/en/v3.4.0/examples/moveend.html
+    map.on('moveend', onMoveEnd);
+
+    // Map resize
+    $('#map').resize(function () {
+        map.updateSize();
+        console.log('Map size updated');
+    });
+
+    // View change
+    // map.events.fireEvent('change:view');
+
+    // Mouse move on viewport
+    // See http://openlayers.org/en/v3.4.0/examples/kml-timezones.html
+    $(map.getViewport()).on('mousemove', function (evt) {
+        var pixel = map.getEventPixel(evt.originalEvent);
+        displayTimezonesFeatureInfo(pixel);
+    });
+    
+    
+    
+    // Inputs ______________________________________________________________________________________
+    
+    // Scale-line units
+    var unitsSelect = $('#units');
+    unitsSelect.on('change', function () {
+        scaleLineControl.setUnits(this.value);
+    });
+    unitsSelect.val(scaleLineControl.getUnits());
+
+    // Mouse projection
+    var projectionSelect = $('#projection');
+    projectionSelect.on('change', function () {
+        mousePositionControl.setProjection(ol.proj.get(this.value));
+    });
+    projectionSelect.val(mousePositionControl.getProjection().getCode());
+
+    // Mouse precision
+    var precisionInput = $('#precision');
+    precisionInput.on('change', function () {
+        var format = ol.coordinate.createStringXY(this.valueAsNumber);
+        mousePositionControl.setCoordinateFormat(format);
+    });
+    
+    // Country selection mode (click, double click)
+    var selectElement = document.getElementById('action_type');
+    selectElement.onchange = changeInteraction;
+    changeInteraction();
+    
+    // View resolution and zoom
+    var $resolution = $('#resolution');
+    var $zoom = $('#zoom');
+    map.getView().on('change:resolution', function () {
+        var resolution = this.getResolution();
+        if (resolution) {
+            $resolution.val(resolution.toFixed(2));
+        }
+        $zoom.val(this.getZoom());
+    });
+    $resolution.on('change', function () {
+        view.setResolution($resolution.val())
+    });
+    $zoom.on('change', function () {
+        view.setZoom($zoom.val())
+    });
+
+    // View center
+    var $centerX = $('#center_x');
+    var $centerY = $('#center_y');
+    map.getView().on('change:center', function () {
+        var lonLat = this.getCenter();
+        if (lonLat) {
+            $centerX.val(lonLat[0].toFixed(2)); // .toFixed(2)
+            $centerY.val(lonLat[1].toFixed(2));
+        }
+    });
+    $('#center_x, #center_y').on('change', function () {
+        view.setCenter($centerX.val(), $centerY.val())
+    });
+
+    // View rotation
+    var $rotation = $('#rotation');
+    map.getView().on('change:rotation', function () {
+        var rotation = this.getRotation();
+        $rotation.val(rotation);
+    });
+    $rotation.on('change', function () {
+        view.setRotation($rotation.val())
+    });
+
+    // GPS mode
+    var $gpsMode = $('#gps_mode');
+    $gpsMode.on('switchChange.bootstrapSwitch init', function () { // e, state
+        if (this.checked) {
+            view.setZoom(14);
+            console.log('Zoom increased');
+        }
+    });
+    
+    // Automatic rotation
+    var $rotateMap = $('#rotate_map');
+    
+    // Export map as PNG (export-map)
+    var exportPNGElement = document.getElementById('export-png');
+    if ('download' in exportPNGElement) {
+        exportPNGElement.addEventListener('click', function () {
+            map.once('postcompose', function (event) {
+                var canvas = event.context.canvas;
+                exportPNGElement.href = canvas.toDataURL('image/png');
+            });
+            map.renderSync();
+        }, false);
+    } else {
+        noDownloadInfo.style.display = '';
+    }
+
+    
+    
+    // _____________________________________________________________________________________________
+    
+    // Draw the map when the map tab pane become visible
+    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+        var pane_id = $(e.target).attr('href');
+        // var pane_id = $(e.currentTarget).attr('href');
+
+        console.log(pane_id + ' tab shown');
+        if (pane_id === '#map_pane' && map) {
+
+            // alert('refresh map');
+            updateScores();
+        //    map.updateSize();
+            // map.renderSync();
+            // map.on('postcompose', render);
+            // map.render();
+        //    overviewMapControl.setMap(map);
+            console.log('Map refreshed');
+
+        }
+    });
+
+    /*var $el = $('.navmenu');
+    $el.on('shown.bs.offcanvas', function (e) {
+
+    });*/
+    
+    // initBlock('[data-anchor="map"]');
+
+    console.timeEnd('Map initialized');
+
+});
+
+
+
+
+console.timeEnd('mapController.js script loaded');

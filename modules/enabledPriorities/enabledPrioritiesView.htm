@@ -1,0 +1,45 @@
+<div class="container">
+    <div class="row">
+        <div class="row-same-height row-full-height">
+            <div class="col-md-10 col-md-height col-top">
+                <div id="no_priority_alert" class="alert alert-info clearfix">
+                    <h4><span class="glyphicon glyphicon-info-sign glyphicon-4x pull-left"></span> <span data-i18n="alerts:noEnabledPriority.title"></span></h4>
+                    <p data-i18n="[html]alerts:noEnabledPriority.info"></p>
+                </div>
+                <ol id="enabled_priorities" class="enabled-priorities list-group list-number-surrounded list-number-surrounded-lg list-number-surrounded-circle list-number-3x list sortable-priorities">
+                </ol>
+                <form data-persist="garlic">
+                    <input id="stored_priorities" class="garlic-auto-save" type="text" />
+                </form>
+            </div>
+            <div class="col-md-2 col-md-height col-full-height responsive-advert-container fixed-advert-container col-top text-right">
+            </div>
+        </div>
+    </div>
+    <ul class="pager hidden">
+        <li class="previous"><a href="#home_pane" data-toggle="tab">← Home</a></li>
+        <li class="next"><a href="#map_pane" data-toggle="tab">Map →</a></li>
+    </ul>
+</div>
+<div class="navbar navbar-inverse navbar-fixed-bottom">
+    <ul class="nav navbar-nav navbar-right col-xs-12">
+        <li class="col-xs-4 text-center">
+            <a id="disable_all_priorities" class="btn">
+            <span class="glyphicon glyphicon-trash"></span><br />
+            <span class="hidden-xs" data-i18n="buttons:disableAll.label"></span>
+            </a>
+        </li>
+        <li class="col-xs-4 text-center">
+            <a data-toggle="modal" href="#disabled_priorities_modal" class="btn">
+            <span class="glyphicon glyphicon-plus"></span><br />
+            <span class="hidden-xs" data-i18n="buttons:add.label"></span>
+            </a>
+        </li>
+        <li class="col-xs-4 text-center">
+            <a id="disable_selected_priorities" class="btn">
+            <span class="glyphicon glyphicon-remove"></span><br />
+            <span class="hidden-xs" data-i18n="buttons:disableSelection.label"></span>
+            </a>
+        </li>
+    </ul>
+</div>

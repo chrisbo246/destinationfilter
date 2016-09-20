@@ -1,0 +1,29 @@
+{
+    "app":{
+        "name":"DESTINATION FILTER",
+        "description":"Besoin de vous échapper pour un bref séjour à l'étranger? Complétez votre profil et ajoutez quelques critères pour obtenir une carte des pays correspondant à vos priorités.",
+        "title":"DESTINATION FILTER - Les pays les plus accessibles pour votre prochain voyage"
+    },
+    "strings":{
+        "chosenNoResultsText":"Aucun résultat pour"
+    },
+    "units":{
+        "AVSCORE":" en moyenne",
+        "HOUR":"h",
+        "MICRO_M3":"μg/m<sup>2</sup>",
+        "PC":"%",
+        "RATIO":"",
+        "USD":"$",
+        "YR":" ans",
+        "averageScore":"",
+        "hertz":"Hz",
+        "hours":"h",
+        "microgramsPerCubicMetres":"μg/m<sup>2</sup>",
+        "percentage":"%",
+        "ratio":"",
+        "squareKilometers":"km<sup>2</sup>",
+        "usDollar":"$",
+        "volt":"V",
+        "years":" ans"
+    }
+}

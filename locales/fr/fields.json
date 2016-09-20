@@ -1,0 +1,343 @@
+{
+    "CG_TRASG":{
+        "label":"Appels à voter par an"
+    },
+    "CG_VOTO":{
+        "label":"Participation électorale"
+    },
+    "EQ_AIRP":{
+        "label":"Pollution de l'air"
+    },
+    "EQ_WATER":{
+        "label":"Qualité de l'eau"
+    },
+    "ES_EDUA":{
+        "label":"Diplômés du secondaire"
+    },
+    "ES_EDUEX":{
+        "label":"Années possibles d'éducation"
+    },
+    "ES_STCS":{
+        "label":"Compétence des élèves (score PISA)"
+    },
+    "HO_BASE":{
+        "label":"Logements sans toilettes"
+    },
+    "HO_HISH":{
+        "label":"Dépense de logement / revenu"
+    },
+    "HO_NUMR":{
+        "label":"Pièces par personne"
+    },
+    "HS_LEB":{
+        "label":"Espérance de vie"
+    },
+    "HS_SFRH":{
+        "label":"Se déclare en bonne santé"
+    },
+    "IW_HADI":{
+        "label":"Revenu annuel des ménages après imposition"
+    },
+    "IW_HNFW":{
+        "label":"Patrimoine total des ménages"
+    },
+    "JE_EMPL":{
+        "label":"A travaillé dernièrement"
+    },
+    "JE_JT":{
+        "label":"Risque de perdre son emploi"
+    },
+    "JE_LTUR":{
+        "label":"Au chômage depuis plus d'un an"
+    },
+    "JE_PEARN":{
+        "label":"Revenus personnels annuel"
+    },
+    "PS_REPH":{
+        "label":"Taux d'homicides"
+    },
+    "PS_SFRV":{
+        "label":"Taux d'agression"
+    },
+    "SC_SNTWS":{
+        "label":"Qualité du support internet"
+    },
+    "SW_LIFS":{
+        "label":"Niveau de satisfaction"
+    },
+    "WL_EWLH":{
+        "label":"Travaille plus de 50h par semaine"
+    },
+    "WL_TNOW":{
+        "label":"Temps consacré aux loisirs"
+    },
+    "accuracy":{
+        "label":"Précision de la localisation"
+    },
+    "allEmbassies":{
+        "label":"Ambassades"
+    },
+    "alpha":{
+        "label":"Alpha"
+    },
+    "altitude":{
+        "label":"Altitude"
+    },
+    "altitudeAccuracy":{
+        "label":"Précision de l'altitude"
+    },
+    "area":{
+        "label":"Superficie"
+    },
+    "beta":{
+        "label":"Beta"
+    },
+    "capital":{
+        "label":"Capitale"
+    },
+    "changeRate":{
+        "label":"Taux de change"
+    },
+    "continent":{
+        "label":"Continent"
+    },
+    "costOfLiving":{
+        "label":"Coût de la vie"
+    },
+    "default":{
+        "messages":{
+            "emailAddress":"Votre email semble invalide.",
+            "notEmpty":"Ce champ est requis.",
+            "numeric":"Entrez un nombre valide. Utilisez un point comme séparateur décimal.",
+            "requiredByPriorities":"Vos priorités requièrent cette information."
+        }
+    },
+    "delta":{
+        "label":"Delta"
+    },
+    "democracyScore":{
+        "label":"Niveau démocratique"
+    },
+    "disabledPrioritiesFilters":{
+        "label":"Filtre"
+    },
+    "disabledPrioritiesLayout":{
+        "info":"",
+        "label":"Affichage"
+    },
+    "donationAmount":{
+        "label":"Montant"
+    },
+    "drivingSide":{
+        "label":"Sens de conduite"
+    },
+    "entry_1152240230":{
+        "info":"Vous n'avez pas trouvé de réponse dans la FAQ? Posez toutes questions pouvant également être utile à d'autres utilisateurs. Nous ajouterons la réponse à la FAQ.",
+        "label":"Votre question",
+        "messages":{
+            "notEmpty":"Vous avez oublié de poser votre question!"
+        }
+    },
+    "entry_1450479008":{
+        "label":"Votre nom"
+    },
+    "entry_297652874":{
+        "label":"Message"
+    },
+    "entry_593995947":{
+        "label":"Votre email"
+    },
+    "gamma":{
+        "label":"Gamma"
+    },
+    "grossDomesticProduct":{
+        "label":"Produit intérieur brut"
+    },
+    "heading":{
+        "label":"Direction"
+    },
+    "highIncomes":{
+        "label":"Riches"
+    },
+    "incomeLevel":{
+        "label":"Niveau de revenu"
+    },
+    "islands":{
+        "label":"Îles"
+    },
+    "codes":{
+        "label":"Codes"
+    },
+    "latitude":{
+        "label":"Latitude"
+    },
+    "literacyPercent":{
+        "label":"Alphabétisation"
+    },
+    "localEmbassies":{
+        "label":"Consulats locaux"
+    },
+    "longitude":{
+        "label":"Longitude"
+    },
+    "lowIncomes":{
+        "label":"Pauvres"
+    },
+    "men":{
+        "label":"Hommes"
+    },
+    "officialCurrency":{
+        "label":"Monnaie officielle"
+    },
+    "officialLanguages":{
+        "de_facto_official":"de fait",
+        "label":"Langues officielles",
+        "official":"officiel",
+        "official_regional":"régional"
+    },
+    "phonePrefix":{
+        "label":"Préfixe téléphonique"
+    },
+    "points":{
+        "label":"points"
+    },
+    "politicalRegimeType":{
+        "label":"Régime politique"
+    },
+    "population":{
+        "label":"Population"
+    },
+    "postalCodeFormat":{
+        "label":"Format de code postal"
+    },
+    "priorityRatio":{
+        "info":"Par défaut, ls priorité supérieur se voit attribuer deux fois plus de points que la précédente. Diminuez le ratio si vous trouvez qu'il y a trop d'écart entre les différents pays.",
+        "label":"Ratio de priorité"
+    },
+    "religions":{
+        "label":"Religions"
+    },
+    "requiredOnArrival":{
+        "label":"Requis à l'arrivée"
+    },
+    "residentialPlugs":{
+        "label":"Prises électriques"
+    },
+    "resultLimit":{
+        "info":"N'afficher que les meilleurs résultats.",
+        "label":"Limite de résultats"
+    },
+    "reversePriority":{
+        "info":"Activer cette option inverse le calcul du score ce qui vous permet d'utiliser la priorité contraire.",
+        "label":"Inverse"
+    },
+    "score":{
+        "label":"Score"
+    },
+    "setLng":{
+        "info":"Traduire"
+    },
+    "speakingLanguages":{
+        "label":"Langues parlées"
+    },
+    "speed":{
+        "label":"Vitesse"
+    },
+    "timeZones":{
+        "label":"Fuseaux horaires"
+    },
+    "total":{
+        "label":"Total"
+    },
+    "track":{
+        "info":"Si vous utilisez un appareil mobile, votre position sera automatiquement actualisée au fur et à mesure de vos déplacements.",
+        "label":"Suivre ma position",
+        "message":""
+    },
+    "userAddress":{
+        "info":"Alternativement, vous pouvez définir votre position en fournissant une adresse plus ou moins précise (ex: 75001 Paris, France).",
+        "label":"Adresse",
+        "message":""
+    },
+    "userCitizenships":{
+        "info":"Votre pays officiel indiqué sur votre passeport et documents d'identité. Il se peut également que vous ayez plusieurs citoyennetés.",
+        "label":"Citoyennetés",
+        "placeholder":" "
+    },
+    "userCountry":{
+        "info":"Le pays où vous êtes physiquement en ce moment.",
+        "label":"Localisation",
+        "placeholder":" "
+    },
+    "userCurrencies":{
+        "info":"Votre monnaie habituelle.",
+        "label":"Devises"
+    },
+    "userDrivingSides":{
+        "info":"Le côté de la route sur laquelle vous conduisez habituellement dans votre pays (si vous avez un permis de conduire). Vous pouvez sélectionner à la fois à droite et gauche si vous êtes habitué à conduire des deux manières.",
+        "label":"Sens de conduite",
+        "placeholder":" "
+    },
+    "userFirstDayOfWeek":{
+        "info":"Dans la plupart des pays, la semaine commence le lundi mais d'autres c'est parfois le dimanche.",
+        "label":"Premier jour",
+        "placeholder":" "
+    },
+    "userIncomeLevel":{
+        "info":"Votre niveau de revenu par an en Dollars US. Vous ne devriez pas avoir à changer cette valeur à moins que votre salaire soit supérieur ou inférieur à la moyenne de votre pays.",
+        "label":"Niveau de revenu",
+        "placeholder":" "
+    },
+    "userMeasurementSystem":{
+        "info":"Utilisez-vous habituellement le système métrique (kg / km), impériales (lb / miles), un système hybride (lb / km), ou êtes-vous à l'aise avec les deux.",
+        "label":"Unités de mesure",
+        "placeholder":" "
+    },
+    "userPlugFrequencies":{
+        "info":"Les différentes fréquences prises en charge par les appareils électriques que vous souhaitez emporter.",
+        "label":"Fréquences",
+        "placeholder":" "
+    },
+    "userPlugTypes":{
+        "info":"Le format de prise des appareils électriques que vous souhaitez emporter.",
+        "label":"Types de prises",
+        "placeholder":" "
+    },
+    "userPlugVoltages":{
+        "info":"Les différentes tensions prises en charge par les appareils électriques que vous souhaitez emporter.",
+        "label":"Voltages",
+        "placeholder":" "
+    },
+    "userProfile":{
+        "info":"Indiquez l'endroit où vous vivez habituellement. Votre profil sera pré-remplit ou réinitialisé d'après ce pays.",
+        "label":"Pays",
+        "placeholder":" "
+    },
+    "userReadingLanguages":{
+        "info":"Votre langue maternelle et autres langues exotiques que vous êtes en mesure lire. Êtes vous capable de décrypter les caractères Chinois?",
+        "label":"Langues lues",
+        "placeholder":" "
+    },
+    "userReligion":{
+        "info":"Votre religion est utilisée pour trouver les pays dans lesquels vous aurez peu de difficultés d'intégration au niveau culturel.",
+        "label":"Religion",
+        "placeholder":" "
+    },
+    "userSpeakingLanguages":{
+        "info":"Votre langue maternelle et d'autres langues que vous pourriez éventuellement utiliser pour parler avec les habitants.",
+        "label":"Langues parlées",
+        "placeholder":" "
+    },
+    "visaFree":{
+        "label":"Exemption de visa"
+    },
+    "voaFee":{
+        "label":"Frais à l'arrivée"
+    },
+    "weather":{
+        "label":"Météo et climat"
+    },
+    "women":{
+        "label":"Femmes"
+    }
+}

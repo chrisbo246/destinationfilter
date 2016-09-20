@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="row clearfix">
+        <form id="app_settings_form" class="sayt" data-persist="garlic" role="form">
+            <fieldset>
+                <legend data-toggle="tooltip" data-i18n="sections:scoreSettings.title;[data-original-title]sections:scoreSettings.info">Scores</legend>
+                <div class="form-group">
+                    <label for="priority_ratio" class="col-sm-4 control-label" data-toggle="tooltip" data-i18n="fields:priorityRatio.label;[data-original-title]fields:priorityRatio.info"></label>
+                    <div class="col-sm-8">
+                        <div class="input-group">
+                            <input id="priority_ratio" name="priority_ratio" class="form-control" type="number" value="1" step="0.1" min="0" max="1"/>
+                            <div class="input-group-addon">%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="result_limit" class="col-sm-4 control-label" data-toggle="tooltip" data-i18n="fields:resultLimit.label;[data-original-title]fields:resultLimit.info"></label>
+                    <div class="col-sm-8">
+                        <div class="input-group">
+                            <input id="result_limit" name="result_limit" class="form-control" type="number" value="0" step="10" min="10" max="300"/>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend data-toggle="tooltip" data-i18n="sections:resetSettings.title;[data-original-title]sections:resetSettings.info">Cookies</legend>
+                <pre way-data="__all__" way-json="true" way-default="{}"></pre>
+                <button type="button" class="btn btn-primary delete-cookies" way-clear way-persistent="true"> <span class="glyphicon glyphicon-trash"></span> <span data-i18n="buttons:deleteCookies.label"></span></button>
+            </fieldset>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,92 @@
+{
+    "add":{
+        "label":"Ajouter"
+    },
+    "cancel":{
+        "label":"Annuler"
+    },
+    "centerCountry":{
+        "label":"Voir sur la carte"
+    },
+    "check":{
+        "label":"Vérifier"
+    },
+    "close":{
+        "label":"Fermer"
+    },
+    "deleteCookies":{
+        "label":"Supprimer les cookies"
+    },
+    "disableAll":{
+        "label":"Désactiver tout"
+    },
+    "disableSelection":{
+        "label":"Désactiver la sélection"
+    },
+    "donate":{
+        "label":"Payer par carte"
+    },
+    "enableAll":{
+        "label":"Tout"
+    },
+    "enableSelection":{
+        "label":"Selection"
+    },
+    "geolocate":{
+        "label":"Détecter ma position"
+    },
+    "ok":{
+        "label":"OK"
+    },
+    "olAttribution":{
+        "label":"Attributions"
+    },
+    "olFullScreen":{
+        "label":"Basculer en plein écran"
+    },
+    "olLayerswitcher":{
+        "label":"Couches"
+    },
+    "olOverviewmap":{
+        "label":"Aperçu"
+    },
+    "olRotateReset":{
+        "label":"réinitialiser la rotation"
+    },
+    "olScaleLine":{
+        "label":"Echelle"
+    },
+    "olZoomExtent":{
+        "label":"Dézoomer tout"
+    },
+    "olZoomIn":{
+        "label":"Zoomer"
+    },
+    "olZoomOut":{
+        "label":"Dézoomer"
+    },
+    "reset":{
+        "label":"Réinitialiser"
+    },
+    "save":{
+        "label":"Sauvegarder"
+    },
+    "send":{
+        "label":"Envoyer"
+    },
+    "simulate":{
+        "label":"Simuler"
+    },
+    "start":{
+        "label":"Commencer maintenant"
+    },
+    "stripePanelLabel":{
+      "label":"Envoyer"
+    },
+    "tour":{
+        "label":"Présentation rapide"
+    },
+    "translate":{
+        "label":"Traduire maintenant"
+    }
+}

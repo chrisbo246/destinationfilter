@@ -1,0 +1,158 @@
+{
+    "acPlugsPriority":{
+        "info":"Sélectionnez de préférence les pays utilisant des prises électriques compatibles avec les appareils électriques que vous souhaitez emporter de sorte que vous n'aillez pas besoin d'acheter un adaptateur de voyage. Notez que vous pouvez néanmoins avoir besoin d'un convertisseur de tension.",
+        "title":"Je n'ai pas besoin d'un adaptateur de voyage"
+    },
+    "acVoltagesPriority":{
+        "info":"Sélectionnez de préférence les pays utilisant un standard électrique compatible avec les appareils électriques que vous souhaitez emporter. Vous n'aurez ainsi pas besoin d'acheter un convertisseur de tension lourd et encombrant.",
+        "title":"Je n'ai pas besoin d'un convertisseur de tension"
+    },
+    "airPollutionPriority":{
+        "info":"Sélectionnez de préférence les pays où la qualité globale de l'air est bonne.",
+        "title":"Niveau de pollution de l'air"
+    },
+    "assaultRatePriority":{
+        "info":"Sélectionnez de préférence les pays où les agressions sont globalement peu nombreuses.",
+        "title":"Faible taux d'agression"
+    },
+    "incomeLevelPriority":{
+        "info":"Privilégiez les pays où le niveau de revenu moyen est inférieur au votre. Vous trouverez probablement le coût de la vie avantageux.",
+        "title":"Le niveau de vie est bas"
+    },
+    "changeRatePriority":{
+        "info":"Sélectionnez de préférence les pays où la devise locale est plus faible que votre monnaie habituelle ce qui peut éventuellement vous permettre de faire des faire des économies.",
+        "title":"Le taux de change est avantageux"
+    },
+    "consultationOnRuleMakingPriority":{
+        "info":"",
+        "title":"Consultation sur élaboration de la réglementation"
+    },
+    "currencyPriority":{
+        "info":"Sélectionnez de préférence les pays utilisant le même système monétaire que vous de sorte que vous n'ayez pas à vous soucier des frais de change.",
+        "title":"Je n'ai pas à changer de monnaie"
+    },
+    "democracyPriority":{
+        "info":"Sélectionnez en priorité les pays dont le niveau démocratique est considéré comme élevé.",
+        "title":"Le pays est démocratique"
+    },
+    "drivingSidePriority":{
+        "info":"Sélectionnez de préférence les pays ou la circulation se fait dans votre sens habituel afin que vous puissiez utilisez un véhicule sans difficultés particulières.",
+        "title":"La conduite se faite sur le même côté de la route"
+    },
+    "dwellingsWithoutBasicFacilitiesPriority":{
+        "info":"Sélectionnez de préférence les pays où la majorité des habitations disposent de l'eau courante et de l'électricité.",
+        "title":"Logements avec installations de base"
+    },
+    "educationalAttainmentPriority":{
+        "info":"Sélectionnez de préférence les pays où le niveau d'étude moyen est élevé.",
+        "title":"Niveau d'étude élevé"
+    },
+    "employeesWorkingVeryLongHoursPriority":{
+        "info":"Sélectionnez de préférence les pays où le nombre d'heures de travail légal est peu élevé.",
+        "title":"Les employés travaillent peu"
+    },
+    "employmentRatePriority":{
+        "info":"Sélectionnez de préférence les pays où le taux de chaumage est faible.",
+        "title":"Taux d'emploi élevé"
+    },
+    "homicideRatePriority":{
+        "info":"Sélectionnez de préférence les pays où il y a peu de meurtres.",
+        "title":"Faible taux d'homicide"
+    },
+    "householdNetAdjustedDisposableIncomePriority":{
+        "info":"Sélectionnez de préférence les pays où le niveau de revenu global par foyer est élevé comparativement au coût de la vie.",
+        "title":"Revenu net des ménages élevé"
+    },
+    "householdNetFinancialWealthPriority":{
+        "info":"Sélectionnez les pays où les foyers disposent d'un fort pouvoir d'achat.",
+        "title":"Richesse financière nette des ménages élevée"
+    },
+    "housingExpenditurePriority":{
+        "info":"Sélectionnez en priorité les pays où le prix des logements est peu élevé.",
+        "title":"Faibles dépenses de logement"
+    },
+    "islandPriority":{
+        "info":"Sélectionnez de préférence les îles ou les pays possédant des îles.",
+        "title":"Le pays est ou possède des îles"
+    },
+    "jobSecurityPriority":{
+        "info":"Sélectionnez de préférence les pays où la sécurité de l'emploi est élevée.",
+        "title":"Sécurité de l'emploi élevée"
+    },
+    "lifeExpectancyPriority":{
+        "info":"Sélectionnez de préférences les pays où les habitants vivent en moyenne plus longtemps.",
+        "title":"Espérance de vie élevée"
+    },
+    "lifeSatisfactionPriority":{
+        "info":"Sélectionnez les pays où une majorité d'habitants considèrent être satisfait de leur vie.",
+        "title":"Bon niveau de satisfaction de la vie"
+    },
+    "longTermUnemploymentRatePriority":{
+        "info":"Sélectionnez de préférence les pays où les habitants retrouvent rapidement un emploi.",
+        "title":"Taux de chômage de longue durée faible"
+    },
+    "neighborPriority":{
+        "info":"Préférez les pays limitrophes accessibles par la route pour un court séjour.",
+        "title":"Les pays frontaliers de préférence"
+    },
+    "onwardTicketPriority":{
+        "info":"Évitez de préférence les pays qui demandent de disposer du billet de retour lors de l'arrivée sur le territoire.",
+        "title":"Le billet de retour n'est pas nécessaire"
+    },
+    "personalEarningsPriority":{
+        "info":"Sélectionnez de préférence les pays où le niveau de salaire est élevé.",
+        "title":"Niveau de revenu personnel élevé"
+    },
+    "qualityOfSupportNetworkPriority":{
+        "info":"Sélectionnez de préférence les pays ou la qualité du service client des fournisseurs d'accès à internet est de bonne qualité.",
+        "title":"Service client internet de qualité"
+    },
+    "readingLanguagePriority":{
+        "info":"Sélectionnez de préférence les pays où la signalisation utilise les mêmes caractères d'écriture que ceux que vous connaissez afin d'être sûr de pouvoir au minimum vous diriger.",
+        "title":"Je n'ai aucune difficulté à lire les panneaux de signalisation"
+    },
+    "religionPriority":{
+        "info":"",
+        "title":"Une partie de la population est de ma religion"
+    },
+    "roomsPerPersonPriority":{
+        "info":"Sélectionnez de préférence les pays où les habitants disposent en majorité de logements spacieux.",
+        "title":"Nombre de pièces par personne faible"
+    },
+    "selfReportedHealthPriority":{
+        "info":"Sélectionnez de préférence les pays où la population est globalement en bonne santé.",
+        "title":"La population est en bonne santé"
+    },
+    "speakingLanguagePriority":{
+        "info":"Sélectionnez de préférence les pays dont une majorité de la population utilise l'une de vos langues afin de pouvoir communiquer aisément.",
+        "title":"La plupart des gens parlent l'une de mes langues"
+    },
+    "studentSkillsPriority":{
+        "info":"Sélectionnez de préférence les pays où les élèves disposent d'un niveau de compétences élevé.",
+        "title":"Compétences des élèves élevées"
+    },
+    "timeDevotedToLeisureAndPersonalCarePriority":{
+        "info":"Sélectionnez de préférence les pays où les habitants consacrent généralement une part importante de leur temps au loisirs.",
+        "title":"Temps consacré aux loisirs élevé"
+    },
+    "visaFreePriority":{
+        "info":"Sélectionnez de préférence les pays autorisant un séjour touristique d'une durée limitée sans qu'il soit nécessaire de demander un visa. Notez que cela dépend de votre nationalité.",
+        "title":"Je n'ai pas besoin d'un visa de tourisme"
+    },
+    "voaFeePriority":{
+        "info":"Évitez de préférence les pays nécessitant d'acheter un visa lors du passage à la frontière.",
+        "title":"Il n'y a pas de frais de visa à l'arrivée"
+    },
+    "voterTurnoutPriority":{
+        "info":"Sélectionnez de préférence les pays ou le niveau d'abstention aux élections est faible.",
+        "title":"Taux de participation aux élections élevé"
+    },
+    "waterQualityPriority":{
+        "info":"Sélectionnez de préférence les pays où la qualité de l'eau du robinet est globalement bonne.",
+        "title":"Qualité de l'eau satisfaisante"
+    },
+    "yearsInEducationPriority":{
+        "info":"Sélectionnez de préférence les pays où la durée des études est généralement longue.",
+        "title":"Années d'études important"
+    }
+}

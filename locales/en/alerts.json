@@ -1,0 +1,17 @@
+{
+    "noCountry":{
+        "info":"Make sure you have enabled at least one priority and completed all fields in your profile.",
+        "title":"No destination matches your criteria"
+    },
+    "noEnabledPriority":{
+        "info":"Add some search criteria and rank them according to your priorities to find your ideal destination.",
+        "title":"What are your priorities?"
+    },
+    "noDisabledPriority":{
+        "info":"You have enabled all priorities available but if you still want more, your suggestions are welcome.",
+        "title":"It's over!"
+    },
+    "outdatedBrowser":{
+        "info":"You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
+    }
+}

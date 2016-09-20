@@ -1,0 +1,381 @@
+{
+    "CG_TRASG":{
+        "label":"Calls to vote annually"
+    },
+    "CG_VOTO":{
+        "label":"Voter turnout"
+    },
+    "EQ_AIRP":{
+        "label":"Air pollution"
+    },
+    "EQ_WATER":{
+        "label":"Water quality"
+    },
+    "ES_EDUA":{
+        "label":"Secondary school graduates"
+    },
+    "ES_EDUEX":{
+        "label":"Potential years of education"
+    },
+    "ES_STCS":{
+        "label":"Students skill (PISA score)"
+    },
+    "HO_BASE":{
+        "label":"Housing without toilet"
+    },
+    "HO_HISH":{
+        "label":"Housing expenditure / income"
+    },
+    "HO_NUMR":{
+        "label":"Rooms per person"
+    },
+    "HS_LEB":{
+        "label":"Life expectancy"
+    },
+    "HS_SFRH":{
+        "label":"Said healthy"
+    },
+    "IW_HADI":{
+        "label":"Annual household income after tax"
+    },
+    "IW_HNFW":{
+        "label":"Total household wealth"
+    },
+    "JE_EMPL":{
+        "label":"Worked recently"
+    },
+    "JE_JT":{
+        "label":"Risk of losing a job"
+    },
+    "JE_LTUR":{
+        "label":"Unemployed for over a year"
+    },
+    "JE_PEARN":{
+        "label":"Annual personal income"
+    },
+    "PS_REPH":{
+        "label":"Homicide rate"
+    },
+    "PS_SFRV":{
+        "label":"Assault rate"
+    },
+    "SC_SNTWS":{
+        "label":"Quality of support network"
+    },
+    "SW_LIFS":{
+        "label":"Life satisfaction"
+    },
+    "WL_EWLH":{
+        "label":"Work more than 50 hours per week"
+    },
+    "WL_TNOW":{
+        "label":"Time devoted to leisure"
+    },
+    "accuracy":{
+        "label":"Location accuracy"
+    },
+    "allEmbassies":{
+        "label":"Embassies"
+    },
+    "alpha":{
+        "label":"Alpha"
+    },
+    "altitude":{
+        "label":"Altitude"
+    },
+    "altitudeAccuracy":{
+        "label":"Altitude accuracy"
+    },
+    "area":{
+        "label":"Area"
+    },
+    "beta":{
+        "label":"Beta"
+    },
+    "capital":{
+        "label":"Capital"
+    },
+    "changeRate":{
+        "label":"Change rate"
+    },
+    "continent":{
+        "label":"Continent"
+    },
+    "costOfLiving":{
+        "label":"Cost of living"
+    },
+    "default":{
+        "messages":{
+            "emailAddress":"Your email doesn't seem to be valid.",
+            "notEmpty":"This field is required.",
+            "numeric":"Enter a valid number. Use a decimal point.",
+            "requiredByPriorities":"Your priorities require this information."
+        }
+    },
+    "delta":{
+        "label":"Delta"
+    },
+    "democracyScore":{
+        "label":"Democratic level"
+    },
+    "disabledPrioritiesFilters":{
+        "label":"Filter"
+    },
+    "disabledPrioritiesLayout":{
+        "info":"",
+        "label":"Layout"
+    },
+    "donationAmount":{
+        "label":"Amount"
+    },
+    "drivingSide":{
+        "label":"Driving side"
+    },
+    "entry_1152240230":{
+        "info":"You don't find your answer in the FAQ? Ask any question that may also be useful to other users. We will add the answer to the FAQ.",
+        "label":"Your question",
+        "messages":{
+            "notEmpty":"You forget to ask your question."
+        }
+    },
+    "entry_1450479008":{
+        "label":"Your name"
+    },
+    "entry_297652874":{
+        "label":"Message"
+    },
+    "entry_593995947":{
+        "label":"Your email"
+    },
+    "gamma":{
+        "label":"Gamma"
+    },
+    "grossDomesticProduct":{
+        "label":"Gross domestic product"
+    },
+    "heading":{
+        "label":"Heading"
+    },
+    "highIncomes":{
+        "label":"Rich"
+    },
+    "incomeLevel":{
+        "label":"Income level"
+    },
+    "islands":{
+        "label":"Islands"
+    },
+    "codes":{
+        "label":"Codes"
+    },
+    "latitude":{
+        "label":"Latitude"
+    },
+    "literacyPercent":{
+        "label":"Literacy percent"
+    },
+    "localEmbassies":{
+        "label":"Local consulates"
+    },
+    "longitude":{
+        "label":"Longitude"
+    },
+    "lowIncomes":{
+        "label":"Poor"
+    },
+    "men":{
+        "label":"Men"
+    },
+    "officialCurrency":{
+        "label":"Official currency"
+    },
+    "officialLanguages":{
+        "de_facto_official":"de facto",
+        "label":"Official languages",
+        "official":"official",
+        "official_regional":"regional"
+    },
+    "phonePrefix":{
+        "label":"Phone prefix"
+    },
+    "points":{
+        "label":"points"
+    },
+    "politicalRegimeType":{
+        "label":"Regime type"
+    },
+    "population":{
+        "label":"Population"
+    },
+    "postalCodeFormat":{
+        "label":"Postal code format"
+    },
+    "priorityRatio":{
+        "info":"By default, ls higher priority is given twice more points than the last. Decrease the ratio if you find that there is too much difference between the different countries.",
+        "label":"Priority ratio"
+    },
+    "religion":{
+        "label":"Religion"
+    },
+    "requiredOnArrival":{
+        "label":"Required on arrival"
+    },
+    "residentialPlugs":{
+        "label":"Residential plugs"
+    },
+    "resultLimit":{
+        "info":"Show only better.",
+        "label":"Limit results"
+    },
+    "reversePriority":{
+        "info":"Enable this option reverses the calculation of the score which lets you use the opposite priority.",
+        "label":"Reverse"
+    },
+    "score":{
+        "label":"Score"
+    },
+    "send":{
+        "label":"Send"
+    },
+    "setLng":{
+        "info":"Translate"
+    },
+    "speakingLanguages":{
+        "label":"Speaking languages"
+    },
+    "speed":{
+        "label":"Speed"
+    },
+    "timeZones":{
+        "label":"Time zones"
+    },
+    "total":{
+        "label":"Total"
+    },
+    "track":{
+        "info":"If you are using a mobile device, your position will be automatically updated as and when you travel.",
+        "label":"Track my position"
+    },
+    "userAddress":{
+        "info":"Alternatively, you can set your location by providing a more or less precise address (eg 75001 Paris, France).",
+        "label":"Address"
+    },
+    "userCitizenships":{
+        "info":"Your official country indicated on your passport and identity documents. It may also be that you have several citizenships.",
+        "label":"Citizenships",
+        "messages":{
+            "notEmpty":"Your priorities require this information."
+        },
+        "placeholder":" "
+    },
+    "userCountry":{
+        "info":"The country where you are physically right now.",
+        "label":"Location",
+        "messages":{
+            "notEmpty":"Your priorities require this information."
+        },
+        "placeholder":" "
+    },
+    "userCurrencies":{
+        "info":"Your money.",
+        "label":"Currencies",
+        "messages":{
+            "notEmpty":"Your priorities require this information."
+        },
+        "placeholder":" "
+    },
+    "userDrivingSides":{
+        "info":"The side of the road on which you usually drive in your country (if you have your driver's license). You can select both right and left if you are used to drive two different ways.",
+        "label":"Driving side",
+        "messages":{
+            "notEmpty":"Your priorities require this information."
+        },
+        "placeholder":" "
+    },
+    "userFirstDayOfWeek":{
+        "info":"In most countries, the week begins on Monday, but other times it's Sunday.",
+        "label":"Week Start Day",
+        "messages":{
+            "notEmpty":"Your priorities require this information."
+        },
+        "placeholder":" "
+    },
+    "userIncomeLevel":{
+        "info":"Your level of income per year in US Dollars. You should not have to change this value unless your salary is above or below average in your country.",
+        "label":"Income level",
+        "messages":{
+            "notEmpty":"Your priorities require this information."
+        },
+        "placeholder":" "
+    },
+    "userMeasurementSystem":{
+        "info":"Do you normally use the metric system (kg / km), imperial (lb / miles), a hybrid system (lb / km), or are you comfortable with both.",
+        "label":"Measurement Units",
+        "messages":{
+            "notEmpty":"Your priorities require this information."
+        },
+        "placeholder":" "
+    },
+    "userPlugFrequencies":{
+        "info":"The different frequencies supported by the electrical appliances that you'd like to take.",
+        "label":"Frequencies",
+        "messages":{
+            "notEmpty":"Your priorities require this information."
+        },
+        "placeholder":" "
+    },
+    "userPlugTypes":{
+        "info":"The type of plug of the electrical appliances that you'd like to take.",
+        "label":"Plug types",
+        "placeholder":" "
+    },
+    "userPlugVoltages":{
+        "info":"The different voltages supported by the electrical appliances that you'd like to take.",
+        "label":"Electric potentials",
+        "messages":{
+            "notEmpty":"Your priorities require this information."
+        },
+        "placeholder":" "
+    },
+    "userProfile":{
+        "info":"Specify where you usually live and have the most habits. Your profile will be pre-filled or reset from that country.",
+        "label":"Country",
+        "messages":{
+            "notEmpty":"Your priorities require this information."
+        },
+        "placeholder":" "
+    },
+    "userReadingLanguages":{
+        "info":"Your native and other exotic languages you are able to read. Are you able to decipher the Chinese characters?",
+        "label":"Reading languages",
+        "messages":{
+            "notEmpty":"Your priorities require this information."
+        },
+        "placeholder":" "
+    },
+    "userReligion":{
+        "info":"Your religion is used to find the countries in which you will have little difficulty integrating culturally.",
+        "label":"Religion",
+        "placeholder":" "
+    },
+    "userSpeakingLanguages":{
+        "info":"Your native and other languages you could eventually use to speak with locals.",
+        "label":"Speaking languages",
+        "messages":{
+            "notEmpty":"Your priorities require this information."
+        },
+        "placeholder":" "
+    },
+    "visaFree":{
+        "label":"Visa-free"
+    },
+    "voaFee":{
+        "label":"Visa-on-arrival fee"
+    },
+    "weather":{
+        "label":"Weather and climate"
+    },
+    "women":{
+        "label":"Women"
+    }
+}
