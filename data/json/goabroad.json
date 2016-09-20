@@ -1,0 +1,878 @@
+[
+  {
+    "goabroadCountryName": "Afghanistan",
+    "goabroadCountrySlug": "afghanistan"
+  },
+  {
+    "goabroadCountryName": "Albania",
+    "goabroadCountrySlug": "albania"
+  },
+  {
+    "goabroadCountryName": "Algeria",
+    "goabroadCountrySlug": "algeria"
+  },
+  {
+    "goabroadCountryName": "American Samoa",
+    "goabroadCountrySlug": "american-samoa"
+  },
+  {
+    "goabroadCountryName": "Andorra",
+    "goabroadCountrySlug": "andorra"
+  },
+  {
+    "goabroadCountryName": "Angola",
+    "goabroadCountrySlug": "angola"
+  },
+  {
+    "goabroadCountryName": "Antigua &amp; Barbuda",
+    "goabroadCountrySlug": "antigua-barbuda"
+  },
+  {
+    "goabroadCountryName": "Argentina",
+    "goabroadCountrySlug": "argentina"
+  },
+  {
+    "goabroadCountryName": "Armenia",
+    "goabroadCountrySlug": "armenia"
+  },
+  {
+    "goabroadCountryName": "Aruba",
+    "goabroadCountrySlug": "aruba"
+  },
+  {
+    "goabroadCountryName": "Australia",
+    "goabroadCountrySlug": "australia"
+  },
+  {
+    "goabroadCountryName": "Austria",
+    "goabroadCountrySlug": "austria"
+  },
+  {
+    "goabroadCountryName": "Azerbaijan",
+    "goabroadCountrySlug": "azerbaijan"
+  },
+  {
+    "goabroadCountryName": "Bahamas",
+    "goabroadCountrySlug": "bahamas"
+  },
+  {
+    "goabroadCountryName": "Bahrain",
+    "goabroadCountrySlug": "bahrain"
+  },
+  {
+    "goabroadCountryName": "Bangladesh",
+    "goabroadCountrySlug": "bangladesh"
+  },
+  {
+    "goabroadCountryName": "Barbados",
+    "goabroadCountrySlug": "barbados"
+  },
+  {
+    "goabroadCountryName": "Belarus",
+    "goabroadCountrySlug": "belarus"
+  },
+  {
+    "goabroadCountryName": "Belgium",
+    "goabroadCountrySlug": "belgium"
+  },
+  {
+    "goabroadCountryName": "Belize",
+    "goabroadCountrySlug": "belize"
+  },
+  {
+    "goabroadCountryName": "Benin",
+    "goabroadCountrySlug": "benin"
+  },
+  {
+    "goabroadCountryName": "Bermuda",
+    "goabroadCountrySlug": "bermuda"
+  },
+  {
+    "goabroadCountryName": "Bhutan",
+    "goabroadCountrySlug": "bhutan"
+  },
+  {
+    "goabroadCountryName": "Bolivia",
+    "goabroadCountrySlug": "bolivia"
+  },
+  {
+    "goabroadCountryName": "Bosnia and Herzegovina",
+    "goabroadCountrySlug": "bosnia-and-herzegovina"
+  },
+  {
+    "goabroadCountryName": "Botswana",
+    "goabroadCountrySlug": "botswana"
+  },
+  {
+    "goabroadCountryName": "Brazil",
+    "goabroadCountrySlug": "brazil"
+  },
+  {
+    "goabroadCountryName": "Brunei",
+    "goabroadCountrySlug": "brunei"
+  },
+  {
+    "goabroadCountryName": "Bulgaria",
+    "goabroadCountrySlug": "bulgaria"
+  },
+  {
+    "goabroadCountryName": "Burkina Faso",
+    "goabroadCountrySlug": "burkina-faso"
+  },
+  {
+    "goabroadCountryName": "Burundi",
+    "goabroadCountrySlug": "burundi"
+  },
+  {
+    "goabroadCountryName": "Cambodia",
+    "goabroadCountrySlug": "cambodia"
+  },
+  {
+    "goabroadCountryName": "Cameroon",
+    "goabroadCountrySlug": "cameroon"
+  },
+  {
+    "goabroadCountryName": "Canada",
+    "goabroadCountrySlug": "canada"
+  },
+  {
+    "goabroadCountryName": "Cape Verde",
+    "goabroadCountrySlug": "cape-verde"
+  },
+  {
+    "goabroadCountryName": "Cayman Islands",
+    "goabroadCountrySlug": "cayman-islands"
+  },
+  {
+    "goabroadCountryName": "Central African Republic",
+    "goabroadCountrySlug": "central-african-republic"
+  },
+  {
+    "goabroadCountryName": "Chad",
+    "goabroadCountrySlug": "chad"
+  },
+  {
+    "goabroadCountryName": "Channel Islands",
+    "goabroadCountrySlug": "channel-islands"
+  },
+  {
+    "goabroadCountryName": "Chile",
+    "goabroadCountrySlug": "chile"
+  },
+  {
+    "goabroadCountryName": "China",
+    "goabroadCountrySlug": "china"
+  },
+  {
+    "goabroadCountryName": "Colombia",
+    "goabroadCountrySlug": "colombia"
+  },
+  {
+    "goabroadCountryName": "Comoros",
+    "goabroadCountrySlug": "comoros"
+  },
+  {
+    "goabroadCountryName": "Cook Islands",
+    "goabroadCountrySlug": "cook-islands"
+  },
+  {
+    "goabroadCountryName": "Costa Rica",
+    "goabroadCountrySlug": "costa-rica"
+  },
+  {
+    "goabroadCountryName": "Croatia",
+    "goabroadCountrySlug": "croatia"
+  },
+  {
+    "goabroadCountryName": "Cuba",
+    "goabroadCountrySlug": "cuba"
+  },
+  {
+    "goabroadCountryName": "Curacao",
+    "goabroadCountrySlug": "curacao"
+  },
+  {
+    "goabroadCountryName": "Cyprus",
+    "goabroadCountrySlug": "cyprus"
+  },
+  {
+    "goabroadCountryName": "Czech Republic",
+    "goabroadCountrySlug": "czech-republic"
+  },
+  {
+    "goabroadCountryName": "Democratic Republic of Congo",
+    "goabroadCountrySlug": "democratic-republic-of-congo"
+  },
+  {
+    "goabroadCountryName": "Denmark",
+    "goabroadCountrySlug": "denmark"
+  },
+  {
+    "goabroadCountryName": "Djibouti",
+    "goabroadCountrySlug": "djibouti"
+  },
+  {
+    "goabroadCountryName": "Dominica",
+    "goabroadCountrySlug": "dominica"
+  },
+  {
+    "goabroadCountryName": "Dominican Republic",
+    "goabroadCountrySlug": "dominican-republic"
+  },
+  {
+    "goabroadCountryName": "East Timor",
+    "goabroadCountrySlug": "east-timor"
+  },
+  {
+    "goabroadCountryName": "Ecuador",
+    "goabroadCountrySlug": "ecuador"
+  },
+  {
+    "goabroadCountryName": "Egypt",
+    "goabroadCountrySlug": "egypt"
+  },
+  {
+    "goabroadCountryName": "El Salvador",
+    "goabroadCountrySlug": "el-salvador"
+  },
+  {
+    "goabroadCountryName": "England",
+    "goabroadCountrySlug": "england"
+  },
+  {
+    "goabroadCountryName": "Equatorial Guinea",
+    "goabroadCountrySlug": "equatorial-guinea"
+  },
+  {
+    "goabroadCountryName": "Eritrea",
+    "goabroadCountrySlug": "eritrea"
+  },
+  {
+    "goabroadCountryName": "Estonia",
+    "goabroadCountrySlug": "estonia"
+  },
+  {
+    "goabroadCountryName": "Ethiopia",
+    "goabroadCountrySlug": "ethiopia"
+  },
+  {
+    "goabroadCountryName": "Fiji",
+    "goabroadCountrySlug": "fiji"
+  },
+  {
+    "goabroadCountryName": "Finland",
+    "goabroadCountrySlug": "finland"
+  },
+  {
+    "goabroadCountryName": "France",
+    "goabroadCountrySlug": "france"
+  },
+  {
+    "goabroadCountryName": "Gabon",
+    "goabroadCountrySlug": "gabon"
+  },
+  {
+    "goabroadCountryName": "Gambia",
+    "goabroadCountrySlug": "gambia"
+  },
+  {
+    "goabroadCountryName": "Georgia",
+    "goabroadCountrySlug": "georgia"
+  },
+  {
+    "goabroadCountryName": "Germany",
+    "goabroadCountrySlug": "germany"
+  },
+  {
+    "goabroadCountryName": "Ghana",
+    "goabroadCountrySlug": "ghana"
+  },
+  {
+    "goabroadCountryName": "Gibraltar",
+    "goabroadCountrySlug": "gibraltar"
+  },
+  {
+    "goabroadCountryName": "Greece",
+    "goabroadCountrySlug": "greece"
+  },
+  {
+    "goabroadCountryName": "Greenland",
+    "goabroadCountrySlug": "greenland"
+  },
+  {
+    "goabroadCountryName": "Grenada",
+    "goabroadCountrySlug": "grenada"
+  },
+  {
+    "goabroadCountryName": "Guadeloupe",
+    "goabroadCountrySlug": "guadeloupe"
+  },
+  {
+    "goabroadCountryName": "Guatemala",
+    "goabroadCountrySlug": "guatemala"
+  },
+  {
+    "goabroadCountryName": "Guinea",
+    "goabroadCountrySlug": "guinea"
+  },
+  {
+    "goabroadCountryName": "Guinea - Bissau",
+    "goabroadCountrySlug": "guinea-bissau"
+  },
+  {
+    "goabroadCountryName": "Guyana",
+    "goabroadCountrySlug": "guyana"
+  },
+  {
+    "goabroadCountryName": "Haiti",
+    "goabroadCountrySlug": "haiti"
+  },
+  {
+    "goabroadCountryName": "Honduras",
+    "goabroadCountrySlug": "honduras"
+  },
+  {
+    "goabroadCountryName": "Hungary",
+    "goabroadCountrySlug": "hungary"
+  },
+  {
+    "goabroadCountryName": "Iceland",
+    "goabroadCountrySlug": "iceland"
+  },
+  {
+    "goabroadCountryName": "India",
+    "goabroadCountrySlug": "india"
+  },
+  {
+    "goabroadCountryName": "Indonesia",
+    "goabroadCountrySlug": "indonesia"
+  },
+  {
+    "goabroadCountryName": "Iran",
+    "goabroadCountrySlug": "iran"
+  },
+  {
+    "goabroadCountryName": "Iraq",
+    "goabroadCountrySlug": "iraq"
+  },
+  {
+    "goabroadCountryName": "Ireland",
+    "goabroadCountrySlug": "ireland"
+  },
+  {
+    "goabroadCountryName": "Israel",
+    "goabroadCountrySlug": "israel"
+  },
+  {
+    "goabroadCountryName": "Italy",
+    "goabroadCountrySlug": "italy"
+  },
+  {
+    "goabroadCountryName": "Ivory Coast",
+    "goabroadCountrySlug": "ivory-coast"
+  },
+  {
+    "goabroadCountryName": "Jamaica",
+    "goabroadCountrySlug": "jamaica"
+  },
+  {
+    "goabroadCountryName": "Japan",
+    "goabroadCountrySlug": "japan"
+  },
+  {
+    "goabroadCountryName": "Jordan",
+    "goabroadCountrySlug": "jordan"
+  },
+  {
+    "goabroadCountryName": "Kazakhstan",
+    "goabroadCountrySlug": "kazakhstan"
+  },
+  {
+    "goabroadCountryName": "Kenya",
+    "goabroadCountrySlug": "kenya"
+  },
+  {
+    "goabroadCountryName": "Kiribati",
+    "goabroadCountrySlug": "kiribati"
+  },
+  {
+    "goabroadCountryName": "Kosovo",
+    "goabroadCountrySlug": "kosovo"
+  },
+  {
+    "goabroadCountryName": "Kuwait",
+    "goabroadCountrySlug": "kuwait"
+  },
+  {
+    "goabroadCountryName": "Kyrgyzstan",
+    "goabroadCountrySlug": "kyrgyzstan"
+  },
+  {
+    "goabroadCountryName": "Laos",
+    "goabroadCountrySlug": "laos"
+  },
+  {
+    "goabroadCountryName": "Latvia",
+    "goabroadCountrySlug": "latvia"
+  },
+  {
+    "goabroadCountryName": "Lebanon",
+    "goabroadCountrySlug": "lebanon"
+  },
+  {
+    "goabroadCountryName": "Lesotho",
+    "goabroadCountrySlug": "lesotho"
+  },
+  {
+    "goabroadCountryName": "Liberia",
+    "goabroadCountrySlug": "liberia"
+  },
+  {
+    "goabroadCountryName": "Libya",
+    "goabroadCountrySlug": "libya"
+  },
+  {
+    "goabroadCountryName": "Liechtenstein",
+    "goabroadCountrySlug": "liechtenstein"
+  },
+  {
+    "goabroadCountryName": "Lithuania",
+    "goabroadCountrySlug": "lithuania"
+  },
+  {
+    "goabroadCountryName": "Luxembourg",
+    "goabroadCountrySlug": "luxembourg"
+  },
+  {
+    "goabroadCountryName": "Macedonia",
+    "goabroadCountrySlug": "macedonia"
+  },
+  {
+    "goabroadCountryName": "Madagascar",
+    "goabroadCountrySlug": "madagascar"
+  },
+  {
+    "goabroadCountryName": "Malawi",
+    "goabroadCountrySlug": "malawi"
+  },
+  {
+    "goabroadCountryName": "Malaysia",
+    "goabroadCountrySlug": "malaysia"
+  },
+  {
+    "goabroadCountryName": "Maldives",
+    "goabroadCountrySlug": "maldives"
+  },
+  {
+    "goabroadCountryName": "Mali",
+    "goabroadCountrySlug": "mali"
+  },
+  {
+    "goabroadCountryName": "Malta",
+    "goabroadCountrySlug": "malta"
+  },
+  {
+    "goabroadCountryName": "Marshall Islands",
+    "goabroadCountrySlug": "marshall-islands"
+  },
+  {
+    "goabroadCountryName": "Martinique",
+    "goabroadCountrySlug": "martinique"
+  },
+  {
+    "goabroadCountryName": "Mauritania",
+    "goabroadCountrySlug": "mauritania"
+  },
+  {
+    "goabroadCountryName": "Mauritius",
+    "goabroadCountrySlug": "mauritius"
+  },
+  {
+    "goabroadCountryName": "Mexico",
+    "goabroadCountrySlug": "mexico"
+  },
+  {
+    "goabroadCountryName": "Micronesia",
+    "goabroadCountrySlug": "micronesia"
+  },
+  {
+    "goabroadCountryName": "Moldova",
+    "goabroadCountrySlug": "moldova"
+  },
+  {
+    "goabroadCountryName": "Monaco",
+    "goabroadCountrySlug": "monaco"
+  },
+  {
+    "goabroadCountryName": "Mongolia",
+    "goabroadCountrySlug": "mongolia"
+  },
+  {
+    "goabroadCountryName": "Montenegro",
+    "goabroadCountrySlug": "montenegro"
+  },
+  {
+    "goabroadCountryName": "Morocco",
+    "goabroadCountrySlug": "morocco"
+  },
+  {
+    "goabroadCountryName": "Mozambique",
+    "goabroadCountrySlug": "mozambique"
+  },
+  {
+    "goabroadCountryName": "Myanmar",
+    "goabroadCountrySlug": "myanmar"
+  },
+  {
+    "goabroadCountryName": "Namibia",
+    "goabroadCountrySlug": "namibia"
+  },
+  {
+    "goabroadCountryName": "Nauru",
+    "goabroadCountrySlug": "nauru"
+  },
+  {
+    "goabroadCountryName": "Nepal",
+    "goabroadCountrySlug": "nepal"
+  },
+  {
+    "goabroadCountryName": "Netherlands",
+    "goabroadCountrySlug": "netherlands"
+  },
+  {
+    "goabroadCountryName": "New Caledonia",
+    "goabroadCountrySlug": "new-caledonia"
+  },
+  {
+    "goabroadCountryName": "New Zealand",
+    "goabroadCountrySlug": "new-zealand"
+  },
+  {
+    "goabroadCountryName": "Nicaragua",
+    "goabroadCountrySlug": "nicaragua"
+  },
+  {
+    "goabroadCountryName": "Niger",
+    "goabroadCountrySlug": "niger"
+  },
+  {
+    "goabroadCountryName": "Nigeria",
+    "goabroadCountrySlug": "nigeria"
+  },
+  {
+    "goabroadCountryName": "Niue",
+    "goabroadCountrySlug": "niue"
+  },
+  {
+    "goabroadCountryName": "North Korea",
+    "goabroadCountrySlug": "north-korea"
+  },
+  {
+    "goabroadCountryName": "Norway",
+    "goabroadCountrySlug": "norway"
+  },
+  {
+    "goabroadCountryName": "Oman",
+    "goabroadCountrySlug": "oman"
+  },
+  {
+    "goabroadCountryName": "Pakistan",
+    "goabroadCountrySlug": "pakistan"
+  },
+  {
+    "goabroadCountryName": "Palau",
+    "goabroadCountrySlug": "palau"
+  },
+  {
+    "goabroadCountryName": "Palestine",
+    "goabroadCountrySlug": "palestine"
+  },
+  {
+    "goabroadCountryName": "Panama",
+    "goabroadCountrySlug": "panama"
+  },
+  {
+    "goabroadCountryName": "Papua New Guinea",
+    "goabroadCountrySlug": "papua-new-guinea"
+  },
+  {
+    "goabroadCountryName": "Paraguay",
+    "goabroadCountrySlug": "paraguay"
+  },
+  {
+    "goabroadCountryName": "Peru",
+    "goabroadCountrySlug": "peru"
+  },
+  {
+    "goabroadCountryName": "Philippines",
+    "goabroadCountrySlug": "philippines"
+  },
+  {
+    "goabroadCountryName": "Poland",
+    "goabroadCountrySlug": "poland"
+  },
+  {
+    "goabroadCountryName": "Polynesia",
+    "goabroadCountrySlug": "polynesia"
+  },
+  {
+    "goabroadCountryName": "Portugal",
+    "goabroadCountrySlug": "portugal"
+  },
+  {
+    "goabroadCountryName": "Puerto Rico",
+    "goabroadCountrySlug": "puerto-rico"
+  },
+  {
+    "goabroadCountryName": "Qatar",
+    "goabroadCountrySlug": "qatar"
+  },
+  {
+    "goabroadCountryName": "Republic of Congo",
+    "goabroadCountrySlug": "republic-of-congo"
+  },
+  {
+    "goabroadCountryName": "Reunion",
+    "goabroadCountrySlug": "reunion"
+  },
+  {
+    "goabroadCountryName": "Romania",
+    "goabroadCountrySlug": "romania"
+  },
+  {
+    "goabroadCountryName": "Russia",
+    "goabroadCountrySlug": "russia"
+  },
+  {
+    "goabroadCountryName": "Rwanda",
+    "goabroadCountrySlug": "rwanda"
+  },
+  {
+    "goabroadCountryName": "Samoa",
+    "goabroadCountrySlug": "samoa"
+  },
+  {
+    "goabroadCountryName": "San Marino",
+    "goabroadCountrySlug": "san-marino"
+  },
+  {
+    "goabroadCountryName": "Sao Tome and Principe",
+    "goabroadCountrySlug": "sao-tome-and-principe"
+  },
+  {
+    "goabroadCountryName": "Saudi Arabia",
+    "goabroadCountrySlug": "saudi-arabia"
+  },
+  {
+    "goabroadCountryName": "Scotland",
+    "goabroadCountrySlug": "scotland"
+  },
+  {
+    "goabroadCountryName": "Senegal",
+    "goabroadCountrySlug": "senegal"
+  },
+  {
+    "goabroadCountryName": "Serbia",
+    "goabroadCountrySlug": "serbia"
+  },
+  {
+    "goabroadCountryName": "Seychelles",
+    "goabroadCountrySlug": "seychelles"
+  },
+  {
+    "goabroadCountryName": "Sierra Leone",
+    "goabroadCountrySlug": "sierra-leone"
+  },
+  {
+    "goabroadCountryName": "Singapore",
+    "goabroadCountrySlug": "singapore"
+  },
+  {
+    "goabroadCountryName": "Slovakia",
+    "goabroadCountrySlug": "slovakia"
+  },
+  {
+    "goabroadCountryName": "Slovenia",
+    "goabroadCountrySlug": "slovenia"
+  },
+  {
+    "goabroadCountryName": "Solomon Islands",
+    "goabroadCountrySlug": "solomon-islands"
+  },
+  {
+    "goabroadCountryName": "Somalia",
+    "goabroadCountrySlug": "somalia"
+  },
+  {
+    "goabroadCountryName": "South Africa",
+    "goabroadCountrySlug": "south-africa"
+  },
+  {
+    "goabroadCountryName": "South Korea",
+    "goabroadCountrySlug": "south-korea"
+  },
+  {
+    "goabroadCountryName": "Spain",
+    "goabroadCountrySlug": "spain"
+  },
+  {
+    "goabroadCountryName": "Sri Lanka",
+    "goabroadCountrySlug": "sri-lanka"
+  },
+  {
+    "goabroadCountryName": "St. Kitts and Nevis",
+    "goabroadCountrySlug": "st-kitts-and-nevis"
+  },
+  {
+    "goabroadCountryName": "St. Lucia",
+    "goabroadCountrySlug": "st-lucia"
+  },
+  {
+    "goabroadCountryName": "St. Vincent &amp; Grenadines",
+    "goabroadCountrySlug": "st-vincent-grenadines"
+  },
+  {
+    "goabroadCountryName": "Sudan",
+    "goabroadCountrySlug": "sudan"
+  },
+  {
+    "goabroadCountryName": "Suriname",
+    "goabroadCountrySlug": "suriname"
+  },
+  {
+    "goabroadCountryName": "Swaziland",
+    "goabroadCountrySlug": "swaziland"
+  },
+  {
+    "goabroadCountryName": "Sweden",
+    "goabroadCountrySlug": "sweden"
+  },
+  {
+    "goabroadCountryName": "Switzerland",
+    "goabroadCountrySlug": "switzerland"
+  },
+  {
+    "goabroadCountryName": "Syria",
+    "goabroadCountrySlug": "syria"
+  },
+  {
+    "goabroadCountryName": "Tahiti",
+    "goabroadCountrySlug": "tahiti"
+  },
+  {
+    "goabroadCountryName": "Taiwan",
+    "goabroadCountrySlug": "taiwan"
+  },
+  {
+    "goabroadCountryName": "Tajikistan",
+    "goabroadCountrySlug": "tajikistan"
+  },
+  {
+    "goabroadCountryName": "Tanzania",
+    "goabroadCountrySlug": "tanzania"
+  },
+  {
+    "goabroadCountryName": "Thailand",
+    "goabroadCountrySlug": "thailand"
+  },
+  {
+    "goabroadCountryName": "The Caribbean",
+    "goabroadCountrySlug": "the-caribbean"
+  },
+  {
+    "goabroadCountryName": "The Vatican",
+    "goabroadCountrySlug": "the-vatican"
+  },
+  {
+    "goabroadCountryName": "Tibet",
+    "goabroadCountrySlug": "tibet"
+  },
+  {
+    "goabroadCountryName": "Togo",
+    "goabroadCountrySlug": "togo"
+  },
+  {
+    "goabroadCountryName": "Tonga",
+    "goabroadCountrySlug": "tonga"
+  },
+  {
+    "goabroadCountryName": "Trinidad &amp; Tobago",
+    "goabroadCountrySlug": "trinidad-tobago"
+  },
+  {
+    "goabroadCountryName": "Tunisia",
+    "goabroadCountrySlug": "tunisia"
+  },
+  {
+    "goabroadCountryName": "Turkey",
+    "goabroadCountrySlug": "turkey"
+  },
+  {
+    "goabroadCountryName": "Turkmenistan",
+    "goabroadCountrySlug": "turkmenistan"
+  },
+  {
+    "goabroadCountryName": "Tuvalu",
+    "goabroadCountrySlug": "tuvalu"
+  },
+  {
+    "goabroadCountryName": "Uganda",
+    "goabroadCountrySlug": "uganda"
+  },
+  {
+    "goabroadCountryName": "Ukraine",
+    "goabroadCountrySlug": "ukraine"
+  },
+  {
+    "goabroadCountryName": "United Arab Emirates",
+    "goabroadCountrySlug": "united-arab-emirates"
+  },
+  {
+    "goabroadCountryName": "United Kingdom",
+    "goabroadCountrySlug": "united-kingdom"
+  },
+  {
+    "goabroadCountryName": "United States",
+    "goabroadCountrySlug": "united-states"
+  },
+  {
+    "goabroadCountryName": "Uruguay",
+    "goabroadCountrySlug": "uruguay"
+  },
+  {
+    "goabroadCountryName": "US Virgin Islands",
+    "goabroadCountrySlug": "us-virgin-islands"
+  },
+  {
+    "goabroadCountryName": "Uzbekistan",
+    "goabroadCountrySlug": "uzbekistan"
+  },
+  {
+    "goabroadCountryName": "Vanuatu",
+    "goabroadCountrySlug": "vanuatu"
+  },
+  {
+    "goabroadCountryName": "Vatican",
+    "goabroadCountrySlug": "vatican"
+  },
+  {
+    "goabroadCountryName": "Venezuela",
+    "goabroadCountrySlug": "venezuela"
+  },
+  {
+    "goabroadCountryName": "Vietnam",
+    "goabroadCountrySlug": "vietnam"
+  },
+  {
+    "goabroadCountryName": "Yemen",
+    "goabroadCountrySlug": "yemen"
+  },
+  {
+    "goabroadCountryName": "Zambia",
+    "goabroadCountrySlug": "zambia"
+  },
+  {
+    "goabroadCountryName": "Zimbabwe",
+    "goabroadCountrySlug": "zimbabwe"
+  }
+]
