@@ -1,0 +1,70 @@
+/*
+
+  JQUERY-UI
+  
+  - All widgets
+  - Dialog
+  - Form
+  - Modal
+  - Panel
+  - Sortable
+  - Tabs-nav
+  - Tooltip
+
+*/
+
+
+
+/* JQUERY-UI
+   ================================================== */
+
+/* ===[ All widgets ]=== */
+
+.ui-widget-header,
+.ui-widget-content {  border: none }
+
+/* ===[ Modal ]=== */
+
+.ui-dialog {  z-index: 1031!important }
+
+/*
+@media (min-width: 768px) {
+.modal.modal-wide .modal-dialog {
+  width: 90%;
+}
+}
+
+@media (min-width: 768px) {
+    .modal-dialog {  width: 668px }
+}
+*/
+
+.modal-wide .modal-body {
+  overflow-y: auto;
+}
+
+/* ===[ Panel ]=== */
+
+/* ===[ Sortable ]=== */
+
+.ui-sortable li:not(.disabled) {
+  cursor: pointer;
+  cursor: hand;
+  cursor: grab;
+  cursor: -webkit-grab;
+}
+
+.ui-sortable-placeholder {  min-height: 2em }
+
+.ui-sortable .disabled .ui-icon {  visibility: hidden }
+
+/* ===[ Tabs-nav ]=== */
+
+.ui-tabs-nav .ui-state-default {  background: none }
+
+/* ===[ Tooltip ]=== */
+
+.custom-tooltip-styling {
+  font-size: 2em;
+  background: #f00;
+}

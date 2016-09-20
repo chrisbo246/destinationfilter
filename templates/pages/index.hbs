@@ -1,0 +1,83 @@
+---
+title: The most accessible countries for your next trip
+---   
+<div id="fullpage" class="tab-content">
+  <div id="home_pane" class="tab-pane active page">
+      <div class="section background-image" data-anchor="home_section">
+          <div class="slide" data-anchor="home">
+              {{> homeView}}
+          </div>
+      </div>
+      <div class="section" data-anchor="steps_section">
+          <div class="slide" data-anchor="steps">
+              {{> stepsView}}
+          </div>
+      </div>
+      <div class="section" data-anchor="country_list_section">
+          <div class="slide" data-anchor="country_list">
+          </div>
+      </div>
+  </div>
+  <div id="map_pane" class="tab-pane fade page">
+    <div class="section" data-anchor="map_section">
+        <div class="slide-no-padding" data-anchor="map">
+            {{> mapView}}
+        </div>
+    </div>
+  </div>
+  <div id="map_settings_pane" class="tab-pane fade page">
+    <div class="section background-image" data-anchor="map_settings_section">
+        <div class="slide" data-anchor="map_settings">
+            {{> mapSettingsView}}
+        </div>
+    </div>
+  </div>
+  <div id="priorities_pane" class="tab-pane fade page">
+      <div class="section background-image" data-anchor="enabled_priorities_section">
+          <div class="slide" data-anchor="enabled_priorities">
+              {{> enabledPrioritiesView}}
+          </div>
+      </div>
+  </div>
+  <div id="user_profile_pane" class="tab-pane fade page">
+    <div class="section background-image" data-anchor="user_profile_section">
+        <div class="slide" data-anchor="user_profile">
+            {{> userProfileView}}
+        </div>
+    </div>
+  </div>
+  <div id="app_settings_pane" class="tab-pane fade page">
+      <div class="section background-image" data-anchor="app_settings_section">
+          <div class="slide" data-anchor="app_settings">
+              {{> appSettingsView}}
+          </div>
+      </div>
+  </div>
+  <div id="help_pane" class="tab-pane fade page">
+      <div class="section background-image" data-anchor="faq_section">
+          <div class="slide" data-anchor="faq">
+              {{> faqView}}
+          </div>
+      </div>
+  </div>
+  <div id="contribution_pane" class="tab-pane fade page">
+      <div class="section background-image" data-anchor="contribution_section">
+          <div class="slide" data-anchor="contribution">
+              {{> contributionView}}
+          </div>
+      </div>
+  </div>
+  <div id="about_pane" class="tab-pane fade page">
+      <div class="section background-image" data-anchor="contact_section">
+          <div class="slide" data-anchor="contact">
+              {{> contactView}}
+          </div>
+      </div>
+  </div>
+</div>
+    
+<div id="modal_container"></div>
+{{> disabledPrioritiesModal}}
+{{> countryDetailsModal}}
+{{> questionFormModal}}
+{{> userProfileResetModal}}

@@ -1,0 +1,47 @@
+.flag-bg{
+position:relative;
+overflow:hidden;
+//z-index: 0;
+}
+
+.flag-bg:before {
+content: "";
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+z-index: -1;
+background-size: cover;
+background-position: 0 0;
+background-repeat: no-repeat;
+}
+#country_list{
+
+  td {
+    height:2em;
+  }
+  
+  tr.flag-bg:before {
+  width: 50%;
+  height: 50%;
+  background-size: 100%;
+  transform: rotate(4deg);
+  opacity:.65;
+  }
+  .surrounded.flag-bg:before {
+  opacity:.5;
+  }
+
+  img {
+  //-webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  //clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  }
+  &.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: fade($table-bg-accent, 40%);
+  }
+  &.table-hover>tbody>tr:hover{
+    background-color: fade($table-bg-hover, 40%);
+  }
+  
+}
