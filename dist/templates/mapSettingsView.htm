@@ -1,0 +1,308 @@
+<div class="container">
+    <form id="settings_form" class="sayt form-horizontal" data-persist="garlic" data-parsley-validate="" role="form">
+        <fieldset>
+            <legend>Map</legend>
+            <div class="form-group">
+                <label for="gpx_file_path">GPS track</label>
+                <input id="gpx_file_path" class="form-control" type="file" accept=".gpx" name="files[]" multiple />
+                <span class="help-block">Visualize your route by uploading a GPS track file (.gpx).</span>
+            </div>
+            <output id="gpx_file_path_list"></output>
+            <div class="form-group">
+                <label for="base_layer_source" class="col-sm-4 control-label">Source</label>
+                <div class="col-sm-8">
+                    <select id="base_layer_source" name="base_layer_source" class="form-control input-sm">
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="top" class="col-sm-4 control-label">Top</label>
+                <div class="col-sm-8">
+                    <div class="input-group">
+                        <input type="text" id="top" class="form-control input-sm"/>
+                        <div class="input-group-addon">deg</div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="right" class="col-sm-4 control-label">Right</label>
+                <div class="col-sm-8">
+                    <div class="input-group">
+                        <input type="text" id="right" class="form-control input-sm"/>
+                        <div class="input-group-addon">deg</div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="bottom" class="col-sm-4 control-label">Bottom</label>
+                <div class="col-sm-8">
+                    <div class="input-group">
+                        <input type="text" id="bottom" class="form-control input-sm"/>
+                        <div class="input-group-addon">deg</div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="left" class="col-sm-4 control-label">Left</label>
+                <div class="col-sm-8">
+                    <div class="input-group">
+                        <input type="text" id="left" class="form-control input-sm"/>
+                        <div class="input-group-addon">deg</div>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>View</legend>
+            <div class="form-group">
+                <label for="center_x" class="col-sm-4 control-label">Center X</label>
+                <div class="col-sm-8">
+                    <div class="input-group">
+                        <input id="center_x" type="number" step="250" class="form-control input-sm"/>
+                        <div class="input-group-addon">deg</div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="center_y" class="col-sm-4 control-label">Center Y</label>
+                <div class="col-sm-8">
+                    <div class="input-group">
+                        <input id="center_y" type="number" step="250" class="form-control input-sm"/>
+                        <div class="input-group-addon">deg</div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="resolution" class="col-sm-4 control-label">Resolution</label>
+                <div class="col-sm-8">
+                    <div class="input-group">
+                        <input id="resolution" type="number" min="0" step="250" class="form-control input-sm"/>
+                        <div class="input-group-addon">deg</div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="zoom" class="col-sm-4 control-label">Zoom</label>
+                <div class="col-sm-8">
+                    <input id="zoom" type="number" min="0" max="28" step="1" class="form-control input-sm"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="rotation" class="col-sm-4 control-label">Rotation</label>
+                <div class="col-sm-8">
+                    <input id="rotation" type="range" min="-3.141592653589793" max="3.141592653589793" step="0.01" class="input-sm"/>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Layer</legend>
+            <div class="form-group">
+                <label for="overlay_layer_source" class="col-sm-4 control-label">Layer</label>
+                <div class="col-sm-8">
+                    <select id="overlay_layer_source" name="overlay_layer_source" class="form-control input-sm">
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label for="visible" class="col-sm-4 control-label">Visibility</label>
+                    <div class="col-sm-8">
+                        <input id="visible" type="checkbox" value=""/>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="opacity" class="col-sm-4 control-label">Opacity</label>
+                <div class="col-sm-8">
+                    <input id="opacity" type="range" min="0" max="1" step="0.01" class="input-sm" />
+                </div>
+            </div>
+            <div id="webgl">
+                <div class="form-group">
+                    <label for="brightness" class="col-sm-4 control-label">Brightness</label>
+                    <div class="col-sm-8">
+                        <input id="brightness" type="range" min="-1" max="1" step="0.01" class="input-sm"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="contrast" class="col-sm-4 control-label">Contrast</label>
+                    <div class="col-sm-8">
+                        <input id="contrast" type="range" min="0" max="2" step="0.01" class="input-sm"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="hue" class="col-sm-4 control-label">Hue</label>
+                    <div class="col-sm-8">
+                        <input id="hue" type="range" min="-3.141592653589793" max="3.141592653589793" step="0.01" class="input-sm"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="saturation" class="col-sm-4 control-label">Saturation</label>
+                    <div class="col-sm-8">
+                        <input id="saturation" type="range" min="0" max="5" step="0.01" class="input-sm"/>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="kernel" class="col-sm-4 control-label">Effect</label>
+                <div class="col-sm-8">
+                    <select id="kernel" name="kernel" class="form-control input-sm">
+                        <option value="none" selected>None</option>
+                        <option value="sharpen">Sharpen</option>
+                        <option value="sharpenless">Sharpen less</option>
+                        <option value="blur">Blur</option>
+                        <option value="shadow">Shadow</option>
+                        <option value="emboss">Emboss</option>
+                        <option value="edge">Edge detect</option>
+                    </select>
+                </div>
+            </div>
+            <div class="btn-group btn-group-block hidden">
+                <button id="decrease-brightness" type="button" class="btn btn-default"><span class="glyphicon glyphicon-minus"></span></button>
+                <button id="reset-brightness" type="button" class="btn btn-default">Brightness</button>
+                <button id="increase-brightness" type="button" class="btn btn-default"><span class="glyphicon glyphicon-plus"></span></button>
+            </div>
+            <div class="btn-group btn-group-block hidden">
+                <button id="decrease-contrast" type="button" class="btn btn-default"><span class="glyphicon glyphicon-minus"></span></button>
+                <button id="reset-contrast" type="button" class="btn btn-default">Contrast</button>
+                <button id="increase-contrast" type="button" class="btn btn-default"><span class="glyphicon glyphicon-plus"></span></button>
+            </div>
+            <div class="btn-group btn-group-block hidden">
+                <button id="decrease-hue" type="button" class="btn btn-default"><span class="glyphicon glyphicon-minus"></span></button>
+                <button id="reset-hue" type="button" class="btn btn-default">Hue</button>
+                <button id="increase-hue" type="button" class="btn btn-default"><span class="glyphicon glyphicon-plus"></span></button>
+            </div>
+            <div class="btn-group btn-group-block hidden">
+                <button id="decrease-saturation" type="button" class="btn btn-default"><span class="glyphicon glyphicon-minus"></span></button>
+                <button id="reset-saturation" type="button" class="btn btn-default">Saturation</button>
+                <button id="increase-saturation" type="button" class="btn btn-default"><span class="glyphicon glyphicon-plus"></span></button>
+            </div>
+        </fieldset>
+        <div id="gpx_layer">
+            <a id="export-gpx" class="btn btn-default btn-lg btn-block" download="map.gpx"><span class="glyphicon glyphicon-download"></span> Export GPX</a>
+        </div>
+        <div id="kml_layer">
+            <a id="export-kml" class="btn btn-default btn-lg btn-block" download="map.kml"><span class="glyphicon glyphicon-download"></span> Export KML</a>
+            <fieldset>
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label for="landuse" class="col-sm-4 control-label">Landuse</label>
+                        <div class="col-sm-8">
+                            <input type="checkbox" value="" id="landuse"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label for="buildings" class="col-sm-4 control-label">Buildings</label>
+                        <div class="col-sm-8">
+                            <input type="checkbox" value="" id="buildings"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label for="water" class="col-sm-4 control-label">Water</label>
+                        <div class="col-sm-8">
+                            <input type="checkbox" value="" id="water" checked/>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label for="roads" class="col-sm-4 control-label">Roads</label>
+                        <div class="col-sm-8">
+                            <input type="checkbox" value="" id="roads" checked/>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+        <div id="image_layer">
+        </div>
+        <fieldset>
+            <legend>Mouse</legend>
+            <div class="form-group">
+                <label for="action_type" class="col-sm-4 control-label">Country selection</label>
+                <div class="col-sm-8">
+                    <select id="action_type" name="action_type" class="form-control input-sm">
+                        <option value="none">None</option>
+                        <option value="singleclick">Single-click</option>
+                        <option value="click">Click</option>
+                        <option value="pointermove" selected>Hover</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="precision" class="col-sm-4 control-label">Mouse precision</label>
+                <div class="col-sm-8">
+                    <input id="precision" type="number" min="0" max="12" value="4" class="form-control input-sm"/>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Unit</legend>
+            <div class="form-group">
+                <label for="projection" class="col-sm-4 control-label">Projection</label>
+                <div class="col-sm-8">
+                    <select id="projection" name="projection" class="form-control input-sm">
+                        <option value="EPSG:4326">EPSG:4326</option>
+                        <option value="EPSG:3857">EPSG:3857</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="units" class="col-sm-4 control-label">Measure</label>
+                <div class="col-sm-8">
+                    <select id="units" name="units" class="form-control input-sm">
+                        <option value="degrees">degrees</option>
+                        <option value="imperial">imperial inch</option>
+                        <option value="us">us inch</option>
+                        <option value="nautical">nautical mile</option>
+                        <option value="metric">metric</option>
+                    </select>
+                </div>
+            </div>
+            <!--
+                <div class="form-group">
+                    <label for="info-projection" class="col-sm-4 control-label">Coordinates</label>
+                    <div class="col-sm-8">
+                        <select id="info-projection" name="info-projection" class="form-control input-sm">
+                            <option value="EPSG:3857" selected="selected">EPSG:3857</option>
+                            <option value="EPSG:4326">EPSG:4326</option>
+                        </select>
+                    </div>
+                </div>
+                -->
+            <div class="form-group">
+                <div class="checkbox">
+                    <label for="geodesic" class="col-sm-4 control-label">Geodesic measures</label>
+                    <div class="col-sm-8">
+                        <input id="geodesic" type="checkbox" value=""/>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Markers</legend>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label for="display_geolocation_marker" class="col-sm-4 control-label">My location</label>
+                    <div class="col-sm-8">
+                        <input id="display_geolocation_marker" type="checkbox" value="" checked="checked"/>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Vectors</legend>
+            <div class="form-group">
+                <label for="vector_layer_source" class="col-sm-4 control-label">Source</label>
+                <div class="col-sm-8">
+                    <select id="vector_layer_source" name="vector_layer_source" class="form-control input-sm">
+                    </select>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</div>

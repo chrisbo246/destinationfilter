@@ -1,0 +1,40 @@
+{
+  "filters": [
+    "application",
+    "traveler"
+  ],
+  "faq_list": [
+    {
+      "id":"scoreColor",
+      "filters":"application"
+    },
+    {
+      "id":"scoreCalcul",
+      "filters":"application"
+    },
+    {
+      "id":"saveData",
+      "filters":"application"
+    },
+    {
+      "id":"resetSettings",
+      "filters":"application"
+    },
+    {
+      "id":"dataSources",
+      "filters":"application"
+    },
+    {
+      "id":"moreProperties",
+      "filters":"application"
+    },
+    {
+      "id":"askVisa",
+      "filters":"traveler"
+    },
+    {
+      "id":"applianceFrequency",
+      "filters":"traveler"
+    }
+  ]
+}
