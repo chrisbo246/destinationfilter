@@ -2,7 +2,7 @@
 /bower_components/
 *.log
 
-build/
+/build/
 #dist/
 .tmp/
 
