@@ -1,4 +1,5 @@
-# robotstxt.org/
+Sitemap: http://www.destinationfilter.tk/sitemap.xml
 
-User-agent: * 
-Disallow:
+User-agent: *
+Disallow: /rev/
+Disallow: /update.html

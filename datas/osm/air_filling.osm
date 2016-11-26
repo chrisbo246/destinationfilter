@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2015-04-09T20:46:02Z"/>
+
+  <node id="288135557" lat="52.2741377" lon="14.5116073">
+    <tag k="amenity" v="air_filling"/>
+    <tag k="name" v="Füllstation"/>
+  </node>
+  <node id="691281088" lat="45.9024749" lon="4.7302977">
+    <tag k="amenity" v="air_filling"/>
+    <tag k="fee" v="no"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="723879951" lat="14.0840286" lon="121.0723502">
+    <tag k="amenity" v="air_filling"/>
+  </node>
+  <node id="730511557" lat="45.4239489" lon="4.4111153">
+    <tag k="amenity" v="air_filling"/>
+    <tag k="fee" v="no"/>
+    <tag k="operator" v="BP"/>
+  </node>
+  <node id="877065542" lat="44.8259384" lon="13.8464155">
+    <tag k="amenity" v="air_filling"/>
+  </node>
+  <node id="923008193" lat="45.5895373" lon="4.8264785">
+    <tag k="amenity" v="air_filling"/>
+    <tag k="fee" v="no"/>
+  </node>
+  <node id="1311093957" lat="51.0594825" lon="3.7193546">
+    <tag k="access" v="public"/>
+    <tag k="amenity" v="air_filling"/>
+    <tag k="fee" v="no"/>
+  </node>
+  <node id="1311094026" lat="51.0423701" lon="3.7233564">
+    <tag k="access" v="public"/>
+    <tag k="amenity" v="air_filling"/>
+    <tag k="fee" v="no"/>
+  </node>
+  <node id="1362991338" lat="45.8208467" lon="4.7659295">
+    <tag k="access" v="yes"/>
+    <tag k="amenity" v="air_filling"/>
+    <tag k="fee" v="no"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="1517728493" lat="57.4325936" lon="10.5160924">
+    <tag k="amenity" v="air_filling"/>
+  </node>
+  <node id="1875793653" lat="51.7492029" lon="19.5061507">
+    <tag k="amenity" v="air_filling"/>
+  </node>
+  <node id="2098957301" lat="-21.8375788" lon="-41.4282871">
+    <tag k="amenity" v="air_filling"/>
+  </node>
+  <node id="2191038210" lat="45.3913378" lon="-75.7551335">
+    <tag k="amenity" v="air_filling"/>
+    <tag k="name" v="Mec Air"/>
+  </node>
+  <node id="2270219033" lat="14.1767327" lon="121.2517348">
+    <tag k="addr:city" v="Los Baños"/>
+    <tag k="addr:postcode" v="4030"/>
+    <tag k="addr:street" v="Los Baños - Bay Road"/>
+    <tag k="amenity" v="air_filling"/>
+  </node>
+  <node id="2373592641" lat="57.7372938" lon="12.0986020">
+    <tag k="amenity" v="air_filling"/>
+  </node>
+  <node id="2423728559" lat="40.1097449" lon="-88.2388775">
+    <tag k="amenity" v="air_filling"/>
+  </node>
+  <node id="2583055476" lat="37.8324725" lon="-85.9323045">
+    <tag k="amenity" v="air_filling"/>
+  </node>
+  <node id="2621223464" lat="49.9480081" lon="8.2543697">
+    <tag k="amenity" v="air_filling"/>
+  </node>
+  <node id="2621467665" lat="46.4979619" lon="11.3548701">
+    <tag k="amenity" v="air_filling"/>
+    <tag k="fee" v="no"/>
+  </node>
+  <node id="2626097881" lat="57.0691380" lon="24.3167366">
+    <tag k="amenity" v="air_filling"/>
+  </node>
+  <node id="3003317161" lat="48.9868991" lon="2.2462410">
+    <tag k="amenity" v="air_filling"/>
+  </node>
+  <node id="3303580398" lat="-27.2231454" lon="153.0376551">
+    <tag k="amenity" v="air_filling"/>
+    <tag k="name" v="air"/>
+    <tag k="valve" v="schrader"/>
+  </node>
+
+</osm>
