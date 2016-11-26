@@ -1,0 +1,839 @@
+[
+  {
+    "currency":"AED",
+    "link":"http://themoneyconverter.com/EUR/AED.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:03 GMT",
+    "description":"1 Euro = 4.82420 United Arab Emirates Dirham",
+    "rate":"4.82420",
+    "name":"United Arab Emirates Dirham",
+    "category":"Middle East"
+  },
+  {
+    "currency":"ARS",
+    "link":"http://themoneyconverter.com/EUR/ARS.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:25:54 GMT",
+    "description":"1 Euro = 11.03560 Argentine Peso",
+    "rate":"11.03560",
+    "name":"Argentine Peso",
+    "category":"South America"
+  },
+  {
+    "currency":"AUD",
+    "link":"http://themoneyconverter.com/EUR/AUD.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:25:55 GMT",
+    "description":"1 Euro = 1.40670 Australian Dollar",
+    "rate":"1.40670",
+    "name":"Australian Dollar",
+    "category":"Oceania"
+  },
+  {
+    "currency":"AWG",
+    "link":"http://themoneyconverter.com/EUR/AWG.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:03 GMT",
+    "description":"1 Euro = 2.35134 Aruban Florin",
+    "rate":"2.35134",
+    "name":"Aruban Florin",
+    "category":"North America"
+  },
+  {
+    "currency":"BAM",
+    "link":"http://themoneyconverter.com/EUR/BAM.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 1.95583 Bosnia and Herzegovina convertible mark",
+    "rate":"1.95583",
+    "name":"Bosnia and Herzegovina convertible mark",
+    "category":"Europe"
+  },
+  {
+    "currency":"BBD",
+    "link":"http://themoneyconverter.com/EUR/BBD.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:03 GMT",
+    "description":"1 Euro = 2.62720 Barbadian Dollar",
+    "rate":"2.62720",
+    "name":"Barbadian Dollar",
+    "category":"North America"
+  },
+  {
+    "currency":"BDT",
+    "link":"http://themoneyconverter.com/EUR/BDT.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 101.48568 Bangladeshi Taka",
+    "rate":"101.48568",
+    "name":"Bangladeshi Taka",
+    "category":"Asia"
+  },
+  {
+    "currency":"BGN",
+    "link":"http://themoneyconverter.com/EUR/BGN.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 1.95583 Bulgarian Lev",
+    "rate":"1.95583",
+    "name":"Bulgarian Lev",
+    "category":"Europe"
+  },
+  {
+    "currency":"BHD",
+    "link":"http://themoneyconverter.com/EUR/BHD.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:03 GMT",
+    "description":"1 Euro = 0.49391 Bahraini Dinar",
+    "rate":"0.49391",
+    "name":"Bahraini Dinar",
+    "category":"Middle East"
+  },
+  {
+    "currency":"BMD",
+    "link":"http://themoneyconverter.com/EUR/BMD.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:03 GMT",
+    "description":"1 Euro = 1.31360 Bermudian Dollar",
+    "rate":"1.31360",
+    "name":"Bermudian Dollar",
+    "category":"North America"
+  },
+  {
+    "currency":"BOB",
+    "link":"http://themoneyconverter.com/EUR/BOB.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 9.11291 Bolivian Boliviano",
+    "rate":"9.11291",
+    "name":"Bolivian Boliviano",
+    "category":"South America"
+  },
+  {
+    "currency":"BRL",
+    "link":"http://themoneyconverter.com/EUR/BRL.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:25:55 GMT",
+    "description":"1 Euro = 2.93790 Brazilian Real",
+    "rate":"2.93790",
+    "name":"Brazilian Real",
+    "category":"South America"
+  },
+  {
+    "currency":"BSD",
+    "link":"http://themoneyconverter.com/EUR/BSD.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:03 GMT",
+    "description":"1 Euro = 1.31360 Bahamian Dollar",
+    "rate":"1.31360",
+    "name":"Bahamian Dollar",
+    "category":"North America"
+  },
+  {
+    "currency":"CAD",
+    "link":"http://themoneyconverter.com/EUR/CAD.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:25:56 GMT",
+    "description":"1 Euro = 1.42880 Canadian Dollar",
+    "rate":"1.42880",
+    "name":"Canadian Dollar",
+    "category":"North America"
+  },
+  {
+    "currency":"CHF",
+    "link":"http://themoneyconverter.com/EUR/CHF.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:25:56 GMT",
+    "description":"1 Euro = 1.20620 Swiss Franc",
+    "rate":"1.20620",
+    "name":"Swiss Franc",
+    "category":"Europe"
+  },
+  {
+    "currency":"CLP",
+    "link":"http://themoneyconverter.com/EUR/CLP.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 771.50972 Chilean Peso",
+    "rate":"771.50972",
+    "name":"Chilean Peso",
+    "category":"South America"
+  },
+  {
+    "currency":"CNY",
+    "link":"http://themoneyconverter.com/EUR/CNY.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:25:57 GMT",
+    "description":"1 Euro = 8.07020 Chinese Yuan",
+    "rate":"8.07020",
+    "name":"Chinese Yuan",
+    "category":"Asia"
+  },
+  {
+    "currency":"COP",
+    "link":"http://themoneyconverter.com/EUR/COP.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 2,515.34289 Colombian Peso",
+    "rate":"2515.34289",
+    "name":"Colombian Peso",
+    "category":"South America"
+  },
+  {
+    "currency":"CYP",
+    "link":"http://themoneyconverter.com/EUR/CYP.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 0.58527 Cyprus Pound",
+    "rate":"0.58527",
+    "name":"Cyprus Pound",
+    "category":"Europe"
+  },
+  {
+    "currency":"CZK",
+    "link":"http://themoneyconverter.com/EUR/CZK.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 27.72500 Czech Koruna",
+    "rate":"27.72500",
+    "name":"Czech Koruna",
+    "category":"Europe"
+  },
+  {
+    "currency":"DKK",
+    "link":"http://themoneyconverter.com/EUR/DKK.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 7.45200 Danish Krone",
+    "rate":"7.45200",
+    "name":"Danish Krone",
+    "category":"Europe"
+  },
+  {
+    "currency":"DOP",
+    "link":"http://themoneyconverter.com/EUR/DOP.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 57.28685 Dominican Peso",
+    "rate":"57.28685",
+    "name":"Dominican Peso",
+    "category":"North America"
+  },
+  {
+    "currency":"EEK",
+    "link":"http://themoneyconverter.com/EUR/EEK.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 15.64664 Estonia Kroon",
+    "rate":"15.64664",
+    "name":"Estonia Kroon",
+    "category":"Europe"
+  },
+  {
+    "currency":"EGP",
+    "link":"http://themoneyconverter.com/EUR/EGP.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 9.39602 Egyptian Pound",
+    "rate":"9.39602",
+    "name":"Egyptian Pound",
+    "category":"Africa"
+  },
+  {
+    "currency":"EUR",
+    "link":"http://themoneyconverter.com/EUR/EUR.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 1.00000 Euro",
+    "rate":"1.00000",
+    "name":"Euro",
+    "category":"Europe"
+  },
+  {
+    "currency":"FJD",
+    "link":"http://themoneyconverter.com/EUR/FJD.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 2.45158 Fijian Dollar",
+    "rate":"2.45158",
+    "name":"Fijian Dollar",
+    "category":"Oceania"
+  },
+  {
+    "currency":"GBP",
+    "link":"http://themoneyconverter.com/EUR/GBP.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:25:57 GMT",
+    "description":"1 Euro = 0.79140 British Pound Sterling",
+    "rate":"0.79140",
+    "name":"British Pound Sterling",
+    "category":"Europe"
+  },
+  {
+    "currency":"GHS",
+    "link":"http://themoneyconverter.com/EUR/GHS.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 4.12385 Ghana Cedi",
+    "rate":"4.12385",
+    "name":"Ghana Cedi",
+    "category":"Africa"
+  },
+  {
+    "currency":"GMD",
+    "link":"http://themoneyconverter.com/EUR/GMD.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 52.09586 Gambian Dalasi",
+    "rate":"52.09586",
+    "name":"Gambian Dalasi",
+    "category":"Africa"
+  },
+  {
+    "currency":"GTQ",
+    "link":"http://themoneyconverter.com/EUR/GTQ.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 10.20356 Guatemalan Quetzal",
+    "rate":"10.20356",
+    "name":"Guatemalan Quetzal",
+    "category":"North America"
+  },
+  {
+    "currency":"HKD",
+    "link":"http://themoneyconverter.com/EUR/HKD.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:03 GMT",
+    "description":"1 Euro = 10.18040 Hong Kong Dollar",
+    "rate":"10.18040",
+    "name":"Hong Kong Dollar",
+    "category":"Asia"
+  },
+  {
+    "currency":"HRK",
+    "link":"http://themoneyconverter.com/EUR/HRK.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 7.62300 Croatian Kuna",
+    "rate":"7.62300",
+    "name":"Croatian Kuna",
+    "category":"Europe"
+  },
+  {
+    "currency":"HUF",
+    "link":"http://themoneyconverter.com/EUR/HUF.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 315.02000 Hungarian Forint",
+    "rate":"315.02000",
+    "name":"Hungarian Forint",
+    "category":"Europe"
+  },
+  {
+    "currency":"IDR",
+    "link":"http://themoneyconverter.com/EUR/IDR.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 15,363.88435 Indonesian Rupiah",
+    "rate":"15363.88435",
+    "name":"Indonesian Rupiah",
+    "category":"Asia"
+  },
+  {
+    "currency":"ILS",
+    "link":"http://themoneyconverter.com/EUR/ILS.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:25:58 GMT",
+    "description":"1 Euro = 4.69480 Israeli Sheqel",
+    "rate":"4.69480",
+    "name":"Israeli Sheqel",
+    "category":"Middle East"
+  },
+  {
+    "currency":"INR",
+    "link":"http://themoneyconverter.com/EUR/INR.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:25:59 GMT",
+    "description":"1 Euro = 79.49310 Indian Rupee",
+    "rate":"79.49310",
+    "name":"Indian Rupee",
+    "category":"Asia"
+  },
+  {
+    "currency":"ISK",
+    "link":"http://themoneyconverter.com/EUR/ISK.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 153.77000 Icelandic Krona",
+    "rate":"153.77000",
+    "name":"Icelandic Krona",
+    "category":"Europe"
+  },
+  {
+    "currency":"JMD",
+    "link":"http://themoneyconverter.com/EUR/JMD.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 147.92625 Jamaican Dollar",
+    "rate":"147.92625",
+    "name":"Jamaican Dollar",
+    "category":"North America"
+  },
+  {
+    "currency":"JOD",
+    "link":"http://themoneyconverter.com/EUR/JOD.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:03 GMT",
+    "description":"1 Euro = 0.93134 Jordanian Dinar",
+    "rate":"0.93134",
+    "name":"Jordanian Dinar",
+    "category":"Middle East"
+  },
+  {
+    "currency":"JPY",
+    "link":"http://themoneyconverter.com/EUR/JPY.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:25:59 GMT",
+    "description":"1 Euro = 136.71390 Japanese Yen",
+    "rate":"136.71390",
+    "name":"Japanese Yen",
+    "category":"Asia"
+  },
+  {
+    "currency":"KES",
+    "link":"http://themoneyconverter.com/EUR/KES.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 116.23091 Kenyan Shilling",
+    "rate":"116.23091",
+    "name":"Kenyan Shilling",
+    "category":"Africa"
+  },
+  {
+    "currency":"KHR",
+    "link":"http://themoneyconverter.com/EUR/KHR.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 5,339.98680 Cambodian Riel",
+    "rate":"5339.98680",
+    "name":"Cambodian Riel",
+    "category":"Asia"
+  },
+  {
+    "currency":"KRW",
+    "link":"http://themoneyconverter.com/EUR/KRW.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:25:59 GMT",
+    "description":"1 Euro = 1,333.62940 South Korean Won",
+    "rate":"1333.62940",
+    "name":"South Korean Won",
+    "category":"Asia"
+  },
+  {
+    "currency":"KWD",
+    "link":"http://themoneyconverter.com/EUR/KWD.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 0.37387 Kuwaiti Dinar",
+    "rate":"0.37387",
+    "name":"Kuwaiti Dinar",
+    "category":"Middle East"
+  },
+  {
+    "currency":"LAK",
+    "link":"http://themoneyconverter.com/EUR/LAK.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 10,562.40230 Lao Kip",
+    "rate":"10562.40230",
+    "name":"Lao Kip",
+    "category":"Asia"
+  },
+  {
+    "currency":"LBP",
+    "link":"http://themoneyconverter.com/EUR/LBP.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:03 GMT",
+    "description":"1 Euro = 1,980.25200 Lebanese Pound",
+    "rate":"1980.25200",
+    "name":"Lebanese Pound",
+    "category":"Middle East"
+  },
+  {
+    "currency":"LKR",
+    "link":"http://themoneyconverter.com/EUR/LKR.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 171.10030 Sri Lankan Rupee",
+    "rate":"171.10030",
+    "name":"Sri Lankan Rupee",
+    "category":"Asia"
+  },
+  {
+    "currency":"LTL",
+    "link":"http://themoneyconverter.com/EUR/LTL.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 3.45280 Lithuanian Litas",
+    "rate":"3.45280",
+    "name":"Lithuanian Litas",
+    "category":"Europe"
+  },
+  {
+    "currency":"LVL",
+    "link":"http://themoneyconverter.com/EUR/LVL.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 0.70280 Latvian Lats",
+    "rate":"0.70280",
+    "name":"Latvian Lats",
+    "category":"Europe"
+  },
+  {
+    "currency":"MAD",
+    "link":"http://themoneyconverter.com/EUR/MAD.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:00 GMT",
+    "description":"1 Euro = 11.13710 Moroccan Dirham",
+    "rate":"11.13710",
+    "name":"Moroccan Dirham",
+    "category":"Africa"
+  },
+  {
+    "currency":"MDL",
+    "link":"http://themoneyconverter.com/EUR/MDL.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 18.40692 Moldovan Leu",
+    "rate":"18.40692",
+    "name":"Moldovan Leu",
+    "category":"Europe"
+  },
+  {
+    "currency":"MGA",
+    "link":"http://themoneyconverter.com/EUR/MGA.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 3,249.57000 Malagasy Ariary",
+    "rate":"3249.57000",
+    "name":"Malagasy Ariary",
+    "category":"Africa"
+  },
+  {
+    "currency":"MKD",
+    "link":"http://themoneyconverter.com/EUR/MKD.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 61.26621 Macedonian Denar",
+    "rate":"61.26621",
+    "name":"Macedonian Denar",
+    "category":"Europe"
+  },
+  {
+    "currency":"MUR",
+    "link":"http://themoneyconverter.com/EUR/MUR.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 40.92773 Mauritian Rupee",
+    "rate":"40.92773",
+    "name":"Mauritian Rupee",
+    "category":"Africa"
+  },
+  {
+    "currency":"MVR",
+    "link":"http://themoneyconverter.com/EUR/MVR.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 20.14071 Maldivian Rufiyaa",
+    "rate":"20.14071",
+    "name":"Maldivian Rufiyaa",
+    "category":"Asia"
+  },
+  {
+    "currency":"MXN",
+    "link":"http://themoneyconverter.com/EUR/MXN.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:00 GMT",
+    "description":"1 Euro = 17.19060 Mexican Peso",
+    "rate":"17.19060",
+    "name":"Mexican Peso",
+    "category":"North America"
+  },
+  {
+    "currency":"MYR",
+    "link":"http://themoneyconverter.com/EUR/MYR.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 4.14511 Malaysian Ringgit",
+    "rate":"4.14511",
+    "name":"Malaysian Ringgit",
+    "category":"Asia"
+  },
+  {
+    "currency":"NAD",
+    "link":"http://themoneyconverter.com/EUR/NAD.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:03 GMT",
+    "description":"1 Euro = 14.00930 Namibian Dollar",
+    "rate":"14.00930",
+    "name":"Namibian Dollar",
+    "category":"Africa"
+  },
+  {
+    "currency":"NGN",
+    "link":"http://themoneyconverter.com/EUR/NGN.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 213.47121 Nigerian Naira",
+    "rate":"213.47121",
+    "name":"Nigerian Naira",
+    "category":"Africa"
+  },
+  {
+    "currency":"NOK",
+    "link":"http://themoneyconverter.com/EUR/NOK.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:00 GMT",
+    "description":"1 Euro = 8.14020 Norwegian Krone",
+    "rate":"8.14020",
+    "name":"Norwegian Krone",
+    "category":"Europe"
+  },
+  {
+    "currency":"NPR",
+    "link":"http://themoneyconverter.com/EUR/NPR.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:25:59 GMT",
+    "description":"1 Euro = 127.18896 Nepalese Rupee",
+    "rate":"127.18896",
+    "name":"Nepalese Rupee",
+    "category":"Asia"
+  },
+  {
+    "currency":"NZD",
+    "link":"http://themoneyconverter.com/EUR/NZD.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:00 GMT",
+    "description":"1 Euro = 1.57110 New Zealand Dollar",
+    "rate":"1.57110",
+    "name":"New Zealand Dollar",
+    "category":"Oceania"
+  },
+  {
+    "currency":"OMR",
+    "link":"http://themoneyconverter.com/EUR/OMR.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:03 GMT",
+    "description":"1 Euro = 0.50508 Omani Rial",
+    "rate":"0.50508",
+    "name":"Omani Rial",
+    "category":"Middle East"
+  },
+  {
+    "currency":"PAB",
+    "link":"http://themoneyconverter.com/EUR/PAB.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:03 GMT",
+    "description":"1 Euro = 1.31360 Panamanian Balboa",
+    "rate":"1.31360",
+    "name":"Panamanian Balboa",
+    "category":"North America"
+  },
+  {
+    "currency":"PEN",
+    "link":"http://themoneyconverter.com/EUR/PEN.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 3.73239 Peruvian Sol",
+    "rate":"3.73239",
+    "name":"Peruvian Sol",
+    "category":"South America"
+  },
+  {
+    "currency":"PHP",
+    "link":"http://themoneyconverter.com/EUR/PHP.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:01 GMT",
+    "description":"1 Euro = 57.28000 Philippine Peso",
+    "rate":"57.28000",
+    "name":"Philippine Peso",
+    "category":"Asia"
+  },
+  {
+    "currency":"PKR",
+    "link":"http://themoneyconverter.com/EUR/PKR.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 133.75433 Pakistani Rupee",
+    "rate":"133.75433",
+    "name":"Pakistani Rupee",
+    "category":"Asia"
+  },
+  {
+    "currency":"PLN",
+    "link":"http://themoneyconverter.com/EUR/PLN.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:01 GMT",
+    "description":"1 Euro = 4.20920 Polish Zloty",
+    "rate":"4.20920",
+    "name":"Polish Zloty",
+    "category":"Europe"
+  },
+  {
+    "currency":"PYG",
+    "link":"http://themoneyconverter.com/EUR/PYG.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 5,607.14552 Paraguayan Guaran&iacute;",
+    "rate":"5607.14552",
+    "name":"Paraguayan Guaran&iacute;",
+    "category":"South America"
+  },
+  {
+    "currency":"QAR",
+    "link":"http://themoneyconverter.com/EUR/QAR.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:03 GMT",
+    "description":"1 Euro = 4.78150 Qatari Riyal",
+    "rate":"4.78150",
+    "name":"Qatari Riyal",
+    "category":"Middle East"
+  },
+  {
+    "currency":"RON",
+    "link":"http://themoneyconverter.com/EUR/RON.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 4.40650 Romanian Leu",
+    "rate":"4.40650",
+    "name":"Romanian Leu",
+    "category":"Europe"
+  },
+  {
+    "currency":"RSD",
+    "link":"http://themoneyconverter.com/EUR/RSD.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 117.83410 Serbian Dinar",
+    "rate":"117.83410",
+    "name":"Serbian Dinar",
+    "category":"Europe"
+  },
+  {
+    "currency":"RUB",
+    "link":"http://themoneyconverter.com/EUR/RUB.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:01 GMT",
+    "description":"1 Euro = 48.69250 Russian Rouble",
+    "rate":"48.69250",
+    "name":"Russian Rouble",
+    "category":"Europe"
+  },
+  {
+    "currency":"SAR",
+    "link":"http://themoneyconverter.com/EUR/SAR.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:03 GMT",
+    "description":"1 Euro = 4.92600 Saudi Riyal",
+    "rate":"4.92600",
+    "name":"Saudi Riyal",
+    "category":"Middle East"
+  },
+  {
+    "currency":"SCR",
+    "link":"http://themoneyconverter.com/EUR/SCR.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 17.03920 Seychellois Rupee",
+    "rate":"17.03920",
+    "name":"Seychellois Rupee",
+    "category":"Africa"
+  },
+  {
+    "currency":"SEK",
+    "link":"http://themoneyconverter.com/EUR/SEK.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:02 GMT",
+    "description":"1 Euro = 9.18320 Swedish Krona",
+    "rate":"9.18320",
+    "name":"Swedish Krona",
+    "category":"Europe"
+  },
+  {
+    "currency":"SGD",
+    "link":"http://themoneyconverter.com/EUR/SGD.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:02 GMT",
+    "description":"1 Euro = 1.64040 Singapore Dollar",
+    "rate":"1.64040",
+    "name":"Singapore Dollar",
+    "category":"Asia"
+  },
+  {
+    "currency":"SYP",
+    "link":"http://themoneyconverter.com/EUR/SYP.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 201.63760 Syrian Pound",
+    "rate":"201.63760",
+    "name":"Syrian Pound",
+    "category":"Middle East"
+  },
+  {
+    "currency":"THB",
+    "link":"http://themoneyconverter.com/EUR/THB.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:02 GMT",
+    "description":"1 Euro = 41.97640 Thai Baht",
+    "rate":"41.97640",
+    "name":"Thai Baht",
+    "category":"Asia"
+  },
+  {
+    "currency":"TND",
+    "link":"http://themoneyconverter.com/EUR/TND.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 2.28651 Tunisian Dinar",
+    "rate":"2.28651",
+    "name":"Tunisian Dinar",
+    "category":"Africa"
+  },
+  {
+    "currency":"TRY",
+    "link":"http://themoneyconverter.com/EUR/TRY.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:02 GMT",
+    "description":"1 Euro = 2.84000 Turkish Lira",
+    "rate":"2.84000",
+    "name":"Turkish Lira",
+    "category":"Europe"
+  },
+  {
+    "currency":"TWD",
+    "link":"http://themoneyconverter.com/EUR/TWD.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 39.31076 Taiwanese Dollar",
+    "rate":"39.31076",
+    "name":"Taiwanese Dollar",
+    "category":"Asia"
+  },
+  {
+    "currency":"UAH",
+    "link":"http://themoneyconverter.com/EUR/UAH.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 17.92969 Ukraine Hryvnia",
+    "rate":"17.92969",
+    "name":"Ukraine Hryvnia",
+    "category":"Europe"
+  },
+  {
+    "currency":"UGX",
+    "link":"http://themoneyconverter.com/EUR/UGX.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 3,429.41940 Ugandan Shilling",
+    "rate":"3429.41940",
+    "name":"Ugandan Shilling",
+    "category":"Africa"
+  },
+  {
+    "currency":"USD",
+    "link":"http://themoneyconverter.com/EUR/USD.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:03 GMT",
+    "description":"1 Euro = 1.31360 United States Dollar",
+    "rate":"1.31360",
+    "name":"United States Dollar",
+    "category":"North America"
+  },
+  {
+    "currency":"UYU",
+    "link":"http://themoneyconverter.com/EUR/UYU.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 31.35987 Uruguayan Peso",
+    "rate":"31.35987",
+    "name":"Uruguayan Peso",
+    "category":"South America"
+  },
+  {
+    "currency":"VEF",
+    "link":"http://themoneyconverter.com/EUR/VEF.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:03 GMT",
+    "description":"1 Euro = 8.27568 Venezuelan Bol&iacute;var",
+    "rate":"8.27568",
+    "name":"Venezuelan Bol&iacute;var",
+    "category":"South America"
+  },
+  {
+    "currency":"VND",
+    "link":"http://themoneyconverter.com/EUR/VND.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 27,829.03120 Vietnamese Dong",
+    "rate":"27829.03120",
+    "name":"Vietnamese Dong",
+    "category":"Asia"
+  },
+  {
+    "currency":"XAF",
+    "link":"http://themoneyconverter.com/EUR/XAF.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 655.95700 Central African Franc",
+    "rate":"655.95700",
+    "name":"Central African Franc",
+    "category":"Africa"
+  },
+  {
+    "currency":"XCD",
+    "link":"http://themoneyconverter.com/EUR/XCD.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:03 GMT",
+    "description":"1 Euro = 3.54672 East Caribbean Dollar",
+    "rate":"3.54672",
+    "name":"East Caribbean Dollar",
+    "category":"North America"
+  },
+  {
+    "currency":"XOF",
+    "link":"http://themoneyconverter.com/EUR/XOF.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 655.95700 West African Franc",
+    "rate":"655.95700",
+    "name":"West African Franc",
+    "category":"Africa"
+  },
+  {
+    "currency":"XPF",
+    "link":"http://themoneyconverter.com/EUR/XPF.aspx",
+    "pubDate":"Sun, 31 Aug 2014 00:00:00 GMT",
+    "description":"1 Euro = 119.33174 CFP Franc",
+    "rate":"119.33174",
+    "name":"CFP Franc",
+    "category":"Oceania"
+  },
+  {
+    "currency":"ZAR",
+    "link":"http://themoneyconverter.com/EUR/ZAR.aspx",
+    "pubDate":"Sun, 31 Aug 2014 10:26:03 GMT",
+    "description":"1 Euro = 14.00930 South African Rand",
+    "rate":"14.00930",
+    "name":"South African Rand",
+    "category":"Africa"
+  }
+]

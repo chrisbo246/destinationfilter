@@ -1,0 +1,3044 @@
+[
+  {
+    "Location":"Afghanistan",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Afghanistan",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Albania",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Albania",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Algeria",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Algeria",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"American Samoa",
+    "Plug Type":"Type A",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"American Samoa",
+    "Plug Type":"Type B",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"American Samoa",
+    "Plug Type":"Type F",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"American Samoa",
+    "Plug Type":"Type I",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Andorra",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Andorra",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Angola",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Anguilla",
+    "Plug Type":"Type A",
+    "Electric Potential":"110 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Antigua and Barbuda",
+    "Plug Type":"Type A",
+    "Electric Potential":"230 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Antigua and Barbuda",
+    "Plug Type":"Type B",
+    "Electric Potential":"230 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Argentina",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Argentina",
+    "Plug Type":"Type I",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Armenia",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Armenia",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Aruba",
+    "Plug Type":"Type A",
+    "Electric Potential":"127 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Aruba",
+    "Plug Type":"Type B",
+    "Electric Potential":"127 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Aruba",
+    "Plug Type":"Type F",
+    "Electric Potential":"127 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Australia",
+    "Plug Type":"Type I",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Austria",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Austria",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Azerbaijan",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Azerbaijan",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Bahamas",
+    "Plug Type":"Type A",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Bahamas",
+    "Plug Type":"Type B",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Bahrain",
+    "Plug Type":"Type G",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Bangladesh",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Bangladesh",
+    "Plug Type":"Type D",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Bangladesh",
+    "Plug Type":"Type G",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Bangladesh",
+    "Plug Type":"Type K",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Barbados",
+    "Plug Type":"Type A",
+    "Electric Potential":"115 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Barbados",
+    "Plug Type":"Type B",
+    "Electric Potential":"115 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Belarus",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Belarus",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Belgium",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Belgium",
+    "Plug Type":"Type E",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Belize",
+    "Plug Type":"Type A",
+    "Electric Potential":"110 V, 220 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Belize",
+    "Plug Type":"Type B",
+    "Electric Potential":"110 V, 220 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Belize",
+    "Plug Type":"Type G",
+    "Electric Potential":"110 V, 220 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Benin",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Benin",
+    "Plug Type":"Type E",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Bermuda",
+    "Plug Type":"Type A",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Bermuda",
+    "Plug Type":"Type B",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Bhutan",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Bhutan",
+    "Plug Type":"Type D",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Bhutan",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Bhutan",
+    "Plug Type":"Type G",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Bhutan",
+    "Plug Type":"Type M",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Bolivia",
+    "Plug Type":"Type A",
+    "Electric Potential":"115 V, 230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Bolivia",
+    "Plug Type":"Type C",
+    "Electric Potential":"115 V, 230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Bosnia and Herzegovina",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Bosnia and Herzegovina",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Botswana",
+    "Plug Type":"Type D",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Botswana",
+    "Plug Type":"Type G",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Botswana",
+    "Plug Type":"Type M",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Brazil",
+    "Plug Type":"Type C",
+    "Electric Potential":"127 V, 220 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Brazil",
+    "Plug Type":"Type N",
+    "Electric Potential":"127 V, 220 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"British Virgin Islands",
+    "Plug Type":"Type A",
+    "Electric Potential":"110 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"British Virgin Islands",
+    "Plug Type":"Type B",
+    "Electric Potential":"110 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Brunei Darussalam",
+    "Plug Type":"Type G",
+    "Electric Potential":"240 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Bulgaria",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Bulgaria",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Burkina Faso",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Burkina Faso",
+    "Plug Type":"Type E",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Burundi",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Burundi",
+    "Plug Type":"Type E",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Cambodia",
+    "Plug Type":"Type A",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Cambodia",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Cambodia",
+    "Plug Type":"Type G",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Cameroon",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Cameroon",
+    "Plug Type":"Type E",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Canada",
+    "Plug Type":"Type A",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Canada",
+    "Plug Type":"Type B",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Cape Verde",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Cape Verde",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Cayman Islands",
+    "Plug Type":"Type A",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Cayman Islands",
+    "Plug Type":"Type B",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Central African Republic",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Central African Republic",
+    "Plug Type":"Type E",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Chad",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Chad",
+    "Plug Type":"Type D",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Chad",
+    "Plug Type":"Type E",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Chad",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Chile",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Chile",
+    "Plug Type":"Type L",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"China",
+    "Plug Type":"Type A",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"China",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"China",
+    "Plug Type":"Type I",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Colombia",
+    "Plug Type":"Type A",
+    "Electric Potential":"110 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Colombia",
+    "Plug Type":"Type B",
+    "Electric Potential":"110 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Comoros",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Comoros",
+    "Plug Type":"Type E",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Congo",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Congo",
+    "Plug Type":"Type E",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Congo (Democratic Rep. of)",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Congo (Democratic Rep. of)",
+    "Plug Type":"Type D",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Congo (Democratic Rep. of)",
+    "Plug Type":"Type E",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Cook Islands",
+    "Plug Type":"Type I",
+    "Electric Potential":"240 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Costa Rica",
+    "Plug Type":"Type A",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Costa Rica",
+    "Plug Type":"Type B",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Cote d'Ivoire",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Cote d'Ivoire",
+    "Plug Type":"Type E",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Croatia",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Croatia",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Cuba",
+    "Plug Type":"Type A",
+    "Electric Potential":"110 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Cuba",
+    "Plug Type":"Type B",
+    "Electric Potential":"110 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Cyprus",
+    "Plug Type":"Type G",
+    "Electric Potential":"240 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Czech Republic",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Czech Republic",
+    "Plug Type":"Type E",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Denmark",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Denmark",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Denmark",
+    "Plug Type":"Type E",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Denmark",
+    "Plug Type":"Type K",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Djibouti",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Djibouti",
+    "Plug Type":"Type E",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Dominica",
+    "Plug Type":"Type D",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Dominica",
+    "Plug Type":"Type G",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Dominican Republic",
+    "Plug Type":"Type A",
+    "Electric Potential":"110 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Dominican Republic",
+    "Plug Type":"Type B",
+    "Electric Potential":"110 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Ecuador",
+    "Plug Type":"Type A",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Ecuador",
+    "Plug Type":"Type B",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Egypt",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Egypt",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"El Salvador",
+    "Plug Type":"Type A",
+    "Electric Potential":"115 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"El Salvador",
+    "Plug Type":"Type B",
+    "Electric Potential":"115 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Equatorial Guinea",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Equatorial Guinea",
+    "Plug Type":"Type E",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Eritrea",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Eritrea",
+    "Plug Type":"Type L",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Estonia",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Estonia",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Ethiopia",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Ethiopia",
+    "Plug Type":"Type E",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Ethiopia",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Ethiopia",
+    "Plug Type":"Type L",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Falkland Islands (Malvinas)",
+    "Plug Type":"Type G",
+    "Electric Potential":"240 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Faroe Islands",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Faroe Islands",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Faroe Islands",
+    "Plug Type":"Type E",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Faroe Islands",
+    "Plug Type":"Type K",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Fiji",
+    "Plug Type":"Type I",
+    "Electric Potential":"240 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Finland",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Finland",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"France",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"France",
+    "Plug Type":"Type E",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"French Guiana",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"French Guiana",
+    "Plug Type":"Type D",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"French Guiana",
+    "Plug Type":"Type E",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Gabon",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Gambia",
+    "Plug Type":"Type G",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Georgia",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Georgia",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Germany",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Germany",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Ghana",
+    "Plug Type":"Type D",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Ghana",
+    "Plug Type":"Type G",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Gibraltar",
+    "Plug Type":"Type C",
+    "Electric Potential":"240 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Gibraltar",
+    "Plug Type":"Type G",
+    "Electric Potential":"240 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Greece",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Greece",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Greenland",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Greenland",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Greenland",
+    "Plug Type":"Type E",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Greenland",
+    "Plug Type":"Type K",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Grenada",
+    "Plug Type":"Type G",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Guadeloupe",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Guadeloupe",
+    "Plug Type":"Type D",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Guadeloupe",
+    "Plug Type":"Type E",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Guam",
+    "Plug Type":"Type A",
+    "Electric Potential":"110 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Guam",
+    "Plug Type":"Type B",
+    "Electric Potential":"110 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Guatemala",
+    "Plug Type":"Type A",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Guatemala",
+    "Plug Type":"Type B",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Guinea",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Guinea",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Guinea",
+    "Plug Type":"Type K",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Guinea Bissau",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Guyana",
+    "Plug Type":"Type A",
+    "Electric Potential":"240 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Guyana",
+    "Plug Type":"Type B",
+    "Electric Potential":"240 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Guyana",
+    "Plug Type":"Type D",
+    "Electric Potential":"240 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Guyana",
+    "Plug Type":"Type G",
+    "Electric Potential":"240 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Haiti",
+    "Plug Type":"Type A",
+    "Electric Potential":"110 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Haiti",
+    "Plug Type":"Type B",
+    "Electric Potential":"110 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Honduras",
+    "Plug Type":"Type A",
+    "Electric Potential":"110 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Honduras",
+    "Plug Type":"Type B",
+    "Electric Potential":"110 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Hong Kong",
+    "Plug Type":"Type G",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Hong Kong",
+    "Plug Type":"Type D",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Hungary",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Hungary",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Iceland",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Iceland",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"India",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"India",
+    "Plug Type":"Type D",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"India",
+    "Plug Type":"Type M",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Indonesia",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V 110 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Indonesia",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V 110 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Iran",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Iran",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Iraq",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Iraq",
+    "Plug Type":"Type D",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Iraq",
+    "Plug Type":"Type G",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Ireland",
+    "Plug Type":"Type G",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Isle of Man",
+    "Plug Type":"Type C",
+    "Electric Potential":"240 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Isle of Man",
+    "Plug Type":"Type G",
+    "Electric Potential":"240 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Israel",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Israel",
+    "Plug Type":"Type H",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Israel",
+    "Plug Type":"Type M",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Italy",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Italy",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Italy",
+    "Plug Type":"Type L",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Jamaica",
+    "Plug Type":"Type A",
+    "Electric Potential":"110 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Jamaica",
+    "Plug Type":"Type B",
+    "Electric Potential":"110 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Japan",
+    "Plug Type":"Type A",
+    "Electric Potential":"100 V",
+    "Frequency":"50 Hz, 60 Hz"
+  },
+  {
+    "Location":"Japan",
+    "Plug Type":"Type B",
+    "Electric Potential":"100 V",
+    "Frequency":"50 Hz, 60 Hz"
+  },
+  {
+    "Location":"Jordan",
+    "Plug Type":"Type B",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Jordan",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Jordan",
+    "Plug Type":"Type D",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Jordan",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Jordan",
+    "Plug Type":"Type G",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Jordan",
+    "Plug Type":"Type J",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Kazakhstan",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Kazakhstan",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Kenya",
+    "Plug Type":"Type G",
+    "Electric Potential":"240 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Kiribati",
+    "Plug Type":"Type I",
+    "Electric Potential":"240 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Korea, Democratic People's Republic of",
+    "Plug Type":"Type A",
+    "Electric Potential":"220 V, 110 V",
+    "Frequency":"50 Hz, 60 Hz"
+  },
+  {
+    "Location":"Korea, Democratic People's Republic of",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V, 110 V",
+    "Frequency":"50 Hz, 60 Hz"
+  },
+  {
+    "Location":"Korea, Democratic People's Republic of",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V, 110 V",
+    "Frequency":"50 Hz, 60 Hz"
+  },
+  {
+    "Location":"Korea, Republic of",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Korea, Republic of",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Kuwait",
+    "Plug Type":"Type C",
+    "Electric Potential":"240 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Kuwait",
+    "Plug Type":"Type G",
+    "Electric Potential":"240 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Kyrgyzstan",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Kyrgyzstan",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Lao People's Democratic Republic",
+    "Plug Type":"Type A",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Lao People's Democratic Republic",
+    "Plug Type":"Type B",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Lao People's Democratic Republic",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Lao People's Democratic Republic",
+    "Plug Type":"Type E",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Lao People's Democratic Republic",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Latvia",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Latvia",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Lebanon",
+    "Plug Type":"Type A",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Lebanon",
+    "Plug Type":"Type B",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Lebanon",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Lebanon",
+    "Plug Type":"Type D",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Lebanon",
+    "Plug Type":"Type G",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Lesotho",
+    "Plug Type":"Type M",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Liberia",
+    "Plug Type":"Type A",
+    "Electric Potential":"120 V, 220 V",
+    "Frequency":"50 Hz, 60 Hz"
+  },
+  {
+    "Location":"Liberia",
+    "Plug Type":"Type B",
+    "Electric Potential":"120 V, 220 V",
+    "Frequency":"50 Hz, 60 Hz"
+  },
+  {
+    "Location":"Liberia",
+    "Plug Type":"Type C",
+    "Electric Potential":"120 V, 220 V",
+    "Frequency":"50 Hz, 60 Hz"
+  },
+  {
+    "Location":"Liberia",
+    "Plug Type":"Type E",
+    "Electric Potential":"120 V, 220 V",
+    "Frequency":"50 Hz, 60 Hz"
+  },
+  {
+    "Location":"Liberia",
+    "Plug Type":"Type F",
+    "Electric Potential":"120 V, 220 V",
+    "Frequency":"50 Hz, 60 Hz"
+  },
+  {
+    "Location":"Libya",
+    "Plug Type":"Type C",
+    "Electric Potential":"127 V, 230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Libya",
+    "Plug Type":"Type D",
+    "Electric Potential":"127 V, 230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Libya",
+    "Plug Type":"Type F",
+    "Electric Potential":"127 V, 230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Libya",
+    "Plug Type":"Type L",
+    "Electric Potential":"127 V, 230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Liechtenstein",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Liechtenstein",
+    "Plug Type":"Type J",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Lithuania",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Lithuania",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Luxembourg",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Luxembourg",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Macau",
+    "Plug Type":"Type D",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Macau",
+    "Plug Type":"Type M",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Macau",
+    "Plug Type":"Type G",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Macau",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Macedonia",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Macedonia",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Madagascar",
+    "Plug Type":"Type C",
+    "Electric Potential":"127 V, 220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Madagascar",
+    "Plug Type":"Type D",
+    "Electric Potential":"127 V, 220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Madagascar",
+    "Plug Type":"Type E",
+    "Electric Potential":"127 V, 220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Madagascar",
+    "Plug Type":"Type J",
+    "Electric Potential":"127 V, 220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Madagascar",
+    "Plug Type":"Type K",
+    "Electric Potential":"127 V, 220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Malawi",
+    "Plug Type":"Type G",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Malaysia",
+    "Plug Type":"Type A",
+    "Electric Potential":"240 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Malaysia",
+    "Plug Type":"Type C",
+    "Electric Potential":"240 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Malaysia",
+    "Plug Type":"Type G",
+    "Electric Potential":"240 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Malaysia",
+    "Plug Type":"Type M",
+    "Electric Potential":"240 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Maldives",
+    "Plug Type":"Type A",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Maldives",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Maldives",
+    "Plug Type":"Type D",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Maldives",
+    "Plug Type":"Type G",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Maldives",
+    "Plug Type":"Type J",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Maldives",
+    "Plug Type":"Type K",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Maldives",
+    "Plug Type":"Type L",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Mali",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Mali",
+    "Plug Type":"Type E",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Malta",
+    "Plug Type":"Type G",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Martinique",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Martinique",
+    "Plug Type":"Type D",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Martinique",
+    "Plug Type":"Type E",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Mauritania",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Mauritius",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Mauritius",
+    "Plug Type":"Type G",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Mexico",
+    "Plug Type":"Type A",
+    "Electric Potential":"127 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Mexico",
+    "Plug Type":"Type B",
+    "Electric Potential":"127 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Micronesia, Federated States of",
+    "Plug Type":"Type A",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Micronesia, Federated States of",
+    "Plug Type":"Type B",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Moldova",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Moldova",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Monaco",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Monaco",
+    "Plug Type":"Type D",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Monaco",
+    "Plug Type":"Type E",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Monaco",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Mongolia",
+    "Plug Type":"Type C",
+    "Electric Potential":"220",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Mongolia",
+    "Plug Type":"Type E",
+    "Electric Potential":"220",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Montenegro",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Montenegro",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Montserrat",
+    "Plug Type":"Type A",
+    "Electric Potential":"230 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Montserrat",
+    "Plug Type":"Type B",
+    "Electric Potential":"230 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Morocco",
+    "Plug Type":"Type C",
+    "Electric Potential":"127 V, 220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Morocco",
+    "Plug Type":"Type E",
+    "Electric Potential":"127 V, 220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Mozambique",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Mozambique",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Mozambique",
+    "Plug Type":"Type M",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Myanmar",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Myanmar",
+    "Plug Type":"Type D",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Myanmar",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Myanmar",
+    "Plug Type":"Type G",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Namibia",
+    "Plug Type":"Type D",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Namibia",
+    "Plug Type":"Type M",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Nauru",
+    "Plug Type":"Type I",
+    "Electric Potential":"240 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Nepal",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Nepal",
+    "Plug Type":"Type D",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Nepal",
+    "Plug Type":"Type M",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Netherlands",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Netherlands",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Netherlands Antilles",
+    "Plug Type":"Type A",
+    "Electric Potential":"127 V, 220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Netherlands Antilles",
+    "Plug Type":"Type B",
+    "Electric Potential":"127 V, 220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Netherlands Antilles",
+    "Plug Type":"Type C",
+    "Electric Potential":"127 V, 220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Netherlands Antilles",
+    "Plug Type":"Type F",
+    "Electric Potential":"127 V, 220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"New Caledonia",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"New Caledonia",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"New Zealand",
+    "Plug Type":"Type I",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Nicaragua",
+    "Plug Type":"Type A",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Nicaragua",
+    "Plug Type":"Type B",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Niger",
+    "Plug Type":"Type A",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Niger",
+    "Plug Type":"Type B",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Niger",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Niger",
+    "Plug Type":"Type D",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Niger",
+    "Plug Type":"Type E",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Niger",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Nigeria",
+    "Plug Type":"Type D",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Nigeria",
+    "Plug Type":"Type G",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Norway",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Norway",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Oman",
+    "Plug Type":"Type C",
+    "Electric Potential":"240 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Oman",
+    "Plug Type":"Type G",
+    "Electric Potential":"240 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Pakistan",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Pakistan",
+    "Plug Type":"Type D",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Pakistan",
+    "Plug Type":"Type G",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Pakistan",
+    "Plug Type":"Type M",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Palau",
+    "Plug Type":"Type A",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Palau",
+    "Plug Type":"Type B",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Panama",
+    "Plug Type":"Type A",
+    "Electric Potential":"110 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Panama",
+    "Plug Type":"Type B",
+    "Electric Potential":"110 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Papua New Guinea",
+    "Plug Type":"Type I",
+    "Electric Potential":"240 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Paraguay",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Peru",
+    "Plug Type":"Type A",
+    "Electric Potential":"220 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Peru",
+    "Plug Type":"Type B",
+    "Electric Potential":"220 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Peru",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Philippines, Rep. of the",
+    "Plug Type":"Type A",
+    "Electric Potential":"220 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Philippines, Rep. of the",
+    "Plug Type":"Type B",
+    "Electric Potential":"220 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Philippines, Rep. of the",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Poland",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Poland",
+    "Plug Type":"Type E",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Portugal",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Portugal",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Puerto Rico",
+    "Plug Type":"Type A",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Puerto Rico",
+    "Plug Type":"Type B",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Qatar",
+    "Plug Type":"Type D",
+    "Electric Potential":"240 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Qatar",
+    "Plug Type":"Type G",
+    "Electric Potential":"240 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Reunion",
+    "Plug Type":"Type E",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Romania",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Romania",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Russia",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Russia",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Rwanda",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Rwanda",
+    "Plug Type":"Type J",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Saint Kitts and Nevis",
+    "Plug Type":"Type A",
+    "Electric Potential":"230 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Saint Kitts and Nevis",
+    "Plug Type":"Type B",
+    "Electric Potential":"230 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Saint Kitts and Nevis",
+    "Plug Type":"Type D",
+    "Electric Potential":"230 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Saint Kitts and Nevis",
+    "Plug Type":"Type G",
+    "Electric Potential":"230 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Saint Lucia",
+    "Plug Type":"Type G",
+    "Electric Potential":"240 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Saint Martin",
+    "Plug Type":"Type C",
+    "Electric Potential":"120 V, 220 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Saint Martin",
+    "Plug Type":"Type F",
+    "Electric Potential":"120 V, 220 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Saint Vincent and the Grenadines",
+    "Plug Type":"Type A",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Saint Vincent and the Grenadines",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Saint Vincent and the Grenadines",
+    "Plug Type":"Type E",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Saint Vincent and the Grenadines",
+    "Plug Type":"Type G",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Saint Vincent and the Grenadines",
+    "Plug Type":"Type I",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Saint Vincent and the Grenadines",
+    "Plug Type":"Type K",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Samoa",
+    "Plug Type":"Type I",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"San Marino",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"San Marino",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"San Marino",
+    "Plug Type":"Type L",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Sao Tome and Principe",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Sao Tome and Principe",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Saudi Arabia",
+    "Plug Type":"Type A",
+    "Electric Potential":"127 V, 220 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Saudi Arabia",
+    "Plug Type":"Type B",
+    "Electric Potential":"127 V, 220 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Saudi Arabia",
+    "Plug Type":"Type F",
+    "Electric Potential":"127 V, 220 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Saudi Arabia",
+    "Plug Type":"Type G",
+    "Electric Potential":"127 V, 220 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Senegal",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Senegal",
+    "Plug Type":"Type D",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Senegal",
+    "Plug Type":"Type E",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Senegal",
+    "Plug Type":"Type K",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Serbia",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Serbia",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Seychelles",
+    "Plug Type":"Type G",
+    "Electric Potential":"240 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Sierra Leone",
+    "Plug Type":"Type D",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Sierra Leone",
+    "Plug Type":"Type G",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Singapore",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Singapore",
+    "Plug Type":"Type G",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Singapore",
+    "Plug Type":"Type M",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Slovakia",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Slovakia",
+    "Plug Type":"Type E",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Slovenia",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Slovenia",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Solomon Islands",
+    "Plug Type":"Type I",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Solomon Islands",
+    "Plug Type":"Type G",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Somalia",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"South Africa",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"South Africa",
+    "Plug Type":"Type D",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"South Africa",
+    "Plug Type":"Type M",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"South Africa",
+    "Plug Type":"Type N",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Spain",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Spain",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Sri Lanka",
+    "Plug Type":"Type D",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Sri Lanka",
+    "Plug Type":"Type M",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Sri Lanka",
+    "Plug Type":"Type G",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Sudan",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Sudan",
+    "Plug Type":"Type D",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Suriname",
+    "Plug Type":"Type C",
+    "Electric Potential":"127 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Suriname",
+    "Plug Type":"Type F",
+    "Electric Potential":"127 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Swaziland",
+    "Plug Type":"Type M",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Sweden",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Sweden",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Switzerland",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Switzerland",
+    "Plug Type":"Type J",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Syrian Arab Republic",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Syrian Arab Republic",
+    "Plug Type":"Type E",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Syrian Arab Republic",
+    "Plug Type":"Type L",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Taiwan",
+    "Plug Type":"Type A",
+    "Electric Potential":"110 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Taiwan",
+    "Plug Type":"Type B",
+    "Electric Potential":"110 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Tajikistan",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Tajikistan",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Tajikistan",
+    "Plug Type":"Type I",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Tanzania",
+    "Plug Type":"Type D",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Tanzania",
+    "Plug Type":"Type G",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Thailand",
+    "Plug Type":"Type A",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Thailand",
+    "Plug Type":"Type B",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Thailand",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Thailand",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Timor-Leste",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Timor-Leste",
+    "Plug Type":"Type E",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Timor-Leste",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Timor-Leste",
+    "Plug Type":"Type I",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Togo",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Tonga",
+    "Plug Type":"Type I",
+    "Electric Potential":"240 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Trinidad and Tobago",
+    "Plug Type":"Type A",
+    "Electric Potential":"115 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Trinidad and Tobago",
+    "Plug Type":"Type B",
+    "Electric Potential":"115 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Tunisia",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Tunisia",
+    "Plug Type":"Type E",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Turkey",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Turkey",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Turkmenistan",
+    "Plug Type":"Type B",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Turkmenistan",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Turkmenistan",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Turks and Caicos Islands",
+    "Plug Type":"Type A",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Turks and Caicos Islands",
+    "Plug Type":"Type B",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Tuvalu",
+    "Plug Type":"Type I",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Uganda",
+    "Plug Type":"Type G",
+    "Electric Potential":"240 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Ukraine",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Ukraine",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"United Arab Emirates",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"United Arab Emirates",
+    "Plug Type":"Type D",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"United Arab Emirates",
+    "Plug Type":"Type G",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"United Kingdom",
+    "Plug Type":"Type G",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"United States  Virgin Islands",
+    "Plug Type":"Type A",
+    "Electric Potential":"110 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"United States  Virgin Islands",
+    "Plug Type":"Type B",
+    "Electric Potential":"110 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"United States of America",
+    "Plug Type":"Type A",
+    "Electric Potential":"120",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"United States of America",
+    "Plug Type":"Type B",
+    "Electric Potential":"120",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Uruguay",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Uruguay",
+    "Plug Type":"Type F",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Uruguay",
+    "Plug Type":"Type I",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Uruguay",
+    "Plug Type":"Type L",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Uzbekistan",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Uzbekistan",
+    "Plug Type":"Type I",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Vanuatu",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Vanuatu",
+    "Plug Type":"Type G",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Vanuatu",
+    "Plug Type":"Type I",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Venezuela",
+    "Plug Type":"Type A",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Venezuela",
+    "Plug Type":"Type B",
+    "Electric Potential":"120 V",
+    "Frequency":"60 Hz"
+  },
+  {
+    "Location":"Vietnam",
+    "Plug Type":"Type A",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Vietnam",
+    "Plug Type":"Type C",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Vietnam",
+    "Plug Type":"Type F",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Yemen",
+    "Plug Type":"Type A",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Yemen",
+    "Plug Type":"Type D",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Yemen",
+    "Plug Type":"Type G",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Zambia",
+    "Plug Type":"Type C",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Zambia",
+    "Plug Type":"Type D",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Zambia",
+    "Plug Type":"Type G",
+    "Electric Potential":"230 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Zimbabwe",
+    "Plug Type":"Type D",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  },
+  {
+    "Location":"Zimbabwe",
+    "Plug Type":"Type G",
+    "Electric Potential":"220 V",
+    "Frequency":"50 Hz"
+  }
+]

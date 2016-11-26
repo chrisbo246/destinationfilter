@@ -1,0 +1,38 @@
+/* bootswatch themes: superhero cosmo yeti simplex */
+
+// Variables
+@import "../vendors/jasny-bootstrap/less/build/variables.less";
+@import "../vendors/bootstrap-chosen/bootstrap-chosen-variables.less";
+//@import "../vendors/bootstrap-switch/src/less/bootstrap3/variables.less";
+@import "../vendors/bootstrap/less/variables.less";
+@import "../vendors/bootswatch/superhero/variables.less";
+@import "variables.less";
+
+// Mixins
+@import "../vendors/jasny-bootstrap/less/build/mixins.less";
+//@import "../vendors/bootstrap-switch/src/less/bootstrap3/mixins.less"; // bug
+
+// Less
+@import "../vendors/bootstrap/less/bootstrap.less"; // Remove variables.less
+@import "../vendors/bootswatch/superhero/bootswatch.less";
+//@import "../vendors/jasny-bootstrap/less/jasny-bootstrap.less";
+@import "../vendors/bootstrap-chosen/bootstrap-chosen.less"; // Remove variables.less
+//@import "../vendors/bootstrap-switch/src/less/bootstrap3/bootstrap-switch.less";
+@import "../vendors/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.min.css";
+@import "../vendors/Image-Select/ImageSelect.css";
+@import "../vendors/openlayers/css/ol.css";
+
+// Custom styles
+@import "./custom.less";
+@import "./plugins.less";
+@import "./jquery-ui.less";
+//@import "./animation.less";
+@import "./bootstrap_addons.less";
+
+// Components
+@import "../components/countryDetails/countryDetails.less";
+@import "../components/countryList/countryList.less";
+@import "../components/home/home.less";
+@import "../components/map/map.less";
+@import "../components/priorities/priorities.less";
+@import "../components/steps/steps.less";
